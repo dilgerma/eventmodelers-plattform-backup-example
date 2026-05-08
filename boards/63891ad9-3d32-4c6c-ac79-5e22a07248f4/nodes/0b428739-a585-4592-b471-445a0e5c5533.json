@@ -1,0 +1,52 @@
+{
+  "id": "0b428739-a585-4592-b471-445a0e5c5533",
+  "type": "spec_node",
+  "parentId": "28b23fb1-4ba3-41e5-9863-51da231453ae",
+  "data": {},
+  "meta": {
+    "type": "SCENARIO",
+    "changedAttributes": [
+      "meta.type",
+      "meta.givenWhenThenScenario"
+    ],
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "7d654d42-ad6c-45a9-b545-968c1bf1bbcb",
+          "then": [
+            {
+              "id": "2e881c0b-6c61-44f2-b93d-70e6604dbe4c",
+              "type": "EVENT",
+              "title": "Event",
+              "fields": []
+            }
+          ],
+          "when": [
+            {
+              "id": "81c054a0-0f59-42f5-b4a4-cb42f6ea2fce",
+              "type": "COMMAND",
+              "title": "Command",
+              "fields": []
+            }
+          ],
+          "given": [
+            {
+              "id": "2e881c0b-6c61-44f2-b93d-70e6604dbe4c",
+              "type": "EVENT",
+              "title": "Event",
+              "fields": []
+            }
+          ],
+          "title": "Specification #1",
+          "examples": [],
+          "description": "FOo bar",
+          "expectError": false,
+          "expectEmptyList": false
+        }
+      ]
+    }
+  },
+  "hash": "483cwc",
+  "timestamp": "1778263437201",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
+}
