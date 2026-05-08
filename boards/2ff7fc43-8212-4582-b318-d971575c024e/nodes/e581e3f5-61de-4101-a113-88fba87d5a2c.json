@@ -1,0 +1,31 @@
+{
+  "id": "e581e3f5-61de-4101-a113-88fba87d5a2c",
+  "type": "sticky_note",
+  "parentId": "b55dd34d-8d65-476c-b77d-3b418ae7a3c6",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Command",
+    "fields": [
+      {
+        "name": "f",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "z7ktbc"
+}
