@@ -1,0 +1,20 @@
+{
+  "id": "fff8dfbf-a616-454d-8066-50755bd427dc",
+  "type": "MODEL_CONTEXT",
+  "position": {
+    "x": 11.88794080079606,
+    "y": 3235.3087506138754
+  },
+  "data": {},
+  "meta": {
+    "type": "MODEL_CONTEXT",
+    "title": "Context",
+    "changedAttributes": [
+      "meta.type",
+      "meta.title"
+    ]
+  },
+  "hash": "ev33hj",
+  "timestamp": "1778246435043",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
+}
