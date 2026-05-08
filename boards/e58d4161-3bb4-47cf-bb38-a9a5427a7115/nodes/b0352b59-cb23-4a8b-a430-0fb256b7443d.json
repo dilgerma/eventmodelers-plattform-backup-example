@@ -95,7 +95,9 @@
         {
           "id": "f6de6bce-c4a3-4e9e-82a8-81ffd9c1cfd4",
           "colId": "19c29255-234c-4ebb-8cb6-2155c8cc8cfa",
-          "rowId": "4c458304-70b0-4b94-89f1-6fccbc2abc78"
+          "rowId": "4c458304-70b0-4b94-89f1-6fccbc2abc78",
+          "nodeType": "event",
+          "nodeId": "8b34682a-781a-4d94-8756-6cb2b1f06d08"
         },
         {
           "id": "c3727a09-8c3b-4d00-acec-f0de0acf788d",
@@ -120,6 +122,6 @@
       ]
     }
   },
-  "hash": "uvjeh8",
-  "timestamp": 1778234699922
+  "hash": "6m4gn5",
+  "timestamp": 1778234701090
 }
