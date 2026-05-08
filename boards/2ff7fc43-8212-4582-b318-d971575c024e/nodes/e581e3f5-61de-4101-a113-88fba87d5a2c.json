@@ -1,0 +1,16 @@
+{
+  "id": "e581e3f5-61de-4101-a113-88fba87d5a2c",
+  "type": "COMMAND",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Command",
+    "changedAttributes": [
+      "meta.type",
+      "meta.title"
+    ]
+  },
+  "hash": "mfen13",
+  "timestamp": "1778247279192",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
+}
