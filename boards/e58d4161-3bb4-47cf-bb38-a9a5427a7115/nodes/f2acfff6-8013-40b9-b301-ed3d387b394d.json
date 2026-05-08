@@ -17,6 +17,19 @@
         "type": "String",
         "cardinality": "Single",
         "subfields": []
+      },
+      {
+        "name": "bar",
+        "optional": false,
+        "showAttributes": false,
+        "technicalAttribute": false,
+        "query": false,
+        "generated": false,
+        "edited": false,
+        "idAttribute": false,
+        "type": "String",
+        "cardinality": "Single",
+        "subfields": []
       }
     ],
     "compact": true,
@@ -25,6 +38,6 @@
     "listElement": false,
     "todoListElement": false
   },
-  "hash": "1ron46f",
-  "timestamp": 1778229389959
+  "hash": "19acgx2",
+  "timestamp": 1778229390480
 }
