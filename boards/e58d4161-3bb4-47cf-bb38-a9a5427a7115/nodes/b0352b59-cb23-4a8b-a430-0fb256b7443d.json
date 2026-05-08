@@ -76,7 +76,9 @@
         {
           "id": "d0f59af5-75fe-464e-bebf-9a3bb488e266",
           "colId": "19c29255-234c-4ebb-8cb6-2155c8cc8cfa",
-          "rowId": "29deef61-d835-403e-90cc-bf6c41e72105"
+          "rowId": "29deef61-d835-403e-90cc-bf6c41e72105",
+          "nodeType": "command",
+          "nodeId": "e36e37b6-911d-42d9-90f7-0b5bf8df2622"
         },
         {
           "id": "03b6782a-5a04-4217-b8f8-de1ad092ba42",
@@ -118,6 +120,6 @@
       ]
     }
   },
-  "hash": "15kpaa0",
-  "timestamp": 1778234355674
+  "hash": "uvjeh8",
+  "timestamp": 1778234699922
 }
