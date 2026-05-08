@@ -55,7 +55,9 @@
         {
           "id": "28c28066-384e-4081-b281-057c3a5cfd62",
           "rowId": "181230e8-92d2-4e97-a886-7db81badccd7",
-          "colId": "19c29255-234c-4ebb-8cb6-2155c8cc8cfa"
+          "colId": "19c29255-234c-4ebb-8cb6-2155c8cc8cfa",
+          "nodeType": "screen",
+          "nodeId": "8562b835-fdd2-4041-91fd-aa8cf726f78b"
         },
         {
           "id": "6b54df85-a01e-46ca-8a7b-662fc6c295a2",
@@ -114,6 +116,6 @@
       ]
     }
   },
-  "hash": "15rsxpq",
-  "timestamp": 1778229353127
+  "hash": "12idue0",
+  "timestamp": 1778229557928
 }
