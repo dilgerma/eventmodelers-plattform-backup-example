@@ -44,7 +44,9 @@
         {
           "id": "10337d19-8b66-49bb-b495-916c9ecaebcf",
           "colId": "5098c318-31a6-4e7a-8b7b-7b32956b1f7c",
-          "rowId": "f6d48ca6-8eba-45a3-8b7a-8666a263bfcf"
+          "rowId": "f6d48ca6-8eba-45a3-8b7a-8666a263bfcf",
+          "nodeId": "3602bb2d-2266-41f1-b956-7b8fd21e0ac0",
+          "nodeType": "screen"
         },
         {
           "id": "83200c59-1f04-40ce-aff3-1fcb8d3095d4",
@@ -122,7 +124,7 @@
       "meta.timelineData"
     ]
   },
-  "hash": "1brm1tt",
-  "timestamp": "1778249812815",
+  "hash": "115o1ns",
+  "timestamp": "1778249816309",
   "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
