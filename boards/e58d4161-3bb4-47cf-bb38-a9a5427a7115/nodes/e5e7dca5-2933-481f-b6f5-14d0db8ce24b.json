@@ -4,8 +4,27 @@
   "meta": {
     "type": "EVENT",
     "title": "Event",
-    "context": "INTERNAL"
+    "context": "INTERNAL",
+    "fields": [
+      {
+        "name": "test",
+        "optional": false,
+        "showAttributes": false,
+        "technicalAttribute": false,
+        "query": false,
+        "generated": false,
+        "edited": false,
+        "idAttribute": false,
+        "type": "String",
+        "cardinality": "Single",
+        "subfields": []
+      }
+    ],
+    "compact": true,
+    "createsAggregate": false,
+    "listElement": false,
+    "todoListElement": false
   },
-  "hash": "1bxmpa1",
-  "timestamp": 1778229011785
+  "hash": "1bd5rp4",
+  "timestamp": 1778230386226
 }
