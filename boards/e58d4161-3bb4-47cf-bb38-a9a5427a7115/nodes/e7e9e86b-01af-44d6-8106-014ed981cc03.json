@@ -1,0 +1,59 @@
+{
+  "id": "e7e9e86b-01af-44d6-8106-014ed981cc03",
+  "type": "sticky_note",
+  "zIndex": 9999,
+  "parentId": "b0352b59-cb23-4a8b-a430-0fb256b7443d",
+  "modifiedAt": "2026-05-08T10:40:41.694Z",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Command",
+    "fields": [
+      {
+        "name": "d",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "a",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "c",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "ysv7k8"
+}
