@@ -48,7 +48,9 @@
         {
           "id": "f6c90cc2-3074-49da-89b0-854a15ff5c06",
           "rowId": "181230e8-92d2-4e97-a886-7db81badccd7",
-          "colId": "ce89febc-b0ce-4c3b-b431-b6b6d8c12675"
+          "colId": "ce89febc-b0ce-4c3b-b431-b6b6d8c12675",
+          "nodeType": "screen",
+          "nodeId": "ad8fbe3e-7eaf-4712-aff3-6f58c1e5f779"
         },
         {
           "id": "28c28066-384e-4081-b281-057c3a5cfd62",
@@ -112,6 +114,6 @@
       ]
     }
   },
-  "hash": "hkfaze",
-  "timestamp": 1778229352373
+  "hash": "15rsxpq",
+  "timestamp": 1778229353127
 }
