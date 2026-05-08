@@ -70,7 +70,9 @@
         {
           "id": "24de9d90-6a52-430a-90e1-ae354d29a8c9",
           "colId": "84fd00e5-f650-431c-abec-f0c805013e92",
-          "rowId": "90018674-522f-447e-845b-c7ff441cfc78"
+          "rowId": "90018674-522f-447e-845b-c7ff441cfc78",
+          "nodeId": "8ea1ec5a-48dd-42e0-8b71-7fcd7f15496c",
+          "nodeType": "command"
         },
         {
           "id": "a2f60ae7-df80-475e-8df4-5b2e06e952f7",
@@ -87,7 +89,9 @@
         {
           "id": "0eaa8f25-e8c8-47da-b941-665bfdfab023",
           "colId": "84fd00e5-f650-431c-abec-f0c805013e92",
-          "rowId": "0fbe3ce3-24a7-45b4-abd1-fa2c7342386e"
+          "rowId": "0fbe3ce3-24a7-45b4-abd1-fa2c7342386e",
+          "nodeId": "97c1f67b-4734-442d-98e7-a7ac5817bfb7",
+          "nodeType": "event"
         },
         {
           "id": "4b01dfa6-e525-46e5-81ce-5678a4aa3ff3",
@@ -124,7 +128,7 @@
       "meta.timelineData"
     ]
   },
-  "hash": "115o1ns",
-  "timestamp": "1778249840900",
+  "hash": "m3o4du",
+  "timestamp": "1778249883938",
   "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
