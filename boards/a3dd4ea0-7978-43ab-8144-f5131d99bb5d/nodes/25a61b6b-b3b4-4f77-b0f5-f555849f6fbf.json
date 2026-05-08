@@ -54,7 +54,9 @@
         {
           "id": "12a8596a-a1e9-4284-b075-cf221d5ee664",
           "colId": "22d45b90-01ef-4371-9340-ac7d29ce2c87",
-          "rowId": "90018674-522f-447e-845b-c7ff441cfc78"
+          "rowId": "90018674-522f-447e-845b-c7ff441cfc78",
+          "nodeId": "93f8549b-2bca-464b-80b9-7fbcce5a6ef1",
+          "nodeType": "command"
         },
         {
           "id": "e21e2eb1-4f98-407c-bf10-94ca5d68fcaf",
@@ -113,11 +115,10 @@
       ]
     },
     "changedAttributes": [
-      "meta.type",
       "meta.timelineData"
     ]
   },
-  "hash": "cnvpld",
-  "timestamp": "1778248841773",
+  "hash": "48ebni",
+  "timestamp": "1778248858482",
   "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
