@@ -1,0 +1,117 @@
+{
+  "id": "28b23fb1-4ba3-41e5-9863-51da231453ae",
+  "type": "timeline",
+  "position": {
+    "x": 666.5,
+    "y": 457.5
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "00c0614e-98ba-4a30-8c94-32ff648eb0c3",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "32cec4f5-21c5-4d1b-9828-2e86605c3001",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "55a785d3-3a9e-47a6-b8c9-1247485f5fb5",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "ed8e41dd-288c-497c-8551-77171430df02",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "62d08146-3479-4463-b716-887de96155c3",
+          "colId": "c87548df-04ad-43e9-ad99-6f457b91377e",
+          "rowId": "00c0614e-98ba-4a30-8c94-32ff648eb0c3"
+        },
+        {
+          "id": "cd197a25-af2c-4055-8fae-24d2746b8fd9",
+          "colId": "d96f5456-74ec-46fc-b25e-9f652f90588b",
+          "rowId": "00c0614e-98ba-4a30-8c94-32ff648eb0c3"
+        },
+        {
+          "id": "f6b078d7-3410-4b62-ac66-c8afcf2ef1fb",
+          "colId": "a2b0eb1d-f223-408b-a79d-c4fd8d9953b5",
+          "rowId": "00c0614e-98ba-4a30-8c94-32ff648eb0c3"
+        },
+        {
+          "id": "4edb2a39-39c0-4eeb-8740-214652715ae1",
+          "colId": "c87548df-04ad-43e9-ad99-6f457b91377e",
+          "rowId": "32cec4f5-21c5-4d1b-9828-2e86605c3001"
+        },
+        {
+          "id": "415e64a1-1697-4ade-8f75-7b2e49f64fed",
+          "colId": "d96f5456-74ec-46fc-b25e-9f652f90588b",
+          "rowId": "32cec4f5-21c5-4d1b-9828-2e86605c3001"
+        },
+        {
+          "id": "2de8caf5-805d-489e-b471-f1021e857a7e",
+          "colId": "a2b0eb1d-f223-408b-a79d-c4fd8d9953b5",
+          "rowId": "32cec4f5-21c5-4d1b-9828-2e86605c3001"
+        },
+        {
+          "id": "c713ba79-42ea-450e-b49d-0dd787a82f09",
+          "colId": "c87548df-04ad-43e9-ad99-6f457b91377e",
+          "rowId": "55a785d3-3a9e-47a6-b8c9-1247485f5fb5"
+        },
+        {
+          "id": "febb5ed9-51c6-4fa5-8b8c-04c2e8a71dca",
+          "colId": "d96f5456-74ec-46fc-b25e-9f652f90588b",
+          "rowId": "55a785d3-3a9e-47a6-b8c9-1247485f5fb5"
+        },
+        {
+          "id": "f896c006-e716-4048-9ddf-de9dceed7a8b",
+          "colId": "a2b0eb1d-f223-408b-a79d-c4fd8d9953b5",
+          "rowId": "55a785d3-3a9e-47a6-b8c9-1247485f5fb5"
+        },
+        {
+          "id": "294418c9-7ac7-4c15-9790-4d556682ecdc",
+          "colId": "c87548df-04ad-43e9-ad99-6f457b91377e",
+          "rowId": "ed8e41dd-288c-497c-8551-77171430df02"
+        },
+        {
+          "id": "6b66fafd-0022-4dd6-a7e0-08928cf6ce1a",
+          "colId": "d96f5456-74ec-46fc-b25e-9f652f90588b",
+          "rowId": "ed8e41dd-288c-497c-8551-77171430df02"
+        },
+        {
+          "id": "a360c56d-b7a0-4c2c-ab5b-d3d76f255a13",
+          "colId": "a2b0eb1d-f223-408b-a79d-c4fd8d9953b5",
+          "rowId": "ed8e41dd-288c-497c-8551-77171430df02"
+        }
+      ],
+      "columns": [
+        {
+          "id": "c87548df-04ad-43e9-ad99-6f457b91377e",
+          "width": 450
+        },
+        {
+          "id": "d96f5456-74ec-46fc-b25e-9f652f90588b",
+          "width": 450
+        },
+        {
+          "id": "a2b0eb1d-f223-408b-a79d-c4fd8d9953b5",
+          "width": 450
+        }
+      ]
+    }
+  },
+  "hash": "1d8boxt"
+}
