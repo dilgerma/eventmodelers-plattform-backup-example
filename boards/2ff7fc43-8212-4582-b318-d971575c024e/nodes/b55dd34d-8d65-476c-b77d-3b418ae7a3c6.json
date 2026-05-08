@@ -1,6 +1,6 @@
 {
   "id": "b55dd34d-8d65-476c-b77d-3b418ae7a3c6",
-  "type": "timeline",
+  "type": "CHAPTER",
   "position": {
     "x": 666.5,
     "y": 457.5
@@ -85,7 +85,9 @@
         {
           "id": "3657abe5-7e37-4fe2-b397-01e395126fef",
           "colId": "90ea3b24-0f9f-407c-9eca-ce85d677b0d7",
-          "rowId": "cd3ca1e5-6263-4fa1-a315-790b9bff9cff"
+          "rowId": "cd3ca1e5-6263-4fa1-a315-790b9bff9cff",
+          "nodeId": "e7fc23c7-006b-4d11-a8af-240ad36dbce6",
+          "nodeType": "event"
         },
         {
           "id": "9efae230-252c-4585-b78c-ec2c53511160",
@@ -117,7 +119,12 @@
           "width": 450
         }
       ]
-    }
+    },
+    "changedAttributes": [
+      "meta.timelineData"
+    ]
   },
-  "hash": "19y5h6u"
+  "hash": "60go6f",
+  "timestamp": "1778247923421",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
