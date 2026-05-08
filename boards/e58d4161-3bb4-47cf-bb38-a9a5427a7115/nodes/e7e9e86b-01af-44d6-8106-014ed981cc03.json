@@ -1,0 +1,56 @@
+{
+  "id": "e7e9e86b-01af-44d6-8106-014ed981cc03",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Command",
+    "fields": [
+      {
+        "name": "d",
+        "optional": false,
+        "showAttributes": false,
+        "technicalAttribute": false,
+        "query": false,
+        "generated": false,
+        "edited": false,
+        "idAttribute": false,
+        "type": "String",
+        "cardinality": "Single",
+        "subfields": []
+      },
+      {
+        "name": "a",
+        "optional": false,
+        "showAttributes": false,
+        "technicalAttribute": false,
+        "query": false,
+        "generated": false,
+        "edited": false,
+        "idAttribute": false,
+        "type": "String",
+        "cardinality": "Single",
+        "subfields": []
+      },
+      {
+        "name": "c",
+        "optional": false,
+        "showAttributes": false,
+        "technicalAttribute": false,
+        "query": false,
+        "generated": false,
+        "edited": false,
+        "idAttribute": false,
+        "type": "String",
+        "cardinality": "Single",
+        "subfields": []
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "createsAggregate": false,
+    "listElement": false,
+    "todoListElement": false
+  },
+  "hash": "ysv7k8",
+  "timestamp": 1778237053762
+}
