@@ -1,0 +1,18 @@
+{
+  "id": "fa8cf3b4-4067-47ff-b874-afefec71d9d3",
+  "type": "EVENT",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Event",
+    "context": "INTERNAL",
+    "changedAttributes": [
+      "meta.type",
+      "meta.title",
+      "meta.context"
+    ]
+  },
+  "hash": "1bxmpa1",
+  "timestamp": "1778245950331",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
+}
