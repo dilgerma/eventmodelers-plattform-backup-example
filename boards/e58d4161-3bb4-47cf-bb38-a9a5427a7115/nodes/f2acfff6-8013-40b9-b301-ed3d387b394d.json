@@ -3,8 +3,28 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Command"
+    "title": "Command",
+    "fields": [
+      {
+        "name": "fo",
+        "optional": false,
+        "showAttributes": false,
+        "technicalAttribute": false,
+        "query": false,
+        "generated": false,
+        "edited": false,
+        "idAttribute": false,
+        "type": "String",
+        "cardinality": "Single",
+        "subfields": []
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "createsAggregate": false,
+    "listElement": false,
+    "todoListElement": false
   },
-  "hash": "mfen13",
-  "timestamp": 1778229352360
+  "hash": "1ron46f",
+  "timestamp": 1778229389959
 }
