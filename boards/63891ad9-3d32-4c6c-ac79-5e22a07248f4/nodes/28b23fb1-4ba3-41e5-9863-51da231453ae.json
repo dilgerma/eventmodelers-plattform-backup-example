@@ -90,7 +90,9 @@
         {
           "id": "294418c9-7ac7-4c15-9790-4d556682ecdc",
           "colId": "c87548df-04ad-43e9-ad99-6f457b91377e",
-          "rowId": "ed8e41dd-288c-497c-8551-77171430df02"
+          "rowId": "ed8e41dd-288c-497c-8551-77171430df02",
+          "nodeId": "0b428739-a585-4592-b471-445a0e5c5533",
+          "nodeType": "spec"
         },
         {
           "id": "6b66fafd-0022-4dd6-a7e0-08928cf6ce1a",
@@ -122,7 +124,7 @@
       "meta.timelineData"
     ]
   },
-  "hash": "18un86x",
-  "timestamp": "1778253503576",
+  "hash": "q07oa4",
+  "timestamp": "1778263426155",
   "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
