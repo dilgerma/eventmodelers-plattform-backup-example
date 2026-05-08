@@ -1,11 +1,10 @@
 {
   "id": "b0352b59-cb23-4a8b-a430-0fb256b7443d",
-  "type": "timeline",
+  "type": "CHAPTER",
   "position": {
     "x": 666.5,
     "y": 457.5
   },
-  "modifiedAt": "2026-05-08T08:27:45.883Z",
   "data": {},
   "meta": {
     "type": "CHAPTER",
@@ -116,55 +115,23 @@
           "rowId": "c872d916-0a3f-472d-88b8-fe92ef6bb358"
         },
         {
-          "id": "b74ea442-7279-4a90-8152-a450046c42ca",
-          "colId": "fb72bfaf-f746-4c4f-95bb-715820af97d9",
-          "rowId": "181230e8-92d2-4e97-a886-7db81badccd7",
-          "nodeId": "1ad5c5ea-70c3-44b2-9555-c88f96b94cb4",
-          "nodeType": "screen"
+          "id": "31773d29-dd44-4cc7-afdb-0db492dcb1ed",
+          "colId": "fe215a13-89ae-476f-912c-a57884b65cd9",
+          "rowId": "181230e8-92d2-4e97-a886-7db81badccd7"
         },
         {
-          "id": "212931ef-2080-425d-952c-619ce91f0454",
-          "colId": "fb72bfaf-f746-4c4f-95bb-715820af97d9",
-          "rowId": "29deef61-d835-403e-90cc-bf6c41e72105",
-          "nodeId": "f96635b6-9b74-43eb-825a-3bce692e2dcb",
-          "nodeType": "command"
+          "id": "e9703e5e-33f7-4328-afa6-215a18ebc5ec",
+          "colId": "fe215a13-89ae-476f-912c-a57884b65cd9",
+          "rowId": "29deef61-d835-403e-90cc-bf6c41e72105"
         },
         {
-          "id": "4a0f32ce-acda-48b5-9c59-fbc072120cf4",
-          "colId": "fb72bfaf-f746-4c4f-95bb-715820af97d9",
-          "rowId": "4c458304-70b0-4b94-89f1-6fccbc2abc78",
-          "nodeId": "f839c63f-bd01-4e7e-ab48-7a50f4538893",
-          "nodeType": "event"
+          "id": "dcad6c45-062b-43bb-9c6f-afc1f63cdb48",
+          "colId": "fe215a13-89ae-476f-912c-a57884b65cd9",
+          "rowId": "4c458304-70b0-4b94-89f1-6fccbc2abc78"
         },
         {
-          "id": "88708c99-7915-42fd-a6ff-d1584cd1850e",
-          "colId": "fb72bfaf-f746-4c4f-95bb-715820af97d9",
-          "rowId": "c872d916-0a3f-472d-88b8-fe92ef6bb358"
-        },
-        {
-          "id": "521b0cca-3b79-4da9-8306-f452e5b3f87f",
-          "colId": "ea72492b-7daf-4184-8da5-31f36562f43b",
-          "rowId": "181230e8-92d2-4e97-a886-7db81badccd7",
-          "nodeId": "f7e2d3ee-f456-4722-9258-5b7a7ea70585",
-          "nodeType": "screen"
-        },
-        {
-          "id": "507fdb5c-d070-4606-bc65-8ae14f0bce3b",
-          "colId": "ea72492b-7daf-4184-8da5-31f36562f43b",
-          "rowId": "29deef61-d835-403e-90cc-bf6c41e72105",
-          "nodeId": "c4e57de9-c9ac-4c8e-8279-c8046efb763f",
-          "nodeType": "command"
-        },
-        {
-          "id": "34bd1bcb-111f-4970-ba38-ea7448c85131",
-          "colId": "ea72492b-7daf-4184-8da5-31f36562f43b",
-          "rowId": "4c458304-70b0-4b94-89f1-6fccbc2abc78",
-          "nodeId": "59a4434c-8d7a-4206-9fc0-72bdad9999ab",
-          "nodeType": "event"
-        },
-        {
-          "id": "cd1d9cbb-36be-4a69-ab1e-a7937c3be4f7",
-          "colId": "ea72492b-7daf-4184-8da5-31f36562f43b",
+          "id": "44edbd18-dbbf-4bca-b566-7c75a49cbd54",
+          "colId": "fe215a13-89ae-476f-912c-a57884b65cd9",
           "rowId": "c872d916-0a3f-472d-88b8-fe92ef6bb358"
         }
       ],
@@ -182,15 +149,16 @@
           "width": 450
         },
         {
-          "id": "fb72bfaf-f746-4c4f-95bb-715820af97d9",
-          "width": 450
-        },
-        {
-          "id": "ea72492b-7daf-4184-8da5-31f36562f43b",
+          "id": "fe215a13-89ae-476f-912c-a57884b65cd9",
           "width": 450
         }
       ]
-    }
+    },
+    "changedAttributes": [
+      "meta.timelineData"
+    ]
   },
-  "hash": "13fu9n5"
+  "hash": "t1gyqj",
+  "timestamp": "1778245949336",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
