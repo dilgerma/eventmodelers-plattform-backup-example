@@ -1,16 +1,41 @@
 {
   "id": "93f8549b-2bca-464b-80b9-7fbcce5a6ef1",
   "type": "sticky_note",
+  "parentId": "25a61b6b-b3b4-4f77-b0f5-f555849f6fbf",
   "data": {},
   "meta": {
     "type": "COMMAND",
     "title": "Command",
+    "fields": [
+      {
+        "name": "asd",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false,
     "changedAttributes": [
-      "meta.type",
-      "meta.title"
+      "meta.fields",
+      "meta.compact",
+      "meta.context",
+      "meta.createsAggregate",
+      "meta.listElement",
+      "meta.todoListElement"
     ]
   },
-  "hash": "mfen13",
-  "timestamp": "1778248858463",
+  "hash": "1t4pdp4",
+  "timestamp": "1778249862440",
   "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
