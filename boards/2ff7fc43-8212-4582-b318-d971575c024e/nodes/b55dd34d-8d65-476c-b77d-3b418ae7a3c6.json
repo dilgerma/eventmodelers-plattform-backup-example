@@ -1,11 +1,10 @@
 {
   "id": "b55dd34d-8d65-476c-b77d-3b418ae7a3c6",
-  "type": "timeline",
+  "type": "CHAPTER",
   "position": {
     "x": 666.5,
     "y": 457.5
   },
-  "modifiedAt": "2026-05-08T13:34:35.621Z",
   "data": {},
   "meta": {
     "type": "CHAPTER",
@@ -77,7 +76,9 @@
         {
           "id": "d0e75b6a-6bc7-4022-8976-7bae2f29cec1",
           "colId": "00740847-000f-4522-8dea-e59d9c9e1683",
-          "rowId": "cd3ca1e5-6263-4fa1-a315-790b9bff9cff"
+          "rowId": "cd3ca1e5-6263-4fa1-a315-790b9bff9cff",
+          "nodeId": "4b6d28c0-f884-4884-9c19-dfdabc688abd",
+          "nodeType": "event"
         },
         {
           "id": "3657abe5-7e37-4fe2-b397-01e395126fef",
@@ -114,7 +115,12 @@
           "width": 450
         }
       ]
-    }
+    },
+    "changedAttributes": [
+      "meta.timelineData"
+    ]
   },
-  "hash": "1nlv8ko"
+  "hash": "1n9me0r",
+  "timestamp": "1778247822938",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
