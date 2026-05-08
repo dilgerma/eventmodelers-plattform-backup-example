@@ -1,0 +1,46 @@
+{
+  "id": "59a4434c-8d7a-4206-9fc0-72bdad9999ab",
+  "type": "sticky_note",
+  "zIndex": 9999,
+  "parentId": "b0352b59-cb23-4a8b-a430-0fb256b7443d",
+  "modifiedAt": "2026-05-08T13:04:58.041Z",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Event",
+    "fields": [
+      {
+        "name": "s",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "f",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "d40q5n"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ca7be70d-c44e-4a09-b2ab-fbc63a8e37f5",
+  "source": "f7e2d3ee-f456-4722-9258-5b7a7ea70585",
+  "target": "c4e57de9-c9ac-4c8e-8279-c8046efb763f",
+  "sourceHandle": "source-bottom",
+  "targetHandle": "target-top",
+  "style": {
+    "stroke": "#000000",
+    "strokeColor": "#000000",
+    "strokeStyle": "normal",
+    "strokeWidth": 4,
+    "endStrokeCap": "arrow",
+    "startStrokeCap": "none"
+  },
+  "markerEnd": {
+    "type": "arrowclosed"
+  }
+}
