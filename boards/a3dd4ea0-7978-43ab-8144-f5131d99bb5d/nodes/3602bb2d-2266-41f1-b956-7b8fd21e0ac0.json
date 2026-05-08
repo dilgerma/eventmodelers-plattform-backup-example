@@ -1,0 +1,21 @@
+{
+  "id": "3602bb2d-2266-41f1-b956-7b8fd21e0ac0",
+  "type": "image",
+  "parentId": "25a61b6b-b3b4-4f77-b0f5-f555849f6fbf",
+  "data": {
+    "url": "https://i.ibb.co/87MRc1f/image.png"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Screen",
+    "sketched": false,
+    "changedAttributes": [
+      "meta.type",
+      "meta.title",
+      "meta.sketched"
+    ]
+  },
+  "hash": "141esu7",
+  "timestamp": "1778249816293",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
+}
