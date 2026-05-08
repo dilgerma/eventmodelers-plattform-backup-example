@@ -39,7 +39,9 @@
         {
           "id": "62d08146-3479-4463-b716-887de96155c3",
           "colId": "c87548df-04ad-43e9-ad99-6f457b91377e",
-          "rowId": "00c0614e-98ba-4a30-8c94-32ff648eb0c3"
+          "rowId": "00c0614e-98ba-4a30-8c94-32ff648eb0c3",
+          "nodeId": "a65e8d3f-b30f-4c50-adf3-f37e5c3a80ca",
+          "nodeType": "screen"
         },
         {
           "id": "cd197a25-af2c-4055-8fae-24d2746b8fd9",
@@ -54,7 +56,9 @@
         {
           "id": "4edb2a39-39c0-4eeb-8740-214652715ae1",
           "colId": "c87548df-04ad-43e9-ad99-6f457b91377e",
-          "rowId": "32cec4f5-21c5-4d1b-9828-2e86605c3001"
+          "rowId": "32cec4f5-21c5-4d1b-9828-2e86605c3001",
+          "nodeId": "81c054a0-0f59-42f5-b4a4-cb42f6ea2fce",
+          "nodeType": "command"
         },
         {
           "id": "415e64a1-1697-4ade-8f75-7b2e49f64fed",
@@ -69,7 +73,9 @@
         {
           "id": "c713ba79-42ea-450e-b49d-0dd787a82f09",
           "colId": "c87548df-04ad-43e9-ad99-6f457b91377e",
-          "rowId": "55a785d3-3a9e-47a6-b8c9-1247485f5fb5"
+          "rowId": "55a785d3-3a9e-47a6-b8c9-1247485f5fb5",
+          "nodeId": "2e881c0b-6c61-44f2-b93d-70e6604dbe4c",
+          "nodeType": "event"
         },
         {
           "id": "febb5ed9-51c6-4fa5-8b8c-04c2e8a71dca",
@@ -111,7 +117,12 @@
           "width": 450
         }
       ]
-    }
+    },
+    "changedAttributes": [
+      "meta.timelineData"
+    ]
   },
-  "hash": "1d8boxt"
+  "hash": "18un86x",
+  "timestamp": "1778253503576",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }

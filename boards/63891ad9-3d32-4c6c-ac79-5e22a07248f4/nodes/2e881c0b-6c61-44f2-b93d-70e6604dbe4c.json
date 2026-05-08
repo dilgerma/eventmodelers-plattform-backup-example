@@ -1,0 +1,19 @@
+{
+  "id": "2e881c0b-6c61-44f2-b93d-70e6604dbe4c",
+  "type": "sticky_note",
+  "parentId": "28b23fb1-4ba3-41e5-9863-51da231453ae",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Event",
+    "context": "INTERNAL",
+    "changedAttributes": [
+      "meta.type",
+      "meta.title",
+      "meta.context"
+    ]
+  },
+  "hash": "1bxmpa1",
+  "timestamp": "1778253503565",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
+}
