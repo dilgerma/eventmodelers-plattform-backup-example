@@ -1,0 +1,17 @@
+{
+  "id": "f32c063f-d487-4803-85a5-f387de7e87c5",
+  "type": "sticky_note",
+  "parentId": "28b23fb1-4ba3-41e5-9863-51da231453ae",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "Read Model",
+    "changedAttributes": [
+      "meta.type",
+      "meta.title"
+    ]
+  },
+  "hash": "h9nm9j",
+  "timestamp": "1778292347350",
+  "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
+}
