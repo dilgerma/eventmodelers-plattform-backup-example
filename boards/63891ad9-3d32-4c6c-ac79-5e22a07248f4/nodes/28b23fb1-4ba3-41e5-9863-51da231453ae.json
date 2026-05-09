@@ -8,6 +8,7 @@
   "data": {},
   "meta": {
     "type": "CHAPTER",
+    "title": "foo",
     "timelineData": {
       "rows": [
         {
@@ -125,10 +126,10 @@
       ]
     },
     "changedAttributes": [
-      "meta.timelineData"
+      "meta.title"
     ]
   },
-  "hash": "ljt0a8",
-  "timestamp": "1778292350821",
+  "hash": "1qrcm8",
+  "timestamp": "1778292368541",
   "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
