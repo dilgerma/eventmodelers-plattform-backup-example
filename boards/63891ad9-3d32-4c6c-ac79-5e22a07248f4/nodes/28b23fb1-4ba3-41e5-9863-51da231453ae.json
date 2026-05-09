@@ -126,10 +126,11 @@
       ]
     },
     "changedAttributes": [
+      "meta.timelineData",
       "meta.title"
     ]
   },
-  "hash": "1qrcm8",
-  "timestamp": "1778292368541",
+  "hash": "g7pphc",
+  "timestamp": "1778321538033",
   "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
