@@ -54,12 +54,16 @@
         {
           "id": "5cbad6ca-38d0-424e-a1c4-d261ffa76729",
           "colId": "697f68a7-b6bf-4542-93df-1bb036f4f254",
-          "rowId": "000ff629-555a-45e9-afba-ab74089f9f97"
+          "rowId": "000ff629-555a-45e9-afba-ab74089f9f97",
+          "nodeId": "eb7d46ee-9231-4cde-9d70-3481870720a7",
+          "nodeType": "readmodel"
         },
         {
           "id": "7be20c40-3080-44a6-a21c-487b9c45f984",
           "colId": "39d50920-64f5-4bc5-adaa-ef3387d1b227",
-          "rowId": "000ff629-555a-45e9-afba-ab74089f9f97"
+          "rowId": "000ff629-555a-45e9-afba-ab74089f9f97",
+          "nodeId": "f7f3a84d-f81e-4832-8c1a-5e8504659606",
+          "nodeType": "readmodel"
         },
         {
           "id": "cb34c175-0847-4b22-81a6-045d9f972761",
@@ -120,7 +124,7 @@
       "meta.timelineData"
     ]
   },
-  "hash": "vlvnnk",
-  "timestamp": "1778351392688",
+  "hash": "gpi22b",
+  "timestamp": "1778351397477",
   "userId": "d1bcd836-c8f6-4183-a8b7-076d843c421c"
 }
