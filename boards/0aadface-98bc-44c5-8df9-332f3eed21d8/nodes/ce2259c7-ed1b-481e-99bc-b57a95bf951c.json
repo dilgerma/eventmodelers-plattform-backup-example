@@ -1,0 +1,69 @@
+{
+  "id": "ce2259c7-ed1b-481e-99bc-b57a95bf951c",
+  "type": "timeline",
+  "position": {
+    "x": 6430.385425715396,
+    "y": 606.7565755493122
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Deal",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "04fda2a6-573c-4031-8630-95af09f74b4d",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "f781155b-359e-4dff-8e3c-09daf3d84d36",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "c532d414-786e-4a14-a097-0813e665b640",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "3dce2f22-dae1-41c4-810c-099f79ac3dab",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "c532d414-786e-4a14-a097-0813e665b640-e540e782-1992-4265-97d6-fad9589a1115",
+          "colId": "e540e782-1992-4265-97d6-fad9589a1115",
+          "rowId": "c532d414-786e-4a14-a097-0813e665b640",
+          "nodeId": "c28ebbf0-64ab-42d7-966c-aedee635c92f",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "c532d414-786e-4a14-a097-0813e665b640-351b01ec-7eaf-4cb7-ad26-96eff75a8266",
+          "colId": "351b01ec-7eaf-4cb7-ad26-96eff75a8266",
+          "rowId": "c532d414-786e-4a14-a097-0813e665b640",
+          "nodeId": "1954e8e0-ffca-489f-b2e8-ae14f3717ed9",
+          "nodeType": "EVENT"
+        }
+      ],
+      "columns": [
+        {
+          "id": "e540e782-1992-4265-97d6-fad9589a1115"
+        },
+        {
+          "id": "351b01ec-7eaf-4cb7-ad26-96eff75a8266"
+        },
+        {
+          "id": "61a22169-b353-46b0-8953-1f116d291616"
+        }
+      ]
+    }
+  },
+  "hash": "12u6wnu"
+}

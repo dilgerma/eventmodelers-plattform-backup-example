@@ -1,0 +1,21 @@
+{
+  "id": "9f90b29b-9b38-412f-ac46-dcfd9eb4d045",
+  "type": "sticky_note",
+  "position": {
+    "x": 545,
+    "y": 756
+  },
+  "parentId": "baa6c144-b869-4eca-a4bf-f525aa631141",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Proposal finished",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "18um0cg"
+}

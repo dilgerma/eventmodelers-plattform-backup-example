@@ -1,0 +1,62 @@
+{
+  "id": "4bf109c9-51b1-4757-9aad-625a867a8093",
+  "type": "timeline",
+  "position": {
+    "x": 8113.398716783595,
+    "y": 469.24457328556537
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Project",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "dc6f61f6-bd50-4537-bb13-b5729e126e15",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "c301231a-1bc4-4afa-ac44-3ba0fe8a6571",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "dcd7b886-b3d6-4122-8b1c-6600beba0b58",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "54ed86a5-2abf-47e2-9234-07d3dd203b7a",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "dcd7b886-b3d6-4122-8b1c-6600beba0b58-28b2f2c6-a2e3-42d5-831e-079bf8e4164c",
+          "colId": "28b2f2c6-a2e3-42d5-831e-079bf8e4164c",
+          "rowId": "dcd7b886-b3d6-4122-8b1c-6600beba0b58",
+          "nodeId": "2ac89ea9-57ef-4e0e-8769-857d0a458fba",
+          "nodeType": "EVENT"
+        }
+      ],
+      "columns": [
+        {
+          "id": "28b2f2c6-a2e3-42d5-831e-079bf8e4164c"
+        },
+        {
+          "id": "5921e31f-c3b5-4094-afdb-18b4d3d6f4d4"
+        },
+        {
+          "id": "ba64fa02-0edf-472a-8b97-8bcc0f728797"
+        }
+      ]
+    }
+  },
+  "hash": "lgacpq"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ba660e65-e252-48d6-90d4-25ebf59cd115",
+  "type": "sticky_note",
+  "position": {
+    "x": 1445,
+    "y": 756
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Offer requested",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "17botsm"
+}

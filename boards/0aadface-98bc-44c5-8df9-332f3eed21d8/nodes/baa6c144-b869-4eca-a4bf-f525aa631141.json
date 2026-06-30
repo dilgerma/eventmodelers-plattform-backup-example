@@ -1,0 +1,76 @@
+{
+  "id": "baa6c144-b869-4eca-a4bf-f525aa631141",
+  "type": "timeline",
+  "position": {
+    "x": 4935.829165702128,
+    "y": 567.8942473285736
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Proposal",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "51019c64-fb37-408c-9aa6-d7e0922a32ce",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "8c2af5f1-e32e-4761-a5ca-9dd3da954f51",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "5d55c6b8-4a9f-4d8c-8e23-6b631582e542",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "fc7f8aef-a528-43a9-9544-ae73156049ef",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "5d55c6b8-4a9f-4d8c-8e23-6b631582e542-efd86203-a8b2-4f4a-820d-d99a88fd313c",
+          "colId": "efd86203-a8b2-4f4a-820d-d99a88fd313c",
+          "rowId": "5d55c6b8-4a9f-4d8c-8e23-6b631582e542",
+          "nodeId": "7fa66837-8691-424d-b3b5-eb248d4b6a91",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "5d55c6b8-4a9f-4d8c-8e23-6b631582e542-770c33ef-b919-4929-afed-80cab995d489",
+          "colId": "770c33ef-b919-4929-afed-80cab995d489",
+          "rowId": "5d55c6b8-4a9f-4d8c-8e23-6b631582e542",
+          "nodeId": "34d1ff30-e7df-4f7b-8e62-de2a928455c0",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "5d55c6b8-4a9f-4d8c-8e23-6b631582e542-a7b95b22-153f-4324-bfb7-28e74992ac3a",
+          "colId": "a7b95b22-153f-4324-bfb7-28e74992ac3a",
+          "rowId": "5d55c6b8-4a9f-4d8c-8e23-6b631582e542",
+          "nodeId": "9f90b29b-9b38-412f-ac46-dcfd9eb4d045",
+          "nodeType": "EVENT"
+        }
+      ],
+      "columns": [
+        {
+          "id": "efd86203-a8b2-4f4a-820d-d99a88fd313c"
+        },
+        {
+          "id": "a7b95b22-153f-4324-bfb7-28e74992ac3a"
+        },
+        {
+          "id": "770c33ef-b919-4929-afed-80cab995d489"
+        }
+      ]
+    }
+  },
+  "hash": "dlv5"
+}

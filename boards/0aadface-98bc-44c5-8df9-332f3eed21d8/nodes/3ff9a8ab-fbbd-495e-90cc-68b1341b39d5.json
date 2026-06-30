@@ -1,0 +1,22 @@
+{
+  "id": "3ff9a8ab-fbbd-495e-90cc-68b1341b39d5",
+  "type": "image",
+  "position": {
+    "x": 1005,
+    "y": 88
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "Prospects",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "sketched": true,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "xevueq"
+}
