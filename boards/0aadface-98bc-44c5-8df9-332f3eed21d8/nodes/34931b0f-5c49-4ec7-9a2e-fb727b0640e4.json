@@ -1,11 +1,6 @@
 {
   "id": "34931b0f-5c49-4ec7-9a2e-fb727b0640e4",
-  "type": "timeline",
-  "position": {
-    "x": -4051.302949629472,
-    "y": -2892.3268911379064
-  },
-  "data": {},
+  "type": "CHAPTER",
   "meta": {
     "type": "CHAPTER",
     "timelineData": {
@@ -35,7 +30,15 @@
           "height": 320
         }
       ],
-      "cells": [],
+      "cells": [
+        {
+          "id": "6e468ad2-8244-4f49-b634-9dbdc513bec5-2fb096c7-84de-45ee-b7d2-0094575be7f0",
+          "colId": "2fb096c7-84de-45ee-b7d2-0094575be7f0",
+          "rowId": "6e468ad2-8244-4f49-b634-9dbdc513bec5",
+          "nodeId": "036096c8-59bb-4459-b007-d5e6662042ba",
+          "nodeType": "SCENARIO"
+        }
+      ],
       "columns": [
         {
           "id": "2fb096c7-84de-45ee-b7d2-0094575be7f0"
@@ -49,7 +52,7 @@
       ]
     }
   },
-  "hash": "1v4ozrn",
-  "timestamp": 1782926054300,
+  "hash": null,
+  "timestamp": 1782926056718,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
