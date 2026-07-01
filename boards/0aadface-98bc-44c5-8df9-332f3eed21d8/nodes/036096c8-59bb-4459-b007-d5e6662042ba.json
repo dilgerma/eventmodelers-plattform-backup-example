@@ -14,14 +14,7 @@
       "scenarios": [
         {
           "id": "ab365897-2c35-4ce0-89b5-8ba12015778b",
-          "then": [
-            {
-              "id": "c8276d95-1150-4fc2-aa7b-79e7c3eb96dc",
-              "type": "EVENT",
-              "title": "Event",
-              "fields": []
-            }
-          ],
+          "then": [],
           "when": [
             {
               "id": "5a4bb051-3098-4843-8acf-471c4cc9c861",
@@ -46,13 +39,14 @@
           ],
           "title": "Scenario #1",
           "examples": [],
-          "expectError": false,
-          "expectEmptyList": false
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "error"
         }
       ]
     }
   },
-  "hash": "1nkwo0a",
-  "timestamp": 1782926072908,
+  "hash": "z2w2rt",
+  "timestamp": 1782926124324,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
