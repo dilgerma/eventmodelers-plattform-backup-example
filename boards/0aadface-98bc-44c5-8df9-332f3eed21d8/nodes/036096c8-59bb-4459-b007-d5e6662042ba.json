@@ -9,9 +9,50 @@
   "data": {},
   "meta": {
     "type": "SCENARIO",
-    "title": "Specifications"
+    "title": "Specifications",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "ab365897-2c35-4ce0-89b5-8ba12015778b",
+          "then": [
+            {
+              "id": "c8276d95-1150-4fc2-aa7b-79e7c3eb96dc",
+              "type": "EVENT",
+              "title": "Event",
+              "fields": []
+            }
+          ],
+          "when": [
+            {
+              "id": "5a4bb051-3098-4843-8acf-471c4cc9c861",
+              "type": "COMMAND",
+              "title": "Command",
+              "fields": []
+            }
+          ],
+          "given": [
+            {
+              "id": "c8276d95-1150-4fc2-aa7b-79e7c3eb96dc",
+              "type": "EVENT",
+              "title": "Event",
+              "fields": []
+            },
+            {
+              "id": "c8276d95-1150-4fc2-aa7b-79e7c3eb96dc",
+              "type": "EVENT",
+              "title": "Event",
+              "fields": []
+            }
+          ],
+          "title": "Scenario #1",
+          "examples": [],
+          "expectError": false,
+          "expectEmptyList": false
+        }
+      ]
+    }
   },
-  "hash": "ycol87",
-  "timestamp": 1782926056316,
+  "hash": "1nkwo0a",
+  "timestamp": 1782926072908,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
