@@ -1,0 +1,17 @@
+{
+  "id": "5a4bb051-3098-4843-8acf-471c4cc9c861",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 436
+  },
+  "parentId": "34931b0f-5c49-4ec7-9a2e-fb727b0640e4",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Command"
+  },
+  "hash": "mfen13",
+  "timestamp": 1782926058709,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
