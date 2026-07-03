@@ -28,11 +28,12 @@
     ],
     "compact": true,
     "context": "INTERNAL",
+    "description": "## Foo\n\nbar \nbaz\n\nsoele",
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1ff84fc",
-  "timestamp": 1783083582562,
+  "hash": "dgn9ec",
+  "timestamp": 1783083751904,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
