@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "all Customers",
+    "title": "Notify customer",
     "fields": [
       {
         "name": "name",
@@ -45,7 +45,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "3qiw85",
-  "timestamp": 1783195335793,
+  "hash": "qszj10",
+  "timestamp": 1783195341794,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
