@@ -2,14 +2,14 @@
   "id": "db23503d-be7c-4e30-ad96-8cfe7f5fa36b",
   "type": "sticky_note",
   "position": {
-    "x": 995,
+    "x": 545,
     "y": 436
   },
   "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Read Model",
+    "title": "Customers",
     "fields": [
       {
         "name": "name",
@@ -17,6 +17,19 @@
         "query": false,
         "edited": false,
         "example": "martin\n",
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
         "optional": false,
         "generated": false,
         "subfields": [],
@@ -33,7 +46,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "dgn9ec",
-  "timestamp": 1783083751904,
+  "hash": "1d99htu",
+  "timestamp": 1783195313690,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
