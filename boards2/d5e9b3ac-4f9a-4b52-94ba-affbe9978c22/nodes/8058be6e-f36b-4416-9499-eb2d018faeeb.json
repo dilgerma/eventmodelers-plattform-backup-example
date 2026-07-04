@@ -9,10 +9,15 @@
   "data": {},
   "meta": {
     "type": "EVENT",
-    "title": "Event",
-    "context": "INTERNAL"
+    "title": "Customer registered",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "1bxmpa1",
-  "timestamp": 1783072627155,
+  "hash": "rqmf76",
+  "timestamp": 1783195301960,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
