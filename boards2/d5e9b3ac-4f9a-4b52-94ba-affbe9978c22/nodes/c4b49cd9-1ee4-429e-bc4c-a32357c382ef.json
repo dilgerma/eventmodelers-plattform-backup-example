@@ -9,9 +9,56 @@
   "data": {},
   "meta": {
     "type": "SCENARIO",
-    "title": "Specifications"
+    "title": "Specifications",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "b4c5618c-3587-40ab-a597-a9c4dda59e5c",
+          "then": [],
+          "when": [
+            {
+              "id": "f515dce1-e958-4904-a5d0-10f0450b0217",
+              "type": "COMMAND",
+              "title": "Register customer",
+              "fields": [
+                {
+                  "name": "name",
+                  "example": "Max"
+                },
+                {
+                  "name": "email",
+                  "example": "test@test.de"
+                }
+              ]
+            }
+          ],
+          "given": [
+            {
+              "id": "8058be6e-f36b-4416-9499-eb2d018faeeb",
+              "type": "EVENT",
+              "title": "Customer registered",
+              "fields": [
+                {
+                  "name": "name",
+                  "example": "Martin"
+                },
+                {
+                  "name": "email",
+                  "example": "test@test.de"
+                }
+              ]
+            }
+          ],
+          "title": "Scenario #1",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "already registered"
+        }
+      ]
+    }
   },
-  "hash": "ycol87",
-  "timestamp": 1783196034414,
+  "hash": "183ruh7",
+  "timestamp": 1783199027813,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
