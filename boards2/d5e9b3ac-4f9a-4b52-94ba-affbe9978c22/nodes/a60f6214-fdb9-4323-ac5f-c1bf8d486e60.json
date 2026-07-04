@@ -58,13 +58,6 @@
           "nodeType": "SCREEN"
         },
         {
-          "id": "7f4fd09a-8ceb-4d24-9607-c791b7b1eb4e-d91d6001-1d71-44a4-9e18-4cef69737230",
-          "colId": "d91d6001-1d71-44a4-9e18-4cef69737230",
-          "rowId": "7f4fd09a-8ceb-4d24-9607-c791b7b1eb4e",
-          "nodeId": "e3b2fa8a-099b-4479-a3a6-52ef1e4b6dc7",
-          "nodeType": "SCREEN"
-        },
-        {
           "id": "df7c7af6-0160-41bc-a3c9-0f450bc48057-d91d6001-1d71-44a4-9e18-4cef69737230",
           "colId": "d91d6001-1d71-44a4-9e18-4cef69737230",
           "rowId": "df7c7af6-0160-41bc-a3c9-0f450bc48057",
@@ -100,6 +93,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1783142749291,
+  "timestamp": 1783195309304,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
