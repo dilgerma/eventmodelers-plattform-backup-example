@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Customers",
+    "title": "all Customers",
     "fields": [
       {
         "name": "name",
@@ -42,11 +42,11 @@
     "compact": true,
     "context": "INTERNAL",
     "description": "## Foo\n\nbar \nbaz\n\nsoele",
-    "listElement": false,
+    "listElement": true,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1d99htu",
-  "timestamp": 1783195313690,
+  "hash": "1paea6g",
+  "timestamp": 1783195328557,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
