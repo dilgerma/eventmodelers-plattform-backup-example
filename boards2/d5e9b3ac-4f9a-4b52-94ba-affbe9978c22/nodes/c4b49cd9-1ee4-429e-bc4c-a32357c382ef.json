@@ -1,0 +1,17 @@
+{
+  "id": "c4b49cd9-1ee4-429e-bc4c-a32357c382ef",
+  "type": "spec_node",
+  "position": {
+    "x": 46.5,
+    "y": 1060.8
+  },
+  "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
+  "data": {},
+  "meta": {
+    "type": "SCENARIO",
+    "title": "Specifications"
+  },
+  "hash": "ycol87",
+  "timestamp": 1783196034414,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
