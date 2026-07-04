@@ -9,7 +9,15 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Command"
+    "title": "Register customer",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "mfen13"
+  "hash": "1ei99dk",
+  "timestamp": 1783195292602,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
