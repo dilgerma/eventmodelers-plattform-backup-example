@@ -58,13 +58,6 @@
           "nodeType": "SCREEN"
         },
         {
-          "id": "df7c7af6-0160-41bc-a3c9-0f450bc48057-d91d6001-1d71-44a4-9e18-4cef69737230",
-          "colId": "d91d6001-1d71-44a4-9e18-4cef69737230",
-          "rowId": "df7c7af6-0160-41bc-a3c9-0f450bc48057",
-          "nodeId": "ef5cc859-0da6-423b-a26e-e2a15ece9a38",
-          "nodeType": "COMMAND"
-        },
-        {
           "id": "3a632de6-192a-4814-b4a0-12182e8ee014-d91d6001-1d71-44a4-9e18-4cef69737230",
           "colId": "d91d6001-1d71-44a4-9e18-4cef69737230",
           "rowId": "3a632de6-192a-4814-b4a0-12182e8ee014",
@@ -93,6 +86,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1783195309304,
+  "timestamp": 1783195310730,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
