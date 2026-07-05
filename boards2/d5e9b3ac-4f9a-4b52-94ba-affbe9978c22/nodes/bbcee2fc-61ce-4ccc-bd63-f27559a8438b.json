@@ -96,11 +96,69 @@
           "expectError": true,
           "expectEmptyList": false,
           "errorDescription": "There is no registration for this customer"
+        },
+        {
+          "id": "f33bb287-a23c-440b-b950-3f6e7c421111",
+          "then": [],
+          "when": [
+            {
+              "id": "7f35d751-67dc-46b2-a534-b9244ace210d",
+              "type": "COMMAND",
+              "title": "Subscribe to course",
+              "fields": [
+                {
+                  "name": "email",
+                  "example": "info@nebulit.de"
+                },
+                {
+                  "name": "courseId",
+                  "example": "1234"
+                }
+              ]
+            }
+          ],
+          "given": [
+            {
+              "id": "8058be6e-f36b-4416-9499-eb2d018faeeb",
+              "type": "EVENT",
+              "title": "Customer registered",
+              "fields": [
+                {
+                  "name": "name",
+                  "example": "Martin"
+                },
+                {
+                  "name": "email",
+                  "example": "info@nebulit.de"
+                }
+              ]
+            },
+            {
+              "id": "23673b8c-8282-4b2d-be96-27d557cb5225",
+              "type": "EVENT",
+              "title": "Subscribed to course",
+              "fields": [
+                {
+                  "name": "email",
+                  "example": "info@nebulit.de"
+                },
+                {
+                  "name": "courseId",
+                  "example": "1234"
+                }
+              ]
+            }
+          ],
+          "title": "Cannot subscribe twice",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "already subscribed"
         }
       ]
     }
   },
-  "hash": "128k9cm",
-  "timestamp": 1783226619312,
+  "hash": "17mkksc",
+  "timestamp": 1783227398271,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
