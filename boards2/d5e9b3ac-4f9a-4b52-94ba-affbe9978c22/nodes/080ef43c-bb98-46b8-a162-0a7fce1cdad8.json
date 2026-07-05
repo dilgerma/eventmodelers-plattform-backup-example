@@ -13,9 +13,10 @@
   },
   "meta": {
     "type": "SLICE_BORDER",
-    "title": "all Customers"
+    "title": "all Customers",
+    "sliceStatus": "Planned"
   },
-  "hash": "1q1et36",
-  "timestamp": 1783195349320,
+  "hash": "htjv3g",
+  "timestamp": 1783227964323,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
