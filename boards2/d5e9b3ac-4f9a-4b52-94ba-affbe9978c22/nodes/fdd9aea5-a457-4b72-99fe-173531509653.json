@@ -1,0 +1,21 @@
+{
+  "id": "fdd9aea5-a457-4b72-99fe-173531509653",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "710bd387-7573-4044-aaa4-a18c0aad9ddf",
+    "title": "All Active customers"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "All Active customers"
+  },
+  "hash": "1qvudri",
+  "timestamp": 1783228220210,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "56e969a6-1d73-4fa4-8959-5c89d7f4cd2d",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "be4b81d5-8e36-4e87-8979-66b15d8c4b7c",
+    "title": "All courses"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "All courses"
+  },
+  "hash": "3l1kwr",
+  "timestamp": 1783228220210,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}

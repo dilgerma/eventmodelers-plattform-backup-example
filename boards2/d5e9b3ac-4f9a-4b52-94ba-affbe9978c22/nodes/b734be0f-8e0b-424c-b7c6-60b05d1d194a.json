@@ -1,0 +1,21 @@
+{
+  "id": "b734be0f-8e0b-424c-b7c6-60b05d1d194a",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "ed6dea1b-1633-4012-9ad7-a1de4ac7de17",
+    "title": "Subscribe to course"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Subscribe to course"
+  },
+  "hash": "12wcul6",
+  "timestamp": 1783228220210,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
