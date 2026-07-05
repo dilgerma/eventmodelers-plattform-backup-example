@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Subscribed To",
+    "title": "Open Payment",
     "fields": [
       {
         "name": "email",
@@ -44,7 +44,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1lbfao8",
-  "timestamp": 1783233478258,
+  "hash": "1i6mcmp",
+  "timestamp": 1783233482328,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
