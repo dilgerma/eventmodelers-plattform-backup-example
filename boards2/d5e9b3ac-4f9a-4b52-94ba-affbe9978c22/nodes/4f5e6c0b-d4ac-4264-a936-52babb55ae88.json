@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Customers",
+    "title": "All courses",
     "fields": [
       {
         "name": "name",
@@ -45,7 +45,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1ljmnj2",
-  "timestamp": 1783225310724,
+  "hash": "2vadmu",
+  "timestamp": 1783225315834,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
