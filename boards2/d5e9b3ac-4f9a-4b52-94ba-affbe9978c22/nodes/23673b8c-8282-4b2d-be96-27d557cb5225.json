@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "EVENT",
-    "title": "To Course Subscribed",
+    "title": "Subscribed to course",
     "fields": [
       {
         "name": "email",
@@ -31,7 +31,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1gg2rr8",
-  "timestamp": 1783225254283,
+  "hash": "18lnbgk",
+  "timestamp": 1783225258723,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
