@@ -1,0 +1,51 @@
+{
+  "id": "4f5e6c0b-d4ac-4264-a936-52babb55ae88",
+  "type": "sticky_note",
+  "position": {
+    "x": 1445,
+    "y": 436
+  },
+  "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "Customers",
+    "fields": [
+      {
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "example": "martin\n",
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1ljmnj2",
+  "timestamp": 1783225310724,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
