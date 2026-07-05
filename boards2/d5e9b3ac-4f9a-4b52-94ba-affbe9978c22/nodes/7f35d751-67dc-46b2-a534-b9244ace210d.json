@@ -1,0 +1,51 @@
+{
+  "id": "7f35d751-67dc-46b2-a534-b9244ace210d",
+  "type": "sticky_note",
+  "position": {
+    "x": 1895,
+    "y": 436
+  },
+  "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Active Customer Command",
+    "fields": [
+      {
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "example": "martin\n",
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1gm253w",
+  "timestamp": 1783225228073,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
