@@ -147,6 +147,13 @@
           "rowId": "df7c7af6-0160-41bc-a3c9-0f450bc48057",
           "nodeId": "4b2c0f30-d6ac-4cc9-bcef-f8222a0d0bf1",
           "nodeType": "READMODEL"
+        },
+        {
+          "id": "7f4fd09a-8ceb-4d24-9607-c791b7b1eb4e-a187287c-3ff1-41e4-8c8f-e5a51a24c6a0",
+          "colId": "a187287c-3ff1-41e4-8c8f-e5a51a24c6a0",
+          "rowId": "7f4fd09a-8ceb-4d24-9607-c791b7b1eb4e",
+          "nodeId": "c7919b23-146a-448f-aabc-88d402aeb235",
+          "nodeType": "AUTOMATION"
         }
       ],
       "columns": [
@@ -183,6 +190,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1783233494218,
+  "timestamp": 1783233495837,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
