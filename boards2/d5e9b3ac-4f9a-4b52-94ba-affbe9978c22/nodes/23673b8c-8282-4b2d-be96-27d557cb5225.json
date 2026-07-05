@@ -23,6 +23,19 @@
         "idAttribute": false,
         "showAttributes": false,
         "technicalAttribute": false
+      },
+      {
+        "name": "courseId",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
       }
     ],
     "compact": true,
@@ -31,7 +44,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "18lnbgk",
-  "timestamp": 1783225258723,
+  "hash": "ydslic",
+  "timestamp": 1783225299243,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
