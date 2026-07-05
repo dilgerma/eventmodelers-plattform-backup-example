@@ -13,9 +13,10 @@
   },
   "meta": {
     "type": "SLICE_BORDER",
-    "title": "Notify customer"
+    "title": "Notify customer",
+    "sliceStatus": "Planned"
   },
-  "hash": "1calk1f",
-  "timestamp": 1783195367573,
+  "hash": "r4gntp",
+  "timestamp": 1783227967783,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
