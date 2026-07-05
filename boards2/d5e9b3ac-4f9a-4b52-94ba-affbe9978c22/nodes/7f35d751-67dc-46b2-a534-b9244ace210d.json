@@ -12,20 +12,6 @@
     "title": "Subscribe to course",
     "fields": [
       {
-        "name": "name",
-        "type": "String",
-        "query": false,
-        "edited": false,
-        "example": "martin\n",
-        "optional": false,
-        "generated": false,
-        "subfields": [],
-        "cardinality": "Single",
-        "idAttribute": false,
-        "showAttributes": false,
-        "technicalAttribute": false
-      },
-      {
         "name": "email",
         "type": "String",
         "query": false,
@@ -45,7 +31,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "v8ngzh",
-  "timestamp": 1783225232525,
+  "hash": "9r4rnv",
+  "timestamp": 1783225238391,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
