@@ -2,7 +2,7 @@
   "id": "23673b8c-8282-4b2d-be96-27d557cb5225",
   "type": "sticky_note",
   "position": {
-    "x": 1895,
+    "x": 2345,
     "y": 756
   },
   "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
@@ -20,7 +20,7 @@
         "generated": false,
         "subfields": [],
         "cardinality": "Single",
-        "idAttribute": false,
+        "idAttribute": true,
         "showAttributes": false,
         "technicalAttribute": false
       },
@@ -44,7 +44,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "ydslic",
-  "timestamp": 1783225299243,
+  "hash": "1b3onj",
+  "timestamp": 1783235528229,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
