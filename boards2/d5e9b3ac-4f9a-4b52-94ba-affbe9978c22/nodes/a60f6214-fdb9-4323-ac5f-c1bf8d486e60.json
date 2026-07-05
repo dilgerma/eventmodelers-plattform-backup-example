@@ -8,7 +8,7 @@
   "data": {},
   "meta": {
     "type": "CHAPTER",
-    "title": "foo",
+    "title": "Customer Management",
     "timelineData": {
       "rows": [
         {
@@ -155,6 +155,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1783225311268,
+  "timestamp": 1783225412135,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
