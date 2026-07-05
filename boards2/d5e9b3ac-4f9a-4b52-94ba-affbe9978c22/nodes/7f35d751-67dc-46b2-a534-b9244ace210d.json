@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Active Customer Command",
+    "title": "Subscribe to course",
     "fields": [
       {
         "name": "name",
@@ -45,7 +45,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1gm253w",
-  "timestamp": 1783225228073,
+  "hash": "v8ngzh",
+  "timestamp": 1783225232525,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
