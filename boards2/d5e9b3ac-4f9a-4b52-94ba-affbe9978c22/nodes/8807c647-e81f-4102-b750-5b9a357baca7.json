@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Open Payment",
+    "title": "Issue Payment",
     "fields": [
       {
         "name": "email",
@@ -31,7 +31,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "sqb1nv",
-  "timestamp": 1783233497756,
+  "hash": "9h49ty",
+  "timestamp": 1783233504286,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
