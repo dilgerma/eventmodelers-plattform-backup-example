@@ -32,7 +32,7 @@
         {
           "id": "9ef08a9b-57d1-40af-b932-8ede166852db",
           "type": "swimlane",
-          "label": "Swimlane",
+          "label": "Payment",
           "height": 320
         },
         {
@@ -204,6 +204,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1783233516614,
+  "timestamp": 1783233536563,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
