@@ -1,0 +1,54 @@
+{
+  "id": "c8447d79-79ae-4a7f-9b1d-37fb6805d2ce",
+  "type": "image",
+  "position": {
+    "x": 1455,
+    "y": 88
+  },
+  "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
+  "data": {
+    "url": "https://i.ibb.co/87MRc1f/image.png"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "All Active customers",
+    "fields": [
+      {
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "example": "martin\n",
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "sketched": false,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "106wf8q",
+  "timestamp": 1783225219419,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
