@@ -33,7 +33,7 @@
         "generated": false,
         "subfields": [],
         "cardinality": "Single",
-        "idAttribute": false,
+        "idAttribute": true,
         "showAttributes": false,
         "technicalAttribute": false
       }
@@ -44,7 +44,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1b3onj",
-  "timestamp": 1783235528229,
+  "hash": "jrs0as",
+  "timestamp": 1783235531127,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
