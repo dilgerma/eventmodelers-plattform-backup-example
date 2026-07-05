@@ -1,0 +1,50 @@
+{
+  "id": "4b2c0f30-d6ac-4cc9-bcef-f8222a0d0bf1",
+  "type": "sticky_note",
+  "position": {
+    "x": 2795,
+    "y": 436
+  },
+  "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "Subscribed To",
+    "fields": [
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "courseId",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1lbfao8",
+  "timestamp": 1783233478258,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
