@@ -1,0 +1,37 @@
+{
+  "id": "8807c647-e81f-4102-b750-5b9a357baca7",
+  "type": "sticky_note",
+  "position": {
+    "x": 3245,
+    "y": 436
+  },
+  "parentId": "a60f6214-fdb9-4323-ac5f-c1bf8d486e60",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Open Payment",
+    "fields": [
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "sqb1nv",
+  "timestamp": 1783233497756,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}

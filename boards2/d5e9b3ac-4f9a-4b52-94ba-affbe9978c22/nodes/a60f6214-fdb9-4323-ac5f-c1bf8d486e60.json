@@ -154,6 +154,13 @@
           "rowId": "7f4fd09a-8ceb-4d24-9607-c791b7b1eb4e",
           "nodeId": "c7919b23-146a-448f-aabc-88d402aeb235",
           "nodeType": "AUTOMATION"
+        },
+        {
+          "id": "df7c7af6-0160-41bc-a3c9-0f450bc48057-a187287c-3ff1-41e4-8c8f-e5a51a24c6a0",
+          "colId": "a187287c-3ff1-41e4-8c8f-e5a51a24c6a0",
+          "rowId": "df7c7af6-0160-41bc-a3c9-0f450bc48057",
+          "nodeId": "8807c647-e81f-4102-b750-5b9a357baca7",
+          "nodeType": "COMMAND"
         }
       ],
       "columns": [
@@ -190,6 +197,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1783233495837,
+  "timestamp": 1783233498307,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
