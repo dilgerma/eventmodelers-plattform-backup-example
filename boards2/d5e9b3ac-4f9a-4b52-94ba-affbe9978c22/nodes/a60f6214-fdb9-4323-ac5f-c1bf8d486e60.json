@@ -26,7 +26,7 @@
         {
           "id": "3a632de6-192a-4814-b4a0-12182e8ee014",
           "type": "swimlane",
-          "label": "Swimlane",
+          "label": "Customers",
           "height": 320
         },
         {
@@ -204,6 +204,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1783233536563,
+  "timestamp": 1783233544708,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
