@@ -65,7 +65,7 @@
               ]
             }
           ],
-          "title": "Only registered customers can subscribe to a course",
+          "title": "Customers can register to a course",
           "examples": [],
           "expectError": false,
           "expectEmptyList": false
@@ -73,7 +73,7 @@
       ]
     }
   },
-  "hash": "1mcyyfg",
-  "timestamp": 1783226540881,
+  "hash": "qkkcxd",
+  "timestamp": 1783226593494,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
