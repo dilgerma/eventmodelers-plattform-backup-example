@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Customers",
+    "title": "All Active customers",
     "fields": [
       {
         "name": "name",
@@ -45,7 +45,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1ljmnj2",
-  "timestamp": 1783225186555,
+  "hash": "11q37oz",
+  "timestamp": 1783225197193,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
