@@ -13,9 +13,10 @@
   },
   "meta": {
     "type": "SLICE_BORDER",
-    "title": "Subscribe to course"
+    "title": "Subscribe to course",
+    "sliceStatus": "Planned"
   },
-  "hash": "12wcul6",
-  "timestamp": 1783228220210,
+  "hash": "1m9bius",
+  "timestamp": 1783228347317,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
