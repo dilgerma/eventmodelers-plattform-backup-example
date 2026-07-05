@@ -72,23 +72,7 @@
         },
         {
           "id": "b3a2f084-e1f6-4d9e-92ae-d5b3cd1d3fbc",
-          "then": [
-            {
-              "id": "23673b8c-8282-4b2d-be96-27d557cb5225",
-              "type": "EVENT",
-              "title": "Subscribed to course",
-              "fields": [
-                {
-                  "name": "email",
-                  "example": "info@nebulit.de"
-                },
-                {
-                  "name": "courseId",
-                  "example": "1234"
-                }
-              ]
-            }
-          ],
+          "then": [],
           "when": [
             {
               "id": "7f35d751-67dc-46b2-a534-b9244ace210d",
@@ -106,32 +90,17 @@
               ]
             }
           ],
-          "given": [
-            {
-              "id": "8058be6e-f36b-4416-9499-eb2d018faeeb",
-              "type": "EVENT",
-              "title": "Customer registered",
-              "fields": [
-                {
-                  "name": "name",
-                  "example": "Martin"
-                },
-                {
-                  "name": "email",
-                  "example": "info@nebulit.de"
-                }
-              ]
-            }
-          ],
-          "title": "Customers can register to a course (Copy)",
+          "given": [],
+          "title": "Only registered customers can subscribe to a course",
           "examples": [],
-          "expectError": false,
-          "expectEmptyList": false
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "There is no registration for this customer"
         }
       ]
     }
   },
-  "hash": "hupxor",
-  "timestamp": 1783226598009,
+  "hash": "128k9cm",
+  "timestamp": 1783226619312,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
