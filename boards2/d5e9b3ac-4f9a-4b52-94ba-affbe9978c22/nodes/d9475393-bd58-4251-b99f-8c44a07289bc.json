@@ -13,9 +13,10 @@
   },
   "meta": {
     "type": "SLICE_BORDER",
-    "title": "Register"
+    "title": "Register",
+    "sliceStatus": "Planned"
   },
-  "hash": "1shq2d9",
-  "timestamp": 1783195362349,
+  "hash": "o0v3df",
+  "timestamp": 1783227961534,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
