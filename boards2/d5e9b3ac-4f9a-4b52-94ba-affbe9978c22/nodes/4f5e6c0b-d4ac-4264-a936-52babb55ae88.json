@@ -10,14 +10,28 @@
   "meta": {
     "type": "READMODEL",
     "title": "All courses",
-    "fields": [],
+    "fields": [
+      {
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
     "compact": true,
     "context": "INTERNAL",
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1kn045c",
-  "timestamp": 1783225319839,
+  "hash": "1g7qlob",
+  "timestamp": 1783225323091,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
