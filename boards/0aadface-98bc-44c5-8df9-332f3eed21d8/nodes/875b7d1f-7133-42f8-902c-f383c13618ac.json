@@ -129,13 +129,6 @@
           "nodeType": "TABLE"
         },
         {
-          "id": "92484435-af69-436c-b089-e7608901b009-e19b17b0-1c0a-44b5-b028-20a7fc9a4b82",
-          "colId": "e19b17b0-1c0a-44b5-b028-20a7fc9a4b82",
-          "rowId": "92484435-af69-436c-b089-e7608901b009",
-          "nodeId": "32598476-98dd-4a64-9a14-4442fbe64476",
-          "nodeType": "SCREEN"
-        },
-        {
           "id": "92484435-af69-436c-b089-e7608901b009-f445477e-fa66-4159-87ee-e6a1c55b4d05",
           "colId": "f445477e-fa66-4159-87ee-e6a1c55b4d05",
           "rowId": "92484435-af69-436c-b089-e7608901b009",
@@ -210,6 +203,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1783062497012,
+  "timestamp": 1783334761410,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
