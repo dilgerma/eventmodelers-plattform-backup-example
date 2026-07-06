@@ -2,7 +2,7 @@
   "id": "3ff9a8ab-fbbd-495e-90cc-68b1341b39d5",
   "type": "image",
   "position": {
-    "x": 1005,
+    "x": 555,
     "y": 88
   },
   "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
@@ -10,7 +10,60 @@
   "meta": {
     "type": "SCREEN",
     "title": "Prospects",
-    "fields": [],
+    "fields": [
+      {
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "linkedIn",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "website",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
     "compact": true,
     "context": "INTERNAL",
     "sketched": true,
@@ -18,5 +71,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "xevueq"
+  "hash": "n16odk",
+  "timestamp": 1783334763080,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
