@@ -1,0 +1,76 @@
+{
+  "id": "a30bd2ef-c379-45be-8285-ab993dc916df",
+  "type": "sticky_note",
+  "position": {
+    "x": 995,
+    "y": 756
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Prospect Details Updated",
+    "fields": [
+      {
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "linkedIn",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "website",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1l93gvj",
+  "timestamp": 1783334804978,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
