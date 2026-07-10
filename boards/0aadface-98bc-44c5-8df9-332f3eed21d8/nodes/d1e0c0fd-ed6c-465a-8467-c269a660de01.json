@@ -1,0 +1,21 @@
+{
+  "id": "d1e0c0fd-ed6c-465a-8467-c269a660de01",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "eed71843-cb3b-48cb-85cf-75cb9b1e80ed",
+    "title": "slice-5"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "slice-5"
+  },
+  "hash": "1oppam4",
+  "timestamp": 1783684819509,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
