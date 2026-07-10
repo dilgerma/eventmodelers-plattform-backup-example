@@ -2,7 +2,7 @@
   "id": "a5708155-e863-44b7-a897-d214a6f26f7f",
   "type": "sticky_note",
   "position": {
-    "x": 1445,
+    "x": 1895,
     "y": 436
   },
   "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
@@ -62,6 +62,19 @@
         "idAttribute": false,
         "showAttributes": false,
         "technicalAttribute": false
+      },
+      {
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
       }
     ],
     "compact": true,
@@ -70,7 +83,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "tg87st",
-  "timestamp": 1783672207728,
+  "hash": "mcidnk",
+  "timestamp": 1783672315625,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
