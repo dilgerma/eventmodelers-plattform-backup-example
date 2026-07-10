@@ -38,19 +38,6 @@
         "technicalAttribute": false
       },
       {
-        "name": "author",
-        "type": "String",
-        "query": false,
-        "edited": false,
-        "optional": false,
-        "generated": false,
-        "subfields": [],
-        "cardinality": "Single",
-        "idAttribute": false,
-        "showAttributes": false,
-        "technicalAttribute": false
-      },
-      {
         "name": "description",
         "type": "String",
         "query": false,
@@ -70,7 +57,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "k1032d",
-  "timestamp": 1783677655988,
+  "hash": "9ncta8",
+  "timestamp": 1783677659843,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
