@@ -25,7 +25,7 @@
         "technicalAttribute": false
       },
       {
-        "name": "prospecrId",
+        "name": "prospectId",
         "type": "String",
         "query": false,
         "edited": false,
@@ -44,7 +44,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "cscoep",
-  "timestamp": 1783672334929,
+  "hash": "nb47kn",
+  "timestamp": 1783672339648,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
