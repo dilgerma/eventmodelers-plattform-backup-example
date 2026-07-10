@@ -2,7 +2,7 @@
   "id": "24ec61ad-8293-464e-a50e-cbab88fbb0a4",
   "type": "image",
   "position": {
-    "x": 1905,
+    "x": 2355,
     "y": 88
   },
   "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
@@ -65,6 +65,32 @@
         "idAttribute": false,
         "showAttributes": false,
         "technicalAttribute": false
+      },
+      {
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "prospectId",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
       }
     ],
     "compact": true,
@@ -74,7 +100,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "n16odk",
-  "timestamp": 1783672242312,
+  "hash": "15ubavo",
+  "timestamp": 1783672440409,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
