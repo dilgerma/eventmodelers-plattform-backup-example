@@ -1,18 +1,15 @@
 {
-  "id": "c62b76eb-d14b-4833-8755-29fda0d32aa4",
-  "type": "image",
+  "id": "cf368124-78c5-4f0c-8206-3ee9781cc1de",
+  "type": "sticky_note",
   "position": {
-    "x": 2805,
-    "y": 88
+    "x": 2795,
+    "y": 436
   },
   "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
-  "data": {
-    "url": "",
-    "linkedTo": "/app/board/0aadface-98bc-44c5-8df9-332f3eed21d8/?moveToWidget=24ec61ad-8293-464e-a50e-cbab88fbb0a4"
-  },
+  "data": {},
   "meta": {
-    "type": "SCREEN",
-    "title": "Prospects",
+    "type": "COMMAND",
+    "title": "Prospect Command",
     "fields": [
       {
         "name": "name",
@@ -95,12 +92,11 @@
     ],
     "compact": true,
     "context": "INTERNAL",
-    "sketched": true,
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "12prvdg",
+  "hash": "cl2img",
   "timestamp": 1783677540408,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
