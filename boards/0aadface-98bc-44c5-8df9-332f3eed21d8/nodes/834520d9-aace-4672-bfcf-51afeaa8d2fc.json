@@ -1,0 +1,23 @@
+{
+  "id": "834520d9-aace-4672-bfcf-51afeaa8d2fc",
+  "type": "sticky_note",
+  "position": {
+    "x": 1895,
+    "y": 756
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Comment Deleted",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1mry5ww",
+  "timestamp": 1783672183185,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
