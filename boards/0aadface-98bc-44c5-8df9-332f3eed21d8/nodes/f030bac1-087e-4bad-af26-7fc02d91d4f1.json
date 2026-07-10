@@ -1,0 +1,20 @@
+{
+  "id": "f030bac1-087e-4bad-af26-7fc02d91d4f1",
+  "type": "image",
+  "position": {
+    "x": 3177.88331855711,
+    "y": 1071.4460394833409
+  },
+  "data": {
+    "url": "",
+    "linkedTo": "/app/board/0aadface-98bc-44c5-8df9-332f3eed21d8/?moveToWidget=1054cfeb-f645-445a-ad75-5f650975f18a"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "screen",
+    "sketched": true
+  },
+  "hash": "1gy8qvo",
+  "timestamp": 1783672197240,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
