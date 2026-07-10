@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Prospect Command",
+    "title": "Update comment",
     "fields": [
       {
         "name": "name",
@@ -96,7 +96,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "cl2img",
-  "timestamp": 1783677540408,
+  "hash": "1huow29",
+  "timestamp": 1783677545090,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
