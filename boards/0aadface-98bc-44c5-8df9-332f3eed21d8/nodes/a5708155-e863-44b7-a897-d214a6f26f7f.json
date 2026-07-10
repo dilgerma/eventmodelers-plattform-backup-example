@@ -10,93 +10,14 @@
   "meta": {
     "type": "COMMAND",
     "title": "Add Comment",
-    "fields": [
-      {
-        "name": "name",
-        "type": "String",
-        "query": false,
-        "edited": false,
-        "optional": false,
-        "generated": false,
-        "subfields": [],
-        "cardinality": "Single",
-        "idAttribute": false,
-        "showAttributes": false,
-        "technicalAttribute": false
-      },
-      {
-        "name": "email",
-        "type": "String",
-        "query": false,
-        "edited": false,
-        "optional": false,
-        "generated": false,
-        "subfields": [],
-        "cardinality": "Single",
-        "idAttribute": false,
-        "showAttributes": false,
-        "technicalAttribute": false
-      },
-      {
-        "name": "linkedIn",
-        "type": "String",
-        "query": false,
-        "edited": false,
-        "optional": false,
-        "generated": false,
-        "subfields": [],
-        "cardinality": "Single",
-        "idAttribute": false,
-        "showAttributes": false,
-        "technicalAttribute": false
-      },
-      {
-        "name": "website",
-        "type": "String",
-        "query": false,
-        "edited": false,
-        "optional": false,
-        "generated": false,
-        "subfields": [],
-        "cardinality": "Single",
-        "idAttribute": false,
-        "showAttributes": false,
-        "technicalAttribute": false
-      },
-      {
-        "name": "id",
-        "type": "String",
-        "query": false,
-        "edited": false,
-        "optional": false,
-        "generated": false,
-        "subfields": [],
-        "cardinality": "Single",
-        "idAttribute": false,
-        "showAttributes": false,
-        "technicalAttribute": false
-      },
-      {
-        "name": "prospectId",
-        "type": "String",
-        "query": false,
-        "edited": false,
-        "optional": false,
-        "generated": false,
-        "subfields": [],
-        "cardinality": "Single",
-        "idAttribute": false,
-        "showAttributes": false,
-        "technicalAttribute": false
-      }
-    ],
+    "fields": [],
     "compact": true,
     "context": "INTERNAL",
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1xauy9t",
-  "timestamp": 1783672326604,
+  "hash": "1dbnh47",
+  "timestamp": 1783672329947,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
