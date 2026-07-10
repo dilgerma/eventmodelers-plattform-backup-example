@@ -52,7 +52,7 @@
       },
       {
         "name": "date",
-        "type": "String",
+        "type": "Date",
         "query": false,
         "edited": false,
         "optional": false,
@@ -96,7 +96,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "f8f8s0",
-  "timestamp": 1783672346051,
+  "hash": "1kqcd8x",
+  "timestamp": 1783672351936,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
