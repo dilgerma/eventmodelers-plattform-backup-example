@@ -2,7 +2,7 @@
   "id": "cc4df789-f277-4093-b47b-3045dd9dd0c6",
   "type": "sticky_note",
   "position": {
-    "x": 1445,
+    "x": 2795,
     "y": 756
   },
   "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
@@ -12,7 +12,7 @@
     "title": "Next action scheduled4",
     "fields": [
       {
-        "name": "a",
+        "name": "id",
         "type": "String",
         "query": false,
         "edited": false,
@@ -25,7 +25,7 @@
         "technicalAttribute": false
       },
       {
-        "name": "b",
+        "name": "title",
         "type": "String",
         "query": false,
         "edited": false,
@@ -38,7 +38,7 @@
         "technicalAttribute": false
       },
       {
-        "name": "c",
+        "name": "description",
         "type": "String",
         "query": false,
         "edited": false,
@@ -57,5 +57,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1ew8e5q"
+  "hash": "1g8fnad",
+  "timestamp": 1783677663092,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
