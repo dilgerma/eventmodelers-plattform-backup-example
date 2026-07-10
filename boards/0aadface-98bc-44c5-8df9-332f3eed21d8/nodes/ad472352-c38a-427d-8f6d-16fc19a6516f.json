@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Prospect Detailses",
+    "title": "Comments",
     "fields": [
       {
         "name": "name",
@@ -70,7 +70,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1yxj56l",
-  "timestamp": 1783672286175,
+  "hash": "6otytx",
+  "timestamp": 1783672292489,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
