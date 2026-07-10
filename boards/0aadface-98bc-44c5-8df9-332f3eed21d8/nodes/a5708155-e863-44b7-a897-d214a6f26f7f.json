@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Prospect Command",
+    "title": "Add Comment",
     "fields": [
       {
         "name": "name",
@@ -70,7 +70,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1i8rhx0",
-  "timestamp": 1783672201465,
+  "hash": "tg87st",
+  "timestamp": 1783672207728,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
