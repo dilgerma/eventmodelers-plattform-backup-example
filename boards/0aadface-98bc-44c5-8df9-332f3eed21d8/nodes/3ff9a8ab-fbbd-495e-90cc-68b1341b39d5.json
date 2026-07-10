@@ -2,7 +2,7 @@
   "id": "3ff9a8ab-fbbd-495e-90cc-68b1341b39d5",
   "type": "image",
   "position": {
-    "x": 555,
+    "x": 1005,
     "y": 88
   },
   "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
@@ -72,6 +72,6 @@
     "createsAggregate": false
   },
   "hash": "n16odk",
-  "timestamp": 1783334763080,
+  "timestamp": 1783672399749,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
