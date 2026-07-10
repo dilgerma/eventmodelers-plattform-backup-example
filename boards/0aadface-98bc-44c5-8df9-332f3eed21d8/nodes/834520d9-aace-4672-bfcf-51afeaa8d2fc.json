@@ -2,7 +2,7 @@
   "id": "834520d9-aace-4672-bfcf-51afeaa8d2fc",
   "type": "sticky_note",
   "position": {
-    "x": 1895,
+    "x": 2345,
     "y": 756
   },
   "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
@@ -32,6 +32,6 @@
     "createsAggregate": false
   },
   "hash": "p73mzl",
-  "timestamp": 1783672186259,
+  "timestamp": 1783672435747,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
