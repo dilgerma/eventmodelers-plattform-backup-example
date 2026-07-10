@@ -2,7 +2,7 @@
   "id": "1054cfeb-f645-445a-ad75-5f650975f18a",
   "type": "image",
   "position": {
-    "x": 1455,
+    "x": 1905,
     "y": 88
   },
   "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
@@ -10,9 +10,89 @@
   "meta": {
     "type": "SCREEN",
     "title": "screen",
+    "fields": [
+      {
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "prospectId",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "title",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "date",
+        "type": "Date",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "author",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "description",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
     "sketched": true
   },
-  "hash": "1gy8qvo",
-  "timestamp": 1783334962327,
+  "hash": "1yp8vk3",
+  "timestamp": 1783672357858,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
