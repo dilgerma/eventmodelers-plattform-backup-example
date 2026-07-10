@@ -2,7 +2,7 @@
   "id": "f072af98-2b8a-4cc5-b8f9-65c8bbda165b",
   "type": "sticky_note",
   "position": {
-    "x": 1445,
+    "x": 1895,
     "y": 756
   },
   "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
@@ -12,7 +12,7 @@
     "title": "Comment added",
     "fields": [
       {
-        "name": "title",
+        "name": "id",
         "type": "String",
         "query": false,
         "edited": false,
@@ -25,7 +25,20 @@
         "technicalAttribute": false
       },
       {
-        "name": "id",
+        "name": "prospectId",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "title",
         "type": "String",
         "query": false,
         "edited": false,
@@ -83,7 +96,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "f692t6",
-  "timestamp": 1783672163895,
+  "hash": "15wkgbf",
+  "timestamp": 1783672361846,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
