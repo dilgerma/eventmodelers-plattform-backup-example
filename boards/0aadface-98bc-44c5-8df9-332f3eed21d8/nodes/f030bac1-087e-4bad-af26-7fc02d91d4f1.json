@@ -2,9 +2,10 @@
   "id": "f030bac1-087e-4bad-af26-7fc02d91d4f1",
   "type": "image",
   "position": {
-    "x": 3177.88331855711,
-    "y": 1071.4460394833409
+    "x": 1905,
+    "y": 88
   },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
   "data": {
     "url": "",
     "linkedTo": "/app/board/0aadface-98bc-44c5-8df9-332f3eed21d8/?moveToWidget=1054cfeb-f645-445a-ad75-5f650975f18a"
@@ -12,9 +13,15 @@
   "meta": {
     "type": "SCREEN",
     "title": "screen",
-    "sketched": true
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "sketched": true,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "1gy8qvo",
-  "timestamp": 1783672197240,
+  "hash": "f020b5",
+  "timestamp": 1783672199000,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
