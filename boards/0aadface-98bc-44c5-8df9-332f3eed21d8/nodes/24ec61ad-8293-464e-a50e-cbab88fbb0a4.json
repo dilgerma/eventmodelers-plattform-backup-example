@@ -2,9 +2,10 @@
   "id": "24ec61ad-8293-464e-a50e-cbab88fbb0a4",
   "type": "image",
   "position": {
-    "x": 3297.820237692928,
-    "y": 723.047796062843
+    "x": 1905,
+    "y": 88
   },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
   "data": {
     "url": "",
     "linkedTo": "/app/board/0aadface-98bc-44c5-8df9-332f3eed21d8/?moveToWidget=3ff9a8ab-fbbd-495e-90cc-68b1341b39d5"
@@ -74,6 +75,6 @@
     "createsAggregate": false
   },
   "hash": "n16odk",
-  "timestamp": 1783672240453,
+  "timestamp": 1783672242312,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
