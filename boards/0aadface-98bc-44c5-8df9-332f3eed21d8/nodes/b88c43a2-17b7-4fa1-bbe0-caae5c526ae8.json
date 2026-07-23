@@ -1,0 +1,19 @@
+{
+  "id": "b88c43a2-17b7-4fa1-bbe0-caae5c526ae8",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "e19b17b0-1c0a-44b5-b028-20a7fc9a4b82",
+    "title": "Prospects"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Prospects"
+  },
+  "hash": "o3cj8b"
+}

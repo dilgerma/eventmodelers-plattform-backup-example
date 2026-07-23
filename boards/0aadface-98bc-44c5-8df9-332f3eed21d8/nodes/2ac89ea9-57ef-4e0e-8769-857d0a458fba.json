@@ -1,0 +1,21 @@
+{
+  "id": "2ac89ea9-57ef-4e0e-8769-857d0a458fba",
+  "type": "sticky_note",
+  "position": {
+    "x": 897.2824929400158,
+    "y": 756
+  },
+  "parentId": "4bf109c9-51b1-4757-9aad-625a867a8093",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Project added",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "mdp7kb"
+}

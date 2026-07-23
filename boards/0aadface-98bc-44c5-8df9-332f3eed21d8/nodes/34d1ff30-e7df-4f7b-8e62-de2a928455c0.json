@@ -1,0 +1,21 @@
+{
+  "id": "34d1ff30-e7df-4f7b-8e62-de2a928455c0",
+  "type": "sticky_note",
+  "position": {
+    "x": 995,
+    "y": 756
+  },
+  "parentId": "baa6c144-b869-4eca-a4bf-f525aa631141",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Proposal sent",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1jzpxmm"
+}

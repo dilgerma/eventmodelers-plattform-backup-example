@@ -1,0 +1,19 @@
+{
+  "id": "a7afd434-cfbe-415d-86f7-0bd3e435cf5f",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "62ec1ba7-b9f6-4bb9-a10d-811bba962d06",
+    "title": "Register Prospect"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Register Prospect"
+  },
+  "hash": "vgutk1"
+}

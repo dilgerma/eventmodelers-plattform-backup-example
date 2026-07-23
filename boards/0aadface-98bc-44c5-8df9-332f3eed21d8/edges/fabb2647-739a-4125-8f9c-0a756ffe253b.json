@@ -1,0 +1,18 @@
+{
+  "id": "fabb2647-739a-4125-8f9c-0a756ffe253b",
+  "source": "5d5cc7ed-0a7e-49fc-9520-e977a81189a0",
+  "target": "e92e52b0-150f-4401-bb43-e981a672cffe",
+  "sourceHandle": "source-bottom",
+  "targetHandle": "target-top",
+  "style": {
+    "stroke": "#000000",
+    "strokeColor": "#000000",
+    "strokeStyle": "normal",
+    "strokeWidth": 4,
+    "endStrokeCap": "arrow",
+    "startStrokeCap": "none"
+  },
+  "markerEnd": {
+    "type": "arrowclosed"
+  }
+}

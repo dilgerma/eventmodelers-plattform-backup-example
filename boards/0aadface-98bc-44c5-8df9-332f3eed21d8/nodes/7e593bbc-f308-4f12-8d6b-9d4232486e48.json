@@ -1,0 +1,17 @@
+{
+  "id": "7e593bbc-f308-4f12-8d6b-9d4232486e48",
+  "type": "TABLE",
+  "position": {
+    "x": 1455,
+    "y": 1368
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {
+    "url": "/icons/relational.png"
+  },
+  "meta": {
+    "type": "TABLE",
+    "title": "Table"
+  },
+  "hash": "as7b13"
+}

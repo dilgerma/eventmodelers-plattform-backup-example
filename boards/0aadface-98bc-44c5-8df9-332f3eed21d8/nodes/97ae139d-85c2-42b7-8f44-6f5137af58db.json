@@ -1,0 +1,56 @@
+{
+  "id": "97ae139d-85c2-42b7-8f44-6f5137af58db",
+  "type": "spec_node",
+  "position": {
+    "x": 946.5,
+    "y": 1048
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {},
+  "meta": {
+    "type": "SCENARIO",
+    "title": "Specifications",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "7e854f07-512f-4ce6-a7d7-16eed8daec91",
+          "then": [],
+          "when": [
+            {
+              "id": "e92e52b0-150f-4401-bb43-e981a672cffe",
+              "type": "COMMAND",
+              "title": "Register prospect",
+              "fields": [
+                {
+                  "name": "name"
+                },
+                {
+                  "name": "email"
+                },
+                {
+                  "name": "linkedIn"
+                },
+                {
+                  "name": "website"
+                }
+              ]
+            }
+          ],
+          "given": [
+            {
+              "id": "5a05ac84-693a-471c-b797-1f1963eba4a5",
+              "type": "EVENT",
+              "title": "Contact registered",
+              "fields": []
+            }
+          ],
+          "title": "Scenario #1",
+          "examples": [],
+          "expectError": false,
+          "expectEmptyList": false
+        }
+      ]
+    }
+  },
+  "hash": "jtb0yn"
+}
