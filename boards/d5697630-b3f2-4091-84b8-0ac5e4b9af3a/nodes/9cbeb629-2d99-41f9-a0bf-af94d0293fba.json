@@ -1,0 +1,24 @@
+{
+  "id": "9cbeb629-2d99-41f9-a0bf-af94d0293fba",
+  "type": "image",
+  "position": {
+    "x": 5055,
+    "y": 88
+  },
+  "parentId": "f37768d8-2df8-43a3-ae69-abc2b32135c4",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "screenök",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "sketched": true,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1y9bcc",
+  "timestamp": 1784781613927,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
