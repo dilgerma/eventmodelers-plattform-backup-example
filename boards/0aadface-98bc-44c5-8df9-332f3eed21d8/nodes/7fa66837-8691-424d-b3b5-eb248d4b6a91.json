@@ -1,0 +1,21 @@
+{
+  "id": "7fa66837-8691-424d-b3b5-eb248d4b6a91",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 756
+  },
+  "parentId": "baa6c144-b869-4eca-a4bf-f525aa631141",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Proposal requested",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "uzzyqq"
+}

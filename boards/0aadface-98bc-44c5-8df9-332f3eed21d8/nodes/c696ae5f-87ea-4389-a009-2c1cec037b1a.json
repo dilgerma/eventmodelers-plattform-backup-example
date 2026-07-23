@@ -1,0 +1,74 @@
+{
+  "id": "c696ae5f-87ea-4389-a009-2c1cec037b1a",
+  "type": "sticky_note",
+  "position": {
+    "x": 545,
+    "y": 436
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "Prospects",
+    "fields": [
+      {
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "linkedIn",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "website",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": true,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "dykeup"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "05d1cbc5-9566-4caa-a182-86274db14063",
+  "type": "image",
+  "position": {
+    "x": 1455,
+    "y": 88
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {
+    "linkedTo": "/app/board/0aadface-98bc-44c5-8df9-332f3eed21d8/?moveToWidget=3ff9a8ab-fbbd-495e-90cc-68b1341b39d5"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Prospects",
+    "fields": [
+      {
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "linkedIn",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "website",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "sketched": true,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "n16odk"
+}

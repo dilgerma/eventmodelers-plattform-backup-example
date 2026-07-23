@@ -1,0 +1,21 @@
+{
+  "id": "931e5d70-cdad-44b8-8082-0bc1aa24b210",
+  "type": "sticky_note",
+  "position": {
+    "x": 2345,
+    "y": 756
+  },
+  "parentId": "875b7d1f-7133-42f8-902c-f383c13618ac",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Promoted to lead",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1toie4z"
+}
