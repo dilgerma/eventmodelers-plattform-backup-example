@@ -1,0 +1,24 @@
+{
+  "id": "2b74af8b-2d5b-40dc-a5d8-6c6c9e739814",
+  "type": "image",
+  "position": {
+    "x": 5505,
+    "y": 88
+  },
+  "parentId": "f37768d8-2df8-43a3-ae69-abc2b32135c4",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "screenaa",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "sketched": true,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1iv1iup",
+  "timestamp": 1784781714366,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
