@@ -35,7 +35,22 @@
           "height": 320
         }
       ],
-      "cells": [],
+      "cells": [
+        {
+          "id": "d6db8d22-f728-4b38-a428-6f4bb20eb5b7-379eed15-20d4-40fc-a632-20b985d0035d",
+          "colId": "379eed15-20d4-40fc-a632-20b985d0035d",
+          "rowId": "d6db8d22-f728-4b38-a428-6f4bb20eb5b7",
+          "nodeId": "c19f6cff-a993-4289-9882-935584fa2c8d",
+          "nodeType": "COMMAND"
+        },
+        {
+          "id": "4e3be800-d699-4153-8726-8dc3887fb379-379eed15-20d4-40fc-a632-20b985d0035d",
+          "colId": "379eed15-20d4-40fc-a632-20b985d0035d",
+          "rowId": "4e3be800-d699-4153-8726-8dc3887fb379",
+          "nodeId": "f2f438e7-f94d-4019-8595-dad6b7034c04",
+          "nodeType": "EVENT"
+        }
+      ],
       "columns": [
         {
           "id": "379eed15-20d4-40fc-a632-20b985d0035d"
@@ -49,5 +64,7 @@
       ]
     }
   },
-  "hash": "1dsjwzt"
+  "hash": null,
+  "timestamp": 1784785372696,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
