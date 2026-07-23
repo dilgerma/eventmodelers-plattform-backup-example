@@ -1,0 +1,16 @@
+{
+  "id": "f50b1aa0-0031-4b18-b521-933628f3fd04",
+  "type": "image",
+  "position": {
+    "x": 1005,
+    "y": 88
+  },
+  "parentId": "f37768d8-2df8-43a3-ae69-abc2b32135c4",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "screen",
+    "sketched": true
+  },
+  "hash": "1gy8qvo"
+}
