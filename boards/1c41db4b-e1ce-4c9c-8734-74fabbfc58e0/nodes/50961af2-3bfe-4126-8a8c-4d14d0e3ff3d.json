@@ -1,0 +1,54 @@
+{
+  "id": "50961af2-3bfe-4126-8a8c-4d14d0e3ff3d",
+  "type": "timeline",
+  "position": {
+    "x": 11425.86204061617,
+    "y": 17886.06142354375
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Vessel Visit",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "358e65c6-df1c-4611-b7b9-d730fd297330",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "e251bf09-5344-40d6-9ff5-e74a313424f3",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "3fda00bf-7936-4555-ae92-4949ba0bc06d",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "9d134c80-1693-4fd2-8067-4aaa1a832426",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [],
+      "columns": [
+        {
+          "id": "0dc81f9e-f17a-431c-b1db-46bc5133fb73"
+        },
+        {
+          "id": "481f90dd-7b3d-4e5d-9c0d-69b8f42ae039"
+        },
+        {
+          "id": "df577180-fa9d-4351-ac6f-fb63acfefc9f"
+        }
+      ]
+    }
+  },
+  "hash": "1ko4710"
+}

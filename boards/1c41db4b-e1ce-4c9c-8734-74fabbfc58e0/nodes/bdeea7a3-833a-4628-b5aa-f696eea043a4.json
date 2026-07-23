@@ -1,0 +1,36 @@
+{
+  "id": "bdeea7a3-833a-4628-b5aa-f696eea043a4",
+  "type": "sticky_note",
+  "position": {
+    "x": 995,
+    "y": 436
+  },
+  "parentId": "5c5c9ae2-7fba-4875-a7ca-7fc482c67972",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "DECs",
+    "fields": [
+      {
+        "pii": false,
+        "name": "noa",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "ely0vt"
+}

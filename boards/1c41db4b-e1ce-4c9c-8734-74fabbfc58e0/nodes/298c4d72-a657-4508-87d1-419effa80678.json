@@ -1,0 +1,71 @@
+{
+  "id": "298c4d72-a657-4508-87d1-419effa80678",
+  "type": "spec_node",
+  "position": {
+    "x": 496.5,
+    "y": 1380.8
+  },
+  "parentId": "5c5c9ae2-7fba-4875-a7ca-7fc482c67972",
+  "data": {},
+  "meta": {
+    "type": "SCENARIO",
+    "title": "Specifications",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "4a55ae73-fd50-48c6-b23a-969b01068308",
+          "then": [
+            {
+              "id": "7e3fb312-8536-4740-9341-d899749fb9a0",
+              "type": "EVENT",
+              "title": "DEC received",
+              "fields": [
+                {
+                  "name": "referencedMessageId"
+                },
+                {
+                  "name": "statusCode"
+                }
+              ]
+            }
+          ],
+          "when": [
+            {
+              "id": "406fa8f1-94de-43a2-b8bb-de5039b46f9d",
+              "type": "COMMAND",
+              "title": "Process Response",
+              "fields": [
+                {
+                  "name": "referencedMessageId"
+                },
+                {
+                  "name": "statusCode"
+                }
+              ]
+            }
+          ],
+          "given": [
+            {
+              "id": "7e3fb312-8536-4740-9341-d899749fb9a0",
+              "type": "EVENT",
+              "title": "DEC received",
+              "fields": [
+                {
+                  "name": "referencedMessageId"
+                },
+                {
+                  "name": "statusCode"
+                }
+              ]
+            }
+          ],
+          "title": "Accept a Visit",
+          "examples": [],
+          "expectError": false,
+          "expectEmptyList": false
+        }
+      ]
+    }
+  },
+  "hash": "nbd3dw"
+}

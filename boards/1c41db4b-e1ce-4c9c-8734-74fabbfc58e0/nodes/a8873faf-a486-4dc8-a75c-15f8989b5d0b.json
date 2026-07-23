@@ -1,0 +1,66 @@
+{
+  "id": "a8873faf-a486-4dc8-a75c-15f8989b5d0b",
+  "type": "image",
+  "position": {
+    "x": 1905,
+    "y": 88
+  },
+  "parentId": "5c5c9ae2-7fba-4875-a7ca-7fc482c67972",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "NOA Status",
+    "fields": [
+      {
+        "pii": false,
+        "name": "referencedMessageId",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "statusCode",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "noa",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "version": 5,
+    "sketched": true,
+    "description": "NOA status screen: shows a Notice of Arrival record with its DEC decision status, displayed as an Accepted (green) or Rejected (red) badge.",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "ybe1st"
+}

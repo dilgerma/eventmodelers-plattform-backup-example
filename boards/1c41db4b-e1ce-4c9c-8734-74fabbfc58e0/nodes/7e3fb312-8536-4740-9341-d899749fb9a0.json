@@ -1,0 +1,50 @@
+{
+  "id": "7e3fb312-8536-4740-9341-d899749fb9a0",
+  "type": "sticky_note",
+  "position": {
+    "x": 545,
+    "y": 756
+  },
+  "parentId": "5c5c9ae2-7fba-4875-a7ca-7fc482c67972",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "DEC received",
+    "fields": [
+      {
+        "pii": false,
+        "name": "referencedMessageId",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "statusCode",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1dq6u27"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f820d13b-188d-40f1-9412-11554befb0c2",
+  "type": "context_node",
+  "position": {
+    "x": 11115.176647609169,
+    "y": 16271.263971820707
+  },
+  "data": {},
+  "meta": {
+    "type": "MODEL_CONTEXT",
+    "title": "HTG",
+    "codeGen": {
+      "application": "Context"
+    }
+  },
+  "hash": "lwgi0d"
+}

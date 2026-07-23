@@ -1,0 +1,39 @@
+{
+  "id": "1761406a-9de0-48bd-81c5-8015abd5e0b9",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 756
+  },
+  "parentId": "e4a2e9a5-a250-4894-bf16-6b7128c99c97",
+  "data": {
+    "linkedTo": "/app/board/1c41db4b-e1ce-4c9c-8734-74fabbfc58e0/?moveToWidget=9d0dcb8c-4484-45fd-a47b-de77fecdeccc"
+  },
+  "meta": {
+    "type": "EVENT",
+    "title": "Dec Processing failed",
+    "fields": [
+      {
+        "pii": false,
+        "name": "messageId",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "version": 2,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "nwwysr"
+}

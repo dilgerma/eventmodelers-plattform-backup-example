@@ -1,0 +1,54 @@
+{
+  "id": "6e2d59e3-ae06-4b34-96a9-a4ffb5385f32",
+  "type": "timeline",
+  "position": {
+    "x": 16159.693643900402,
+    "y": 15560.336125743068
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Chapter 3",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "2e013166-3b9d-4387-8110-714c8e7de866",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "682d47bd-d3be-4d3e-a179-68f3aa525d0f",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "7882ce00-d6d5-4b1a-a433-0bf635586eb5",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "1a09b275-f55e-4c5a-8fd4-130f4a3176d3",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [],
+      "columns": [
+        {
+          "id": "6a1d1a84-b6e8-45db-805f-a21133384665"
+        },
+        {
+          "id": "1b767566-90f4-4693-998f-5fff316ce3f6"
+        },
+        {
+          "id": "4f57e54d-b2b9-479b-ba0f-619b316ae3e2"
+        }
+      ]
+    }
+  },
+  "hash": "k7wgas"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "7b34fa03-ad00-4914-8ce1-0b1046b3adaf",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "5c5c9ae2-7fba-4875-a7ca-7fc482c67972",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "b6159dc2-6e9b-4520-878f-7e40fda030e2",
+    "title": "DECs"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "DECs",
+    "sliceStatus": "Done"
+  },
+  "hash": "1ejwmvr"
+}

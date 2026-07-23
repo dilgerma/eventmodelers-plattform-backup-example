@@ -1,0 +1,76 @@
+{
+  "id": "b4f55cfb-5b7b-456f-b6ae-acb310820e5e",
+  "type": "timeline",
+  "position": {
+    "x": 14506.738052294031,
+    "y": 15759.005227133435
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Chapter 2",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "109088ea-8e2a-4623-9d71-ad31e51ee6e3",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "580ba2e2-cbab-4779-96f1-9e186c5de9e5",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "eb06791e-db4f-4552-bbee-7d71a5f8b3fe",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "06e7008a-cab8-4930-9c37-686efacac30f",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "eb06791e-db4f-4552-bbee-7d71a5f8b3fe-2bb43d21-aaca-4b0f-9601-532d2510fb46",
+          "colId": "2bb43d21-aaca-4b0f-9601-532d2510fb46",
+          "rowId": "eb06791e-db4f-4552-bbee-7d71a5f8b3fe",
+          "nodeId": "9d449354-1dc7-4696-8bbf-c341f84a730b",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "eb06791e-db4f-4552-bbee-7d71a5f8b3fe-6fb5325b-7607-41eb-b0aa-d4785c82a69e",
+          "colId": "6fb5325b-7607-41eb-b0aa-d4785c82a69e",
+          "rowId": "eb06791e-db4f-4552-bbee-7d71a5f8b3fe",
+          "nodeId": "5e91c377-d167-46a8-a115-8fa2d151dc16",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "580ba2e2-cbab-4779-96f1-9e186c5de9e5-6fb5325b-7607-41eb-b0aa-d4785c82a69e",
+          "colId": "6fb5325b-7607-41eb-b0aa-d4785c82a69e",
+          "rowId": "580ba2e2-cbab-4779-96f1-9e186c5de9e5",
+          "nodeId": "0d28329a-e7ff-4161-98e1-4b96fe58be72",
+          "nodeType": "COMMAND"
+        }
+      ],
+      "columns": [
+        {
+          "id": "6fb5325b-7607-41eb-b0aa-d4785c82a69e"
+        },
+        {
+          "id": "2bb43d21-aaca-4b0f-9601-532d2510fb46"
+        },
+        {
+          "id": "e01f6e66-45f4-4c07-9a72-76e1aabaebd7"
+        }
+      ]
+    }
+  },
+  "hash": "gih25v"
+}

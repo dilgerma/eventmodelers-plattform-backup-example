@@ -1,0 +1,54 @@
+{
+  "id": "f49e3afe-2bff-4351-b800-d9dc910ebb81",
+  "type": "timeline",
+  "position": {
+    "x": 11367.396197595313,
+    "y": 19750.09006573807
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Authority Hub",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "e2f2e9f0-7e3d-463e-b141-cf671e35d85f",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "c810a1b9-299a-4a0d-8e82-5aaf07954119",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "5ae95ac8-79a6-498c-9001-e710059d0aeb",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "792b9e45-6b2a-49ee-92e4-da7026a3cde9",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [],
+      "columns": [
+        {
+          "id": "c1871b32-1e3e-4df9-b657-800998fe549c"
+        },
+        {
+          "id": "72dcc2c5-bd77-441b-86ca-cfa2241f0c12"
+        },
+        {
+          "id": "bbdf5fe7-e231-4858-bba2-0f046832f572"
+        }
+      ]
+    }
+  },
+  "hash": "14b5ovm"
+}

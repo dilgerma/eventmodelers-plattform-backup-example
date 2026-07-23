@@ -1,0 +1,62 @@
+{
+  "id": "e4a2e9a5-a250-4894-bf16-6b7128c99c97",
+  "type": "timeline",
+  "position": {
+    "x": 13477.741039229768,
+    "y": 17822.503232706367
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "DEC Failure Processing",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "134506ff-f0c0-40d4-91a3-e54ae4e90339",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "18024104-34f3-427f-b703-dab628456a2e",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "0a85a491-03ee-4e75-8b43-f96c10fb2a6d",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "daf4c492-ae1e-4e7d-b747-16dd1f46cd03",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "0a85a491-03ee-4e75-8b43-f96c10fb2a6d-c6cbcd24-7304-459a-b8a3-134bb11d6fcf",
+          "colId": "c6cbcd24-7304-459a-b8a3-134bb11d6fcf",
+          "rowId": "0a85a491-03ee-4e75-8b43-f96c10fb2a6d",
+          "nodeId": "1761406a-9de0-48bd-81c5-8015abd5e0b9",
+          "nodeType": "EVENT"
+        }
+      ],
+      "columns": [
+        {
+          "id": "c6cbcd24-7304-459a-b8a3-134bb11d6fcf"
+        },
+        {
+          "id": "9d77fcf3-67a5-47c7-8bd2-da4d1b1aafff"
+        },
+        {
+          "id": "f7bfabfc-84d4-4a24-a040-a6179710ef44"
+        }
+      ]
+    }
+  },
+  "hash": "1qq0rz3"
+}
