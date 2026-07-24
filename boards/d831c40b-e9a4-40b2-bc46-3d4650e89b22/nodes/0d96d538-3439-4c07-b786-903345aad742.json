@@ -1,0 +1,20 @@
+{
+  "id": "0d96d538-3439-4c07-b786-903345aad742",
+  "type": "image",
+  "position": {
+    "x": 105,
+    "y": 88
+  },
+  "parentId": "e5dbca1d-210d-48f7-924b-436afed143fe",
+  "data": {
+    "url": "https://i.ibb.co/87MRc1f/image.png"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Screen",
+    "sketched": false
+  },
+  "hash": "141esu7",
+  "timestamp": 1784893875645,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
