@@ -9,10 +9,15 @@
   "data": {},
   "meta": {
     "type": "EVENT",
-    "title": "Event",
-    "context": "INTERNAL"
+    "title": "Driver registered",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "1bxmpa1",
-  "timestamp": 1784894111545,
+  "hash": "y68bl4",
+  "timestamp": 1784894116216,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
