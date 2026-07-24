@@ -1,0 +1,29 @@
+{
+  "id": "792e0b9b-ee19-4100-9e97-99da518fac60",
+  "parentId": "976b32fc-4486-4d4f-9d79-20479b1b7891",
+  "data": {
+    "title": "Todo List"
+  },
+  "meta": {
+    "type": "READMODEL",
+    "title": "Todo List",
+    "fields": [
+      {
+        "name": "id",
+        "type": "String",
+        "cardinality": "Single"
+      },
+      {
+        "name": "title",
+        "type": "String",
+        "cardinality": "Single"
+      },
+      {
+        "name": "isCompleted",
+        "type": "Boolean",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "18rnmzo"
+}

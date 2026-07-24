@@ -1,0 +1,17 @@
+{
+  "id": "b4a87998-769e-4960-9d1a-261db3994322",
+  "type": "context_node",
+  "position": {
+    "x": 108.91227680096426,
+    "y": 763.822429421756
+  },
+  "data": {},
+  "meta": {
+    "type": "MODEL_CONTEXT",
+    "title": "Todo App",
+    "codeGen": {
+      "application": "Context"
+    }
+  },
+  "hash": "9k8oqv"
+}

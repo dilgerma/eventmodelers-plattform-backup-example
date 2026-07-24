@@ -1,0 +1,51 @@
+{
+  "id": "b53d0795-c4c7-4061-830a-cb216b0edf9d",
+  "type": "image",
+  "position": {
+    "x": 105,
+    "y": 88
+  },
+  "parentId": "976b32fc-4486-4d4f-9d79-20479b1b7891",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "screen",
+    "fields": [
+      {
+        "pii": false,
+        "name": "title",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "sketched": true,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "zoj20g"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "f4dac09a-3573-4c8f-a69a-4f2d93af93c5",
+  "type": "image",
+  "parentId": "976b32fc-4486-4d4f-9d79-20479b1b7891",
+  "data": {
+    "title": "Todo List Screen"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Todo List Screen",
+    "fields": [
+      {
+        "name": "id",
+        "type": "String",
+        "cardinality": "Single"
+      },
+      {
+        "name": "title",
+        "type": "String",
+        "cardinality": "Single"
+      },
+      {
+        "name": "isCompleted",
+        "type": "Boolean",
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Todo List screen: dark header bar with title and item-count subtitle, a bordered list panel containing three todo rows (checkbox circle + label, separated by thin divider lines, completed item shown in grey), and a dark 'Add Todo' button at the bottom."
+  },
+  "hash": "n9ytw2"
+}

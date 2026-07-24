@@ -1,0 +1,60 @@
+{
+  "id": "f47c42ac-4bb9-4fff-9983-33abde4737cc",
+  "type": "spec_node",
+  "position": {
+    "x": 46.5,
+    "y": 1060.8
+  },
+  "parentId": "976b32fc-4486-4d4f-9d79-20479b1b7891",
+  "data": {},
+  "meta": {
+    "type": "SCENARIO",
+    "title": "Specifications",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "2345facd-7554-4282-b977-2202e1f72922",
+          "then": [],
+          "when": [
+            {
+              "id": "047d2a62-5ea4-4274-bbe9-d17350e9fb9d",
+              "type": "COMMAND",
+              "title": "Add Todo",
+              "fields": [
+                {
+                  "name": "title"
+                },
+                {
+                  "name": "id",
+                  "example": "1"
+                }
+              ]
+            }
+          ],
+          "given": [
+            {
+              "id": "67e18b2f-9e06-46bb-8f5a-136239b5a636",
+              "type": "EVENT",
+              "title": "Todo Added",
+              "fields": [
+                {
+                  "name": "title"
+                },
+                {
+                  "name": "id",
+                  "example": "1"
+                }
+              ]
+            }
+          ],
+          "title": "Prevent duplicate items",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "duplicate item "
+        }
+      ]
+    }
+  },
+  "hash": "1979xei"
+}
