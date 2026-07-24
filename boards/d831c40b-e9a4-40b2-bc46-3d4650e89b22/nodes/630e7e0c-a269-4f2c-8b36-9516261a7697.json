@@ -2,8 +2,8 @@
   "id": "630e7e0c-a269-4f2c-8b36-9516261a7697",
   "type": "sticky_note",
   "position": {
-    "x": 995,
-    "y": 436
+    "x": 1444,
+    "y": 461
   },
   "parentId": "e5dbca1d-210d-48f7-924b-436afed143fe",
   "data": {},
@@ -13,11 +13,11 @@
     "fields": [],
     "compact": true,
     "context": "INTERNAL",
-    "listElement": false,
+    "listElement": true,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "elb0kb",
-  "timestamp": 1784894024278,
+  "hash": "1akfldc",
+  "timestamp": 1784894276024,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
