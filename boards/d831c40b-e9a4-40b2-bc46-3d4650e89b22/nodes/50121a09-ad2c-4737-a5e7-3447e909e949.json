@@ -26,7 +26,7 @@
         {
           "id": "ea0530a2-e61e-470f-99b1-59ccfb1ef7ba",
           "type": "swimlane",
-          "label": "Swimlane",
+          "label": "Workforce",
           "height": 320
         },
         {
@@ -51,6 +51,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1784893435582,
+  "timestamp": 1784893443770,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
