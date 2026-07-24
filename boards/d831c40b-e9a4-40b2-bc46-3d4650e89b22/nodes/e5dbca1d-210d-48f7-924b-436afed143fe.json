@@ -77,6 +77,10 @@
           "id": "c8296188-9b46-4b21-b0c2-54b43959893c"
         },
         {
+          "id": "29369f07-9a96-4775-ae63-85009b0e7e96",
+          "width": 450
+        },
+        {
           "id": "625f8fee-303c-43dc-b2de-a5fd25cf9c20"
         },
         {
@@ -86,6 +90,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1784893892641,
+  "timestamp": 1784894013834,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
