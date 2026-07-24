@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Available Drivers",
+    "title": "Assigned Drivers",
     "fields": [],
     "compact": true,
     "context": "INTERNAL",
@@ -17,7 +17,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "elb0kb",
-  "timestamp": 1784893910447,
+  "hash": "1ligkwy",
+  "timestamp": 1784894032729,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
