@@ -1,0 +1,26 @@
+{
+  "id": "6cba3315-d29f-4df2-95a7-a5de61ef0003",
+  "type": "image",
+  "position": {
+    "x": 1005,
+    "y": 88
+  },
+  "parentId": "e5dbca1d-210d-48f7-924b-436afed143fe",
+  "data": {
+    "url": "https://i.ibb.co/87MRc1f/image.png"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Available Drivers",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "sketched": false,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "ui17eq",
+  "timestamp": 1784894050363,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
