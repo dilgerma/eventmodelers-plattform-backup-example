@@ -10,7 +10,14 @@
   "meta": {
     "type": "EVENT",
     "title": "Event",
-    "context": "INTERNAL"
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "1bxmpa1"
+  "hash": "x3nxf6",
+  "timestamp": 1784875253079,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }

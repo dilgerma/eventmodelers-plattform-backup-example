@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "EVENT",
-    "title": "Closed Deal",
+    "title": "Closed Deal1",
     "fields": [],
     "compact": true,
     "context": "INTERNAL",
@@ -17,5 +17,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "17pp6bk"
+  "hash": "17e6wi9",
+  "timestamp": 1784875248703,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
