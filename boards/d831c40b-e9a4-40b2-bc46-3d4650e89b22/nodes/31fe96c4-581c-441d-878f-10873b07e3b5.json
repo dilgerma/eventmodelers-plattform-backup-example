@@ -8,9 +8,10 @@
   "parentId": "50121a09-ad2c-4737-a5e7-3447e909e949",
   "meta": {
     "type": "MARKDOWN",
-    "title": "Markdown"
+    "title": "Markdown",
+    "description": "Fields must not be empty."
   },
-  "hash": "1521dp3",
-  "timestamp": 1784893648336,
+  "hash": "g6jaow",
+  "timestamp": 1784893660026,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
