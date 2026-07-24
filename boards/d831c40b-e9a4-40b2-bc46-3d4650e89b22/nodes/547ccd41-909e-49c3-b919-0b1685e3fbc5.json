@@ -9,9 +9,30 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Command"
+    "title": "Command",
+    "fields": [
+      {
+        "pii": false,
+        "name": "field1",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "mfen13",
-  "timestamp": 1784893677805,
+  "hash": "1o9k6jq",
+  "timestamp": 1784893696232,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
