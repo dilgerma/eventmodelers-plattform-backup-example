@@ -41,11 +41,35 @@
           "examples": [],
           "expectError": false,
           "expectEmptyList": false
+        },
+        {
+          "id": "f0e39a68-40a4-4d00-b257-016226d5193e",
+          "then": [
+            {
+              "id": "630e7e0c-a269-4f2c-8b36-9516261a7697",
+              "type": "READMODEL",
+              "title": "Available Drivers",
+              "fields": []
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "5c5e54f1-bd4b-4905-98ed-86bc22523f80",
+              "type": "EVENT",
+              "title": "Driver registered",
+              "fields": []
+            }
+          ],
+          "title": "Scenario #2",
+          "examples": [],
+          "expectError": false,
+          "expectEmptyList": false
         }
       ]
     }
   },
-  "hash": "yvuvlm",
-  "timestamp": 1784894162954,
+  "hash": "1gu2i8e",
+  "timestamp": 1784894177888,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
