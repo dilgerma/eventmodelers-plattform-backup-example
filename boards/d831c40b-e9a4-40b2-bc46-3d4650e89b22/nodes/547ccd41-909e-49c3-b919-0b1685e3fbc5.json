@@ -17,7 +17,7 @@
         "type": "String",
         "query": false,
         "edited": false,
-        "optional": false,
+        "optional": true,
         "generated": false,
         "subfields": [],
         "cardinality": "Single",
@@ -32,7 +32,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1o9k6jq",
-  "timestamp": 1784893699147,
+  "hash": "1jbf1gt",
+  "timestamp": 1784893703322,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
