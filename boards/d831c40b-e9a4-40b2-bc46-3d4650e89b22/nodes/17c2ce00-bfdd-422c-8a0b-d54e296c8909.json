@@ -1,0 +1,39 @@
+{
+  "id": "17c2ce00-bfdd-422c-8a0b-d54e296c8909",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 756
+  },
+  "parentId": "e45a610a-553b-43e1-8a64-6f7a55eaef04",
+  "data": {
+    "linkedTo": "/app/board/d831c40b-e9a4-40b2-bc46-3d4650e89b22/?moveToWidget=948eb1bf-41a7-4a8a-8be3-1c23c031c7fd"
+  },
+  "meta": {
+    "type": "EVENT",
+    "title": "Adding Todo Failed",
+    "fields": [
+      {
+        "pii": false,
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "version": 1,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1dni9ff"
+}

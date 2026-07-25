@@ -1,0 +1,21 @@
+{
+  "id": "e6f8be5b-b9c4-49ba-b7f0-31c5e70cad53",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 436
+  },
+  "parentId": "e5dbca1d-210d-48f7-924b-436afed143fe",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Assign Driver",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "t56xqi"
+}

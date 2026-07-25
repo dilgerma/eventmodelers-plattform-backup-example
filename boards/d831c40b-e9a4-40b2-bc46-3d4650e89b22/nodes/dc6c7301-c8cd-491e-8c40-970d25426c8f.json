@@ -1,0 +1,20 @@
+{
+  "id": "dc6c7301-c8cd-491e-8c40-970d25426c8f",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "976b32fc-4486-4d4f-9d79-20479b1b7891",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "9034a8e7-7fa3-465d-99c3-3952e7038b57",
+    "title": "View Todo List"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "9034a8e7-7fa3-465d-99c3-3952e7038b57",
+    "title": "View Todo List"
+  },
+  "hash": "1890pap"
+}

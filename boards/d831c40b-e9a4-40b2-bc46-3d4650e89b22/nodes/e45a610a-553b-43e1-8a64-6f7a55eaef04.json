@@ -1,0 +1,62 @@
+{
+  "id": "e45a610a-553b-43e1-8a64-6f7a55eaef04",
+  "type": "timeline",
+  "position": {
+    "x": 984.5817993255628,
+    "y": 2202.6505308413575
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Failed todo Items",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "692dfd12-bc39-4cb5-82d4-0ac6d369964e",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "e1bd443b-33f7-4df0-a4e5-cd3be25629bc",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "8e94f2f2-6b4f-42f3-9a7c-b131472eea69",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "69b0d0e4-a4f4-4456-a78d-c6abb2d6ba34",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "8e94f2f2-6b4f-42f3-9a7c-b131472eea69-c6d9fd27-a873-4218-b364-8792abd051a5",
+          "colId": "c6d9fd27-a873-4218-b364-8792abd051a5",
+          "rowId": "8e94f2f2-6b4f-42f3-9a7c-b131472eea69",
+          "nodeId": "17c2ce00-bfdd-422c-8a0b-d54e296c8909",
+          "nodeType": "EVENT"
+        }
+      ],
+      "columns": [
+        {
+          "id": "c6d9fd27-a873-4218-b364-8792abd051a5"
+        },
+        {
+          "id": "d91c8118-6070-4d63-a07c-3bebe97aee15"
+        },
+        {
+          "id": "6110e999-7491-42d1-903a-88b43b1960e4"
+        }
+      ]
+    }
+  },
+  "hash": "1du7lhw"
+}

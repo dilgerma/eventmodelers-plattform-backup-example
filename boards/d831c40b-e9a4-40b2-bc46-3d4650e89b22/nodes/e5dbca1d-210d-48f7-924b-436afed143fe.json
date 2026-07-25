@@ -1,0 +1,125 @@
+{
+  "id": "e5dbca1d-210d-48f7-924b-436afed143fe",
+  "type": "timeline",
+  "position": {
+    "x": -3036.8706085690246,
+    "y": -1581.0363173143364
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "ab2ddb95-9206-406e-aa51-f33eb798066c",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "2e86c511-d1b2-4be7-b41e-06502e918bff",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "fcf1a597-aac1-413a-a85d-6b2831f636ad",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "1581ffea-c7aa-4f0c-a273-d9ea28ac2c6c",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "ab2ddb95-9206-406e-aa51-f33eb798066c-c8296188-9b46-4b21-b0c2-54b43959893c",
+          "colId": "c8296188-9b46-4b21-b0c2-54b43959893c",
+          "rowId": "ab2ddb95-9206-406e-aa51-f33eb798066c",
+          "nodeId": "0d96d538-3439-4c07-b786-903345aad742",
+          "nodeType": "SCREEN"
+        },
+        {
+          "id": "2e86c511-d1b2-4be7-b41e-06502e918bff-c8296188-9b46-4b21-b0c2-54b43959893c",
+          "colId": "c8296188-9b46-4b21-b0c2-54b43959893c",
+          "rowId": "2e86c511-d1b2-4be7-b41e-06502e918bff",
+          "nodeId": "e6f8be5b-b9c4-49ba-b7f0-31c5e70cad53",
+          "nodeType": "COMMAND"
+        },
+        {
+          "id": "fcf1a597-aac1-413a-a85d-6b2831f636ad-c8296188-9b46-4b21-b0c2-54b43959893c",
+          "colId": "c8296188-9b46-4b21-b0c2-54b43959893c",
+          "rowId": "fcf1a597-aac1-413a-a85d-6b2831f636ad",
+          "nodeId": "ec873a51-3911-4e09-8038-05583d452006",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "2e86c511-d1b2-4be7-b41e-06502e918bff-87ef5740-ff86-49bd-8398-56785b69dd3a",
+          "colId": "87ef5740-ff86-49bd-8398-56785b69dd3a",
+          "rowId": "2e86c511-d1b2-4be7-b41e-06502e918bff",
+          "nodeId": "83c65007-7ab8-4136-bbc7-9dae5b31456b",
+          "nodeType": "READMODEL"
+        },
+        {
+          "id": "2e86c511-d1b2-4be7-b41e-06502e918bff-29369f07-9a96-4775-ae63-85009b0e7e96",
+          "colId": "29369f07-9a96-4775-ae63-85009b0e7e96",
+          "rowId": "2e86c511-d1b2-4be7-b41e-06502e918bff",
+          "nodeId": "394d2e25-ee0b-48c5-92c1-b25a1f274953",
+          "nodeType": "READMODEL"
+        },
+        {
+          "id": "2e86c511-d1b2-4be7-b41e-06502e918bff-625f8fee-303c-43dc-b2de-a5fd25cf9c20",
+          "colId": "625f8fee-303c-43dc-b2de-a5fd25cf9c20",
+          "rowId": "2e86c511-d1b2-4be7-b41e-06502e918bff",
+          "nodeId": "630e7e0c-a269-4f2c-8b36-9516261a7697",
+          "nodeType": "READMODEL"
+        },
+        {
+          "id": "1581ffea-c7aa-4f0c-a273-d9ea28ac2c6c-625f8fee-303c-43dc-b2de-a5fd25cf9c20",
+          "colId": "625f8fee-303c-43dc-b2de-a5fd25cf9c20",
+          "rowId": "1581ffea-c7aa-4f0c-a273-d9ea28ac2c6c",
+          "nodeId": "e2c1e7eb-ba83-40af-8401-a7f91016c5e8",
+          "nodeType": "SCENARIO"
+        },
+        {
+          "id": "fcf1a597-aac1-413a-a85d-6b2831f636ad-fab16f6b-e2fa-4316-b4fa-3cd39284a47f",
+          "colId": "fab16f6b-e2fa-4316-b4fa-3cd39284a47f",
+          "rowId": "fcf1a597-aac1-413a-a85d-6b2831f636ad",
+          "nodeId": "5c5e54f1-bd4b-4905-98ed-86bc22523f80",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "ab2ddb95-9206-406e-aa51-f33eb798066c-625f8fee-303c-43dc-b2de-a5fd25cf9c20",
+          "colId": "625f8fee-303c-43dc-b2de-a5fd25cf9c20",
+          "rowId": "ab2ddb95-9206-406e-aa51-f33eb798066c",
+          "nodeId": "6620d481-9958-45cd-a4f9-f1658a5fea6b",
+          "nodeType": "SCREEN"
+        }
+      ],
+      "columns": [
+        {
+          "id": "fab16f6b-e2fa-4316-b4fa-3cd39284a47f",
+          "width": 450
+        },
+        {
+          "id": "c8296188-9b46-4b21-b0c2-54b43959893c"
+        },
+        {
+          "id": "29369f07-9a96-4775-ae63-85009b0e7e96",
+          "width": 450
+        },
+        {
+          "id": "625f8fee-303c-43dc-b2de-a5fd25cf9c20"
+        },
+        {
+          "id": "87ef5740-ff86-49bd-8398-56785b69dd3a"
+        }
+      ]
+    }
+  },
+  "hash": "r4o6ix"
+}

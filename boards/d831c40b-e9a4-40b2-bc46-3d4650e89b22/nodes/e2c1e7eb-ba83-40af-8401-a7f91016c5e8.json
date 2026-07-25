@@ -1,0 +1,73 @@
+{
+  "id": "e2c1e7eb-ba83-40af-8401-a7f91016c5e8",
+  "type": "spec_node",
+  "position": {
+    "x": 1396.5,
+    "y": 1060.8
+  },
+  "parentId": "e5dbca1d-210d-48f7-924b-436afed143fe",
+  "data": {},
+  "meta": {
+    "type": "SCENARIO",
+    "title": "Specifications",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "d27159e1-a805-46c7-8f8b-6b4127786946",
+          "then": [
+            {
+              "id": "630e7e0c-a269-4f2c-8b36-9516261a7697",
+              "type": "READMODEL",
+              "title": "Available Drivers",
+              "fields": []
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "5c5e54f1-bd4b-4905-98ed-86bc22523f80",
+              "type": "EVENT",
+              "title": "Driver registered",
+              "fields": []
+            },
+            {
+              "id": "ec873a51-3911-4e09-8038-05583d452006",
+              "type": "EVENT",
+              "title": "Driver Assigned",
+              "fields": []
+            }
+          ],
+          "title": "Scenario #1",
+          "examples": [],
+          "expectError": false,
+          "expectEmptyList": false
+        },
+        {
+          "id": "f0e39a68-40a4-4d00-b257-016226d5193e",
+          "then": [
+            {
+              "id": "630e7e0c-a269-4f2c-8b36-9516261a7697",
+              "type": "READMODEL",
+              "title": "Available Drivers",
+              "fields": []
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "5c5e54f1-bd4b-4905-98ed-86bc22523f80",
+              "type": "EVENT",
+              "title": "Driver registered",
+              "fields": []
+            }
+          ],
+          "title": "Scenario #2",
+          "examples": [],
+          "expectError": false,
+          "expectEmptyList": false
+        }
+      ]
+    }
+  },
+  "hash": "1gu2i8e"
+}

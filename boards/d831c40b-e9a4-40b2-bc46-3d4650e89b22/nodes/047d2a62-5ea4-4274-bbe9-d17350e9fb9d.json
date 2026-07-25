@@ -1,0 +1,50 @@
+{
+  "id": "047d2a62-5ea4-4274-bbe9-d17350e9fb9d",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 436
+  },
+  "parentId": "976b32fc-4486-4d4f-9d79-20479b1b7891",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Add Todo",
+    "fields": [
+      {
+        "pii": false,
+        "name": "title",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1nv0pvp"
+}

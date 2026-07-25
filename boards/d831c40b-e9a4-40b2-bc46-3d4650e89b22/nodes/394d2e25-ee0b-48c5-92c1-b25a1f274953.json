@@ -1,0 +1,21 @@
+{
+  "id": "394d2e25-ee0b-48c5-92c1-b25a1f274953",
+  "type": "sticky_note",
+  "position": {
+    "x": 545,
+    "y": 436
+  },
+  "parentId": "e5dbca1d-210d-48f7-924b-436afed143fe",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "Assigned Drivers",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1ligkwy"
+}

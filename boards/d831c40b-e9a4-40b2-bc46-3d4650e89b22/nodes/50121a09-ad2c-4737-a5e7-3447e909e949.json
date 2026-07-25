@@ -1,0 +1,95 @@
+{
+  "id": "50121a09-ad2c-4737-a5e7-3447e909e949",
+  "type": "timeline",
+  "position": {
+    "x": -608.2873391752473,
+    "y": -1598.402677344733
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Overview",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "a0e1fbbf-99db-4dc1-bd47-e881f2e023d9",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "b297fb2b-1bf7-4387-9797-478d7284ae71",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "ea0530a2-e61e-470f-99b1-59ccfb1ef7ba",
+          "type": "swimlane",
+          "label": "Workforce",
+          "height": 320
+        },
+        {
+          "id": "0708d487-2057-4790-b8d6-778afa98acea",
+          "type": "swimlane",
+          "label": "System 2",
+          "height": 320
+        },
+        {
+          "id": "712300cd-af34-4dc2-8164-761285d3007d",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        },
+        {
+          "id": "bdeaa88e-d965-49ea-aaca-ee6b2c0211fb",
+          "type": "feedback",
+          "label": "Feedback",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "0708d487-2057-4790-b8d6-778afa98acea-2ec00830-1466-4175-97ca-5b238fabfbc8",
+          "colId": "2ec00830-1466-4175-97ca-5b238fabfbc8",
+          "rowId": "0708d487-2057-4790-b8d6-778afa98acea",
+          "nodeId": "ae94b554-922d-412b-943a-d9699530532e",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "ea0530a2-e61e-470f-99b1-59ccfb1ef7ba-7040b9ae-59dd-42d7-9289-de1e68d4b462",
+          "colId": "7040b9ae-59dd-42d7-9289-de1e68d4b462",
+          "rowId": "ea0530a2-e61e-470f-99b1-59ccfb1ef7ba",
+          "nodeId": "877e1209-82f0-4b7e-af60-5e267fcbabf2",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "bdeaa88e-d965-49ea-aaca-ee6b2c0211fb-2ec00830-1466-4175-97ca-5b238fabfbc8",
+          "colId": "2ec00830-1466-4175-97ca-5b238fabfbc8",
+          "rowId": "bdeaa88e-d965-49ea-aaca-ee6b2c0211fb",
+          "nodeId": "31fe96c4-581c-441d-878f-10873b07e3b5",
+          "nodeType": "MARKDOWN"
+        },
+        {
+          "id": "b297fb2b-1bf7-4387-9797-478d7284ae71-7040b9ae-59dd-42d7-9289-de1e68d4b462",
+          "colId": "7040b9ae-59dd-42d7-9289-de1e68d4b462",
+          "rowId": "b297fb2b-1bf7-4387-9797-478d7284ae71",
+          "nodeId": "547ccd41-909e-49c3-b919-0b1685e3fbc5",
+          "nodeType": "COMMAND"
+        }
+      ],
+      "columns": [
+        {
+          "id": "2ec00830-1466-4175-97ca-5b238fabfbc8"
+        },
+        {
+          "id": "7040b9ae-59dd-42d7-9289-de1e68d4b462"
+        },
+        {
+          "id": "d40660d9-b898-4325-81c9-25f91aedd4d9"
+        }
+      ]
+    }
+  },
+  "hash": "jifp55"
+}

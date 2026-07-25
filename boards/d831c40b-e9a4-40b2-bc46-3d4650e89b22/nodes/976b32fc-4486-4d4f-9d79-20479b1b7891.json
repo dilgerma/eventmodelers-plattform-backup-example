@@ -1,0 +1,109 @@
+{
+  "id": "976b32fc-4486-4d4f-9d79-20479b1b7891",
+  "type": "timeline",
+  "position": {
+    "x": 671.5,
+    "y": 474.5
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "TODO",
+    "modelContext": "b4a87998-769e-4960-9d1a-261db3994322",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "4d94536d-d9e6-4795-9c43-f8ae11c37f0f",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "ee413bee-b928-45f8-91aa-71081193d369",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "def2dd07-1fed-447f-b492-0d928f086dc0",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "e2ac0cff-0c0b-4b26-85ae-6e1da1f8093a",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "def2dd07-1fed-447f-b492-0d928f086dc0-46ede5b0-89c4-45eb-85a3-bfa28f4f2c9c",
+          "colId": "46ede5b0-89c4-45eb-85a3-bfa28f4f2c9c",
+          "rowId": "def2dd07-1fed-447f-b492-0d928f086dc0",
+          "nodeId": "67e18b2f-9e06-46bb-8f5a-136239b5a636",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "ee413bee-b928-45f8-91aa-71081193d369-46ede5b0-89c4-45eb-85a3-bfa28f4f2c9c",
+          "colId": "46ede5b0-89c4-45eb-85a3-bfa28f4f2c9c",
+          "rowId": "ee413bee-b928-45f8-91aa-71081193d369",
+          "nodeId": "047d2a62-5ea4-4274-bbe9-d17350e9fb9d",
+          "nodeType": "COMMAND"
+        },
+        {
+          "id": "4d94536d-d9e6-4795-9c43-f8ae11c37f0f-46ede5b0-89c4-45eb-85a3-bfa28f4f2c9c",
+          "colId": "46ede5b0-89c4-45eb-85a3-bfa28f4f2c9c",
+          "rowId": "4d94536d-d9e6-4795-9c43-f8ae11c37f0f",
+          "nodeId": "b53d0795-c4c7-4061-830a-cb216b0edf9d",
+          "nodeType": "SCREEN"
+        },
+        {
+          "id": "e2ac0cff-0c0b-4b26-85ae-6e1da1f8093a-46ede5b0-89c4-45eb-85a3-bfa28f4f2c9c",
+          "colId": "46ede5b0-89c4-45eb-85a3-bfa28f4f2c9c",
+          "rowId": "e2ac0cff-0c0b-4b26-85ae-6e1da1f8093a",
+          "nodeId": "f47c42ac-4bb9-4fff-9983-33abde4737cc",
+          "nodeType": "SCENARIO"
+        },
+        {
+          "id": "ee413bee-b928-45f8-91aa-71081193d369-9034a8e7-7fa3-465d-99c3-3952e7038b57",
+          "colId": "9034a8e7-7fa3-465d-99c3-3952e7038b57",
+          "rowId": "ee413bee-b928-45f8-91aa-71081193d369",
+          "nodeId": "792e0b9b-ee19-4100-9e97-99da518fac60",
+          "nodeType": "READMODEL"
+        },
+        {
+          "id": "4d94536d-d9e6-4795-9c43-f8ae11c37f0f-9034a8e7-7fa3-465d-99c3-3952e7038b57",
+          "colId": "9034a8e7-7fa3-465d-99c3-3952e7038b57",
+          "rowId": "4d94536d-d9e6-4795-9c43-f8ae11c37f0f",
+          "nodeId": "f4dac09a-3573-4c8f-a69a-4f2d93af93c5",
+          "nodeType": "SCREEN"
+        },
+        {
+          "id": "def2dd07-1fed-447f-b492-0d928f086dc0-8c06ff3d-f417-402a-b360-c46a67ac356c",
+          "colId": "8c06ff3d-f417-402a-b360-c46a67ac356c",
+          "rowId": "def2dd07-1fed-447f-b492-0d928f086dc0",
+          "nodeId": "948eb1bf-41a7-4a8a-8be3-1c23c031c7fd",
+          "nodeType": "EVENT"
+        }
+      ],
+      "columns": [
+        {
+          "id": "46ede5b0-89c4-45eb-85a3-bfa28f4f2c9c"
+        },
+        {
+          "id": "8c06ff3d-f417-402a-b360-c46a67ac356c",
+          "width": 450
+        },
+        {
+          "id": "9034a8e7-7fa3-465d-99c3-3952e7038b57"
+        },
+        {
+          "id": "cdbe40c5-dcd2-45b3-a6ff-c9362c6add17"
+        }
+      ]
+    }
+  },
+  "hash": "itip8w"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "83c65007-7ab8-4136-bbc7-9dae5b31456b",
+  "type": "sticky_note",
+  "position": {
+    "x": 995,
+    "y": 436
+  },
+  "parentId": "e5dbca1d-210d-48f7-924b-436afed143fe",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "Round",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1tpp77x"
+}

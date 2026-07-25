@@ -1,0 +1,21 @@
+{
+  "id": "ae94b554-922d-412b-943a-d9699530532e",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 1076
+  },
+  "parentId": "50121a09-ad2c-4737-a5e7-3447e909e949",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Event",
+    "fields": [],
+    "compact": true,
+    "context": "EXTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1amgr1k"
+}

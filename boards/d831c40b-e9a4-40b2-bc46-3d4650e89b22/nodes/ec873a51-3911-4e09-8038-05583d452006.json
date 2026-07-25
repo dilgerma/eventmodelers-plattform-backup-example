@@ -1,0 +1,21 @@
+{
+  "id": "ec873a51-3911-4e09-8038-05583d452006",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 756
+  },
+  "parentId": "e5dbca1d-210d-48f7-924b-436afed143fe",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Driver Assigned",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "16iq08w"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "630e7e0c-a269-4f2c-8b36-9516261a7697",
+  "type": "sticky_note",
+  "position": {
+    "x": 1444,
+    "y": 461
+  },
+  "parentId": "e5dbca1d-210d-48f7-924b-436afed143fe",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "Available Drivers",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": true,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1akfldc"
+}
