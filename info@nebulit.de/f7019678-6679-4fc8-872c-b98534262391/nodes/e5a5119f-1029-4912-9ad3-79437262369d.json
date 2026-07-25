@@ -1,5 +1,6 @@
 {
   "id": "e5a5119f-1029-4912-9ad3-79437262369d",
+  "type": "COMMAND",
   "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
   "data": {
     "title": "AddTodoItem",
@@ -7,7 +8,7 @@
   },
   "meta": {
     "type": "COMMAND",
-    "title": "AddTodoItem",
+    "title": "foolala",
     "fields": [
       {
         "name": "todoId",
@@ -23,7 +24,12 @@
         "example": "Buy milk",
         "cardinality": "Single"
       }
+    ],
+    "changedAttributes": [
+      "meta.title"
     ]
   },
-  "hash": "8eocre"
+  "hash": "27e0qg",
+  "timestamp": 1712920000000,
+  "userId": null
 }
