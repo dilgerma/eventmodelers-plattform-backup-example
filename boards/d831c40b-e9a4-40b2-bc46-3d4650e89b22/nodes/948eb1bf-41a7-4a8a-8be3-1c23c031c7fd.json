@@ -2,7 +2,7 @@
   "id": "948eb1bf-41a7-4a8a-8be3-1c23c031c7fd",
   "type": "sticky_note",
   "position": {
-    "x": 545,
+    "x": 995,
     "y": 756
   },
   "parentId": "976b32fc-4486-4d4f-9d79-20479b1b7891",
@@ -33,5 +33,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1dni9ff"
+  "hash": "cxkjbv",
+  "timestamp": 1784954965116,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
