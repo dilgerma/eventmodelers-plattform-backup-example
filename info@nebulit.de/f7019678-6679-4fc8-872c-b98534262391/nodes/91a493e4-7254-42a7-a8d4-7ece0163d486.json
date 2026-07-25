@@ -1,0 +1,64 @@
+{
+  "id": "91a493e4-7254-42a7-a8d4-7ece0163d486",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 436
+  },
+  "parentId": "c9657bef-45df-49e1-8a9b-421ad304ce84",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Foo",
+    "fields": [
+      {
+        "pii": false,
+        "name": "so",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "sd",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": true,
+        "name": "fsd",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": true,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "19x7eum"
+}

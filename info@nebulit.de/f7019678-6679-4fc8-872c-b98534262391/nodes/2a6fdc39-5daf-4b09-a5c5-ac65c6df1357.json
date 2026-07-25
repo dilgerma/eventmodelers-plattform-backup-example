@@ -1,0 +1,16 @@
+{
+  "id": "2a6fdc39-5daf-4b09-a5c5-ac65c6df1357",
+  "type": "image",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": "Complete Todo Item"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Complete Todo Item",
+    "fields": [],
+    "sketched": true,
+    "description": "Complete Todo Item action"
+  },
+  "hash": "1hffu5z"
+}

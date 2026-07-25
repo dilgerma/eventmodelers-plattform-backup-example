@@ -1,0 +1,84 @@
+{
+  "id": "c9657bef-45df-49e1-8a9b-421ad304ce84",
+  "type": "timeline",
+  "position": {
+    "x": 1723.4195712754681,
+    "y": 745.6226732692497
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "asd",
+    "modelContext": "5605fe5c-87e4-466e-bf5f-2c1c14f50c04",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "7b55979f-b3db-4c6b-ab01-80ccf8281bf4",
+          "type": "actor",
+          "label": "freile",
+          "height": 320
+        },
+        {
+          "id": "28e1dd90-1124-4242-9577-22e08d300346",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "cac6b3ba-d1b1-4a5d-bbe7-e2a0c8d901e2",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "89b64453-6fdd-4521-a456-7a6a39d3e6ba",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "7b55979f-b3db-4c6b-ab01-80ccf8281bf4-28c9002a-1310-4b71-b5e1-e2ade3206638",
+          "colId": "28c9002a-1310-4b71-b5e1-e2ade3206638",
+          "rowId": "7b55979f-b3db-4c6b-ab01-80ccf8281bf4",
+          "nodeId": "7e15be60-f8e4-4eba-871c-56f024187137",
+          "nodeType": "SCREEN"
+        },
+        {
+          "id": "28e1dd90-1124-4242-9577-22e08d300346-28c9002a-1310-4b71-b5e1-e2ade3206638",
+          "colId": "28c9002a-1310-4b71-b5e1-e2ade3206638",
+          "rowId": "28e1dd90-1124-4242-9577-22e08d300346",
+          "nodeId": "91a493e4-7254-42a7-a8d4-7ece0163d486",
+          "nodeType": "COMMAND"
+        },
+        {
+          "id": "cac6b3ba-d1b1-4a5d-bbe7-e2a0c8d901e2-a04ce706-a3a8-4a7c-ab8f-cd01906d148d",
+          "colId": "a04ce706-a3a8-4a7c-ab8f-cd01906d148d",
+          "rowId": "cac6b3ba-d1b1-4a5d-bbe7-e2a0c8d901e2",
+          "nodeId": "e52e0f57-4c40-4e50-ad63-8b6b523cff14",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "cac6b3ba-d1b1-4a5d-bbe7-e2a0c8d901e2-28c9002a-1310-4b71-b5e1-e2ade3206638",
+          "colId": "28c9002a-1310-4b71-b5e1-e2ade3206638",
+          "rowId": "cac6b3ba-d1b1-4a5d-bbe7-e2a0c8d901e2",
+          "nodeId": "a3cbb307-dc23-4799-9b24-4a63ce22145a",
+          "nodeType": "EVENT"
+        }
+      ],
+      "columns": [
+        {
+          "id": "28c9002a-1310-4b71-b5e1-e2ade3206638"
+        },
+        {
+          "id": "a04ce706-a3a8-4a7c-ab8f-cd01906d148d"
+        },
+        {
+          "id": "4c04b525-2ca9-4cb1-99a5-dab2fe84c466"
+        }
+      ]
+    }
+  },
+  "hash": "qdtt6s"
+}

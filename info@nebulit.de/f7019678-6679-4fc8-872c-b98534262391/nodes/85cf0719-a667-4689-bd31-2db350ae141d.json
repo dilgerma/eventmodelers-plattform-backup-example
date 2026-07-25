@@ -1,0 +1,16 @@
+{
+  "id": "85cf0719-a667-4689-bd31-2db350ae141d",
+  "type": "image",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": "Todo List"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Todo List",
+    "fields": [],
+    "sketched": true,
+    "description": "Todo List view"
+  },
+  "hash": "79ed2c"
+}

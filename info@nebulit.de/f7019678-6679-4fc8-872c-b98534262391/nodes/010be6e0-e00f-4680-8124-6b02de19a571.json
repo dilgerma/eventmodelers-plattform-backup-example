@@ -1,0 +1,20 @@
+{
+  "id": "010be6e0-e00f-4680-8124-6b02de19a571",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "4f954774-7701-47c2-bbfc-dd8b136c3a7e",
+    "title": "AddTodoItem"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "4f954774-7701-47c2-bbfc-dd8b136c3a7e",
+    "title": "AddTodoItem"
+  },
+  "hash": "16i1esu"
+}

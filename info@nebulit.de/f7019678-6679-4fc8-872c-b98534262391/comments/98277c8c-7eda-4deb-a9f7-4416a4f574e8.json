@@ -1,0 +1,11 @@
+{
+  "id": "98277c8c-7eda-4deb-a9f7-4416a4f574e8",
+  "nodeId": "f1838a47-9667-4f98-9ea6-0ad4aac7da92",
+  "boardId": "f7019678-6679-4fc8-872c-b98534262391",
+  "text": "VALIDATION (CRITICAL): field \"todoId\" has no defined source. No Read Model feeds the \"Complete Todo Item\" screen so the actor can pick which todo to act on, and the field is not marked generated. Add a minimal command-state Read Model (e.g. open/pending todo items with id+title) connected to this screen, so todoId origin is traceable and the command can validate against current state (does it exist? is it already completed?).",
+  "type": "TASK",
+  "timestamp": 1785009756692,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "agent"
+}

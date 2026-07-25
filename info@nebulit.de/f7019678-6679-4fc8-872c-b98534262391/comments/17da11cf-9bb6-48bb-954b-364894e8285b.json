@@ -1,0 +1,11 @@
+{
+  "id": "17da11cf-9bb6-48bb-954b-364894e8285b",
+  "nodeId": "e5a5119f-1029-4912-9ad3-79437262369d",
+  "boardId": "f7019678-6679-4fc8-872c-b98534262391",
+  "text": "VALIDATION: no Given/When/Then scenarios are defined for AddTodoItem. What happens on an empty or duplicate title? Is there a max length? Add scenarios (happy path + error cases) to make validation rules explicit.",
+  "type": "COMMENT",
+  "timestamp": 1785009795853,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "agent"
+}

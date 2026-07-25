@@ -1,0 +1,33 @@
+{
+  "id": "f1ae0de1-385b-4bfe-b865-eeec999096e6",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": "TodoItemAdded"
+  },
+  "meta": {
+    "type": "EVENT",
+    "title": "TodoItemAdded",
+    "fields": [
+      {
+        "name": "todoId",
+        "type": "String",
+        "example": "todo-123",
+        "cardinality": "Single",
+        "idAttribute": true
+      },
+      {
+        "name": "title",
+        "type": "String",
+        "example": "Buy milk",
+        "cardinality": "Single"
+      },
+      {
+        "name": "createdAt",
+        "type": "DateTime",
+        "example": "2026-07-25T10:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "yl7jpv"
+}

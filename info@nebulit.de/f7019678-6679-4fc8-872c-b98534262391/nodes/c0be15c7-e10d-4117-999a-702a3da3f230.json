@@ -1,0 +1,122 @@
+{
+  "id": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "type": "timeline",
+  "position": {
+    "x": -1439.5639065068726,
+    "y": 544.6285595417021
+  },
+  "data": {
+    "hasComments": true
+  },
+  "meta": {
+    "type": "CHAPTER",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "c3832826-222e-467c-ba5f-c81364707dfe",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "06c48ed4-9774-452b-bc83-a6261c050a91",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "4668bff7-2be1-412a-bee6-71b6b81805e4",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "78480587-beae-4b03-9b7c-0af36ad286f2",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "c3832826-222e-467c-ba5f-c81364707dfe-4f954774-7701-47c2-bbfc-dd8b136c3a7e",
+          "colId": "4f954774-7701-47c2-bbfc-dd8b136c3a7e",
+          "rowId": "c3832826-222e-467c-ba5f-c81364707dfe",
+          "nodeId": "f8f0052c-0f6c-430f-a807-4397bd4906ff",
+          "nodeType": "SCREEN"
+        },
+        {
+          "id": "06c48ed4-9774-452b-bc83-a6261c050a91-4f954774-7701-47c2-bbfc-dd8b136c3a7e",
+          "colId": "4f954774-7701-47c2-bbfc-dd8b136c3a7e",
+          "rowId": "06c48ed4-9774-452b-bc83-a6261c050a91",
+          "nodeId": "e5a5119f-1029-4912-9ad3-79437262369d",
+          "nodeType": "COMMAND"
+        },
+        {
+          "id": "4668bff7-2be1-412a-bee6-71b6b81805e4-4f954774-7701-47c2-bbfc-dd8b136c3a7e",
+          "colId": "4f954774-7701-47c2-bbfc-dd8b136c3a7e",
+          "rowId": "4668bff7-2be1-412a-bee6-71b6b81805e4",
+          "nodeId": "f1ae0de1-385b-4bfe-b865-eeec999096e6",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "c3832826-222e-467c-ba5f-c81364707dfe-c2402350-144e-4c7e-aae6-e1337c53da98",
+          "colId": "c2402350-144e-4c7e-aae6-e1337c53da98",
+          "rowId": "c3832826-222e-467c-ba5f-c81364707dfe",
+          "nodeId": "2a6fdc39-5daf-4b09-a5c5-ac65c6df1357",
+          "nodeType": "SCREEN"
+        },
+        {
+          "id": "06c48ed4-9774-452b-bc83-a6261c050a91-c2402350-144e-4c7e-aae6-e1337c53da98",
+          "colId": "c2402350-144e-4c7e-aae6-e1337c53da98",
+          "rowId": "06c48ed4-9774-452b-bc83-a6261c050a91",
+          "nodeId": "f1838a47-9667-4f98-9ea6-0ad4aac7da92",
+          "nodeType": "COMMAND"
+        },
+        {
+          "id": "4668bff7-2be1-412a-bee6-71b6b81805e4-c2402350-144e-4c7e-aae6-e1337c53da98",
+          "colId": "c2402350-144e-4c7e-aae6-e1337c53da98",
+          "rowId": "4668bff7-2be1-412a-bee6-71b6b81805e4",
+          "nodeId": "37d19412-c874-4748-8613-fe471126d06e",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "06c48ed4-9774-452b-bc83-a6261c050a91-c2979ead-c507-4f36-a923-ed5183886568",
+          "colId": "c2979ead-c507-4f36-a923-ed5183886568",
+          "rowId": "06c48ed4-9774-452b-bc83-a6261c050a91",
+          "nodeId": "c1806c73-1044-4fcf-bbec-5939f1383907",
+          "nodeType": "READMODEL"
+        },
+        {
+          "id": "c3832826-222e-467c-ba5f-c81364707dfe-c2979ead-c507-4f36-a923-ed5183886568",
+          "colId": "c2979ead-c507-4f36-a923-ed5183886568",
+          "rowId": "c3832826-222e-467c-ba5f-c81364707dfe",
+          "nodeId": "85cf0719-a667-4689-bd31-2db350ae141d",
+          "nodeType": "SCREEN"
+        },
+        {
+          "id": "4668bff7-2be1-412a-bee6-71b6b81805e4-c2979ead-c507-4f36-a923-ed5183886568",
+          "colId": "c2979ead-c507-4f36-a923-ed5183886568",
+          "rowId": "4668bff7-2be1-412a-bee6-71b6b81805e4",
+          "nodeId": "e17911cd-1b2e-4af2-a1c5-76d1df321175",
+          "nodeType": "EVENT"
+        }
+      ],
+      "columns": [
+        {
+          "id": "4f954774-7701-47c2-bbfc-dd8b136c3a7e",
+          "width": 450
+        },
+        {
+          "id": "c2402350-144e-4c7e-aae6-e1337c53da98",
+          "width": 450
+        },
+        {
+          "id": "c2979ead-c507-4f36-a923-ed5183886568",
+          "width": 450
+        }
+      ]
+    }
+  },
+  "hash": "1274amw"
+}

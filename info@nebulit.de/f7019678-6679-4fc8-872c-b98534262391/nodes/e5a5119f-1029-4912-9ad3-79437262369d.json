@@ -1,0 +1,29 @@
+{
+  "id": "e5a5119f-1029-4912-9ad3-79437262369d",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": "AddTodoItem",
+    "hasComments": true
+  },
+  "meta": {
+    "type": "COMMAND",
+    "title": "AddTodoItem",
+    "fields": [
+      {
+        "name": "todoId",
+        "type": "String",
+        "example": "todo-123",
+        "generated": true,
+        "cardinality": "Single",
+        "idAttribute": true
+      },
+      {
+        "name": "title",
+        "type": "String",
+        "example": "Buy milk",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "8eocre"
+}

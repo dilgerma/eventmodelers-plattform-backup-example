@@ -1,0 +1,64 @@
+{
+  "id": "e52e0f57-4c40-4e50-ad63-8b6b523cff14",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 756
+  },
+  "parentId": "c9657bef-45df-49e1-8a9b-421ad304ce84",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Foo",
+    "fields": [
+      {
+        "pii": false,
+        "name": "so",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "sd",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": true,
+        "name": "fsd",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": true,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "kejmg5"
+}

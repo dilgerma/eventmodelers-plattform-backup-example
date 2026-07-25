@@ -1,0 +1,22 @@
+{
+  "id": "f1838a47-9667-4f98-9ea6-0ad4aac7da92",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": "CompleteTodoItem",
+    "hasComments": true
+  },
+  "meta": {
+    "type": "COMMAND",
+    "title": "CompleteTodoItem",
+    "fields": [
+      {
+        "name": "todoId",
+        "type": "String",
+        "example": "todo-123",
+        "cardinality": "Single",
+        "idAttribute": true
+      }
+    ]
+  },
+  "hash": "1c6nul0"
+}

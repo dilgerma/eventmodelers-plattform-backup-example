@@ -1,0 +1,40 @@
+{
+  "id": "c1806c73-1044-4fcf-bbec-5939f1383907",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": "TodoListView"
+  },
+  "meta": {
+    "type": "READMODEL",
+    "title": "TodoListView",
+    "fields": [
+      {
+        "name": "items",
+        "type": "Object",
+        "subfields": [
+          {
+            "name": "todoId",
+            "type": "String",
+            "example": "todo-123",
+            "cardinality": "Single",
+            "idAttribute": true
+          },
+          {
+            "name": "title",
+            "type": "String",
+            "example": "Buy milk",
+            "cardinality": "Single"
+          },
+          {
+            "name": "completed",
+            "type": "Boolean",
+            "example": "false",
+            "cardinality": "Single"
+          }
+        ],
+        "cardinality": "List"
+      }
+    ]
+  },
+  "hash": "c0ymkc"
+}

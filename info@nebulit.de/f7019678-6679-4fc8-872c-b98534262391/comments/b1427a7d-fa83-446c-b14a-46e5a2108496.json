@@ -1,0 +1,11 @@
+{
+  "id": "b1427a7d-fa83-446c-b14a-46e5a2108496",
+  "nodeId": "f1838a47-9667-4f98-9ea6-0ad4aac7da92",
+  "boardId": "f7019678-6679-4fc8-872c-b98534262391",
+  "text": "VALIDATION: no Given/When/Then scenarios are defined for CompleteTodoItem. What happens if todoId does not exist, or is already completed (double-completion)? Add scenarios covering these error cases once the command has a state source for todoId (see other comment on this node).",
+  "type": "COMMENT",
+  "timestamp": 1785009796365,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "agent"
+}

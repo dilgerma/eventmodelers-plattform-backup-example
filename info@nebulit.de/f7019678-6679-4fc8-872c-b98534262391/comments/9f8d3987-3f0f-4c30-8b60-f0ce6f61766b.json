@@ -1,0 +1,11 @@
+{
+  "id": "9f8d3987-3f0f-4c30-8b60-f0ce6f61766b",
+  "nodeId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "boardId": "f7019678-6679-4fc8-872c-b98534262391",
+  "text": "VALIDATION (CRITICAL): no Role Catalog exists on this board (no ACTOR nodes found) and neither AddTodoItem nor CompleteTodoItem is attributed to a specific human role — both are implicitly \"User\". Define a Role Catalog (e.g. \"Owner\", or distinguish end-users if relevant) and attribute each command explicitly.",
+  "type": "TASK",
+  "timestamp": 1785009776150,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "agent"
+}

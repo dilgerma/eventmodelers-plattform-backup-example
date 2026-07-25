@@ -1,0 +1,18 @@
+{
+  "id": "7e15be60-f8e4-4eba-871c-56f024187137",
+  "type": "image",
+  "position": {
+    "x": 105,
+    "y": 88
+  },
+  "parentId": "c9657bef-45df-49e1-8a9b-421ad304ce84",
+  "data": {
+    "url": "https://i.ibb.co/87MRc1f/image.png"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Screen",
+    "sketched": false
+  },
+  "hash": "141esu7"
+}

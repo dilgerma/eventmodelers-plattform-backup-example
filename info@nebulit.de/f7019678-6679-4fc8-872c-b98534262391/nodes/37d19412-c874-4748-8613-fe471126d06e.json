@@ -1,0 +1,27 @@
+{
+  "id": "37d19412-c874-4748-8613-fe471126d06e",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": "TodoItemCompleted"
+  },
+  "meta": {
+    "type": "EVENT",
+    "title": "TodoItemCompleted",
+    "fields": [
+      {
+        "name": "todoId",
+        "type": "String",
+        "example": "todo-123",
+        "cardinality": "Single",
+        "idAttribute": true
+      },
+      {
+        "name": "completedAt",
+        "type": "DateTime",
+        "example": "2026-07-25T12:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "i33448"
+}
