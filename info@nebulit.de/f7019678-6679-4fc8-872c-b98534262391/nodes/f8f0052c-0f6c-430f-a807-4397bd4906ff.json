@@ -10,9 +10,9 @@
     "title": "Add Todo Item",
     "fields": [],
     "sketched": true,
-    "description": "Add Todo Item form"
+    "description": "A checkers-themed 'Add Todo Item' form. The full canvas is covered by a red-and-black checkerboard pattern, with a black header bar at the top reading 'Add Todo Item' in white. A white form panel sits centered on the board, flanked at its four corners by checker-piece style concentric circles (alternating red and black). Inside the panel is the label 'What needs doing?', a text input pre-filled with 'Buy milk', and a red 'Add Item' button styled like a checkers piece, flanked by a black and a red checker-piece decoration."
   },
-  "hash": null,
-  "timestamp": 1785063585868,
+  "hash": "xsqnz",
+  "timestamp": 1785063586151,
   "userId": null
 }
