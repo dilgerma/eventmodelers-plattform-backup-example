@@ -3,7 +3,7 @@
   "type": "COMMAND",
   "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
   "data": {
-    "title": "AddTodoItem",
+    "title": "foolala",
     "hasComments": true
   },
   "meta": {
@@ -26,10 +26,10 @@
       }
     ],
     "changedAttributes": [
-      "meta.title"
+      "data.title"
     ]
   },
   "hash": "27e0qg",
-  "timestamp": 1712920000000,
+  "timestamp": 1785037161296,
   "userId": null
 }
