@@ -1,10 +1,12 @@
 {
   "id": "f1838a47-9667-4f98-9ea6-0ad4aac7da92",
-  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
-  "data": {
-    "title": "CompleteTodoItem",
-    "hasComments": true
+  "type": "sticky_note",
+  "position": {
+    "x": 545,
+    "y": 436
   },
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {},
   "meta": {
     "type": "COMMAND",
     "title": "CompleteTodoItem",
@@ -13,10 +15,14 @@
         "name": "todoId",
         "type": "String",
         "example": "todo-123",
+        "subfields": [],
         "cardinality": "Single",
         "idAttribute": true
       }
-    ]
+    ],
+    "version": 2
   },
-  "hash": "1c6nul0"
+  "hash": "dm7tov",
+  "timestamp": 1785064073810,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
