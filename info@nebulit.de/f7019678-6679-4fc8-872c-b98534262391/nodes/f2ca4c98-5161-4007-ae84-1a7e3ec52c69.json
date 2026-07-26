@@ -1,0 +1,74 @@
+{
+  "id": "f2ca4c98-5161-4007-ae84-1a7e3ec52c69",
+  "type": "spec_node",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "7c1e2209-ef86-4d21-abd5-5d6ac002aff6",
+          "then": [
+            {
+              "id": "f1ae0de1-385b-4bfe-b865-eeec999096e6",
+              "type": "EVENT",
+              "title": "TodoItemAdded",
+              "fields": [
+                {
+                  "name": "title",
+                  "type": "String",
+                  "example": "Buy milk"
+                }
+              ]
+            }
+          ],
+          "when": [
+            {
+              "id": "e5a5119f-1029-4912-9ad3-79437262369d",
+              "type": "COMMAND",
+              "title": "AddTodoItem",
+              "fields": [
+                {
+                  "name": "title",
+                  "type": "String",
+                  "example": "Buy milk"
+                }
+              ]
+            }
+          ],
+          "given": [],
+          "title": "Happy path - add a new todo item"
+        },
+        {
+          "id": "8a2ff522-41bd-4184-9388-38b158257b2f",
+          "then": [],
+          "when": [
+            {
+              "id": "e5a5119f-1029-4912-9ad3-79437262369d",
+              "type": "COMMAND",
+              "title": "AddTodoItem",
+              "fields": [
+                {
+                  "name": "title",
+                  "type": "String",
+                  "example": ""
+                }
+              ]
+            }
+          ],
+          "given": [],
+          "title": "Error - empty title",
+          "expectError": true,
+          "errorDescription": "Title must not be empty"
+        }
+      ]
+    }
+  },
+  "hash": "19j3mdf",
+  "timestamp": 1785041956535,
+  "userId": null
+}
