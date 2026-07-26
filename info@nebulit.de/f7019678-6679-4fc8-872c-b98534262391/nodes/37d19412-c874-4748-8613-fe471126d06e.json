@@ -1,9 +1,12 @@
 {
   "id": "37d19412-c874-4748-8613-fe471126d06e",
-  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
-  "data": {
-    "title": "TodoItemCompleted"
+  "type": "sticky_note",
+  "position": {
+    "x": 545,
+    "y": 756
   },
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {},
   "meta": {
     "type": "EVENT",
     "title": "TodoItemCompleted",
@@ -23,5 +26,7 @@
       }
     ]
   },
-  "hash": "i33448"
+  "hash": "19i4bq0",
+  "timestamp": 1785063622938,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
