@@ -1,16 +1,29 @@
 {
   "id": "2a6fdc39-5daf-4b09-a5c5-ac65c6df1357",
   "type": "image",
-  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
-  "data": {
-    "title": "Complete Todo Item"
+  "position": {
+    "x": 555,
+    "y": 88
   },
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {},
   "meta": {
     "type": "SCREEN",
     "title": "Complete Todo Item",
-    "fields": [],
+    "fields": [
+      {
+        "name": "todoId",
+        "type": "String",
+        "example": "todo-123",
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": true
+      }
+    ],
     "sketched": true,
     "description": "Complete Todo Item action"
   },
-  "hash": "1hffu5z"
+  "hash": "irhy8r",
+  "timestamp": 1785063617251,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
