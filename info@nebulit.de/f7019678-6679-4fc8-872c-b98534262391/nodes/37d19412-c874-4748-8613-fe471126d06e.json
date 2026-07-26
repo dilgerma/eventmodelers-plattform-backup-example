@@ -15,6 +15,7 @@
         "name": "todoId",
         "type": "String",
         "example": "todo-123",
+        "subfields": [],
         "cardinality": "Single",
         "idAttribute": true
       },
@@ -22,11 +23,18 @@
         "name": "completedAt",
         "type": "DateTime",
         "example": "2026-07-25T12:00:00Z",
+        "generated": true,
+        "subfields": [],
         "cardinality": "Single"
       }
-    ]
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "19i4bq0",
-  "timestamp": 1785063622938,
+  "hash": "1tt3rbn",
+  "timestamp": 1785063628592,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
