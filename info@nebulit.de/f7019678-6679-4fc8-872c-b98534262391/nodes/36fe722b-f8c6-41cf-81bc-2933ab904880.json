@@ -1,0 +1,69 @@
+{
+  "id": "36fe722b-f8c6-41cf-81bc-2933ab904880",
+  "type": "spec_node",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "6764ddc0-5793-4094-bac2-eb305b643d33",
+          "then": [
+            {
+              "id": "c1806c73-1044-4fcf-bbec-5939f1383907",
+              "type": "READMODEL",
+              "title": "TodoListView",
+              "fields": [
+                {
+                  "name": "items",
+                  "type": "Object",
+                  "cardinality": "List"
+                }
+              ]
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "f1ae0de1-385b-4bfe-b865-eeec999096e6",
+              "type": "EVENT",
+              "title": "TodoItemAdded",
+              "fields": [
+                {
+                  "name": "todoId",
+                  "type": "String",
+                  "example": "todo-123"
+                },
+                {
+                  "name": "title",
+                  "type": "String",
+                  "example": "Buy milk"
+                }
+              ]
+            },
+            {
+              "id": "37d19412-c874-4748-8613-fe471126d06e",
+              "type": "EVENT",
+              "title": "TodoItemCompleted",
+              "fields": [
+                {
+                  "name": "todoId",
+                  "type": "String",
+                  "example": "todo-123"
+                }
+              ]
+            }
+          ],
+          "title": "List shows added and completed items"
+        }
+      ]
+    }
+  },
+  "hash": "nqk2pt",
+  "timestamp": 1785041957783,
+  "userId": null
+}

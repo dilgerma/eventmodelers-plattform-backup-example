@@ -1,0 +1,139 @@
+{
+  "id": "354d7a05-fa3a-4f97-b134-83f601f52563",
+  "type": "spec_node",
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "7d61a101-f1dd-4ab9-8fc4-1065ac2c7cf3",
+          "then": [
+            {
+              "id": "37d19412-c874-4748-8613-fe471126d06e",
+              "type": "EVENT",
+              "title": "TodoItemCompleted",
+              "fields": [
+                {
+                  "name": "todoId",
+                  "type": "String",
+                  "example": "todo-123"
+                }
+              ]
+            }
+          ],
+          "when": [
+            {
+              "id": "f1838a47-9667-4f98-9ea6-0ad4aac7da92",
+              "type": "COMMAND",
+              "title": "CompleteTodoItem",
+              "fields": [
+                {
+                  "name": "todoId",
+                  "type": "String",
+                  "example": "todo-123"
+                }
+              ]
+            }
+          ],
+          "given": [
+            {
+              "id": "f1ae0de1-385b-4bfe-b865-eeec999096e6",
+              "type": "EVENT",
+              "title": "TodoItemAdded",
+              "fields": [
+                {
+                  "name": "todoId",
+                  "type": "String",
+                  "example": "todo-123"
+                },
+                {
+                  "name": "title",
+                  "type": "String",
+                  "example": "Buy milk"
+                }
+              ]
+            }
+          ],
+          "title": "Happy path - complete an open todo item"
+        },
+        {
+          "id": "f347ffea-df70-4d47-b0cd-db9c4e22e03c",
+          "then": [],
+          "when": [
+            {
+              "id": "f1838a47-9667-4f98-9ea6-0ad4aac7da92",
+              "type": "COMMAND",
+              "title": "CompleteTodoItem",
+              "fields": [
+                {
+                  "name": "todoId",
+                  "type": "String",
+                  "example": "unknown-999"
+                }
+              ]
+            }
+          ],
+          "given": [],
+          "title": "Error - todo item not found",
+          "expectError": true,
+          "errorDescription": "Todo item not found"
+        },
+        {
+          "id": "5e5aac7d-0c46-4b39-8e04-76e244d933ce",
+          "then": [],
+          "when": [
+            {
+              "id": "f1838a47-9667-4f98-9ea6-0ad4aac7da92",
+              "type": "COMMAND",
+              "title": "CompleteTodoItem",
+              "fields": [
+                {
+                  "name": "todoId",
+                  "type": "String",
+                  "example": "todo-123"
+                }
+              ]
+            }
+          ],
+          "given": [
+            {
+              "id": "f1ae0de1-385b-4bfe-b865-eeec999096e6",
+              "type": "EVENT",
+              "title": "TodoItemAdded",
+              "fields": [
+                {
+                  "name": "todoId",
+                  "type": "String",
+                  "example": "todo-123"
+                }
+              ]
+            },
+            {
+              "id": "37d19412-c874-4748-8613-fe471126d06e",
+              "type": "EVENT",
+              "title": "TodoItemCompleted",
+              "fields": [
+                {
+                  "name": "todoId",
+                  "type": "String",
+                  "example": "todo-123"
+                }
+              ]
+            }
+          ],
+          "title": "Error - todo item already completed",
+          "expectError": true,
+          "errorDescription": "Todo item is already completed"
+        }
+      ]
+    }
+  },
+  "hash": "19iseuw",
+  "timestamp": 1785041957084,
+  "userId": null
+}

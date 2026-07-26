@@ -107,6 +107,20 @@
           "rowId": "78480587-beae-4b03-9b7c-0af36ad286f2",
           "nodeId": "f2ca4c98-5161-4007-ae84-1a7e3ec52c69",
           "nodeType": "SCENARIO"
+        },
+        {
+          "id": "78480587-beae-4b03-9b7c-0af36ad286f2-c2402350-144e-4c7e-aae6-e1337c53da98",
+          "colId": "c2402350-144e-4c7e-aae6-e1337c53da98",
+          "rowId": "78480587-beae-4b03-9b7c-0af36ad286f2",
+          "nodeId": "354d7a05-fa3a-4f97-b134-83f601f52563",
+          "nodeType": "SCENARIO"
+        },
+        {
+          "id": "78480587-beae-4b03-9b7c-0af36ad286f2-c2979ead-c507-4f36-a923-ed5183886568",
+          "colId": "c2979ead-c507-4f36-a923-ed5183886568",
+          "rowId": "78480587-beae-4b03-9b7c-0af36ad286f2",
+          "nodeId": "36fe722b-f8c6-41cf-81bc-2933ab904880",
+          "nodeType": "SCENARIO"
         }
       ],
       "columns": [
@@ -126,6 +140,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1785041956234,
+  "timestamp": 1785041957560,
   "userId": null
 }
