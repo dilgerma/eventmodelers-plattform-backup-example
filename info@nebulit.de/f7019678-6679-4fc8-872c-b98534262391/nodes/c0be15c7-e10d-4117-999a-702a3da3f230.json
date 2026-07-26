@@ -10,6 +10,7 @@
   },
   "meta": {
     "type": "CHAPTER",
+    "title": "foo",
     "timelineData": {
       "rows": [
         {
@@ -140,6 +141,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1785041957560,
-  "userId": null
+  "timestamp": 1785048942513,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
