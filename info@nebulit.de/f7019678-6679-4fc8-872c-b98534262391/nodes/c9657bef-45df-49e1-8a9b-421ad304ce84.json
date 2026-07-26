@@ -93,7 +93,8 @@
           "id": "28c9002a-1310-4b71-b5e1-e2ade3206638"
         },
         {
-          "id": "a04ce706-a3a8-4a7c-ab8f-cd01906d148d"
+          "id": "a04ce706-a3a8-4a7c-ab8f-cd01906d148d",
+          "flowEnd": true
         },
         {
           "id": "4c04b525-2ca9-4cb1-99a5-dab2fe84c466"
@@ -102,6 +103,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1785070306286,
+  "timestamp": 1785070317901,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
