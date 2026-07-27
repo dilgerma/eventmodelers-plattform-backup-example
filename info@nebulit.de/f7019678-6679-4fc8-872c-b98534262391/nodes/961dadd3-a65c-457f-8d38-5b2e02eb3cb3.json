@@ -1,0 +1,45 @@
+{
+  "id": "961dadd3-a65c-457f-8d38-5b2e02eb3cb3",
+  "type": "sticky_note",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "FeeWaived",
+    "fields": [
+      {
+        "name": "feeId",
+        "type": "String",
+        "example": "fee-501",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "cardinality": "Single"
+      },
+      {
+        "name": "waivedBy",
+        "type": "String",
+        "example": "lib-7",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "Damaged item on receipt",
+        "cardinality": "Single"
+      },
+      {
+        "name": "waivedAt",
+        "type": "Date",
+        "example": "2026-07-16T10:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1ka2xil",
+  "timestamp": 1785132557305,
+  "userId": null
+}

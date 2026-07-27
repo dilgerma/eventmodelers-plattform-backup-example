@@ -1,0 +1,45 @@
+{
+  "id": "778f1282-443b-4905-9e96-e1aab991dcf5",
+  "type": "sticky_note",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "FeePaymentFailed",
+    "fields": [
+      {
+        "name": "feeId",
+        "type": "String",
+        "example": "fee-501",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "cardinality": "Single"
+      },
+      {
+        "name": "amount",
+        "type": "Number",
+        "example": "7.50",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "Card declined",
+        "cardinality": "Single"
+      },
+      {
+        "name": "failedAt",
+        "type": "Date",
+        "example": "2026-07-16T10:58:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "14qlatl",
+  "timestamp": 1785132558986,
+  "userId": null
+}

@@ -1,0 +1,52 @@
+{
+  "id": "d023ca55-7a3f-4b88-a428-503c62e0c0ca",
+  "type": "sticky_note",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "FeePaid",
+    "fields": [
+      {
+        "name": "feeId",
+        "type": "String",
+        "example": "fee-501",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "cardinality": "Single"
+      },
+      {
+        "name": "amountPaid",
+        "type": "Number",
+        "example": "7.50",
+        "cardinality": "Single"
+      },
+      {
+        "name": "method",
+        "type": "String",
+        "example": "Online",
+        "cardinality": "Single"
+      },
+      {
+        "name": "registeredBy",
+        "type": "String",
+        "example": "lib-7",
+        "optional": true,
+        "cardinality": "Single"
+      },
+      {
+        "name": "paidAt",
+        "type": "Date",
+        "example": "2026-07-16T11:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "xjv2bz",
+  "timestamp": 1785132558422,
+  "userId": null
+}

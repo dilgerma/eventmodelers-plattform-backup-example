@@ -1,0 +1,57 @@
+{
+  "id": "27f29c38-298a-4310-a855-20a15b301aac",
+  "type": "sticky_note",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "FeeAdjusted",
+    "fields": [
+      {
+        "name": "feeId",
+        "type": "String",
+        "example": "fee-501",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "cardinality": "Single"
+      },
+      {
+        "name": "previousAmount",
+        "type": "Number",
+        "example": "7.50",
+        "cardinality": "Single"
+      },
+      {
+        "name": "newAmount",
+        "type": "Number",
+        "example": "3.00",
+        "cardinality": "Single"
+      },
+      {
+        "name": "adjustedBy",
+        "type": "String",
+        "example": "lib-7",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "System calculation error",
+        "cardinality": "Single"
+      },
+      {
+        "name": "adjustedAt",
+        "type": "Date",
+        "example": "2026-07-16T10:05:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "k8jlpf",
+  "timestamp": 1785132557870,
+  "userId": null
+}
