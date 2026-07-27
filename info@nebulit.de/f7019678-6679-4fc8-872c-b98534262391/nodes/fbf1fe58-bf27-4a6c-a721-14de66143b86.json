@@ -1,0 +1,23 @@
+{
+  "id": "fbf1fe58-bf27-4a6c-a721-14de66143b86",
+  "type": "sticky_note",
+  "position": {
+    "x": 1445,
+    "y": 436
+  },
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Todo List Command",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1tv17eo",
+  "timestamp": 1785131711438,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
+}
