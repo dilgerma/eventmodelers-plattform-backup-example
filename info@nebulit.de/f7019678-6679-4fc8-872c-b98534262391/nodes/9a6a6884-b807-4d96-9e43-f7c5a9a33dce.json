@@ -1,0 +1,51 @@
+{
+  "id": "9a6a6884-b807-4d96-9e43-f7c5a9a33dce",
+  "type": "sticky_note",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "OverdueReturnDetected",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "String",
+        "example": "loan-1001",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-42",
+        "cardinality": "Single"
+      },
+      {
+        "name": "dueDate",
+        "type": "Date",
+        "example": "2026-07-10T00:00:00Z",
+        "cardinality": "Single"
+      },
+      {
+        "name": "returnedAt",
+        "type": "Date",
+        "example": "2026-07-15T09:30:00Z",
+        "cardinality": "Single"
+      },
+      {
+        "name": "daysLate",
+        "type": "Number",
+        "example": "5",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "oqfeai",
+  "timestamp": 1785132556146,
+  "userId": null
+}
