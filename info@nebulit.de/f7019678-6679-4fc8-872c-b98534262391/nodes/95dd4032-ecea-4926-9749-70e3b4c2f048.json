@@ -5,8 +5,10 @@
     "x": 0,
     "y": 2225.62267326925
   },
+  "data": {},
   "meta": {
     "type": "CHAPTER",
+    "title": "Overdue Management & Payments",
     "timelineData": {
       "rows": [
         {
@@ -51,7 +53,7 @@
       ]
     }
   },
-  "hash": "16ecn0n",
-  "timestamp": 1785132481243,
+  "hash": "nnnel3",
+  "timestamp": 1785132493487,
   "userId": null
 }
