@@ -1,0 +1,36 @@
+{
+  "id": "c997ac00-8518-423e-a0ec-5c24c34ee920",
+  "type": "image",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "Configure Fee Policy",
+    "fields": [
+      {
+        "name": "feeType",
+        "type": "String",
+        "example": "DailyRate",
+        "mapping": "ConfigureFeePolicy.feeType",
+        "cardinality": "Single"
+      },
+      {
+        "name": "amount",
+        "type": "Number",
+        "example": "1.50",
+        "mapping": "ConfigureFeePolicy.amount",
+        "cardinality": "Single"
+      },
+      {
+        "name": "configuredBy",
+        "type": "String",
+        "example": "admin-3",
+        "mapping": "session:adminId",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1pp5r01",
+  "timestamp": 1785133189536,
+  "userId": null
+}
