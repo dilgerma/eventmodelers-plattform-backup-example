@@ -1,0 +1,38 @@
+{
+  "id": "6af0573e-7596-4fec-b527-f1298c886103",
+  "type": "image",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "Waive Fee",
+    "fields": [
+      {
+        "name": "feeId",
+        "type": "String",
+        "example": "fee-501",
+        "mapping": "WaiveFee.feeId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "amount",
+        "type": "Number",
+        "example": "7.50",
+        "mapping": "MemberFeeBalanceView.outstandingAmount",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "Damaged item on receipt",
+        "mapping": "WaiveFee.reason",
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Librarian waives a fee entirely, recording a justification."
+  },
+  "hash": "1unul80",
+  "timestamp": 1785133195500,
+  "userId": null
+}

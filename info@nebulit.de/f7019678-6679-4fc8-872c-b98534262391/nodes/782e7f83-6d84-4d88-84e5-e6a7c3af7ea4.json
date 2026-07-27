@@ -1,0 +1,45 @@
+{
+  "id": "782e7f83-6d84-4d88-84e5-e6a7c3af7ea4",
+  "type": "image",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "Adjust Fee",
+    "fields": [
+      {
+        "name": "feeId",
+        "type": "String",
+        "example": "fee-501",
+        "mapping": "AdjustFee.feeId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "previousAmount",
+        "type": "Number",
+        "example": "7.50",
+        "mapping": "MemberFeeBalanceView.outstandingAmount",
+        "cardinality": "Single"
+      },
+      {
+        "name": "newAmount",
+        "type": "Number",
+        "example": "3.00",
+        "mapping": "AdjustFee.newAmount",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "System calculation error",
+        "mapping": "AdjustFee.reason",
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Librarian corrects a fee amount, recording a justification."
+  },
+  "hash": "1rq95t5",
+  "timestamp": 1785133194174,
+  "userId": null
+}
