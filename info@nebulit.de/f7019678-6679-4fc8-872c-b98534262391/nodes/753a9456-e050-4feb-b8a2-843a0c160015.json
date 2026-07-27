@@ -1,6 +1,10 @@
 {
   "id": "753a9456-e050-4feb-b8a2-843a0c160015",
   "type": "sticky_note",
+  "position": {
+    "x": 89.5,
+    "y": 756
+  },
   "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
   "data": {},
   "meta": {
@@ -37,9 +41,10 @@
         "example": "2026-06-01T08:00:00Z",
         "cardinality": "Single"
       }
-    ]
+    ],
+    "version": 0
   },
-  "hash": "1djou45",
-  "timestamp": 1785132560744,
-  "userId": null
+  "hash": "g6b0sp",
+  "timestamp": 1785132848639,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
