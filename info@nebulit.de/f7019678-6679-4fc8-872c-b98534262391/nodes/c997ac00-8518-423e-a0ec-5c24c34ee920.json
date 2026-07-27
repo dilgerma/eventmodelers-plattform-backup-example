@@ -28,9 +28,11 @@
         "mapping": "session:adminId",
         "cardinality": "Single"
       }
-    ]
+    ],
+    "sketched": true,
+    "description": "Administrator sets the library's late-fee structure: fixed fee or daily rate, with the amount."
   },
-  "hash": "1pp5r01",
-  "timestamp": 1785133189536,
+  "hash": "143ttj5",
+  "timestamp": 1785133191444,
   "userId": null
 }

@@ -1,0 +1,52 @@
+{
+  "id": "13e47603-47c1-4cc4-ac5b-45524da49018",
+  "type": "image",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "My Outstanding Fees",
+    "fields": [
+      {
+        "name": "feeId",
+        "type": "String",
+        "example": "fee-501",
+        "mapping": "MemberFeeBalanceView.feeId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "amount",
+        "type": "Number",
+        "example": "7.50",
+        "mapping": "MemberFeeBalanceView.outstandingAmount",
+        "cardinality": "Single"
+      },
+      {
+        "name": "dueSince",
+        "type": "Date",
+        "example": "2026-07-15T09:31:00Z",
+        "mapping": "MemberFeeBalanceView.calculatedAt",
+        "cardinality": "Single"
+      },
+      {
+        "name": "accountStatus",
+        "type": "String",
+        "example": "Restricted",
+        "mapping": "MemberFeeBalanceView.accountStatus",
+        "cardinality": "Single"
+      },
+      {
+        "name": "totalOwed",
+        "type": "Number",
+        "example": "7.50",
+        "mapping": "derived:sum(fees.amount)",
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Member views all outstanding fees on their account, total balance, and current standing."
+  },
+  "hash": "g1vv51",
+  "timestamp": 1785133192789,
+  "userId": null
+}
