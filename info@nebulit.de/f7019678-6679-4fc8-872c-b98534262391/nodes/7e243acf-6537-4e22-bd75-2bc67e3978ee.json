@@ -35,9 +35,11 @@
         "mapping": "session:librarianId",
         "cardinality": "Single"
       }
-    ]
+    ],
+    "sketched": true,
+    "description": "Librarian registers a cash payment collected at the counter."
   },
-  "hash": null,
-  "timestamp": 1785133198237,
+  "hash": "w0x8so",
+  "timestamp": 1785133198454,
   "userId": null
 }
