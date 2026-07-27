@@ -1,0 +1,45 @@
+{
+  "id": "753a9456-e050-4feb-b8a2-843a0c160015",
+  "type": "sticky_note",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "FeePolicyConfigured",
+    "fields": [
+      {
+        "name": "policyId",
+        "type": "String",
+        "example": "policy-1",
+        "cardinality": "Single"
+      },
+      {
+        "name": "feeType",
+        "type": "String",
+        "example": "DailyRate",
+        "cardinality": "Single"
+      },
+      {
+        "name": "amount",
+        "type": "Number",
+        "example": "1.50",
+        "cardinality": "Single"
+      },
+      {
+        "name": "configuredBy",
+        "type": "String",
+        "example": "admin-3",
+        "cardinality": "Single"
+      },
+      {
+        "name": "configuredAt",
+        "type": "Date",
+        "example": "2026-06-01T08:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1djou45",
+  "timestamp": 1785132560744,
+  "userId": null
+}

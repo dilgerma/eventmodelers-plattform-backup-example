@@ -1,0 +1,39 @@
+{
+  "id": "beb42877-8d5f-4551-adf9-5c4d01ae2d78",
+  "type": "sticky_note",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "MemberAccountRestricted",
+    "fields": [
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "Outstanding fee balance",
+        "cardinality": "Single"
+      },
+      {
+        "name": "outstandingBalance",
+        "type": "Number",
+        "example": "7.50",
+        "cardinality": "Single"
+      },
+      {
+        "name": "restrictedAt",
+        "type": "Date",
+        "example": "2026-07-15T09:31:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "tpvt7q",
+  "timestamp": 1785132559606,
+  "userId": null
+}

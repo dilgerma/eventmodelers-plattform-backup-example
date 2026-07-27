@@ -1,0 +1,27 @@
+{
+  "id": "e0bc0495-9f87-4774-b4e6-eafda989679a",
+  "type": "sticky_note",
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "MemberAccountGoodStandingRestored",
+    "fields": [
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "cardinality": "Single"
+      },
+      {
+        "name": "restoredAt",
+        "type": "Date",
+        "example": "2026-07-16T11:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "oz0l7t",
+  "timestamp": 1785132560173,
+  "userId": null
+}
