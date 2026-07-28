@@ -10,9 +10,9 @@
   "meta": {
     "type": "HTML_SCREEN",
     "title": "HTML Screen",
-    "markdown": "<nav class=\"breadcrumb\" aria-label=\"breadcrumbs\" data-marker=\"breadcrumb\">\n    <ul>\n        <li data-marker=\"breadcrumb-home\">\n            <a href=\"/\">Home</a>\n        </li>\n\n        <li data-marker=\"breadcrumb-products\">\n            <a href=\"/products\">Products</a>\n        </li>\n\n        <li data-marker=\"breadcrumb-category\">\n            <a href=\"/products/laptops\">Laptops</a>\n        </li>\n\n        <li class=\"is-active\" data-marker=\"breadcrumb-current\">\n            <a href=\"#\" aria-current=\"page\">\n                MacBook Pro 16\"\n            </a>\n        </li>\n    </ul>\n</nav>"
+    "markdown": "<nav class=\"breadcrumb\" aria-label=\"breadcrumbs\" data-marker=\"breadcrumb\">\n    <ul>\n        <li data-marker=\"breadcrumb-home\">\n            <a href=\"/\">Home</a>\n        </li>\n<li data-marker=\"breadcrumb-products\">\n            <a href=\"/products\">Products</a>\n        </li>\n\n        <li data-marker=\"breadcrumb-category\">\n            <a href=\"/products/laptops\">Laptops</a>\n        </li>\n\n        <li class=\"is-active\" data-marker=\"breadcrumb-current\">\n            <a href=\"#\" aria-current=\"page\">\n                MacBook Pro 16\"\n            </a>\n        </li>\n    </ul>\n</nav>"
   },
-  "hash": "1609am4",
-  "timestamp": 1785268352947,
+  "hash": "10f3lvy",
+  "timestamp": 1785268376018,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
