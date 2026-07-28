@@ -1,0 +1,18 @@
+{
+  "id": "99b6b82d-2b37-40f1-b485-64e9af55c4bd",
+  "type": "html_screen",
+  "position": {
+    "x": 1445,
+    "y": 116
+  },
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {},
+  "meta": {
+    "type": "HTML_SCREEN",
+    "title": "HTML Screen",
+    "markdown": "<h1>Foo</h1>"
+  },
+  "hash": "1t45l8w",
+  "timestamp": 1785266577553,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
+}
