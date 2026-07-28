@@ -10,9 +10,9 @@
   "meta": {
     "type": "HTML_SCREEN",
     "title": "HTML Screen",
-    "markdown": "<h1>Foo</h1>"
+    "markdown": "<h1>Foo</h1>\n<div class=\"hero\">\nhello\n</div>"
   },
-  "hash": "rzhsco",
-  "timestamp": 1785262059492,
+  "hash": "zaj9po",
+  "timestamp": 1785268028284,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
