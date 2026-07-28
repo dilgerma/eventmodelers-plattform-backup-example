@@ -10,9 +10,9 @@
   "meta": {
     "type": "HTML_SCREEN",
     "title": "HTML Screen",
-    "markdown": "<div>\n<section class=\"section\">\n\n    <div class=\"container\">\n\n        <!-- AI Marker: Hero -->\n        <section\n            class=\"hero is-medium\"\n            data-marker=\"hero\">\n\n            <div class=\"hero-body\">\n\n                <div class=\"content\">\n\n                    <p\n                        class=\"title is-1\"\n                        data-marker=\"hero-title\">\n                        Hero title\n                    </p>\n\n                    <p\n                        class=\"subtitle is-3\"\n                        data-marker=\"hero-subtitle\">\n                        Hero subtitle\n                    </p>\n\n                    <div\n                        class=\"buttons mt-5\"\n                        data-marker=\"hero-actions\">\n\n                        <a class=\"button is-primary\">\n                            Primary Action\n                        </a>\n\n                        <a class=\"button is-light\">\n                            Learn More\n                        </a>\n\n                    </div>\n\n                </div>\n\n            </div>\n\n        </section>\n\n    </div>\n\n</section></div>"
+    "markdown": "<nav class=\"breadcrumb\" aria-label=\"breadcrumbs\" data-marker=\"breadcrumb\">\n    <ul>\n        <li data-marker=\"breadcrumb-home\">\n            <a href=\"/\">Home</a>\n        </li>\n\n        <li data-marker=\"breadcrumb-products\">\n            <a href=\"/products\">Products</a>\n        </li>\n\n        <li data-marker=\"breadcrumb-category\">\n            <a href=\"/products/laptops\">Laptops</a>\n        </li>\n\n        <li class=\"is-active\" data-marker=\"breadcrumb-current\">\n            <a href=\"#\" aria-current=\"page\">\n                MacBook Pro 16\"\n            </a>\n        </li>\n    </ul>\n</nav>"
   },
-  "hash": "vtp32e",
-  "timestamp": 1785268219693,
+  "hash": "1609am4",
+  "timestamp": 1785268352947,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
