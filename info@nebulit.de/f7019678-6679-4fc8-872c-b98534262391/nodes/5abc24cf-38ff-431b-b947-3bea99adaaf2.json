@@ -10,9 +10,9 @@
   "meta": {
     "type": "HTML_SCREEN",
     "title": "HTML Screen",
-    "markdown": "<h1>Hello</h1>\n<h2>No</h2>\n\n<div class=\"columns\">\n<div class=\"column is-1\">\n<div class=\"notification\">\ndas ist ein normaler text\n</div>\n</div>\n<div class=\"column is-2\">test</div>\n</div>"
+    "markdown": "<h1>Hello</h1>\n<h2>No</h2>\n\n<div class=\"columns is-mobile\">\n<div class=\"column is-1\">\n<div class=\"notification\">\ndas ist ein normaler text\n</div>\n</div>\n<div class=\"column is-2\">test</div>\n<div class=\"column is-2\">test</div>\n\n</div>"
   },
-  "hash": "3oyero",
-  "timestamp": 1785316604606,
+  "hash": "elk7ii",
+  "timestamp": 1785316710039,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
