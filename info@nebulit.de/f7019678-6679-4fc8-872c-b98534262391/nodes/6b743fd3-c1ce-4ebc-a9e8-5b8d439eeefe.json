@@ -40,11 +40,12 @@
     ],
     "compact": true,
     "context": "INTERNAL",
+    "markdown": "<div style=\"font-family:-apple-system,sans-serif;font-size:7px;padding:6px;box-sizing:border-box\">\n  <p class=\"title is-6\" style=\"font-size:7px;margin:0 0 4px\">TodoListView</p>\n  <table class=\"table is-fullwidth is-striped\" style=\"font-size:7px\">\n    <thead><tr><th style=\"font-size:7px;padding:2px 4px\">items</th></tr></thead>\n    <tbody><tr><td style=\"font-size:7px;padding:2px 4px\"></td></tr></tbody>\n  </table>\n</div>",
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "cnhgbv",
-  "timestamp": 1785343412181,
+  "hash": "kfwvfi",
+  "timestamp": 1785343416041,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
