@@ -1,9 +1,12 @@
 {
   "id": "c1806c73-1044-4fcf-bbec-5939f1383907",
-  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
-  "data": {
-    "title": "TodoListView"
+  "type": "sticky_note",
+  "position": {
+    "x": 995,
+    "y": 436
   },
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {},
   "meta": {
     "type": "READMODEL",
     "title": "TodoListView",
@@ -36,5 +39,7 @@
       }
     ]
   },
-  "hash": "c0ymkc"
+  "hash": "15k72cc",
+  "timestamp": 1785323456122,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
