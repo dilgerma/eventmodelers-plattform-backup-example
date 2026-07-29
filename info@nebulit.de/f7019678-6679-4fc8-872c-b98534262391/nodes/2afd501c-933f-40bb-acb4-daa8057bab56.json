@@ -9,9 +9,10 @@
   "data": {},
   "meta": {
     "type": "HTML_SCREEN",
-    "title": "HTML Screen"
+    "title": "HTML Screen",
+    "markdown": "<h1>Foo</h1>"
   },
-  "hash": "rzhsco",
-  "timestamp": 1785318073497,
+  "hash": "1t45l8w",
+  "timestamp": 1785318091046,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
