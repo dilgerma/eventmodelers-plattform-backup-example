@@ -30,11 +30,12 @@
     ],
     "compact": true,
     "context": "INTERNAL",
+    "version": 2,
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1tt3rbn",
-  "timestamp": 1785063628592,
+  "hash": "1qzhh1p",
+  "timestamp": 1785349821857,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
