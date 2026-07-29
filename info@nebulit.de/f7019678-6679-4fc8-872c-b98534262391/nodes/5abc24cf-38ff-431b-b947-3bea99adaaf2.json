@@ -10,9 +10,9 @@
   "meta": {
     "type": "HTML_SCREEN",
     "title": "HTML Screen",
-    "markdown": "<h1>Hello</h1>\n<h2>No</h2>\n\ndas ist ein normaler text"
+    "markdown": "<h1>Hello</h1>\n<h2>No</h2>\n\n<div class=\"notification\">\ndas ist ein normaler text\n</div>"
   },
-  "hash": "1w8xmzv",
-  "timestamp": 1785316526719,
+  "hash": "1guezoa",
+  "timestamp": 1785316548111,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
