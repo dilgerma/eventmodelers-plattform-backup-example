@@ -1,0 +1,50 @@
+{
+  "id": "6b743fd3-c1ce-4ebc-a9e8-5b8d439eeefe",
+  "type": "html_screen",
+  "position": {
+    "x": 1005,
+    "y": 100.8
+  },
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {},
+  "meta": {
+    "type": "HTML_SCREEN",
+    "title": "TodoListView",
+    "fields": [
+      {
+        "name": "items",
+        "type": "Object",
+        "subfields": [
+          {
+            "name": "todoId",
+            "type": "String",
+            "example": "todo-123",
+            "cardinality": "Single",
+            "idAttribute": true
+          },
+          {
+            "name": "title",
+            "type": "String",
+            "example": "Buy milk",
+            "cardinality": "Single"
+          },
+          {
+            "name": "completed",
+            "type": "Boolean",
+            "example": "false",
+            "cardinality": "Single"
+          }
+        ],
+        "cardinality": "List"
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "cnhgbv",
+  "timestamp": 1785343412181,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
+}
