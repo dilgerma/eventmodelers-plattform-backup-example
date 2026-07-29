@@ -10,7 +10,10 @@
   "meta": {
     "type": "EVENT",
     "title": "Event",
-    "context": "INTERNAL"
+    "context": "INTERNAL",
+    "version": 0
   },
-  "hash": "1bxmpa1"
+  "hash": "2u3hl1",
+  "timestamp": 1785309896921,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
