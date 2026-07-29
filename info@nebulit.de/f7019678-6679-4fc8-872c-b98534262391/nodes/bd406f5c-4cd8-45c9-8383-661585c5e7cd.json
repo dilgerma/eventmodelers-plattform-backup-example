@@ -1,0 +1,66 @@
+{
+  "id": "bd406f5c-4cd8-45c9-8383-661585c5e7cd",
+  "type": "sticky_note",
+  "position": {
+    "x": 1445,
+    "y": 436
+  },
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "LateFeeCalculated",
+    "fields": [
+      {
+        "name": "feeId",
+        "type": "String",
+        "example": "fee-501",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "loanId",
+        "type": "String",
+        "example": "loan-1001",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "amount",
+        "type": "Number",
+        "example": "7.50",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "feeMethod",
+        "type": "String",
+        "example": "DailyRate",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "calculatedAt",
+        "type": "Date",
+        "example": "2026-07-15T09:31:00Z",
+        "subfields": [],
+        "cardinality": "Single"
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "a7fnr4",
+  "timestamp": 1785309766053,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
+}
