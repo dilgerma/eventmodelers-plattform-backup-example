@@ -20,10 +20,11 @@
         "idAttribute": true
       }
     ],
+    "version": 2,
     "sketched": true,
     "description": "Complete Todo Item action"
   },
-  "hash": "irhy8r",
-  "timestamp": 1785063617251,
+  "hash": "lht9ad",
+  "timestamp": 1785330474517,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
