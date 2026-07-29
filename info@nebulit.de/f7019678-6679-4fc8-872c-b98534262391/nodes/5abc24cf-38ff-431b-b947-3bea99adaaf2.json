@@ -10,9 +10,9 @@
   "meta": {
     "type": "HTML_SCREEN",
     "title": "HTML Screen",
-    "markdown": "<div style=\"font-size:7px\">\n<h1>Hello</h1>\n<h2>No</h2>\n\n<div class=\"columns is-mobile\">\n<div class=\"column is-1\">\n<div class=\"notification\">\ndas ist ein normaler text\n</div>\n</div>\n<div class=\"column is-2\">test</div>\n<div class=\"column is-2\">test2</div>\n\n</div>\n</div>"
+    "markdown": "<div style=\"font-size:7px\">\n\n  <h1 class=\"title is-4\">Registration</h1>\n\n  <form>\n\n    <div class=\"columns\">\n      <div class=\"column\">\n        <div class=\"field\">\n          <label class=\"label\">First Name</label>\n          <div class=\"control\">\n            <input class=\"input\" type=\"text\">\n          </div>\n        </div>\n      </div>\n\n      <div class=\"column\">\n        <div class=\"field\">\n          <label class=\"label\">Last Name</label>\n          <div class=\"control\">\n            <input class=\"input\" type=\"text\">\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"field\">\n      <label class=\"label\">Email</label>\n      <div class=\"control\">\n        <input class=\"input\" type=\"email\">\n      </div>\n    </div>\n\n    <div class=\"field\">\n      <label class=\"label\">Password</label>\n      <div class=\"control\">\n        <input class=\"input\" type=\"password\">\n      </div>\n    </div>\n\n    <div class=\"field\">\n      <button class=\"button is-primary\">Register</button>\n    </div>\n\n  </form>\n\n</div>"
   },
-  "hash": "a1hpnn",
-  "timestamp": 1785316757836,
+  "hash": "1gos7gs",
+  "timestamp": 1785316820258,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
