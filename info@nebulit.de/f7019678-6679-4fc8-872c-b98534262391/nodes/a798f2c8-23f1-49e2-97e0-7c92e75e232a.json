@@ -9,9 +9,10 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Command"
+    "title": "Command",
+    "version": 0
   },
-  "hash": "mfen13",
-  "timestamp": 1785070304830,
+  "hash": "1ajoru3",
+  "timestamp": 1785316459266,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
