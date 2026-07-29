@@ -42,11 +42,12 @@
     ],
     "compact": true,
     "context": "INTERNAL",
+    "markdown": "<div style=\"font-family:-apple-system,sans-serif;font-size:7px;padding:6px;box-sizing:border-box\">\n  <p class=\"title is-6\" style=\"font-size:7px;margin:0 0 4px\">MemberAccountRestricted</p>\n  <table class=\"table is-fullwidth is-striped\" style=\"font-size:7px\">\n    <thead><tr><th style=\"font-size:7px;padding:2px 4px\">memberId</th><th style=\"font-size:7px;padding:2px 4px\">reason</th><th style=\"font-size:7px;padding:2px 4px\">outstandingBalance</th><th style=\"font-size:7px;padding:2px 4px\">restrictedAt</th></tr></thead>\n    <tbody><tr><td style=\"font-size:7px;padding:2px 4px\">mbr-101</td><td style=\"font-size:7px;padding:2px 4px\">Outstanding fee balance</td><td style=\"font-size:7px;padding:2px 4px\">7.50</td><td style=\"font-size:7px;padding:2px 4px\">2026-07-15T09:31:00Z</td></tr></tbody>\n  </table>\n</div>",
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1l660f4",
-  "timestamp": 1785343448876,
+  "hash": "6yycaz",
+  "timestamp": 1785343453466,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
