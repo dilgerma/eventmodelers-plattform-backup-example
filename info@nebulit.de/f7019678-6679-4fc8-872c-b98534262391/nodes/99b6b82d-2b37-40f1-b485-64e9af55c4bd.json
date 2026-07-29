@@ -2,8 +2,8 @@
   "id": "99b6b82d-2b37-40f1-b485-64e9af55c4bd",
   "type": "html_screen",
   "position": {
-    "x": 1445,
-    "y": 116
+    "x": 1455,
+    "y": 88
   },
   "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
   "data": {},
@@ -13,6 +13,6 @@
     "markdown": "<nav class=\"breadcrumb\" aria-label=\"breadcrumbs\" data-marker=\"breadcrumb\">\n    <ul>\n        <li data-marker=\"breadcrumb-home\">\n            <a href=\"/\">Home</a>\n        </li>\n<li data-marker=\"breadcrumb-products\">\n            <a href=\"/products\">Products</a>\n        </li>\n\n        <li data-marker=\"breadcrumb-category\">\n            <a href=\"/products/laptops\">Laptops</a>\n        </li>\n\n        <li class=\"is-active\" data-marker=\"breadcrumb-current\">\n            <a href=\"#\" aria-current=\"page\">\n                MacBook Pro 16\"\n            </a>\n        </li>\n    </ul>\n</nav>"
   },
   "hash": "10f3lvy",
-  "timestamp": 1785268376018,
+  "timestamp": 1785330465988,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
