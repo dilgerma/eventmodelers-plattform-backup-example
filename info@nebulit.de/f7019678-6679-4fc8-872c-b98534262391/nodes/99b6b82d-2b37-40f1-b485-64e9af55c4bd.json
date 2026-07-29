@@ -47,6 +47,20 @@
         "edited": false,
         "optional": false,
         "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "lol",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
         "cardinality": "Single",
         "idAttribute": false,
         "showAttributes": false,
@@ -55,12 +69,12 @@
     ],
     "compact": true,
     "context": "INTERNAL",
-    "markdown": "<div style=\"font-family:-apple-system,sans-serif;font-size:7px;padding:6px;box-sizing:border-box\">\n  <p class=\"title is-6\" style=\"font-size:7px;margin:0 0 4px\">HTML Screen</p>\n  <div class=\"field\" style=\"margin-bottom:3px\">\n  <label class=\"label\" style=\"font-size:7px;margin-bottom:2px\">foo *</label>\n  <div class=\"control\"><input class=\"input is-small\" style=\"font-size:7px;height:auto;padding:2px 4px\" type=\"text\" placeholder=\"\"></div>\n</div>\n<div class=\"field\" style=\"margin-bottom:3px\">\n  <label class=\"label\" style=\"font-size:7px;margin-bottom:2px\">bar *</label>\n  <div class=\"control\"><input class=\"input is-small\" style=\"font-size:7px;height:auto;padding:2px 4px\" type=\"text\" placeholder=\"\"></div>\n</div>\n<div class=\"field\" style=\"margin-bottom:3px\">\n  <label class=\"label\" style=\"font-size:7px;margin-bottom:2px\">baz *</label>\n  <div class=\"control\"><input class=\"input is-small\" style=\"font-size:7px;height:auto;padding:2px 4px\" type=\"text\" placeholder=\"\"></div>\n</div>\n  <div class=\"field\" style=\"margin-top:4px\"><div class=\"control\"><button class=\"button is-small is-primary\" style=\"font-size:7px;height:auto;padding:2px 6px\">HTML Screen</button></div></div>\n</div>",
+    "markdown": "<nav class=\"breadcrumb\" aria-label=\"breadcrumbs\" data-marker=\"breadcrumb\">\n    <ul>\n        <li data-marker=\"breadcrumb-home\">\n            <a href=\"/\">Home</a>\n        </li>\n<li data-marker=\"breadcrumb-products\">\n            <a href=\"/products\">Products</a>\n        </li>\n\n        <li data-marker=\"breadcrumb-category\">\n            <a href=\"/products/laptops\">Laptops</a>\n        </li>\n\n        <li class=\"is-active\" data-marker=\"breadcrumb-current\">\n            <a href=\"#\" aria-current=\"page\">\n                MacBook Pro 16\"\n            </a>\n        </li>\n    </ul>\n</nav>",
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1ozk7h7",
-  "timestamp": 1785338846091,
+  "hash": "1wv31qb",
+  "timestamp": 1785338853973,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
