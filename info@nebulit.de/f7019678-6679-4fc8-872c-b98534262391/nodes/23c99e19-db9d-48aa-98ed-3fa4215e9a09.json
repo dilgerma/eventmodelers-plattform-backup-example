@@ -1,0 +1,52 @@
+{
+  "id": "23c99e19-db9d-48aa-98ed-3fa4215e9a09",
+  "type": "html_screen",
+  "position": {
+    "x": 1905,
+    "y": 100.8
+  },
+  "parentId": "95dd4032-ecea-4926-9749-70e3b4c2f048",
+  "data": {},
+  "meta": {
+    "type": "HTML_SCREEN",
+    "title": "MemberAccountRestricted",
+    "fields": [
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "Outstanding fee balance",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "outstandingBalance",
+        "type": "Number",
+        "example": "7.50",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "restrictedAt",
+        "type": "Date",
+        "example": "2026-07-15T09:31:00Z",
+        "subfields": [],
+        "cardinality": "Single"
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1l660f4",
+  "timestamp": 1785343448876,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
+}
