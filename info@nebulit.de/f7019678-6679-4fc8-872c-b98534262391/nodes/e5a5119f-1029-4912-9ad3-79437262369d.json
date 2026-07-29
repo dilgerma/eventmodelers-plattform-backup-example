@@ -1,11 +1,12 @@
 {
   "id": "e5a5119f-1029-4912-9ad3-79437262369d",
-  "type": "COMMAND",
-  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
-  "data": {
-    "title": "foolala",
-    "hasComments": true
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 436
   },
+  "parentId": "c0be15c7-e10d-4117-999a-702a3da3f230",
+  "data": {},
   "meta": {
     "type": "COMMAND",
     "title": "foolala",
@@ -24,12 +25,9 @@
         "example": "Buy milk",
         "cardinality": "Single"
       }
-    ],
-    "changedAttributes": [
-      "data.title"
     ]
   },
   "hash": "27e0qg",
-  "timestamp": 1785037161296,
-  "userId": null
+  "timestamp": 1785330476481,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
