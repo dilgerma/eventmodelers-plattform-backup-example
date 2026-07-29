@@ -10,9 +10,9 @@
   "meta": {
     "type": "HTML_SCREEN",
     "title": "HTML Screen",
-    "markdown": "<div style=\"font-family:-apple-system,sans-serif;font-size:7px;padding:6px;box-sizing:border-box\">\n  <p class=\"title is-6\" style=\"font-size:7px;margin:0 0 4px\">Command</p>\n  <p class=\"has-text-grey\" style=\"font-size:7px\">No fields defined yet.</p>\n  <div class=\"field\" style=\"margin-top:4px\"><div class=\"control\"><button class=\"button is-small is-primary\" style=\"font-size:7px;height:auto;padding:2px 6px\">Command</button></div></div>\n</div>\nsdfs"
+    "markdown": ""
   },
-  "hash": "gbhdzm",
-  "timestamp": 1785327260022,
+  "hash": "ymbvax",
+  "timestamp": 1785327273508,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
