@@ -35,7 +35,15 @@
           "height": 320
         }
       ],
-      "cells": [],
+      "cells": [
+        {
+          "id": "a032d7c3-52c5-4b3d-a2ee-0fef3c925092-b78fca5f-0f1b-4dc8-8ad1-ff50ae37120e",
+          "colId": "b78fca5f-0f1b-4dc8-8ad1-ff50ae37120e",
+          "rowId": "a032d7c3-52c5-4b3d-a2ee-0fef3c925092",
+          "nodeId": "b8efa01c-8d97-4119-aeca-0d0c474b6a21",
+          "nodeType": "COMMAND"
+        }
+      ],
       "columns": [
         {
           "id": "b78fca5f-0f1b-4dc8-8ad1-ff50ae37120e"
@@ -49,5 +57,7 @@
       ]
     }
   },
-  "hash": "94ozz7"
+  "hash": null,
+  "timestamp": 1785477904528,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
