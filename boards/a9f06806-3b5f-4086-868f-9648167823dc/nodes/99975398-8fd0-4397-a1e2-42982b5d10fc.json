@@ -1,0 +1,22 @@
+{
+  "id": "99975398-8fd0-4397-a1e2-42982b5d10fc",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "ed2f9f5d-78d1-4269-a87b-2b84f714ae83",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "de8ee1dc-f72b-43a6-88de-d70c0f55945a",
+    "title": "Customers"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Customers",
+    "sliceStatus": "Planned"
+  },
+  "hash": "fntppp",
+  "timestamp": 1785497900249,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
