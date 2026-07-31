@@ -1,0 +1,54 @@
+{
+  "id": "55b271aa-851a-47e2-b25c-ef0b2074f847",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 484
+  },
+  "parentId": "ed2f9f5d-78d1-4269-a87b-2b84f714ae83",
+  "data": {
+    "linkedTo": "/app/board/a9f06806-3b5f-4086-868f-9648167823dc/?moveToWidget=7d0b8be5-18c0-4367-badf-8332312057cb"
+  },
+  "meta": {
+    "type": "READMODEL",
+    "title": "Active Password",
+    "fields": [
+      {
+        "pii": false,
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "password",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1ahn6rn",
+  "timestamp": 1785508248264,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
