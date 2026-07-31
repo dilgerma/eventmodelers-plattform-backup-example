@@ -1,0 +1,21 @@
+{
+  "id": "af1f9793-8e36-4c5d-8754-175d05447fa8",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b217f56d-b42b-44f2-8566-63f5cf029087",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "9f78510e-b317-49da-9609-018b3ed8fe8e",
+    "title": "Active Password"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Active Password"
+  },
+  "hash": "bwof9j",
+  "timestamp": 1785508598805,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}

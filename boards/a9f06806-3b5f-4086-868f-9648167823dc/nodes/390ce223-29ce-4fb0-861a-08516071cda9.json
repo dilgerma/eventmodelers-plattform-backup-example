@@ -1,0 +1,21 @@
+{
+  "id": "390ce223-29ce-4fb0-861a-08516071cda9",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b217f56d-b42b-44f2-8566-63f5cf029087",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "b568d3f5-0386-4d24-8535-62f8c68a4078",
+    "title": "Test"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Test"
+  },
+  "hash": "1jwa0yq",
+  "timestamp": 1785508598805,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
