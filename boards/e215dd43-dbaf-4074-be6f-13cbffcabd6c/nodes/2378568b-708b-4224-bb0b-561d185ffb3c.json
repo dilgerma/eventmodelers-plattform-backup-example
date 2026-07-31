@@ -9,9 +9,86 @@
   "data": {},
   "meta": {
     "type": "SCENARIO",
-    "title": "Specifications"
+    "title": "Specifications",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "65481ec8-5436-4955-9f11-ed6ec338f2c2",
+          "then": [
+            {
+              "id": "6f8800eb-35aa-4a31-ab3c-33466e736397",
+              "type": "EVENT",
+              "title": "Customer registered",
+              "fields": [
+                {
+                  "name": "name"
+                },
+                {
+                  "name": "email",
+                  "example": "info@nebulit.de"
+                },
+                {
+                  "name": "company"
+                },
+                {
+                  "name": "password"
+                }
+              ]
+            }
+          ],
+          "when": [
+            {
+              "id": "b8efa01c-8d97-4119-aeca-0d0c474b6a21",
+              "type": "COMMAND",
+              "title": "Register Customer",
+              "fields": [
+                {
+                  "name": "name"
+                },
+                {
+                  "name": "email",
+                  "example": "martin@nebulit.de"
+                },
+                {
+                  "name": "company"
+                },
+                {
+                  "name": "password"
+                }
+              ]
+            }
+          ],
+          "given": [
+            {
+              "id": "6f8800eb-35aa-4a31-ab3c-33466e736397",
+              "type": "EVENT",
+              "title": "Customer registered",
+              "fields": [
+                {
+                  "name": "name"
+                },
+                {
+                  "name": "email",
+                  "example": "info@nebulit.de"
+                },
+                {
+                  "name": "company"
+                },
+                {
+                  "name": "password"
+                }
+              ]
+            }
+          ],
+          "title": "Reject duplicate email",
+          "examples": [],
+          "expectError": false,
+          "expectEmptyList": false
+        }
+      ]
+    }
   },
-  "hash": "ycol87",
-  "timestamp": 1785478073997,
+  "hash": "1qhc4kc",
+  "timestamp": 1785478106525,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
