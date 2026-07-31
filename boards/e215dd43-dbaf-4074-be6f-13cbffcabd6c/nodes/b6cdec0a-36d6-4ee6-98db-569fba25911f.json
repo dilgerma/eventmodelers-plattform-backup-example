@@ -1,0 +1,83 @@
+{
+  "id": "b6cdec0a-36d6-4ee6-98db-569fba25911f",
+  "type": "image",
+  "position": {
+    "x": 1005,
+    "y": 113.6
+  },
+  "parentId": "db54a00b-3fc6-49ed-8389-f00c3dbe539f",
+  "data": {
+    "url": "https://i.ibb.co/87MRc1f/image.png"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Customers",
+    "fields": [
+      {
+        "pii": false,
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "company",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "password",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "sketched": false,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "hicgfy",
+  "timestamp": 1785478468071,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
