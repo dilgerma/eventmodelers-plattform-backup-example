@@ -10,14 +10,43 @@
   "meta": {
     "type": "READMODEL",
     "title": "Active Password",
-    "fields": [],
+    "fields": [
+      {
+        "pii": false,
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "password",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
     "compact": true,
     "context": "INTERNAL",
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "c3d7oc",
-  "timestamp": 1785508198737,
+  "hash": "1ahn6rn",
+  "timestamp": 1785508207001,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
