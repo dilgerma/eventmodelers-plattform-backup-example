@@ -1,0 +1,80 @@
+{
+  "id": "7fd65519-41cf-4fbc-8771-bf285b8171ca",
+  "type": "sticky_note",
+  "position": {
+    "x": 545,
+    "y": 484
+  },
+  "parentId": "db54a00b-3fc6-49ed-8389-f00c3dbe539f",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "Customers",
+    "fields": [
+      {
+        "pii": false,
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "company",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "password",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "14472w7",
+  "timestamp": 1785478451747,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
