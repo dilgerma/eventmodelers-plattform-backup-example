@@ -1,0 +1,52 @@
+{
+  "id": "5fb08394-309d-4736-afd6-a70750aaf375",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 484
+  },
+  "parentId": "ed2f9f5d-78d1-4269-a87b-2b84f714ae83",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Register customer",
+    "fields": [
+      {
+        "pii": false,
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "password",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "4tmg9z",
+  "timestamp": 1785503353183,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
