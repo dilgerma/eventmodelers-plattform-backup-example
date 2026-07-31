@@ -24,6 +24,20 @@
         "idAttribute": false,
         "showAttributes": false,
         "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "email",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
       }
     ],
     "compact": true,
@@ -32,7 +46,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "17qx6l4",
-  "timestamp": 1785478040612,
+  "hash": "1a525b",
+  "timestamp": 1785478042237,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
