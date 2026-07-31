@@ -84,11 +84,64 @@
           "examples": [],
           "expectError": false,
           "expectEmptyList": false
+        },
+        {
+          "id": "a93dfffd-8cbe-402c-ac6c-068cde411509",
+          "then": [],
+          "when": [
+            {
+              "id": "b8efa01c-8d97-4119-aeca-0d0c474b6a21",
+              "type": "COMMAND",
+              "title": "Register Customer",
+              "fields": [
+                {
+                  "name": "name"
+                },
+                {
+                  "name": "email",
+                  "example": "info@nebulit.de"
+                },
+                {
+                  "name": "company"
+                },
+                {
+                  "name": "password"
+                }
+              ]
+            }
+          ],
+          "given": [
+            {
+              "id": "6f8800eb-35aa-4a31-ab3c-33466e736397",
+              "type": "EVENT",
+              "title": "Customer registered",
+              "fields": [
+                {
+                  "name": "name"
+                },
+                {
+                  "name": "email",
+                  "example": "info@nebulit.de"
+                },
+                {
+                  "name": "company"
+                },
+                {
+                  "name": "password"
+                }
+              ]
+            }
+          ],
+          "title": "Scenario #2",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "email already registered"
         }
       ]
     }
   },
-  "hash": "1qhc4kc",
-  "timestamp": 1785478106525,
+  "hash": "11qsgdq",
+  "timestamp": 1785478123483,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
