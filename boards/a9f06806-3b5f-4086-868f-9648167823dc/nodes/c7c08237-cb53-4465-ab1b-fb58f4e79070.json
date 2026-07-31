@@ -1,0 +1,25 @@
+{
+  "id": "c7c08237-cb53-4465-ab1b-fb58f4e79070",
+  "type": "html_screen",
+  "position": {
+    "x": 555,
+    "y": 113.6
+  },
+  "parentId": "98db4866-ca20-4c4c-9af6-f654d0864c76",
+  "data": {},
+  "meta": {
+    "type": "HTML_SCREEN",
+    "pages": [
+      "\n<html lang=\"en\">\n<head>\n    \n    \n    <title>Registration Successful</title>\n\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css\" />\n\n    <style>\n        html, body {\n            height: 100%;\n        }\n\n        body {\n            background:\n                radial-gradient(circle at top left,#7c3aed 0%,transparent 40%),\n                radial-gradient(circle at bottom right,#2563eb 0%,transparent 40%),\n                linear-gradient(135deg,#0f172a,#111827,#1e293b);\n        }\n\n        .confirmation-card {\n            width: 500px;\n            border-radius: 24px;\n            backdrop-filter: blur(18px);\n            background: rgba(255,255,255,.08);\n            border: 1px solid rgba(255,255,255,.15);\n            box-shadow: 0 25px 60px rgba(0,0,0,.35);\n        }\n\n        .success-icon {\n            width: 90px;\n            height: 90px;\n            margin: auto;\n            border-radius: 50%;\n            background: linear-gradient(135deg,#22c55e,#16a34a);\n            color: white;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            font-size: 42px;\n            font-weight: bold;\n            box-shadow: 0 10px 30px rgba(34,197,94,.35);\n        }\n\n        .title {\n            color: white;\n        }\n\n        .subtitle {\n            color: rgba(255,255,255,.75);\n            line-height: 1.6;\n        }\n\n        .notification {\n            background: rgba(59,130,246,.15);\n            border: 1px solid rgba(59,130,246,.35);\n            color: white;\n        }\n\n        .button.is-gradient {\n            background: linear-gradient(90deg,#7c3aed,#3b82f6);\n            color: white;\n            border: none;\n            font-weight: 700;\n            height: 48px;\n        }\n\n        .button.is-gradient:hover {\n            transform: translateY(-2px);\n        }\n\n        a {\n            color: #93c5fd;\n        }\n\n    </style>\n</head>\n\n<body>\n\n<section class=\"hero is-fullheight\">\n    <div class=\"hero-body\">\n\n        <div class=\"container is-flex is-justify-content-center\">\n\n            <div class=\"card confirmation-card\">\n                <div class=\"card-content has-text-centered p-6\">\n\n                    <div class=\"success-icon\">\n                        ✓\n                    </div>\n\n                    <h1 class=\"title is-2 mt-5\">\n                        You're Almost There!\n                    </h1>\n\n                    <p class=\"subtitle mt-4\">\n                        Your account has been created successfully.\n                        We've sent a verification email to\n                        <strong style=\"color:white\">john@example.com</strong>.\n                    </p>\n\n                    <div class=\"notification mt-5 has-text-left\">\n                        <strong>Next steps</strong>\n\n                        <ul class=\"mt-3\">\n                            <li>✓ Open your inbox</li>\n                            <li>✓ Click the verification link</li>\n                            <li>✓ Return here and sign in</li>\n                        </ul>\n                    </div>\n\n                    <div class=\"buttons mt-6\">\n                        <button class=\"button is-gradient is-fullwidth\">\n                            Open Sign In\n                        </button>\n\n                        <button class=\"button is-fullwidth is-light\">\n                            Resend Verification Email\n                        </button>\n                    </div>\n\n                    <p class=\"mt-5 has-text-white\">\n                        Didn't receive anything?\n                        <a href=\"#\">Check your spam folder</a>\n                        or resend the email.\n                    </p>\n\n                </div>\n            </div>\n\n        </div>\n\n    </div>\n</section>\n\n</body>\n</html>"
+    ],
+    "title": "Registered",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "backgroundColor": "#ffffff",
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "109wgam"
+}

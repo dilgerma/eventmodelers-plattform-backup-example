@@ -1,0 +1,90 @@
+{
+  "id": "98db4866-ca20-4c4c-9af6-f654d0864c76",
+  "type": "timeline",
+  "position": {
+    "x": -334.1538327581784,
+    "y": -4902.347695913355
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "Registrations",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "329cc8d4-9d7d-4557-97fb-ba1ad9f27a42",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "8cea2a20-b46d-4296-b19a-3ccf38bbbfdd",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "af3d109f-cbe2-438c-8c16-300bb34535b1",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "dd795396-196f-4604-8a95-87fd249a6126",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "329cc8d4-9d7d-4557-97fb-ba1ad9f27a42-a2e4859c-8e66-427c-bbc8-e883ab02a933",
+          "colId": "a2e4859c-8e66-427c-bbc8-e883ab02a933",
+          "rowId": "329cc8d4-9d7d-4557-97fb-ba1ad9f27a42",
+          "nodeId": "c2638d78-6c90-4da9-8c7e-ed41e18da7a4",
+          "nodeType": "HTML_SCREEN"
+        },
+        {
+          "id": "8cea2a20-b46d-4296-b19a-3ccf38bbbfdd-a2e4859c-8e66-427c-bbc8-e883ab02a933",
+          "colId": "a2e4859c-8e66-427c-bbc8-e883ab02a933",
+          "rowId": "8cea2a20-b46d-4296-b19a-3ccf38bbbfdd",
+          "nodeId": "cab0fcfd-e32a-4c5d-b486-b3eb44196992",
+          "nodeType": "COMMAND"
+        },
+        {
+          "id": "af3d109f-cbe2-438c-8c16-300bb34535b1-a2e4859c-8e66-427c-bbc8-e883ab02a933",
+          "colId": "a2e4859c-8e66-427c-bbc8-e883ab02a933",
+          "rowId": "af3d109f-cbe2-438c-8c16-300bb34535b1",
+          "nodeId": "1ff9ac59-4bc2-4252-9a1f-0ec85cb33c7f",
+          "nodeType": "EVENT"
+        },
+        {
+          "id": "8cea2a20-b46d-4296-b19a-3ccf38bbbfdd-1a7436b1-97cc-44e9-a037-1de31ecc354f",
+          "colId": "1a7436b1-97cc-44e9-a037-1de31ecc354f",
+          "rowId": "8cea2a20-b46d-4296-b19a-3ccf38bbbfdd",
+          "nodeId": "bf21c808-d02a-4821-a649-92dfe145e7bb",
+          "nodeType": "READMODEL"
+        },
+        {
+          "id": "329cc8d4-9d7d-4557-97fb-ba1ad9f27a42-1a7436b1-97cc-44e9-a037-1de31ecc354f",
+          "colId": "1a7436b1-97cc-44e9-a037-1de31ecc354f",
+          "rowId": "329cc8d4-9d7d-4557-97fb-ba1ad9f27a42",
+          "nodeId": "c7c08237-cb53-4465-ab1b-fb58f4e79070",
+          "nodeType": "HTML_SCREEN"
+        }
+      ],
+      "columns": [
+        {
+          "id": "a2e4859c-8e66-427c-bbc8-e883ab02a933"
+        },
+        {
+          "id": "1a7436b1-97cc-44e9-a037-1de31ecc354f"
+        },
+        {
+          "id": "3de69950-3915-42ac-b71c-fe7c69807e4b"
+        }
+      ]
+    }
+  },
+  "hash": "1stvd1"
+}
