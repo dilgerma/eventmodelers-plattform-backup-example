@@ -8,6 +8,7 @@
   "data": {},
   "meta": {
     "type": "CHAPTER",
+    "title": "1",
     "timelineData": {
       "rows": [
         {
@@ -79,6 +80,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1785508287404,
+  "timestamp": 1785508289384,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
