@@ -38,6 +38,20 @@
         "idAttribute": false,
         "showAttributes": false,
         "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "company",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
       }
     ],
     "compact": true,
@@ -46,7 +60,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1a525b",
-  "timestamp": 1785478042237,
+  "hash": "ucrdyr",
+  "timestamp": 1785478043696,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
