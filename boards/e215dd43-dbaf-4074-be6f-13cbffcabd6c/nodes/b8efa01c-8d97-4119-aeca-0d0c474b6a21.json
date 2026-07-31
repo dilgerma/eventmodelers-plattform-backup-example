@@ -52,6 +52,20 @@
         "idAttribute": false,
         "showAttributes": false,
         "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "password",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
       }
     ],
     "compact": true,
@@ -60,7 +74,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "ucrdyr",
-  "timestamp": 1785478043696,
+  "hash": "1g0qzl3",
+  "timestamp": 1785478045471,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
