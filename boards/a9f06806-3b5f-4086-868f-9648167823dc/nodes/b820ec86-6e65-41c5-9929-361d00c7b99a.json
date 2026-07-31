@@ -1,0 +1,22 @@
+{
+  "id": "b820ec86-6e65-41c5-9929-361d00c7b99a",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "ed2f9f5d-78d1-4269-a87b-2b84f714ae83",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "18400df6-fa86-4e8c-9de9-03e1f7a8d05e",
+    "title": "Register customer"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Register customer",
+    "sliceStatus": "Done"
+  },
+  "hash": "427z6z",
+  "timestamp": 1785497884190,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
