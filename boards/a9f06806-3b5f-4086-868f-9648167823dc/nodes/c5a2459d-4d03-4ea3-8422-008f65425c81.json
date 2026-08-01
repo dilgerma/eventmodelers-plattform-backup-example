@@ -8,6 +8,7 @@
   "data": {},
   "meta": {
     "type": "CHAPTER",
+    "title": "c1",
     "timelineData": {
       "rows": [
         {
@@ -49,7 +50,7 @@
       ]
     }
   },
-  "hash": "woki2q",
-  "timestamp": 1785559619760,
+  "hash": null,
+  "timestamp": 1785560696614,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
