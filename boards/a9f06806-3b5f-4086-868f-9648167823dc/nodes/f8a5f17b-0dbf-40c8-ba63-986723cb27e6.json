@@ -1,0 +1,15 @@
+{
+  "id": "f8a5f17b-0dbf-40c8-ba63-986723cb27e6",
+  "type": "sticky_note",
+  "parentId": "70e7bf4f-cd82-4922-84ba-343cfba71d32",
+  "data": {
+    "title": "Register Customer"
+  },
+  "meta": {
+    "type": "COMMAND",
+    "title": "Register Customer"
+  },
+  "hash": "u6ipod",
+  "timestamp": 1785562121932,
+  "userId": null
+}
