@@ -1,0 +1,55 @@
+{
+  "id": "c5a2459d-4d03-4ea3-8422-008f65425c81",
+  "type": "timeline",
+  "position": {
+    "x": 671.5,
+    "y": 457.5
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "93cbfde0-fa7e-450c-ad39-e2a75c5283cd",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "55f20cd1-1188-4b1b-8375-072b241394b0",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "9c21d246-1608-48db-9613-b2c76f9dcc22",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "c9680383-d510-4fe9-9fbc-c2da1f5cf0b6",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [],
+      "columns": [
+        {
+          "id": "974ac7ca-1d8f-413a-b9cb-e4955c627848"
+        },
+        {
+          "id": "46b74595-cc9c-4e3a-b2a5-c31d59548e17"
+        },
+        {
+          "id": "dee36593-5c85-471d-996a-f6d1b0ce437d"
+        }
+      ]
+    }
+  },
+  "hash": "woki2q",
+  "timestamp": 1785559619760,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
