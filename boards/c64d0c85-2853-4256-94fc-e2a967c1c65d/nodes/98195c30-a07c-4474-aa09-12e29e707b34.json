@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "HTML_SCREEN",
-    "title": "HTML Screen",
+    "title": "HTML Screen2",
     "fields": [
       {
         "pii": false,
@@ -32,7 +32,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1fdcsc",
-  "timestamp": 1786363003689,
+  "hash": "v7vsvi",
+  "timestamp": 1786363005283,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
