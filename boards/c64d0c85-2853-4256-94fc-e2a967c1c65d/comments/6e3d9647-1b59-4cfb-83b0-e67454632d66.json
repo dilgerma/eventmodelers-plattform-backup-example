@@ -1,0 +1,11 @@
+{
+  "id": "6e3d9647-1b59-4cfb-83b0-e67454632d66",
+  "nodeId": "a0b1dc4c-7b5f-4b6a-9b93-08bcb36da462",
+  "boardId": "c64d0c85-2853-4256-94fc-e2a967c1c65d",
+  "text": "What should this list show when there are currently no active reservations?",
+  "type": "QUESTION",
+  "timestamp": 1786355451558,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "618eab9e-1dd2-4cd0-8238-a169f04ea015",
+  "nodeId": "315834cd-7a21-4087-b38b-723cb575c595",
+  "boardId": "c64d0c85-2853-4256-94fc-e2a967c1c65d",
+  "text": "This view is still called \"Fitting Details\" — should it be renamed to fit the dining/check-in flow instead of a leftover name from a different business?",
+  "type": "QUESTION",
+  "timestamp": 1786355439742,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

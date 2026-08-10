@@ -1,0 +1,11 @@
+{
+  "id": "a6fc9c52-3531-49d7-bbec-e50f87a7651f",
+  "nodeId": "bf35a3eb-a670-4a4a-8bf4-f03e80c57ffc",
+  "boardId": "c64d0c85-2853-4256-94fc-e2a967c1c65d",
+  "text": "If a customer already has an active reservation, how do we recognize it's the same person when all we have to go on is their name?",
+  "type": "QUESTION",
+  "timestamp": 1786355383705,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

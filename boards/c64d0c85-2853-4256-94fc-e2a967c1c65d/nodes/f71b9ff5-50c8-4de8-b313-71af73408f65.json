@@ -1,0 +1,51 @@
+{
+  "id": "f71b9ff5-50c8-4de8-b313-71af73408f65",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 804
+  },
+  "parentId": "505e800e-964e-449c-a4a4-fcbfb197453f",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Event",
+    "fields": [
+      {
+        "pii": false,
+        "name": "voo2",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "mapping": "voo",
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "1",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1cro2uf"
+}
