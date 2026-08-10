@@ -1,0 +1,11 @@
+{
+  "id": "e3c68706-e079-4622-a32f-f13ef127ba36",
+  "nodeId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "boardId": "c64d0c85-2853-4256-94fc-e2a967c1c65d",
+  "text": "QUESTION: CRUD is now complete for the reservation aggregate (Reserve Table = create, Active Reservations = read, Update Reservation = update, Cancel Reservation = delete). No remaining UI affordance implies an obvious next slice. Adding a \"Check In Reservation\" state-change slice as the next logical business step (guest arrival), completing the reservation lifecycle beyond basic CRUD -- flag if a different next feature (e.g. no-show handling, table assignment, notifications) was intended instead.",
+  "type": "TASK",
+  "timestamp": 1786283406019,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "agent"
+}
