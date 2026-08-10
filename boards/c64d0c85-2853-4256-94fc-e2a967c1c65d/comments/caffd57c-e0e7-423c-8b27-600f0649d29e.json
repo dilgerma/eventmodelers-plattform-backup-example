@@ -1,0 +1,11 @@
+{
+  "id": "caffd57c-e0e7-423c-8b27-600f0649d29e",
+  "nodeId": "315834cd-7a21-4087-b38b-723cb575c595",
+  "boardId": "c64d0c85-2853-4256-94fc-e2a967c1c65d",
+  "text": "Once a reservation is completed or cancelled, does this view update, or does it keep showing the guest as still checked in?",
+  "type": "QUESTION",
+  "timestamp": 1786355428783,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "505e800e-964e-449c-a4a4-fcbfb197453f",
+  "type": "timeline",
+  "position": {
+    "x": 1263.3643270614225,
+    "y": 778.8229882471452
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "c0ffc2c4-8317-4f82-b11d-f15f3d432593",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "413918ee-52d4-4014-967e-0346082bc78e",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "bf7c2dcb-cfea-40dd-a661-bc6b8ee2a5c8",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "c66001b7-f8ba-406e-80e0-5ac858f97b04",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "c0ffc2c4-8317-4f82-b11d-f15f3d432593-4a9d01d2-1cae-4e90-90b6-d45f4589063c",
+          "colId": "4a9d01d2-1cae-4e90-90b6-d45f4589063c",
+          "rowId": "c0ffc2c4-8317-4f82-b11d-f15f3d432593",
+          "nodeId": "98195c30-a07c-4474-aa09-12e29e707b34",
+          "nodeType": "HTML_SCREEN"
+        },
+        {
+          "id": "413918ee-52d4-4014-967e-0346082bc78e-4a9d01d2-1cae-4e90-90b6-d45f4589063c",
+          "colId": "4a9d01d2-1cae-4e90-90b6-d45f4589063c",
+          "rowId": "413918ee-52d4-4014-967e-0346082bc78e",
+          "nodeId": "e3dc7d80-d95b-48b1-b09e-7adc6898cda5",
+          "nodeType": "COMMAND"
+        },
+        {
+          "id": "bf7c2dcb-cfea-40dd-a661-bc6b8ee2a5c8-4a9d01d2-1cae-4e90-90b6-d45f4589063c",
+          "colId": "4a9d01d2-1cae-4e90-90b6-d45f4589063c",
+          "rowId": "bf7c2dcb-cfea-40dd-a661-bc6b8ee2a5c8",
+          "nodeId": "f71b9ff5-50c8-4de8-b313-71af73408f65",
+          "nodeType": "EVENT"
+        }
+      ],
+      "columns": [
+        {
+          "id": "4a9d01d2-1cae-4e90-90b6-d45f4589063c"
+        },
+        {
+          "id": "205c7100-dce1-4cec-9ce5-d8fab3ee60a2"
+        },
+        {
+          "id": "1c77d366-4172-4e14-b906-693ed1935b26"
+        }
+      ]
+    }
+  },
+  "hash": "3uqa38"
+}

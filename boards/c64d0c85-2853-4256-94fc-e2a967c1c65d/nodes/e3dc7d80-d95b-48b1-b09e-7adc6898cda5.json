@@ -1,0 +1,36 @@
+{
+  "id": "e3dc7d80-d95b-48b1-b09e-7adc6898cda5",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 484
+  },
+  "parentId": "505e800e-964e-449c-a4a4-fcbfb197453f",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Command",
+    "fields": [
+      {
+        "pii": false,
+        "name": "voo",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "18shbvn"
+}

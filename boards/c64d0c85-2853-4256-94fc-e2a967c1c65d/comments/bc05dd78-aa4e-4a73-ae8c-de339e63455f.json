@@ -1,0 +1,11 @@
+{
+  "id": "bc05dd78-aa4e-4a73-ae8c-de339e63455f",
+  "nodeId": "5612361f-80e4-4774-8341-8974cf9da87b",
+  "boardId": "c64d0c85-2853-4256-94fc-e2a967c1c65d",
+  "text": "Who cancels a reservation in practice — the guest themselves, or a staff member managing the list?",
+  "type": "QUESTION",
+  "timestamp": 1786355394719,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

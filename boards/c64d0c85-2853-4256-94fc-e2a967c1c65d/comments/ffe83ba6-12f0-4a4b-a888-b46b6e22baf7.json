@@ -1,0 +1,11 @@
+{
+  "id": "ffe83ba6-12f0-4a4b-a888-b46b6e22baf7",
+  "nodeId": "62eaf0ec-e9d8-48c2-bbc0-e47eaeac688e",
+  "boardId": "c64d0c85-2853-4256-94fc-e2a967c1c65d",
+  "text": "Who checks a guest in when they arrive — staff at the door, or the guest themselves?",
+  "type": "QUESTION",
+  "timestamp": 1786355417170,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

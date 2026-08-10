@@ -1,0 +1,11 @@
+{
+  "id": "c5fd55bb-ad34-431f-9a3a-c79b073c9fd3",
+  "nodeId": "52031d71-6a82-4d57-b5f9-035a22d52a1d",
+  "boardId": "c64d0c85-2853-4256-94fc-e2a967c1c65d",
+  "text": "QUESTION: This screen was built as a tailor-shop appointment form, but the column now has a \"Reserve Table\" command and \"Table Reserved\" event — this looks like a restaurant/venue TABLE reservation, not a tailor appointment (likely a voice mis-transcription). Want me to redesign this screen to match (party size, date/time, table reservation) instead?",
+  "type": "COMMENT",
+  "timestamp": 1786030967201,
+  "resolved": true,
+  "agentRequest": false,
+  "author": "agent"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "47940e41-477c-4f95-8693-76da6ac51ed9",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "505e800e-964e-449c-a4a4-fcbfb197453f",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "4a9d01d2-1cae-4e90-90b6-d45f4589063c",
+    "title": "slice-1"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "slice-1"
+  },
+  "hash": "1oppdyw"
+}
