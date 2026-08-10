@@ -6,9 +6,14 @@
     "y": 113.6
   },
   "parentId": "505e800e-964e-449c-a4a4-fcbfb197453f",
-  "data": {},
+  "data": {
+    "defaultPageIndex": 0
+  },
   "meta": {
     "type": "HTML_SCREEN",
+    "pages": [
+      "\n<html lang=\"en\">\n<head>\n\n\n<title>Tickets Confirmed</title>\n\n<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap\" rel=\"stylesheet\" />\n\n<style>\n*{\n    margin:0;\n    padding:0;\n    box-sizing:border-box;\n}\n\nbody{\n    font-family:Inter,sans-serif;\n    min-height:100vh;\n    display:flex;\n    justify-content:center;\n    align-items:center;\n    background:\n        radial-gradient(circle at top,#3c4187 0%,#1b1b36 40%,#090911 100%);\n    color:white;\n    padding:40px;\n}\n\n.card{\n    width:460px;\n    background:rgba(255,255,255,.08);\n    backdrop-filter:blur(20px);\n    border:1px solid rgba(255,255,255,.1);\n    border-radius:26px;\n    overflow:hidden;\n    box-shadow:0 25px 60px rgba(0,0,0,.45);\n}\n\n.header{\n    padding:45px 30px;\n    text-align:center;\n    background:linear-gradient(135deg,#6a5cff,#3a88ff);\n}\n\n.check{\n    width:90px;\n    height:90px;\n    margin:0 auto 20px;\n    border-radius:50%;\n    background:white;\n    color:#4d68ff;\n    font-size:52px;\n    display:flex;\n    align-items:center;\n    justify-content:center;\n    font-weight:bold;\n}\n\n.header h1{\n    font-size:34px;\n    margin-bottom:10px;\n}\n\n.header p{\n    opacity:.9;\n}\n\n.content{\n    padding:30px;\n}\n\n.ticket{\n    background:rgba(255,255,255,.05);\n    border-radius:18px;\n    padding:22px;\n    margin-bottom:24px;\n}\n\n.event{\n    font-size:24px;\n    font-weight:800;\n}\n\n.tour{\n    color:#b9bbff;\n    margin-top:4px;\n}\n\n.info{\n    margin-top:22px;\n    display:grid;\n    gap:14px;\n    color:#ddd;\n}\n\n.row{\n    display:flex;\n    justify-content:space-between;\n}\n\n.code{\n    margin-top:28px;\n    padding:18px;\n    border-radius:14px;\n    background:#11182d;\n    text-align:center;\n}\n\n.code small{\n    color:#999;\n    display:block;\n    margin-bottom:8px;\n}\n\n.code strong{\n    font-size:26px;\n    letter-spacing:3px;\n}\n\n.actions{\n    display:grid;\n    gap:12px;\n    margin-top:28px;\n}\n\nbutton{\n    padding:16px;\n    border:none;\n    border-radius:14px;\n    font-size:16px;\n    font-weight:700;\n    cursor:pointer;\n}\n\n.primary{\n    background:linear-gradient(90deg,#6a5cff,#3a88ff);\n    color:white;\n}\n\n.secondary{\n    background:rgba(255,255,255,.08);\n    color:white;\n}\n</style>\n\n</head>\n<body>\n\n<div class=\"card\">\n\n    <div class=\"header\">\n        <div class=\"check\">✓</div>\n        <h1>You're Going!</h1>\n        <p>Your tickets have been confirmed.</p>\n    </div>\n\n    <div class=\"content\">\n\n        <div class=\"ticket\">\n\n            <div class=\"event\">Wincent Wise</div>\n            <div class=\"tour\">Echoes Tour 2026</div>\n\n            <div class=\"info\">\n\n                <div class=\"row\">\n                    <span>📍 Venue</span>\n                    <span>Munich Arena</span>\n                </div>\n\n                <div class=\"row\">\n                    <span>📅 Date</span>\n                    <span>October 17, 2026</span>\n                </div>\n\n                <div class=\"row\">\n                    <span>🎟 Tickets</span>\n                    <span>2 × General Admission</span>\n                </div>\n\n                <div class=\"row\">\n                    <span>💳 Paid</span>\n                    <span>€102</span>\n                </div>\n\n            </div>\n\n        </div>\n\n        <div class=\"code\">\n            <small>Booking Reference</small>\n            <strong>WW-83K7X2</strong>\n        </div>\n\n        <div class=\"actions\">\n            <button class=\"primary\">📱 View Mobile Ticket</button>\n            <button class=\"secondary\">⬇ Download PDF Ticket</button>\n        </div>\n\n    </div>\n\n</div>\n\n</body>\n</html>"
+    ],
     "title": "HTML Screen2222222222222222222",
     "fields": [
       {
@@ -32,7 +37,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1o08r72",
-  "timestamp": 1786363008861,
+  "hash": "1nr3yu7",
+  "timestamp": 1786363109284,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
