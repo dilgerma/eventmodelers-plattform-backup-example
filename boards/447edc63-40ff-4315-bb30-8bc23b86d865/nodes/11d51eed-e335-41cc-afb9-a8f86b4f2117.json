@@ -1,0 +1,21 @@
+{
+  "id": "11d51eed-e335-41cc-afb9-a8f86b4f2117",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "2142abe2-2db4-4490-9ed0-e8a66280006b",
+    "title": "Reserve Table"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Reserve Table",
+    "version": 4,
+    "sliceStatus": "Done"
+  },
+  "hash": "1jo9tb4"
+}

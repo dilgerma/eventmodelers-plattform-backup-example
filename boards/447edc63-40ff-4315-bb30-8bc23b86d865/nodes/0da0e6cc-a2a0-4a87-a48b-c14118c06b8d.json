@@ -1,0 +1,20 @@
+{
+  "id": "0da0e6cc-a2a0-4a87-a48b-c14118c06b8d",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "747a0a5b-efc1-4f06-93ac-5020c04458a5",
+    "title": "Record Return"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "747a0a5b-efc1-4f06-93ac-5020c04458a5",
+    "title": "Record Return"
+  },
+  "hash": "1apbofv"
+}

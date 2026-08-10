@@ -1,0 +1,16 @@
+{
+  "id": "7ac73267-16f0-44c9-a628-3541fa6d4c6b",
+  "type": "slice_border",
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "95be3099-d4cb-4aee-b5f8-03719af3339b",
+    "title": "Notify on Cancellation"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "95be3099-d4cb-4aee-b5f8-03719af3339b",
+    "title": "Notify on Cancellation"
+  },
+  "hash": "z2ior0"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "8fd15325-82e4-45ab-8016-de1371a972a1",
+  "type": "sticky_note",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Reservation Updated",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-1042",
+        "optional": false,
+        "cardinality": "Single",
+        "idAttribute": true
+      },
+      {
+        "name": "customerName",
+        "type": "String",
+        "example": "Jane Doe",
+        "optional": false,
+        "cardinality": "Single",
+        "idAttribute": false
+      }
+    ]
+  },
+  "hash": "c9mwdi"
+}

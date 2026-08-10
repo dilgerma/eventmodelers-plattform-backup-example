@@ -1,0 +1,11 @@
+{
+  "id": "4561bf48-b9b6-4307-b1a0-1203b0538ee9",
+  "nodeId": "4a434f81-2245-44ec-842e-8d5f47efda61",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Field currentDueDate is mapped to BookCheckedOut.dueDate for display, but there is no board connection to this screen -- same connected-element gap as the other command screens with a display-only prefill field. Accepted as non-blocking; a loan-lookup read model would resolve it properly.",
+  "type": "TASK",
+  "timestamp": 1786296724190,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "completeness-check"
+}

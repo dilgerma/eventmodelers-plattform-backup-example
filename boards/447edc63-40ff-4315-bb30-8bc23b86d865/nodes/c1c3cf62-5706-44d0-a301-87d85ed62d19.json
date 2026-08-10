@@ -1,0 +1,41 @@
+{
+  "id": "c1c3cf62-5706-44d0-a301-87d85ed62d19",
+  "type": "image",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "hasComments": true
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Cancel Reservation",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-8f21",
+        "mapping": "BookReserved.reservationId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "bookTitle",
+        "type": "String",
+        "example": "Dune",
+        "mapping": "derived:catalogueLookup(copyId).title",
+        "generated": true,
+        "cardinality": "Single"
+      },
+      {
+        "name": "expiresAt",
+        "type": "DateTime",
+        "example": "2026-08-12T10:00:00Z",
+        "mapping": "BookReserved.expiresAt",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Member cancels their own reservation before pickup."
+  },
+  "hash": "1wgmp34"
+}

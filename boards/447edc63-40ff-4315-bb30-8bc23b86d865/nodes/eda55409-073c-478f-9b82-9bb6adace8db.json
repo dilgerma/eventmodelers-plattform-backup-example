@@ -1,0 +1,56 @@
+{
+  "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "BookCheckedOut",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "UUID",
+        "example": "loan-5512",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "UUID",
+        "example": "copy-4471",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "UUID",
+        "example": "mbr-1029",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reservationId",
+        "type": "UUID",
+        "example": "res-8f21",
+        "optional": true,
+        "cardinality": "Single"
+      },
+      {
+        "name": "checkedOutAt",
+        "type": "DateTime",
+        "example": "2026-08-09T14:30:00Z",
+        "cardinality": "Single"
+      },
+      {
+        "name": "dueDate",
+        "type": "Date",
+        "example": "2026-08-23",
+        "cardinality": "Single"
+      },
+      {
+        "name": "branchId",
+        "type": "String",
+        "example": "branch-central",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "16s7ufp"
+}

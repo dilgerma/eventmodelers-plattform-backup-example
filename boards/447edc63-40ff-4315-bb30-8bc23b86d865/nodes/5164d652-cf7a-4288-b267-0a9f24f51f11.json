@@ -1,0 +1,149 @@
+{
+  "id": "5164d652-cf7a-4288-b267-0a9f24f51f11",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "0e11aed3-c317-4e77-833f-d7dc3a0c65b7",
+          "then": [
+            {
+              "id": "25670a3a-6691-4ffc-9f01-9fa245c452ee",
+              "type": "EVENT",
+              "title": "LoanOverdueFlagged"
+            }
+          ],
+          "when": [
+            {
+              "id": "ad9f1249-8f38-42ac-ae47-f613d4d53645",
+              "type": "COMMAND",
+              "title": "FlagLoanOverdue"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Scheduler flags a loan overdue after its due date passes"
+        },
+        {
+          "id": "5eb14c1f-edcc-428b-9e8a-5b0b2357f8af",
+          "then": [],
+          "when": [
+            {
+              "id": "ad9f1249-8f38-42ac-ae47-f613d4d53645",
+              "type": "COMMAND",
+              "title": "FlagLoanOverdue"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject flagging overdue before the due date has passed",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "due date has not passed"
+        },
+        {
+          "id": "0cde8e7d-a49d-458a-86ca-a850d9ecc940",
+          "then": [],
+          "when": [
+            {
+              "id": "ad9f1249-8f38-42ac-ae47-f613d4d53645",
+              "type": "COMMAND",
+              "title": "FlagLoanOverdue"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "0eeea19b-9966-40fb-a549-15ea2b51bf80",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "Reject flagging overdue a loan that has already been returned",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "cannot flag a closed loan as overdue"
+        },
+        {
+          "id": "9ff0f6f0-acb5-4a2d-9dad-fde2e8fe0a2e",
+          "then": [],
+          "when": [
+            {
+              "id": "ad9f1249-8f38-42ac-ae47-f613d4d53645",
+              "type": "COMMAND",
+              "title": "FlagLoanOverdue"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "25670a3a-6691-4ffc-9f01-9fa245c452ee",
+              "type": "EVENT",
+              "title": "LoanOverdueFlagged"
+            }
+          ],
+          "title": "Reject re-flagging a loan that is already flagged overdue",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "loan already flagged overdue"
+        },
+        {
+          "id": "db3707c4-dd84-4718-aa43-4229a893c9f1",
+          "then": [],
+          "when": [
+            {
+              "id": "ad9f1249-8f38-42ac-ae47-f613d4d53645",
+              "type": "COMMAND",
+              "title": "FlagLoanOverdue"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "6a874df4-b49d-4be4-b5d4-b32a6ba7f974",
+              "type": "EVENT",
+              "title": "LoanDueDateExtended"
+            }
+          ],
+          "title": "Reject flagging overdue when a prior extension pushed the due date into the future",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "due date has not passed"
+        }
+      ]
+    }
+  },
+  "hash": "1n87jbl"
+}

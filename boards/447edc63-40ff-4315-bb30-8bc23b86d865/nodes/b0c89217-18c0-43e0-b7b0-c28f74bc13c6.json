@@ -1,0 +1,20 @@
+{
+  "id": "b0c89217-18c0-43e0-b7b0-c28f74bc13c6",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "43840a43-8cf6-4f4d-9d76-704616a2f5ba",
+    "title": "Shorten Due Date"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "43840a43-8cf6-4f4d-9d76-704616a2f5ba",
+    "title": "Shorten Due Date"
+  },
+  "hash": "7ihr5r"
+}

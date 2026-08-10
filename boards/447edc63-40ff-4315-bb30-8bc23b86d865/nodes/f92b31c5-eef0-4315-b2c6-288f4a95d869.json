@@ -1,0 +1,29 @@
+{
+  "id": "f92b31c5-eef0-4315-b2c6-288f4a95d869",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "ReserveBook",
+    "fields": [
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-4471",
+        "mapping": "user-input",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-1029",
+        "mapping": "session:memberId",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1li0huu"
+}

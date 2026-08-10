@@ -1,0 +1,41 @@
+{
+  "id": "5863a32c-ac31-45ea-b5dd-a3b631550d6d",
+  "type": "image",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "hasComments": true
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Record Return",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "String",
+        "example": "loan-5512",
+        "mapping": "RecordReturn.loanId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-4471",
+        "mapping": "BookCheckedOut.copyId",
+        "generated": true,
+        "cardinality": "Single"
+      },
+      {
+        "name": "branchId",
+        "type": "String",
+        "example": "branch-east",
+        "mapping": "RecordReturn.branchId",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Librarian records a returned book at any branch."
+  },
+  "hash": "1pjengv"
+}

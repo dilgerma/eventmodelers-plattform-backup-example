@@ -1,0 +1,16 @@
+{
+  "id": "46f34ec1-8792-4caa-be28-661f4188cf00",
+  "type": "slice_border",
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "ccbd83de-ca27-410d-b0b7-f67aeed7a032",
+    "title": "Cancel Reservation"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "ccbd83de-ca27-410d-b0b7-f67aeed7a032",
+    "title": "Cancel Reservation"
+  },
+  "hash": "10r4fqh"
+}

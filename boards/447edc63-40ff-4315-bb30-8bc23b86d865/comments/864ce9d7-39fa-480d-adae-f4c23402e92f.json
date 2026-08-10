@@ -1,0 +1,11 @@
+{
+  "id": "864ce9d7-39fa-480d-adae-f4c23402e92f",
+  "nodeId": "7ac67acb-e32a-4c2a-b090-960c6e5536f7",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Who should be allowed to see this full list of registered customers, given it includes their email addresses?",
+  "type": "QUESTION",
+  "timestamp": 1786282346999,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "fa8e7db2-601b-44b6-b8d0-d38d3eaa464d",
+  "type": "sticky_note",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Cancel Reservation",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-1042",
+        "optional": false,
+        "cardinality": "Single",
+        "idAttribute": true
+      }
+    ]
+  },
+  "hash": "j4lc94"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "f4c02487-3d87-4f87-8113-66e740a85ea5",
+  "nodeId": "49d4280b-a2e5-40cd-b414-f05ca714e0f4",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Prompt was just \"add fields\" with no field names given. I inferred `fullName` and `email` from this screen's visible inputs (Full name / Email address) and propagated them across the chain: HTML_SCREEN → COMMAND \"Register Customer\" → EVENT \"Customer Registered\" (all had empty fields before). Let me know if different fields or names were intended.",
+  "type": "QUESTION",
+  "timestamp": 1786281727633,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "modeling-agent"
+}

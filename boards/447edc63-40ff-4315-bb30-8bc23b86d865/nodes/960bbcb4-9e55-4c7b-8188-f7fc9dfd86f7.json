@@ -1,0 +1,108 @@
+{
+  "id": "960bbcb4-9e55-4c7b-8188-f7fc9dfd86f7",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "95a362b3-8bc7-45b5-8626-06674ff402de",
+          "then": [
+            {
+              "id": "6d2f76e1-594a-4092-98b1-01b59e095a98",
+              "type": "READMODEL",
+              "title": "LibrarianLoansView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Librarian sees a new active loan after checkout"
+        },
+        {
+          "id": "09095007-1dd2-46cc-9d79-814327e0a548",
+          "then": [
+            {
+              "id": "6d2f76e1-594a-4092-98b1-01b59e095a98",
+              "type": "READMODEL",
+              "title": "LibrarianLoansView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "25670a3a-6691-4ffc-9f01-9fa245c452ee",
+              "type": "EVENT",
+              "title": "LoanOverdueFlagged"
+            }
+          ],
+          "title": "Librarian sees a loan move to the overdue list"
+        },
+        {
+          "id": "55598053-f2eb-464a-a82d-99ef9f0b074b",
+          "then": [
+            {
+              "id": "6d2f76e1-594a-4092-98b1-01b59e095a98",
+              "type": "READMODEL",
+              "title": "LibrarianLoansView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            }
+          ],
+          "title": "Librarian sees a pending reservation"
+        },
+        {
+          "id": "af1b9522-532f-4799-90b3-9db9b026d804",
+          "then": [
+            {
+              "id": "6d2f76e1-594a-4092-98b1-01b59e095a98",
+              "type": "READMODEL",
+              "title": "LibrarianLoansView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "25670a3a-6691-4ffc-9f01-9fa245c452ee",
+              "type": "EVENT",
+              "title": "LoanOverdueFlagged"
+            },
+            {
+              "id": "0eeea19b-9966-40fb-a549-15ea2b51bf80",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "Loan drops off the librarian's active and overdue lists after it is returned"
+        }
+      ]
+    }
+  },
+  "hash": "vkipay"
+}

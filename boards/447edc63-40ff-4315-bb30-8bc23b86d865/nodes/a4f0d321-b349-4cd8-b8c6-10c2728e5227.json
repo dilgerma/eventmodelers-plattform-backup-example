@@ -1,0 +1,39 @@
+{
+  "id": "a4f0d321-b349-4cd8-b8c6-10c2728e5227",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "hasComments": true
+  },
+  "meta": {
+    "type": "EVENT",
+    "title": "ReservationCancelled",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "UUID",
+        "example": "res-8f21",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "UUID",
+        "example": "copy-4471",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "UUID",
+        "example": "mbr-1029",
+        "cardinality": "Single"
+      },
+      {
+        "name": "cancelledAt",
+        "type": "DateTime",
+        "example": "2026-08-10T08:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "103q0zi"
+}

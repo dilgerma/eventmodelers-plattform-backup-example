@@ -1,0 +1,11 @@
+{
+  "id": "dabf8f57-136b-4886-a635-84c41d44feb1",
+  "nodeId": "a0b1dc4c-7b5f-4b6a-9b93-08bcb36da462",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "QUESTION: This \"Reservations\" read model only projects the \"Table Reserved\" event (column 1). Now that \"Reservation Cancelled\" (Cancel Reservation slice) and \"Reservation Updated\" (Update Reservation slice) exist in later columns, the list is logically stale — it won't reflect cancellations or name changes. I tried wiring EVENT→READMODEL edges from both, but the platform rejects them: edges must flow forward in time (earlier column → later column), and this read model's column (2) is earlier than both of those events' columns (3, 4). Fixing this properly would mean moving/duplicating the read model to a column after all three events, which is a bigger structural change than this prompt's scope (\"add next slice\") — flagging here rather than guessing. Left the model as-is; a human should decide whether to reposition this read model or accept it as illustrative only.",
+  "type": "QUESTION",
+  "timestamp": 1786292784875,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "mcp-agent"
+}

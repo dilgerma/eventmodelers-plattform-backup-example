@@ -1,0 +1,20 @@
+{
+  "id": "59d0f4bc-d8f1-4b63-bc85-3b474fefbcb0",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "af0ce27e-71e2-41d3-ba6c-d1b0766df1a9",
+    "title": "Confirm Checkout"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "af0ce27e-71e2-41d3-ba6c-d1b0766df1a9",
+    "title": "Confirm Checkout"
+  },
+  "hash": "1en0gay"
+}

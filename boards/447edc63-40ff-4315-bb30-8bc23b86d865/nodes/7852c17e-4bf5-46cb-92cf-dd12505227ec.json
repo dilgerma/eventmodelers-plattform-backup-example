@@ -1,0 +1,143 @@
+{
+  "id": "7852c17e-4bf5-46cb-92cf-dd12505227ec",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "588f077d-311c-40a6-af06-96fa49dea677",
+          "then": [
+            {
+              "id": "a4f0d321-b349-4cd8-b8c6-10c2728e5227",
+              "type": "EVENT",
+              "title": "ReservationCancelled"
+            }
+          ],
+          "when": [
+            {
+              "id": "01498e2b-3a36-45ae-85b5-99c4eb973a21",
+              "type": "COMMAND",
+              "title": "CancelReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            }
+          ],
+          "title": "Cancel an active reservation"
+        },
+        {
+          "id": "395240f7-b7bd-4dfb-b8db-439c88fff1ff",
+          "then": [],
+          "when": [
+            {
+              "id": "01498e2b-3a36-45ae-85b5-99c4eb973a21",
+              "type": "COMMAND",
+              "title": "CancelReservation"
+            }
+          ],
+          "given": [],
+          "title": "Reject cancelling a reservation that does not exist",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "reservation not found"
+        },
+        {
+          "id": "f85b1466-e463-4f4c-88a9-ae355193a397",
+          "then": [],
+          "when": [
+            {
+              "id": "01498e2b-3a36-45ae-85b5-99c4eb973a21",
+              "type": "COMMAND",
+              "title": "CancelReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            },
+            {
+              "id": "b5ddba3a-ff71-43ed-b75e-91a0c1aa8cce",
+              "type": "EVENT",
+              "title": "ReservationExpired"
+            }
+          ],
+          "title": "Reject cancelling a reservation that already expired",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "reservation already expired"
+        },
+        {
+          "id": "7eae9b06-f68b-4344-9450-9d147293791a",
+          "then": [],
+          "when": [
+            {
+              "id": "01498e2b-3a36-45ae-85b5-99c4eb973a21",
+              "type": "COMMAND",
+              "title": "CancelReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            },
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject cancelling a reservation that was already fulfilled by checkout",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "reservation already fulfilled"
+        },
+        {
+          "id": "018e39f9-dc11-4548-ba4f-22575fccf4a8",
+          "then": [],
+          "when": [
+            {
+              "id": "01498e2b-3a36-45ae-85b5-99c4eb973a21",
+              "type": "COMMAND",
+              "title": "CancelReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            },
+            {
+              "id": "a4f0d321-b349-4cd8-b8c6-10c2728e5227",
+              "type": "EVENT",
+              "title": "ReservationCancelled"
+            }
+          ],
+          "title": "Reject cancelling a reservation that was already cancelled",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "reservation already cancelled"
+        }
+      ]
+    }
+  },
+  "hash": "1h10edz"
+}

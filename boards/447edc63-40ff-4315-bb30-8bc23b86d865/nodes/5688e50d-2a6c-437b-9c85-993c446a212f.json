@@ -1,0 +1,37 @@
+{
+  "id": "5688e50d-2a6c-437b-9c85-993c446a212f",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "MemberLoanStatusView",
+    "fields": [
+      {
+        "name": "activeReservations",
+        "type": "Custom",
+        "example": "[{copyId, bookTitle, expiresAt}]",
+        "mapping": "derived:activeReservations(BookReserved, ReservationCancelled, ReservationExpired, BookCheckedOut)",
+        "generated": true,
+        "cardinality": "List"
+      },
+      {
+        "name": "activeLoans",
+        "type": "Custom",
+        "example": "[{copyId, bookTitle, dueDate}]",
+        "mapping": "derived:activeLoans(BookCheckedOut, LoanDueDateExtended, LoanDueDateShortened, BookReturned)",
+        "generated": true,
+        "cardinality": "List"
+      },
+      {
+        "name": "overdueLoanIds",
+        "type": "String",
+        "example": "[loan-5512]",
+        "mapping": "derived:overdueLoanIds(LoanOverdueFlagged, BookReturned)",
+        "generated": true,
+        "cardinality": "List"
+      }
+    ]
+  },
+  "hash": "1f22s42"
+}

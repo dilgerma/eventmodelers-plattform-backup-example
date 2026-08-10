@@ -1,0 +1,180 @@
+{
+  "id": "9b35acee-8bf6-4f7c-9df5-fedd241ccd52",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "767e7547-5b08-4b21-b66b-b3b4b2de117c",
+          "then": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "when": [
+            {
+              "id": "b651f48f-02b3-46a0-853b-75a54587d443",
+              "type": "COMMAND",
+              "title": "ConfirmCheckout"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            }
+          ],
+          "title": "Confirm checkout fulfilling an existing reservation"
+        },
+        {
+          "id": "1521f8de-7619-4c24-b27f-4a2897c7ac73",
+          "then": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "when": [
+            {
+              "id": "b651f48f-02b3-46a0-853b-75a54587d443",
+              "type": "COMMAND",
+              "title": "ConfirmCheckout"
+            }
+          ],
+          "given": [],
+          "title": "Confirm a walk-in checkout with no prior reservation"
+        },
+        {
+          "id": "3032bb79-645f-4dbd-9137-19bbe06c649a",
+          "then": [],
+          "when": [
+            {
+              "id": "b651f48f-02b3-46a0-853b-75a54587d443",
+              "type": "COMMAND",
+              "title": "ConfirmCheckout"
+            }
+          ],
+          "given": [],
+          "title": "Reject checkout with missing branch",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "branchId is required"
+        },
+        {
+          "id": "acb354a1-d319-4a24-a616-cfb67f6873a7",
+          "then": [],
+          "when": [
+            {
+              "id": "b651f48f-02b3-46a0-853b-75a54587d443",
+              "type": "COMMAND",
+              "title": "ConfirmCheckout"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject checkout when member already has 5 active loans",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "member has reached maximum active loans (5)"
+        },
+        {
+          "id": "5b1cb69a-983f-4cd7-ab0f-cfceb84fe1da",
+          "then": [],
+          "when": [
+            {
+              "id": "b651f48f-02b3-46a0-853b-75a54587d443",
+              "type": "COMMAND",
+              "title": "ConfirmCheckout"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject checkout of a copy that is already on loan",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "copy is not available"
+        },
+        {
+          "id": "acc23142-38a9-4564-b621-6618e4c88fdb",
+          "then": [],
+          "when": [
+            {
+              "id": "b651f48f-02b3-46a0-853b-75a54587d443",
+              "type": "COMMAND",
+              "title": "ConfirmCheckout"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            },
+            {
+              "id": "b5ddba3a-ff71-43ed-b75e-91a0c1aa8cce",
+              "type": "EVENT",
+              "title": "ReservationExpired"
+            }
+          ],
+          "title": "Reject checkout against a reservation that already expired",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "reservation no longer valid"
+        },
+        {
+          "id": "5c98b18f-34f3-461d-a738-0c33b3839c6a",
+          "then": [],
+          "when": [
+            {
+              "id": "b651f48f-02b3-46a0-853b-75a54587d443",
+              "type": "COMMAND",
+              "title": "ConfirmCheckout"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            },
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject checkout against a reservation that was already fulfilled",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "reservation already fulfilled"
+        }
+      ]
+    }
+  },
+  "hash": "fcqcd0"
+}

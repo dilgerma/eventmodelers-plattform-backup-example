@@ -1,0 +1,11 @@
+{
+  "id": "a13e8622-4315-4323-88f0-803ad83eb8d8",
+  "nodeId": "a70f36fb-e398-44be-81e4-fc7b377f6390",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "create_slice auto-generated this empty, untitled EVENT node in the swimlane row of the new \"All Registrations\" state-view slice (every slice gets an actor/interaction/swimlane triple regardless of type). It's not a real domain event — the READMODEL is wired to the actual \"Customer Registered\" event instead. Leaving this node in place but disconnected; delete it if it's just visual clutter, or give it a real purpose if one exists.",
+  "type": "QUESTION",
+  "timestamp": 1786281959304,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "modeling-agent"
+}

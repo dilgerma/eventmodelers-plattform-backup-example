@@ -1,0 +1,56 @@
+{
+  "id": "c11d3fe3-38ec-42f8-af68-89c86bd3c8a6",
+  "type": "image",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "Confirm Checkout",
+    "fields": [
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-4471",
+        "mapping": "ConfirmCheckout.copyId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-1029",
+        "mapping": "ConfirmCheckout.memberId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-8f21",
+        "mapping": "ConfirmCheckout.reservationId",
+        "optional": true,
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "branchId",
+        "type": "String",
+        "example": "branch-central",
+        "mapping": "ConfirmCheckout.branchId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "dueDatePreview",
+        "type": "Date",
+        "example": "2026-08-23",
+        "mapping": "derived:checkedOutAt + 14 days",
+        "generated": true,
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Librarian confirms checkout at the counter or via the system, fulfilling a reservation or a walk-in."
+  },
+  "hash": "ff0fq"
+}

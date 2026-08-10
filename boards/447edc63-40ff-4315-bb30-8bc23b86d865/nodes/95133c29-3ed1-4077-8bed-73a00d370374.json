@@ -1,0 +1,17 @@
+{
+  "id": "95133c29-3ed1-4077-8bed-73a00d370374",
+  "type": "image",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {
+    "url": "https://cdn.pixabay.com/photo/2016/01/03/11/24/gear-1119298_1280.png"
+  },
+  "meta": {
+    "type": "AUTOMATION",
+    "title": "Notify on Cancellation"
+  },
+  "hash": "1julf99"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "4a4eb9b3-568d-468d-b5f7-413236f7f244",
+  "nodeId": "7ac67acb-e32a-4c2a-b090-960c6e5536f7",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "What should this screen show when no customers have registered yet?",
+  "type": "QUESTION",
+  "timestamp": 1786282347813,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

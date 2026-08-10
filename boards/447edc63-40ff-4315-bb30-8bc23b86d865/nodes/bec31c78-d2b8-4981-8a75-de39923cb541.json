@@ -1,0 +1,144 @@
+{
+  "id": "bec31c78-d2b8-4981-8a75-de39923cb541",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "993afc30-df1c-4454-85f6-23ff095e943d",
+          "then": [
+            {
+              "id": "cbd78622-e60d-45a1-9ecd-234014972f14",
+              "type": "EVENT",
+              "title": "LoanDueDateShortened"
+            }
+          ],
+          "when": [
+            {
+              "id": "74c4e0a3-e3e5-4cde-a9d8-5b4591248cda",
+              "type": "COMMAND",
+              "title": "ShortenDueDate"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Shorten the due date of an active loan"
+        },
+        {
+          "id": "80a69e98-48cf-4504-9d9e-b85f651451ce",
+          "then": [],
+          "when": [
+            {
+              "id": "74c4e0a3-e3e5-4cde-a9d8-5b4591248cda",
+              "type": "COMMAND",
+              "title": "ShortenDueDate"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject shortening to a date that is not earlier than the current due date",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "new due date must be earlier than current due date"
+        },
+        {
+          "id": "17142a21-79b7-4d4d-977a-feeaea177ea6",
+          "then": [],
+          "when": [
+            {
+              "id": "74c4e0a3-e3e5-4cde-a9d8-5b4591248cda",
+              "type": "COMMAND",
+              "title": "ShortenDueDate"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject shortening to a date in the past",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "cannot set due date in the past"
+        },
+        {
+          "id": "65a05f52-7ce8-41dd-b4fc-e01b6548399b",
+          "then": [],
+          "when": [
+            {
+              "id": "74c4e0a3-e3e5-4cde-a9d8-5b4591248cda",
+              "type": "COMMAND",
+              "title": "ShortenDueDate"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "0eeea19b-9966-40fb-a549-15ea2b51bf80",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "Reject shortening the due date of a loan that has already been returned",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "cannot shorten a closed loan"
+        },
+        {
+          "id": "e0b8f414-0951-41db-9b6f-137a329196a0",
+          "then": [],
+          "when": [
+            {
+              "id": "74c4e0a3-e3e5-4cde-a9d8-5b4591248cda",
+              "type": "COMMAND",
+              "title": "ShortenDueDate"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "cbd78622-e60d-45a1-9ecd-234014972f14",
+              "type": "EVENT",
+              "title": "LoanDueDateShortened"
+            }
+          ],
+          "title": "Reject re-shortening to the same due date already set",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "due date already set to this value"
+        }
+      ]
+    }
+  },
+  "hash": "1fno2ze"
+}

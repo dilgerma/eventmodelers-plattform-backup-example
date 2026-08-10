@@ -1,0 +1,43 @@
+{
+  "id": "cbd78622-e60d-45a1-9ecd-234014972f14",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "LoanDueDateShortened",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "UUID",
+        "example": "loan-5512",
+        "cardinality": "Single"
+      },
+      {
+        "name": "previousDueDate",
+        "type": "Date",
+        "example": "2026-08-23",
+        "cardinality": "Single"
+      },
+      {
+        "name": "newDueDate",
+        "type": "Date",
+        "example": "2026-08-18",
+        "cardinality": "Single"
+      },
+      {
+        "name": "shortenedAt",
+        "type": "DateTime",
+        "example": "2026-08-15T11:00:00Z",
+        "cardinality": "Single"
+      },
+      {
+        "name": "shortenedBy",
+        "type": "String",
+        "example": "librarian-42",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1p2hwy5"
+}

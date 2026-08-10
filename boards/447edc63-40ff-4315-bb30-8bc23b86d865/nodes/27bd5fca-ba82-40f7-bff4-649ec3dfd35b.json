@@ -1,0 +1,20 @@
+{
+  "id": "27bd5fca-ba82-40f7-bff4-649ec3dfd35b",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "2d66f317-d6cf-490d-a74a-ed76b22b85b5",
+    "title": "Librarian Loans Dashboard"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "2d66f317-d6cf-490d-a74a-ed76b22b85b5",
+    "title": "Librarian Loans Dashboard"
+  },
+  "hash": "8h406"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "63e9b43f-a353-451f-b669-0eed04121ced",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "53d7d66c-f1b4-41dc-90fb-073c6cd1107b",
+          "then": [
+            {
+              "id": "0eeea19b-9966-40fb-a549-15ea2b51bf80",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "when": [
+            {
+              "id": "28d4f988-b9ca-414b-b3da-64fbc557be54",
+              "type": "COMMAND",
+              "title": "RecordReturn"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Record the return of an active loan"
+        },
+        {
+          "id": "a1876882-6ad0-4c9a-bac5-3b15656e493c",
+          "then": [
+            {
+              "id": "0eeea19b-9966-40fb-a549-15ea2b51bf80",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "when": [
+            {
+              "id": "28d4f988-b9ca-414b-b3da-64fbc557be54",
+              "type": "COMMAND",
+              "title": "RecordReturn"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Record a return at a different branch than the checkout branch"
+        },
+        {
+          "id": "a0cbc3f3-cd6b-4ca8-8b3c-9e3de2ce9f5f",
+          "then": [],
+          "when": [
+            {
+              "id": "28d4f988-b9ca-414b-b3da-64fbc557be54",
+              "type": "COMMAND",
+              "title": "RecordReturn"
+            }
+          ],
+          "given": [],
+          "title": "Reject recording a return for a loan that does not exist",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "loan not found"
+        },
+        {
+          "id": "4aabe71f-62a6-4a24-a99c-9ed4e3dbcb17",
+          "then": [],
+          "when": [
+            {
+              "id": "28d4f988-b9ca-414b-b3da-64fbc557be54",
+              "type": "COMMAND",
+              "title": "RecordReturn"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "0eeea19b-9966-40fb-a549-15ea2b51bf80",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "Reject recording a return for a loan that was already returned",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "loan already returned"
+        }
+      ]
+    }
+  },
+  "hash": "h1s045"
+}

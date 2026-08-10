@@ -1,0 +1,11 @@
+{
+  "id": "b0113080-cb78-4b9a-a422-db35b371a30a",
+  "nodeId": "a4f0d321-b349-4cd8-b8c6-10c2728e5227",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "This event was inferred during brainstorming (Step 1) as the natural counterpart to auto-expiry -- it was not explicitly stated in the original written brief. Field traceability is complete either way. Please confirm this event should stay in the model, or say if member-initiated cancellation isn't actually in scope.",
+  "type": "TASK",
+  "timestamp": 1786296727163,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "completeness-check"
+}

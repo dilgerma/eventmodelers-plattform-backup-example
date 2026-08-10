@@ -1,0 +1,37 @@
+{
+  "id": "74c4e0a3-e3e5-4cde-a9d8-5b4591248cda",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "ShortenDueDate",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "String",
+        "example": "loan-5512",
+        "mapping": "user-input",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "newDueDate",
+        "type": "Date",
+        "example": "2026-08-18",
+        "mapping": "user-input",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "librarianId",
+        "type": "String",
+        "example": "librarian-42",
+        "mapping": "session:librarianId",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1q69qp4"
+}

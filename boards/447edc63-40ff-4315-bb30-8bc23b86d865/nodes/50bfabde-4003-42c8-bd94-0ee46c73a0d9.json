@@ -1,0 +1,44 @@
+{
+  "id": "50bfabde-4003-42c8-bd94-0ee46c73a0d9",
+  "type": "spec_node",
+  "position": {
+    "x": 46.5,
+    "y": 1060.8
+  },
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {},
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "bcb4bcd8-0b12-40e0-89d0-22549e143776",
+          "then": [],
+          "when": [
+            {
+              "id": "bf35a3eb-a670-4a4a-8bf4-f03e80c57ffc",
+              "type": "COMMAND",
+              "title": "Reserve Table"
+            }
+          ],
+          "given": [
+            {
+              "id": "e1260ab8-ae06-44c9-b4ac-c546e5aef559",
+              "type": "EVENT",
+              "title": "Table Reserved"
+            }
+          ],
+          "title": "Cannot reserve a second table while one is already active",
+          "comments": [],
+          "examples": [],
+          "vertical": false,
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "A user can only hold one active table reservation at a time; attempting to reserve another table while one is already reserved is rejected."
+        }
+      ]
+    }
+  },
+  "hash": "rfulcb"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "73f31c6b-d1b0-42aa-82ce-a434d2faa492",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "120c0532-9094-4935-94e2-5dd30e59d504",
+          "then": [
+            {
+              "id": "6a874df4-b49d-4be4-b5d4-b32a6ba7f974",
+              "type": "EVENT",
+              "title": "LoanDueDateExtended"
+            }
+          ],
+          "when": [
+            {
+              "id": "25443f1f-4d89-495a-bdf5-436f1a3fd633",
+              "type": "COMMAND",
+              "title": "ExtendDueDate"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Extend the due date of an active loan"
+        },
+        {
+          "id": "cb549221-e59c-4bb1-8fc2-973eab59483a",
+          "then": [],
+          "when": [
+            {
+              "id": "25443f1f-4d89-495a-bdf5-436f1a3fd633",
+              "type": "COMMAND",
+              "title": "ExtendDueDate"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject extending to a date that is not later than the current due date",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "new due date must be later than current due date"
+        },
+        {
+          "id": "a6ff630c-83a0-419c-a99f-e0ad6a1f45e9",
+          "then": [],
+          "when": [
+            {
+              "id": "25443f1f-4d89-495a-bdf5-436f1a3fd633",
+              "type": "COMMAND",
+              "title": "ExtendDueDate"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "0eeea19b-9966-40fb-a549-15ea2b51bf80",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "Reject extending the due date of a loan that has already been returned",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "cannot extend a closed loan"
+        },
+        {
+          "id": "700434f2-e48c-4bed-9a04-f24d61fcfc12",
+          "then": [],
+          "when": [
+            {
+              "id": "25443f1f-4d89-495a-bdf5-436f1a3fd633",
+              "type": "COMMAND",
+              "title": "ExtendDueDate"
+            }
+          ],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "6a874df4-b49d-4be4-b5d4-b32a6ba7f974",
+              "type": "EVENT",
+              "title": "LoanDueDateExtended"
+            }
+          ],
+          "title": "Reject re-extending to the same due date already set",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "due date already set to this value"
+        }
+      ]
+    }
+  },
+  "hash": "t60d2m"
+}

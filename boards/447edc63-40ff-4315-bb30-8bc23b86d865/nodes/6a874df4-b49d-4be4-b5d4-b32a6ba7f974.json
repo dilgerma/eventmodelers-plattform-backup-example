@@ -1,0 +1,43 @@
+{
+  "id": "6a874df4-b49d-4be4-b5d4-b32a6ba7f974",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "LoanDueDateExtended",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "UUID",
+        "example": "loan-5512",
+        "cardinality": "Single"
+      },
+      {
+        "name": "previousDueDate",
+        "type": "Date",
+        "example": "2026-08-23",
+        "cardinality": "Single"
+      },
+      {
+        "name": "newDueDate",
+        "type": "Date",
+        "example": "2026-08-30",
+        "cardinality": "Single"
+      },
+      {
+        "name": "extendedAt",
+        "type": "DateTime",
+        "example": "2026-08-20T11:00:00Z",
+        "cardinality": "Single"
+      },
+      {
+        "name": "extendedBy",
+        "type": "String",
+        "example": "librarian-77",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "zaqins"
+}

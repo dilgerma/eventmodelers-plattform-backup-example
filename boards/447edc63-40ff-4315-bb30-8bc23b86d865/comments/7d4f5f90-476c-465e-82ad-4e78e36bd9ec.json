@@ -1,0 +1,11 @@
+{
+  "id": "7d4f5f90-476c-465e-82ad-4e78e36bd9ec",
+  "nodeId": "fbb2419d-c7ca-46a6-8cc6-5cf3224cf002",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Inferred this slice as a new Current Reservations read model because the earlier Active Reservations read model sits before Cancel Reservation and Edit Reservation on the timeline, and the platform disallows connecting a later-column event back into an earlier read model. This new read model folds in Table Reserved + Reservation Cancelled + Reservation Updated and gets its own new screen (a straight copy of the original Reservations table, no live cancel/edit data available to render statically). Worth deciding: should the original Active Reservations slice/screen be deprecated in favor of this one, or do both stay as distinct views?",
+  "type": "COMMENT",
+  "timestamp": 1786284317460,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "modeling-agent"
+}

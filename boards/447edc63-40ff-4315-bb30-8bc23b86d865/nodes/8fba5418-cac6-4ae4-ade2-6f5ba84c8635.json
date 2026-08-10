@@ -1,0 +1,20 @@
+{
+  "id": "8fba5418-cac6-4ae4-ade2-6f5ba84c8635",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "16a5b8b0-39e2-4c08-a30a-b33f4e7770cd",
+    "title": "Member Loan Status"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "16a5b8b0-39e2-4c08-a30a-b33f4e7770cd",
+    "title": "Member Loan Status"
+  },
+  "hash": "1hj4x3c"
+}

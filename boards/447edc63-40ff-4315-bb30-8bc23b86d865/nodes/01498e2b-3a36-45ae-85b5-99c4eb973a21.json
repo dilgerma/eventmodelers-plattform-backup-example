@@ -1,0 +1,21 @@
+{
+  "id": "01498e2b-3a36-45ae-85b5-99c4eb973a21",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "CancelReservation",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-8f21",
+        "mapping": "BookReserved.reservationId",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "ytitm6"
+}

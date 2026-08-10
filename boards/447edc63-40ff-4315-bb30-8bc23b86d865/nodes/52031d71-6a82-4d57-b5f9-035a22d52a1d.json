@@ -1,0 +1,58 @@
+{
+  "id": "52031d71-6a82-4d57-b5f9-035a22d52a1d",
+  "type": "html_screen",
+  "position": {
+    "x": 105,
+    "y": 113.6
+  },
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {
+    "defaultPageIndex": 0
+  },
+  "meta": {
+    "type": "HTML_SCREEN",
+    "pages": [
+      "<div style=\"min-height:760px;width:100%;background:#f5f6f8;display:flex;align-items:center;justify-content:center;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;padding:40px 0\"><div style=\"background:#ffffff;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:48px 56px;width:560px\"><p class=\"title is-3\" style=\"margin-bottom:4px\">Book a Tailor Appointment</p><p class=\"subtitle is-6\" style=\"color:#6b7280;margin-bottom:32px\">Reserve a slot with one of our master tailors</p><div class=\"field\"><label class=\"label\">Full name</label><div class=\"control\"><input class=\"input\" type=\"text\" placeholder=\"Jane Doe\" /></div></div><div class=\"field\"><label class=\"label\">Service</label><div class=\"control\"><div class=\"select is-fullwidth\"><select><option>New suit fitting</option><option>Alterations</option><option>Custom order</option><option>Wedding attire</option></select></div></div></div><div style=\"display:flex;gap:16px\"><div class=\"field\" style=\"flex:1\"><label class=\"label\">Preferred date</label><div class=\"control\"><input class=\"input\" type=\"date\" /></div></div><div class=\"field\" style=\"flex:1\"><label class=\"label\">Preferred time</label><div class=\"control\"><input class=\"input\" type=\"time\" /></div></div></div><div class=\"field\"><label class=\"label\">Notes</label><div class=\"control\"><textarea class=\"textarea\" placeholder=\"Fabric preferences, measurements on file, special requests...\" rows=\"3\"></textarea></div></div><div class=\"field\" style=\"margin-top:28px\"><div class=\"control\"><button class=\"button is-primary is-fullwidth\">Reserve Appointment</button></div></div></div></div>",
+      "<div style=\"min-height:760px;width:100%;background:#f5f6f8;display:flex;align-items:center;justify-content:center;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;padding:40px 0\">\n  <div style=\"background:#ffffff;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:48px 56px;width:560px\">\n\n    <p class=\"title is-3\" style=\"margin-bottom:4px\">Your Appointment</p>\n    <p class=\"subtitle is-6\" style=\"color:#6b7280;margin-bottom:32px\">\n      Manage your upcoming tailoring appointment.\n    </p>\n\n    <div style=\"background:#f7f8fa;border-radius:8px;padding:24px;margin-bottom:28px\">\n\n      <div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:20px\">\n        <div>\n          <p style=\"font-size:13px;color:#6b7280;margin-bottom:4px\">SERVICE</p>\n          <p style=\"font-weight:600;font-size:17px\">New suit fitting</p>\n        </div>\n        <span class=\"tag is-success is-light\">Confirmed</span>\n      </div>\n\n      <div style=\"display:flex;gap:40px\">\n        <div>\n          <p style=\"font-size:13px;color:#6b7280;margin-bottom:4px\">DATE</p>\n          <p style=\"font-weight:600\">September 12, 2026</p>\n        </div>\n        <div>\n          <p style=\"font-size:13px;color:#6b7280;margin-bottom:4px\">TIME</p>\n          <p style=\"font-weight:600\">2:30 PM</p>\n        </div>\n      </div>\n\n      <hr style=\"background:#e5e7eb;margin:20px 0\" />\n\n      <div>\n        <p style=\"font-size:13px;color:#6b7280;margin-bottom:4px\">TAILOR</p>\n        <p style=\"font-weight:600\">James Anderson</p>\n      </div>\n\n    </div>\n\n    <div class=\"field\">\n      <button class=\"button is-light is-fullwidth\" style=\"margin-bottom:10px\">\n        Reschedule Appointment\n      </button>\n      <button class=\"button is-light is-fullwidth\" style=\"margin-bottom:10px\">\n        Change Service\n      </button>\n      <button class=\"button is-light is-fullwidth\">\n        Edit Notes\n      </button>\n    </div>\n\n    <div style=\"text-align:center;margin-top:28px\">\n      <a style=\"font-size:14px;color:#ef4444;cursor:pointer\">Cancel Appointment</a>\n    </div>\n\n  </div>\n</div>",
+      "<div style=\"min-height:760px;width:100%;background:#f5f6f8;display:flex;align-items:center;justify-content:center;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;padding:40px 0\"><div style=\"background:#ffffff;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:48px 56px;width:560px\"><p class=\"title is-3\" style=\"margin-bottom:4px\">Book a Tailor Appointment</p><p class=\"subtitle is-6\" style=\"color:#6b7280;margin-bottom:32px\">Reserve a slot with one of our master tailors</p><div class=\"field\"><label class=\"label\">Full name</label><div class=\"control\"><input class=\"input\" type=\"text\" placeholder=\"Jane Doe\" /></div></div><div class=\"field\"><label class=\"label\">Service</label><div class=\"control\"><div class=\"select is-fullwidth\"><select><option>New suit fitting</option><option>Alterations</option><option>Custom order</option><option>Wedding attire</option></select></div></div></div><div style=\"display:flex;gap:16px\"><div class=\"field\" style=\"flex:1\"><label class=\"label\">Preferred date</label><div class=\"control\"><input class=\"input\" type=\"date\" /></div></div><div class=\"field\" style=\"flex:1\"><label class=\"label\">Preferred time</label><div class=\"control\"><input class=\"input\" type=\"time\" /></div></div></div><div class=\"field\"><label class=\"label\">Notes</label><div class=\"control\"><textarea class=\"textarea\" placeholder=\"Fabric preferences, measurements on file, special requests...\" rows=\"3\"></textarea></div></div><div class=\"field\" style=\"margin-top:28px\"><div class=\"control\"><button class=\"button is-primary is-fullwidth\">Reserve Appointment</button></div></div></div></div>"
+    ],
+    "title": "Foo",
+    "fields": [
+      {
+        "pii": false,
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "version": 1,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1sbqaw7"
+}

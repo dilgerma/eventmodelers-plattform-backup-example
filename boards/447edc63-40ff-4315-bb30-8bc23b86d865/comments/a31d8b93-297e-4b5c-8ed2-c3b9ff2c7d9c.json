@@ -1,0 +1,11 @@
+{
+  "id": "a31d8b93-297e-4b5c-8ed2-c3b9ff2c7d9c",
+  "nodeId": "ffba1c75-4762-4e40-9f02-05429a594c85",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Suggested next slice: \"Cancel Reservation\" — this screen's mockup already shows a Delete button per row, but nothing in the model handles it yet. Since there's already a rule that a user can only hold one reservation at a time, cancelling is what lets them book again, so it's the natural next step. A close second: \"Edit Reservation\" for the Edit button, if changing an existing booking (not just cancelling it) matters for this flow.",
+  "type": "TASK",
+  "timestamp": 1786291228151,
+  "resolved": true,
+  "agentRequest": true,
+  "author": "wdyt"
+}

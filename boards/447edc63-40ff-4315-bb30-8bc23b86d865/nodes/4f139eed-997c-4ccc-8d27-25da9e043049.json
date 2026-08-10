@@ -1,0 +1,20 @@
+{
+  "id": "4f139eed-997c-4ccc-8d27-25da9e043049",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "0c494668-3afa-4aee-9840-e35352b4a6d2",
+    "title": "Expire Unclaimed Reservation"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "0c494668-3afa-4aee-9840-e35352b4a6d2",
+    "title": "Expire Unclaimed Reservation"
+  },
+  "hash": "1ain49v"
+}

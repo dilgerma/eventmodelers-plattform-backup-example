@@ -1,0 +1,20 @@
+{
+  "id": "376fc5b9-0d94-485f-a68d-c53f943405b7",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "28d84883-b835-4dfb-87f6-b88afaf8977e",
+    "title": "Reserve Book"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "28d84883-b835-4dfb-87f6-b88afaf8977e",
+    "title": "Reserve Book"
+  },
+  "hash": "1ap2xk6"
+}

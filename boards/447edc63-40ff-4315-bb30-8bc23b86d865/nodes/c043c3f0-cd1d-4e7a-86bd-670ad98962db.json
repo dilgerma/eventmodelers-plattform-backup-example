@@ -1,0 +1,21 @@
+{
+  "id": "c043c3f0-cd1d-4e7a-86bd-670ad98962db",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "ExpireReservation",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-8f21",
+        "mapping": "BookReserved.reservationId",
+        "generated": true,
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1dfn0og"
+}

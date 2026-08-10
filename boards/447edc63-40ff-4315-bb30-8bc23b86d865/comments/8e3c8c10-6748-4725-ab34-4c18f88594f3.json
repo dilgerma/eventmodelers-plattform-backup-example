@@ -1,0 +1,11 @@
+{
+  "id": "8e3c8c10-6748-4725-ab34-4c18f88594f3",
+  "nodeId": "6dc53c73-c249-4409-9b21-cbb9cbb6c3e6",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Field bookTitle depends on the external Catalogue system (derived:catalogueLookup(copyId).title), which has no representation on this board. Accepted as a known integration gap -- consider eventmodeling-translating-external-events if this needs explicit modeling.",
+  "type": "TASK",
+  "timestamp": 1786296728076,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "completeness-check"
+}

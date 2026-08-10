@@ -1,0 +1,11 @@
+{
+  "id": "369deb3f-071d-4aea-9599-9875c30e5808",
+  "nodeId": "c1c3cf62-5706-44d0-a301-87d85ed62d19",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Field reservationId is mapped to BookReserved.reservationId for prefill display, but there is no board connection (no READMODEL) between the BookReserved event and this screen -- per the connected-element rule this is a gap. Accepted as non-blocking for now since the value isn't submitted to the command (display-only); would need a small reservation-lookup read model to fix properly.",
+  "type": "TASK",
+  "timestamp": 1786296723114,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "completeness-check"
+}

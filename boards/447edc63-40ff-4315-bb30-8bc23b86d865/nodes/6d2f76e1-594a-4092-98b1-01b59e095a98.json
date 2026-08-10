@@ -1,0 +1,37 @@
+{
+  "id": "6d2f76e1-594a-4092-98b1-01b59e095a98",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "LibrarianLoansView",
+    "fields": [
+      {
+        "name": "activeLoans",
+        "type": "Custom",
+        "example": "[{loanId, memberId, dueDate}]",
+        "mapping": "derived:activeLoans(BookCheckedOut, LoanDueDateExtended, LoanDueDateShortened, BookReturned)",
+        "generated": true,
+        "cardinality": "List"
+      },
+      {
+        "name": "overdueLoans",
+        "type": "Custom",
+        "example": "[{loanId, memberId, dueDate}]",
+        "mapping": "derived:overdueLoans(LoanOverdueFlagged, BookReturned)",
+        "generated": true,
+        "cardinality": "List"
+      },
+      {
+        "name": "pendingReservations",
+        "type": "Custom",
+        "example": "[{reservationId, copyId, expiresAt}]",
+        "mapping": "derived:pendingReservations(BookReserved, ReservationCancelled, ReservationExpired, BookCheckedOut)",
+        "generated": true,
+        "cardinality": "List"
+      }
+    ]
+  },
+  "hash": "k9l5yy"
+}

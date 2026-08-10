@@ -1,0 +1,123 @@
+{
+  "id": "1c4caf63-bff4-4f75-a3ee-1458c92e633e",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "d2804a51-4436-4ba2-b2e8-86577507d8f7",
+          "then": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            }
+          ],
+          "when": [
+            {
+              "id": "f92b31c5-eef0-4315-b2c6-288f4a95d869",
+              "type": "COMMAND",
+              "title": "ReserveBook"
+            }
+          ],
+          "given": [],
+          "title": "Reserve an available copy"
+        },
+        {
+          "id": "27a5d819-77c1-47be-94be-a0d2634c8338",
+          "then": [],
+          "when": [
+            {
+              "id": "f92b31c5-eef0-4315-b2c6-288f4a95d869",
+              "type": "COMMAND",
+              "title": "ReserveBook"
+            }
+          ],
+          "given": [],
+          "title": "Reject reservation with missing copy",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "copyId is required"
+        },
+        {
+          "id": "9800f392-f5c6-455d-9fc9-e6dd548a43ec",
+          "then": [],
+          "when": [
+            {
+              "id": "f92b31c5-eef0-4315-b2c6-288f4a95d869",
+              "type": "COMMAND",
+              "title": "ReserveBook"
+            }
+          ],
+          "given": [],
+          "title": "Reject reservation for a copy that does not exist in the catalogue",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "copy not found in catalogue"
+        },
+        {
+          "id": "147427a2-bfdc-43e0-afbc-450f7542499f",
+          "then": [],
+          "when": [
+            {
+              "id": "f92b31c5-eef0-4315-b2c6-288f4a95d869",
+              "type": "COMMAND",
+              "title": "ReserveBook"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            }
+          ],
+          "title": "Reject reserving a copy that is already actively reserved",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "copy already reserved"
+        },
+        {
+          "id": "c5656456-3264-4684-8389-af207cb8fa0f",
+          "then": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            }
+          ],
+          "when": [
+            {
+              "id": "f92b31c5-eef0-4315-b2c6-288f4a95d869",
+              "type": "COMMAND",
+              "title": "ReserveBook"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            },
+            {
+              "id": "b5ddba3a-ff71-43ed-b75e-91a0c1aa8cce",
+              "type": "EVENT",
+              "title": "ReservationExpired"
+            }
+          ],
+          "title": "Allow reserving a copy again after the prior reservation expired"
+        }
+      ]
+    }
+  },
+  "hash": "1kguma8"
+}

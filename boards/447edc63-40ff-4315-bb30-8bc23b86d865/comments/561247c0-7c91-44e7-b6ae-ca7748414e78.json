@@ -1,0 +1,11 @@
+{
+  "id": "561247c0-7c91-44e7-b6ae-ca7748414e78",
+  "nodeId": "cb832514-d163-4e47-9315-3ea55dd34414",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Prompt was \"wdyt - add 2 drawings\" with no content specified for the drawings. Since it followed right after a wdyt review, I added 2 text-callout annotations above the timeline summarizing the two open concerns from that review (duplicate email/who registers, and who can view the customer list). Let me know if you had different drawings in mind (e.g. sketches, arrows) or a different placement.",
+  "type": "QUESTION",
+  "timestamp": 1786282456757,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "modeling-agent"
+}

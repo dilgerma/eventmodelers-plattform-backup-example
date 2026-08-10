@@ -1,0 +1,39 @@
+{
+  "id": "7a843bab-8004-41d6-8ff7-d875c003f1e1",
+  "type": "image",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "My Loans & Reservations",
+    "fields": [
+      {
+        "name": "activeReservations",
+        "type": "Custom",
+        "example": "[{copyId, bookTitle, expiresAt}]",
+        "mapping": "MemberLoanStatusView.activeReservations",
+        "generated": false,
+        "cardinality": "List"
+      },
+      {
+        "name": "activeLoans",
+        "type": "Custom",
+        "example": "[{copyId, bookTitle, dueDate}]",
+        "mapping": "MemberLoanStatusView.activeLoans",
+        "generated": false,
+        "cardinality": "List"
+      },
+      {
+        "name": "overdueLoanIds",
+        "type": "String",
+        "example": "[loan-5512]",
+        "mapping": "MemberLoanStatusView.overdueLoanIds",
+        "generated": false,
+        "cardinality": "List"
+      }
+    ],
+    "sketched": true,
+    "description": "Member's status view of their active reservations and loans, with overdue flags."
+  },
+  "hash": "9fxptn"
+}

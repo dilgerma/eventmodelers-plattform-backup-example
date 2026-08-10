@@ -1,0 +1,149 @@
+{
+  "id": "44542e13-9f55-4649-86dc-596e95a5ba79",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "7f600fea-a7cb-403a-8971-8a36b0a19a5d",
+          "then": [
+            {
+              "id": "b5ddba3a-ff71-43ed-b75e-91a0c1aa8cce",
+              "type": "EVENT",
+              "title": "ReservationExpired"
+            }
+          ],
+          "when": [
+            {
+              "id": "c043c3f0-cd1d-4e7a-86bd-670ad98962db",
+              "type": "COMMAND",
+              "title": "ExpireReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            }
+          ],
+          "title": "Scheduler expires an unclaimed reservation after 3 days"
+        },
+        {
+          "id": "ea45cad1-3251-4e30-8511-748b53eddb56",
+          "then": [],
+          "when": [
+            {
+              "id": "c043c3f0-cd1d-4e7a-86bd-670ad98962db",
+              "type": "COMMAND",
+              "title": "ExpireReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            }
+          ],
+          "title": "Reject expiring a reservation before its 3-day window has elapsed",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "expiry period not yet elapsed"
+        },
+        {
+          "id": "06bf8a9d-7740-4a07-8891-d1edb658c68a",
+          "then": [],
+          "when": [
+            {
+              "id": "c043c3f0-cd1d-4e7a-86bd-670ad98962db",
+              "type": "COMMAND",
+              "title": "ExpireReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            },
+            {
+              "id": "a4f0d321-b349-4cd8-b8c6-10c2728e5227",
+              "type": "EVENT",
+              "title": "ReservationCancelled"
+            }
+          ],
+          "title": "Reject expiring a reservation that was already cancelled",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "reservation already cancelled"
+        },
+        {
+          "id": "dd766204-f861-4354-94a5-39fa5d3491df",
+          "then": [],
+          "when": [
+            {
+              "id": "c043c3f0-cd1d-4e7a-86bd-670ad98962db",
+              "type": "COMMAND",
+              "title": "ExpireReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            },
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject expiring a reservation that was already fulfilled by checkout",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "reservation already fulfilled"
+        },
+        {
+          "id": "3e376157-cd19-4bd9-9bd4-18381dbfd5a9",
+          "then": [],
+          "when": [
+            {
+              "id": "c043c3f0-cd1d-4e7a-86bd-670ad98962db",
+              "type": "COMMAND",
+              "title": "ExpireReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            },
+            {
+              "id": "b5ddba3a-ff71-43ed-b75e-91a0c1aa8cce",
+              "type": "EVENT",
+              "title": "ReservationExpired"
+            }
+          ],
+          "title": "Reject re-expiring a reservation that already expired",
+          "examples": [],
+          "expectError": true,
+          "expectEmptyList": false,
+          "errorDescription": "reservation already expired"
+        }
+      ]
+    }
+  },
+  "hash": "1k15x5h"
+}

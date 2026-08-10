@@ -1,0 +1,41 @@
+{
+  "id": "6dc53c73-c249-4409-9b21-cbb9cbb6c3e6",
+  "type": "image",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "hasComments": true
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Reserve a Book",
+    "fields": [
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-4471",
+        "mapping": "ReserveBook.copyId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "bookTitle",
+        "type": "String",
+        "example": "Dune",
+        "mapping": "derived:catalogueLookup(copyId).title",
+        "generated": true,
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-1029",
+        "mapping": "session:memberId",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Member reserves an available book copy; book title auto-filled from Catalogue lookup."
+  },
+  "hash": "1d17ql3"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "BookReserved",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "UUID",
+        "example": "res-8f21",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "UUID",
+        "example": "copy-4471",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "UUID",
+        "example": "mbr-1029",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reservedAt",
+        "type": "DateTime",
+        "example": "2026-08-09T10:00:00Z",
+        "cardinality": "Single"
+      },
+      {
+        "name": "expiresAt",
+        "type": "DateTime",
+        "example": "2026-08-12T10:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "epan3d"
+}

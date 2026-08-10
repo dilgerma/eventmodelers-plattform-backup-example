@@ -1,0 +1,21 @@
+{
+  "id": "ad9f1249-8f38-42ac-ae47-f613d4d53645",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "FlagLoanOverdue",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "String",
+        "example": "loan-5512",
+        "mapping": "BookCheckedOut.loanId",
+        "generated": true,
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "2enlyy"
+}

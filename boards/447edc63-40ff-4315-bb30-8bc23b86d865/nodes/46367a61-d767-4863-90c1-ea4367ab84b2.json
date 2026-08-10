@@ -1,0 +1,16 @@
+{
+  "id": "46367a61-d767-4863-90c1-ea4367ab84b2",
+  "type": "slice_border",
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "84010e19-7394-4829-a998-7ab53acc1155",
+    "title": "Update Reservation"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "84010e19-7394-4829-a998-7ab53acc1155",
+    "title": "Update Reservation"
+  },
+  "hash": "1n0g82a"
+}

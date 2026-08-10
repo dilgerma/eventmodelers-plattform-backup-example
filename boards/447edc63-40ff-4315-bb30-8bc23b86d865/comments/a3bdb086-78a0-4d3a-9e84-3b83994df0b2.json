@@ -1,0 +1,11 @@
+{
+  "id": "a3bdb086-78a0-4d3a-9e84-3b83994df0b2",
+  "nodeId": "c378c5ce-d53e-4ece-9bce-8ff580f43c4b",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Field currentDueDate is mapped to BookCheckedOut.dueDate for display, but there is no board connection to this screen -- same connected-element gap as Extend Due Date. Accepted as non-blocking.",
+  "type": "TASK",
+  "timestamp": 1786296725158,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "completeness-check"
+}

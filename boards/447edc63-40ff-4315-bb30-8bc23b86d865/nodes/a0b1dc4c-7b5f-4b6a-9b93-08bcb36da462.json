@@ -1,0 +1,52 @@
+{
+  "id": "a0b1dc4c-7b5f-4b6a-9b93-08bcb36da462",
+  "type": "sticky_note",
+  "position": {
+    "x": 545,
+    "y": 484
+  },
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {
+    "hasComments": true
+  },
+  "meta": {
+    "type": "READMODEL",
+    "title": "Reservations",
+    "fields": [
+      {
+        "pii": false,
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": true,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "3ohscp"
+}

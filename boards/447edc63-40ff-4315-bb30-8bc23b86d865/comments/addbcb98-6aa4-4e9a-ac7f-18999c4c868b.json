@@ -1,0 +1,11 @@
+{
+  "id": "addbcb98-6aa4-4e9a-ac7f-18999c4c868b",
+  "nodeId": "49d4280b-a2e5-40cd-b414-f05ca714e0f4",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "What should happen if someone submits this form without a name or without a valid email address?",
+  "type": "QUESTION",
+  "timestamp": 1786282345815,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

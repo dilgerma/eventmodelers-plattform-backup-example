@@ -1,0 +1,41 @@
+{
+  "id": "4a434f81-2245-44ec-842e-8d5f47efda61",
+  "type": "image",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "hasComments": true
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Extend Due Date",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "String",
+        "example": "loan-5512",
+        "mapping": "ExtendDueDate.loanId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "currentDueDate",
+        "type": "Date",
+        "example": "2026-08-23",
+        "mapping": "BookCheckedOut.dueDate",
+        "generated": true,
+        "cardinality": "Single"
+      },
+      {
+        "name": "newDueDate",
+        "type": "Date",
+        "example": "2026-08-30",
+        "mapping": "ExtendDueDate.newDueDate",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Librarian extends a loan's due date."
+  },
+  "hash": "fjz1mf"
+}

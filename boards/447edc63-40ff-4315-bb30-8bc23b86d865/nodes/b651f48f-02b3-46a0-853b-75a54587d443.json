@@ -1,0 +1,46 @@
+{
+  "id": "b651f48f-02b3-46a0-853b-75a54587d443",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "ConfirmCheckout",
+    "fields": [
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-4471",
+        "mapping": "user-input",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-1029",
+        "mapping": "user-input",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-8f21",
+        "mapping": "user-input",
+        "optional": true,
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "branchId",
+        "type": "String",
+        "example": "branch-central",
+        "mapping": "user-input",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1c401yi"
+}

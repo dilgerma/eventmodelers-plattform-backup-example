@@ -1,0 +1,41 @@
+{
+  "id": "c378c5ce-d53e-4ece-9bce-8ff580f43c4b",
+  "type": "image",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "hasComments": true
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "Shorten Due Date",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "String",
+        "example": "loan-5512",
+        "mapping": "ShortenDueDate.loanId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "currentDueDate",
+        "type": "Date",
+        "example": "2026-08-23",
+        "mapping": "BookCheckedOut.dueDate",
+        "generated": true,
+        "cardinality": "Single"
+      },
+      {
+        "name": "newDueDate",
+        "type": "Date",
+        "example": "2026-08-18",
+        "mapping": "ShortenDueDate.newDueDate",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ],
+    "sketched": true,
+    "description": "Librarian shortens a loan's due date."
+  },
+  "hash": "ng13od"
+}

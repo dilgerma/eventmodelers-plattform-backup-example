@@ -1,0 +1,103 @@
+{
+  "id": "8e20fdda-9007-4cdc-8397-c9033a844e0f",
+  "type": "spec_node",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "22c5fb91-faa4-48d0-a11e-9d9990e92535",
+          "then": [
+            {
+              "id": "5688e50d-2a6c-437b-9c85-993c446a212f",
+              "type": "READMODEL",
+              "title": "MemberLoanStatusView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "39ce617e-731b-44be-9447-6e58c76faca7",
+              "type": "EVENT",
+              "title": "BookReserved"
+            }
+          ],
+          "title": "Member sees a new reservation after reserving a book"
+        },
+        {
+          "id": "08496949-f78e-4aa6-bcfd-2d8423a222bb",
+          "then": [
+            {
+              "id": "5688e50d-2a6c-437b-9c85-993c446a212f",
+              "type": "READMODEL",
+              "title": "MemberLoanStatusView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Member sees a new active loan after checkout"
+        },
+        {
+          "id": "e67a0125-970c-4a44-b241-1ff66b2f644a",
+          "then": [
+            {
+              "id": "5688e50d-2a6c-437b-9c85-993c446a212f",
+              "type": "READMODEL",
+              "title": "MemberLoanStatusView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "25670a3a-6691-4ffc-9f01-9fa245c452ee",
+              "type": "EVENT",
+              "title": "LoanOverdueFlagged"
+            }
+          ],
+          "title": "Member sees a loan flagged overdue"
+        },
+        {
+          "id": "865e02fc-2074-4ff1-b593-e240396f4629",
+          "then": [
+            {
+              "id": "5688e50d-2a6c-437b-9c85-993c446a212f",
+              "type": "READMODEL",
+              "title": "MemberLoanStatusView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "eda55409-073c-478f-9b82-9bb6adace8db",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            },
+            {
+              "id": "0eeea19b-9966-40fb-a549-15ea2b51bf80",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "Loan drops off the member's active list after it is returned"
+        }
+      ]
+    }
+  },
+  "hash": "1rinnw0"
+}

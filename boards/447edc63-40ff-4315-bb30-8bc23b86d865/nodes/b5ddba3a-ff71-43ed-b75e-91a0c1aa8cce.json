@@ -1,0 +1,37 @@
+{
+  "id": "b5ddba3a-ff71-43ed-b75e-91a0c1aa8cce",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "ReservationExpired",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "UUID",
+        "example": "res-8f21",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "UUID",
+        "example": "copy-4471",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "UUID",
+        "example": "mbr-1029",
+        "cardinality": "Single"
+      },
+      {
+        "name": "expiredAt",
+        "type": "DateTime",
+        "example": "2026-08-12T10:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "e9hg0l"
+}

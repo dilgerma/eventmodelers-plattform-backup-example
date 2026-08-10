@@ -1,0 +1,21 @@
+{
+  "id": "ba135394-bbaa-4600-8138-8a0e5f9f4fa6",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "3165a997-d97e-4797-b2a0-e5b2cda08022",
+    "title": "Active Reservations"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Active Reservations",
+    "version": 4,
+    "sliceStatus": "Done"
+  },
+  "hash": "1dkwm7t"
+}

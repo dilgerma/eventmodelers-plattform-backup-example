@@ -1,0 +1,20 @@
+{
+  "id": "93c35826-edbd-4677-b995-066366321551",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "b5dbf286-00ff-4078-9b05-ba27e90e8eeb",
+    "title": "Flag Overdue Loan"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "b5dbf286-00ff-4078-9b05-ba27e90e8eeb",
+    "title": "Flag Overdue Loan"
+  },
+  "hash": "1h9vh1a"
+}

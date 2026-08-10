@@ -1,0 +1,43 @@
+{
+  "id": "0eeea19b-9966-40fb-a549-15ea2b51bf80",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "BookReturned",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "UUID",
+        "example": "loan-5512",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "UUID",
+        "example": "copy-4471",
+        "cardinality": "Single"
+      },
+      {
+        "name": "returnedAt",
+        "type": "DateTime",
+        "example": "2026-08-20T09:15:00Z",
+        "cardinality": "Single"
+      },
+      {
+        "name": "branchId",
+        "type": "String",
+        "example": "branch-east",
+        "cardinality": "Single"
+      },
+      {
+        "name": "recordedBy",
+        "type": "String",
+        "example": "librarian-77",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1dzp51l"
+}

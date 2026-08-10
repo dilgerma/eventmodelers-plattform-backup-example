@@ -1,0 +1,11 @@
+{
+  "id": "038e186b-6f54-44df-b534-4c2a9badad3e",
+  "nodeId": "3a9ad013-2d32-433d-bafe-3a2a331a7f20",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Inferred this slice as Cancel Reservation since the Reservations screen already has a Delete button per row and the model has a business rule limiting one active reservation at a time. Wired the existing Reservations screen -> Cancel Reservation directly (no new screen) and added a reservationId field matching the Reserve Table/Table Reserved convention. Flag if a different next capability was intended.",
+  "type": "COMMENT",
+  "timestamp": 1786284059611,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "modeling-agent"
+}

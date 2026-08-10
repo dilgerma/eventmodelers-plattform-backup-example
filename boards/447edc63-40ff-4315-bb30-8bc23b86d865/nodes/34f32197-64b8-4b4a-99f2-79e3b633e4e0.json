@@ -1,0 +1,39 @@
+{
+  "id": "34f32197-64b8-4b4a-99f2-79e3b633e4e0",
+  "type": "image",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "SCREEN",
+    "title": "Loans & Overdue Dashboard",
+    "fields": [
+      {
+        "name": "activeLoans",
+        "type": "Custom",
+        "example": "[{loanId, memberId, dueDate}]",
+        "mapping": "LibrarianLoansView.activeLoans",
+        "generated": false,
+        "cardinality": "List"
+      },
+      {
+        "name": "overdueLoans",
+        "type": "Custom",
+        "example": "[{loanId, memberId, dueDate}]",
+        "mapping": "LibrarianLoansView.overdueLoans",
+        "generated": false,
+        "cardinality": "List"
+      },
+      {
+        "name": "pendingReservations",
+        "type": "Custom",
+        "example": "[{reservationId, copyId, expiresAt}]",
+        "mapping": "LibrarianLoansView.pendingReservations",
+        "generated": false,
+        "cardinality": "List"
+      }
+    ],
+    "sketched": true,
+    "description": "Librarian's dashboard of all active loans, overdue loans, and pending reservations."
+  },
+  "hash": "1wjib71"
+}

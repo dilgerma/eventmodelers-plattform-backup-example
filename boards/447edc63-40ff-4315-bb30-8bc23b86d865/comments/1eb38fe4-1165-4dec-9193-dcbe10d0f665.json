@@ -1,0 +1,11 @@
+{
+  "id": "1eb38fe4-1165-4dec-9193-dcbe10d0f665",
+  "nodeId": "e68fdeb0-d0b3-4223-a759-05940ab0588f",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Inferred this slice as Edit Reservation, matching the Reservations screen Edit button that was still unwired (its sibling Delete button became Cancel Reservation last turn). Wired the existing Reservations screen -> Edit Reservation directly, and gave the command/event reservationId + customerName fields (the only editable field currently on the model). Flag if a different next capability was intended, or if editing should cover more fields.",
+  "type": "COMMENT",
+  "timestamp": 1786284186958,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "modeling-agent"
+}

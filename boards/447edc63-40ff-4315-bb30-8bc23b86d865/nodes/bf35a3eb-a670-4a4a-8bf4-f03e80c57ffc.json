@@ -1,0 +1,53 @@
+{
+  "id": "bf35a3eb-a670-4a4a-8bf4-f03e80c57ffc",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 484
+  },
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Reserve Table",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "example": "res-1042",
+        "mapping": null,
+        "optional": false,
+        "generated": true,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": true,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "name": "customerName",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "example": "Jane Doe",
+        "mapping": null,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "version": 5,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1h5q8yw"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e74e9ff3-1f69-4e31-852a-eb301942d2e3",
+  "nodeId": "469ad761-e91e-43a1-bea2-2c340f186ffa",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Who fills out this registration — always the customer themselves, or could someone register on another person's behalf?",
+  "type": "QUESTION",
+  "timestamp": 1786282343642,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

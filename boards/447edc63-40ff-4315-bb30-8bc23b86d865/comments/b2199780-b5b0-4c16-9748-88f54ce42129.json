@@ -1,0 +1,11 @@
+{
+  "id": "b2199780-b5b0-4c16-9748-88f54ce42129",
+  "nodeId": "469ad761-e91e-43a1-bea2-2c340f186ffa",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "What should happen if someone tries to register with an email address that's already in use?",
+  "type": "QUESTION",
+  "timestamp": 1786282342683,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "wdyt"
+}

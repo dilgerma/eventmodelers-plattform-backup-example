@@ -1,0 +1,43 @@
+{
+  "id": "25670a3a-6691-4ffc-9f01-9fa245c452ee",
+  "type": "sticky_note",
+  "parentId": "a6b5efb1-183d-4f17-bcb9-a0bce27ebe50",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "LoanOverdueFlagged",
+    "fields": [
+      {
+        "name": "loanId",
+        "type": "UUID",
+        "example": "loan-5512",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "UUID",
+        "example": "copy-4471",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "UUID",
+        "example": "mbr-1029",
+        "cardinality": "Single"
+      },
+      {
+        "name": "dueDate",
+        "type": "Date",
+        "example": "2026-08-23",
+        "cardinality": "Single"
+      },
+      {
+        "name": "flaggedAt",
+        "type": "DateTime",
+        "example": "2026-08-24T00:05:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1x21h8y"
+}

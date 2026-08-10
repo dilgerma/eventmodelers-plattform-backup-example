@@ -1,0 +1,16 @@
+{
+  "id": "c0c13c97-5098-4162-a00f-adef86314196",
+  "type": "slice_border",
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "7cbcabd8-717e-4690-9172-d4d15c62e883",
+    "title": "Send Reservation Confirmation"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "7cbcabd8-717e-4690-9172-d4d15c62e883",
+    "title": "Send Reservation Confirmation"
+  },
+  "hash": "14y83bx"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "5a44b3b7-291b-4255-88f4-c57690f6b63b",
+  "nodeId": "5863a32c-ac31-45ea-b5dd-a3b631550d6d",
+  "boardId": "447edc63-40ff-4315-bb30-8bc23b86d865",
+  "text": "Field copyId is mapped to BookCheckedOut.copyId for display, but there is no board connection to this screen -- same connected-element gap pattern. Accepted as non-blocking.",
+  "type": "TASK",
+  "timestamp": 1786296726157,
+  "resolved": false,
+  "agentRequest": false,
+  "author": "completeness-check"
+}
