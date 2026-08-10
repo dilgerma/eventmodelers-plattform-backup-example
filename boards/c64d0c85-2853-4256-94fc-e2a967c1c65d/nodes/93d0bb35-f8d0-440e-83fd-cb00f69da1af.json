@@ -9,9 +9,15 @@
   "data": {},
   "meta": {
     "type": "HTML_SCREEN",
-    "title": "HTML Screen"
+    "title": "HTML Screen foo",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "rzhsco",
-  "timestamp": 1786362342766,
+  "hash": "1gtkei3",
+  "timestamp": 1786362429154,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
