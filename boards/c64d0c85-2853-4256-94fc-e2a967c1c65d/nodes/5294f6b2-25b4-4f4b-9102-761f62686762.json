@@ -8,6 +8,7 @@
   "data": {},
   "meta": {
     "type": "CHAPTER",
+    "title": "Djdk",
     "timelineData": {
       "rows": [
         {
@@ -120,6 +121,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1786429389746,
+  "timestamp": 1786429393737,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
