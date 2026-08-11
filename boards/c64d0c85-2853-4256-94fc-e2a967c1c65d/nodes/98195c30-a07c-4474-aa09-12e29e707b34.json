@@ -15,7 +15,8 @@
       {
         "id": "em-8eyu4sc",
         "color": "#e74c3c",
-        "pageIndex": 0
+        "pageIndex": 0,
+        "blurOutside": true
       }
     ],
     "pages": [
@@ -44,7 +45,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "13vtz1g",
-  "timestamp": 1786471605344,
+  "hash": "5f1sev",
+  "timestamp": 1786471627247,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
