@@ -27,7 +27,7 @@
         "id": "em-6mv18ie",
         "color": "#3b82f6",
         "pageIndex": 2,
-        "blurOutside": true
+        "blurOutside": false
       }
     ],
     "pages": [
@@ -58,7 +58,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "11ietvv",
-  "timestamp": 1786473926808,
+  "hash": "15klk0",
+  "timestamp": 1786473927955,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
