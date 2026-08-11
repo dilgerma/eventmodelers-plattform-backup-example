@@ -2,9 +2,10 @@
   "id": "abfd1b3a-4fcf-4122-af69-b8889e0c1a0d",
   "type": "html_screen",
   "position": {
-    "x": 2298.1386214502418,
-    "y": 1050.9014942009421
+    "x": 555,
+    "y": 113.6
   },
+  "parentId": "505e800e-964e-449c-a4a4-fcbfb197453f",
   "data": {
     "linkedTo": "/app/board/c64d0c85-2853-4256-94fc-e2a967c1c65d/?moveToWidget=98195c30-a07c-4474-aa09-12e29e707b34"
   },
@@ -45,6 +46,6 @@
     "createsAggregate": false
   },
   "hash": "1d5b2o",
-  "timestamp": 1786472599669,
+  "timestamp": 1786472602893,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
