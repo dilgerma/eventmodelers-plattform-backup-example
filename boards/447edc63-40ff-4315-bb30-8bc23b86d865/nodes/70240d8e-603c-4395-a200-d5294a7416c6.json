@@ -2,18 +2,19 @@
   "id": "70240d8e-603c-4395-a200-d5294a7416c6",
   "type": "html_screen",
   "position": {
-    "x": 0,
-    "y": 0
+    "x": 555,
+    "y": 113.6
   },
-  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
-  "data": {
-    "backgroundColor": "#ffffff"
-  },
+  "parentId": "adbebe25-3138-43d3-bde3-03ac571fedf0",
+  "data": {},
   "meta": {
     "type": "HTML_SCREEN",
     "pages": [
       "<div style=\"min-height:760px;width:100%;background:#f5f6f8;display:flex;align-items:center;justify-content:center;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;padding:40px 0\"><div style=\"background:#ffffff;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:48px 56px;width:520px\"><p class=\"title is-3\" style=\"margin-bottom:4px\">Edit Reservation</p><p class=\"subtitle is-6\" style=\"color:#6b7280;margin-bottom:32px\">Update the details for this reservation</p><div class=\"field\"><label class=\"label\">Reservation ID</label><div class=\"control\"><input class=\"input\" type=\"text\" value=\"res-1042\" disabled /></div></div><div class=\"field\"><label class=\"label\">Full name</label><div class=\"control\"><input class=\"input\" type=\"text\" value=\"Jane Doe\" /></div></div><div style=\"display:flex;gap:16px;margin-top:28px\"><div class=\"field\" style=\"flex:1\"><div class=\"control\"><button class=\"button is-primary is-fullwidth\">Save Changes</button></div></div><div class=\"field\" style=\"flex:1\"><div class=\"control\"><button class=\"button is-light is-fullwidth\">Cancel</button></div></div></div></div></div>"
-    ]
+    ],
+    "version": 1
   },
-  "hash": "1cbwcrb"
+  "hash": "1mh6m2y",
+  "timestamp": 1786947867745,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
