@@ -2,7 +2,7 @@
   "id": "e5d5ac4c-6e46-488f-9a6c-bddb63bdbf9f",
   "type": "html_screen",
   "position": {
-    "x": 1005,
+    "x": 555,
     "y": 113.6
   },
   "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
@@ -12,9 +12,45 @@
     "pages": [
       "<div style=\"min-height:760px;width:100%;background:#f5f6f8;display:flex;align-items:center;justify-content:center;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;padding:40px 0\"><div style=\"background:#ffffff;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:48px 56px;width:520px\"><p class=\"title is-3\" style=\"margin-bottom:4px\">Cancel Reservation</p><p class=\"subtitle is-6\" style=\"color:#6b7280;margin-bottom:32px\">Are you sure you want to cancel this reservation? This cannot be undone.</p><div style=\"background:#f5f6f8;border-radius:8px;padding:20px 24px;margin-bottom:32px\"><div style=\"display:flex;justify-content:space-between;margin-bottom:8px\"><span style=\"color:#6b7280\">Reservation ID</span><span style=\"font-weight:600\">res-1042</span></div><div style=\"display:flex;justify-content:space-between\"><span style=\"color:#6b7280\">Customer</span><span style=\"font-weight:600\">Jane Doe</span></div></div><div class=\"field\"><div class=\"control\"><button class=\"button is-danger is-fullwidth\">Confirm Cancellation</button></div></div><div class=\"field\" style=\"margin-top:12px\"><div class=\"control\"><button class=\"button is-light is-fullwidth\">Keep Reservation</button></div></div></div></div>"
     ],
-    "version": 1
+    "title": "Reservations",
+    "fields": [
+      {
+        "pii": false,
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "version": 1,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "p3zh1a",
-  "timestamp": 1786947820274,
+  "hash": "siy9j4",
+  "timestamp": 1786950331573,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
