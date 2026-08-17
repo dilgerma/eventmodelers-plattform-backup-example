@@ -80,13 +80,6 @@
           "nodeType": "SCENARIO"
         },
         {
-          "id": "d29da56d-5a83-467a-a1fa-ef4748193d65-ccbd83de-ca27-410d-b0b7-f67aeed7a032",
-          "colId": "ccbd83de-ca27-410d-b0b7-f67aeed7a032",
-          "rowId": "d29da56d-5a83-467a-a1fa-ef4748193d65",
-          "nodeId": "e5d5ac4c-6e46-488f-9a6c-bddb63bdbf9f",
-          "nodeType": "HTML_SCREEN"
-        },
-        {
           "id": "2d04b52d-4797-4a66-a046-774d16c93fb6-ccbd83de-ca27-410d-b0b7-f67aeed7a032",
           "colId": "ccbd83de-ca27-410d-b0b7-f67aeed7a032",
           "rowId": "2d04b52d-4797-4a66-a046-774d16c93fb6",
@@ -188,6 +181,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1786947807630,
+  "timestamp": 1786947827300,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
