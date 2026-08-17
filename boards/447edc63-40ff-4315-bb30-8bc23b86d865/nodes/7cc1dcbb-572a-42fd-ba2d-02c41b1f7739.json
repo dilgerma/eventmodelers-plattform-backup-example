@@ -87,13 +87,6 @@
           "nodeType": "COMMAND"
         },
         {
-          "id": "2f1423a4-69e0-40a3-8416-b3c7157431e1-84010e19-7394-4829-a998-7ab53acc1155",
-          "colId": "84010e19-7394-4829-a998-7ab53acc1155",
-          "rowId": "2f1423a4-69e0-40a3-8416-b3c7157431e1",
-          "nodeId": "8fd15325-82e4-45ab-8016-de1371a972a1",
-          "nodeType": "EVENT"
-        },
-        {
           "id": "d29da56d-5a83-467a-a1fa-ef4748193d65-7cbcabd8-717e-4690-9172-d4d15c62e883",
           "colId": "7cbcabd8-717e-4690-9172-d4d15c62e883",
           "rowId": "d29da56d-5a83-467a-a1fa-ef4748193d65",
@@ -160,6 +153,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1786950243186,
+  "timestamp": 1786950251315,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
