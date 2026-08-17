@@ -2,10 +2,10 @@
   "id": "aedd07f2-63ea-44ca-94a5-68ae196062ea",
   "type": "sticky_note",
   "position": {
-    "x": 1445,
+    "x": 2345,
     "y": 804
   },
-  "parentId": "adbebe25-3138-43d3-bde3-03ac571fedf0",
+  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
   "data": {},
   "meta": {
     "type": "EVENT",
@@ -33,6 +33,6 @@
     "version": 1
   },
   "hash": "8tmuud",
-  "timestamp": 1786950296016,
+  "timestamp": 1786950313362,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
