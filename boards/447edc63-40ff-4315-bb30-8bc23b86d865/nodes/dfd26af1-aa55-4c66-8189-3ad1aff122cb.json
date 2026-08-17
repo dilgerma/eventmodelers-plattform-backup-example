@@ -9,9 +9,34 @@
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Read Model"
+    "title": "Reservations",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-1042",
+        "optional": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": true
+      },
+      {
+        "name": "customerName",
+        "type": "String",
+        "example": "Jane Doe",
+        "optional": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "h9nm9j",
-  "timestamp": 1786947894318,
+  "hash": "1yc7pzp",
+  "timestamp": 1786950250085,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
