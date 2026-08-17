@@ -87,13 +87,6 @@
           "nodeType": "AUTOMATION"
         },
         {
-          "id": "2d04b52d-4797-4a66-a046-774d16c93fb6-7cbcabd8-717e-4690-9172-d4d15c62e883",
-          "colId": "7cbcabd8-717e-4690-9172-d4d15c62e883",
-          "rowId": "2d04b52d-4797-4a66-a046-774d16c93fb6",
-          "nodeId": "f75d0668-c0f5-4dd6-88fe-5edc94f10951",
-          "nodeType": "COMMAND"
-        },
-        {
           "id": "d29da56d-5a83-467a-a1fa-ef4748193d65-fe505e8d-1294-4a30-ab31-78b38e84b3db",
           "colId": "fe505e8d-1294-4a30-ab31-78b38e84b3db",
           "rowId": "d29da56d-5a83-467a-a1fa-ef4748193d65",
@@ -167,6 +160,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1786950332724,
+  "timestamp": 1786950375722,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
