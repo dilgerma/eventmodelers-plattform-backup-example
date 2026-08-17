@@ -81,11 +81,15 @@
         },
         {
           "id": "3d70f964-5561-46dc-b4e7-a7401f305b6b"
+        },
+        {
+          "id": "40bf3dd3-2d42-42d2-b1c7-9b3592bf08fc",
+          "width": 450
         }
       ]
     }
   },
   "hash": null,
-  "timestamp": 1786947868800,
+  "timestamp": 1786947890714,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
