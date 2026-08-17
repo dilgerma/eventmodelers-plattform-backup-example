@@ -2,16 +2,22 @@
   "id": "6514cebb-07f5-495b-a42d-b921b1f2a991",
   "type": "sticky_note",
   "position": {
-    "x": 2345,
+    "x": 95,
     "y": 484
   },
-  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "parentId": "adbebe25-3138-43d3-bde3-03ac571fedf0",
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Command"
+    "title": "Notify on Cancellation",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "mfen13",
-  "timestamp": 1786360180431,
+  "hash": "btjo2o",
+  "timestamp": 1786947805937,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
