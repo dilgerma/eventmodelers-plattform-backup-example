@@ -2,18 +2,19 @@
   "id": "ffba1c75-4762-4e40-9f02-05429a594c85",
   "type": "html_screen",
   "position": {
-    "x": 555,
+    "x": 1455,
     "y": 113.6
   },
-  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
-  "data": {
-    "hasComments": true
-  },
+  "parentId": "adbebe25-3138-43d3-bde3-03ac571fedf0",
+  "data": {},
   "meta": {
     "type": "HTML_SCREEN",
     "pages": [
       "<div style=\"min-height:760px;width:100%;background:#f5f6f8;display:flex;align-items:flex-start;justify-content:center;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;padding:48px 0\"><div style=\"background:#ffffff;border-radius:12px;box-shadow:0 4px 24px rgba(0,0,0,0.08);padding:40px 48px;width:720px\"><p class=\"title is-3\" style=\"margin-bottom:4px\">Reservations</p><p class=\"subtitle is-6\" style=\"color:#6b7280;margin-bottom:28px\">All current table reservations</p><table class=\"table is-fullwidth is-striped\"><thead><tr><th>ID</th><th>Name</th><th style=\"width:160px\">Actions</th></tr></thead><tbody><tr><td>res-1042</td><td>Jane Doe</td><td><div class=\"buttons are-small\"><button class=\"button is-info is-light\">Edit</button><button class=\"button is-danger is-light\">Delete</button></div></td></tr><tr><td>res-1043</td><td>Mark Reynolds</td><td><div class=\"buttons are-small\"><button class=\"button is-info is-light\">Edit</button><button class=\"button is-danger is-light\">Delete</button></div></td></tr><tr><td>res-1044</td><td>Aiko Tanaka</td><td><div class=\"buttons are-small\"><button class=\"button is-info is-light\">Edit</button><button class=\"button is-danger is-light\">Delete</button></div></td></tr><tr><td>res-1045</td><td>Carlos Mendes</td><td><div class=\"buttons are-small\"><button class=\"button is-info is-light\">Edit</button><button class=\"button is-danger is-light\">Delete</button></div></td></tr></tbody></table></div></div>"
-    ]
+    ],
+    "version": 3
   },
-  "hash": "ky6h7y"
+  "hash": "80obap",
+  "timestamp": 1786947892474,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
