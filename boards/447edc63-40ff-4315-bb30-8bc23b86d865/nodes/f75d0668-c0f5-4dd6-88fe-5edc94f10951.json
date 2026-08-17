@@ -2,8 +2,8 @@
   "id": "f75d0668-c0f5-4dd6-88fe-5edc94f10951",
   "type": "sticky_note",
   "position": {
-    "x": 0,
-    "y": 0
+    "x": 1893,
+    "y": 484
   },
   "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
   "data": {},
@@ -16,6 +16,7 @@
         "type": "String",
         "example": "res-1042",
         "optional": false,
+        "subfields": [],
         "cardinality": "Single",
         "idAttribute": true
       },
@@ -24,10 +25,14 @@
         "type": "String",
         "example": "Jane Doe",
         "optional": false,
+        "subfields": [],
         "cardinality": "Single",
         "idAttribute": false
       }
-    ]
+    ],
+    "version": 1
   },
-  "hash": "1enti9q"
+  "hash": "13qjxs3",
+  "timestamp": 1786947808390,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
