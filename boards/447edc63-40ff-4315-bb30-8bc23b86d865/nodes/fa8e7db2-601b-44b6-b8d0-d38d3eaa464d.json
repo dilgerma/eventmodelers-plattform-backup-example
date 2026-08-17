@@ -2,8 +2,8 @@
   "id": "fa8e7db2-601b-44b6-b8d0-d38d3eaa464d",
   "type": "sticky_note",
   "position": {
-    "x": 0,
-    "y": 0
+    "x": 993,
+    "y": 484
   },
   "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
   "data": {},
@@ -16,10 +16,14 @@
         "type": "String",
         "example": "res-1042",
         "optional": false,
+        "subfields": [],
         "cardinality": "Single",
         "idAttribute": true
       }
-    ]
+    ],
+    "version": 1
   },
-  "hash": "j4lc94"
+  "hash": "16sku7k",
+  "timestamp": 1786947818191,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
