@@ -10,9 +10,49 @@
   "meta": {
     "type": "SCENARIO",
     "title": "Specifications",
-    "storylines": []
+    "storylines": [
+      {
+        "id": "a66ee827-af7c-48ec-9ea7-92e02ce91243",
+        "beats": [
+          {
+            "type": "COMMAND",
+            "refId": "bf35a3eb-a670-4a4a-8bf4-f03e80c57ffc",
+            "title": "Reserve Table",
+            "fields": [
+              {
+                "name": "reservationId",
+                "example": "res-1042"
+              },
+              {
+                "name": "customerName",
+                "example": "Jane Doe"
+              }
+            ],
+            "instanceId": "21daafee-d815-42a5-8c52-1e2509f37fc1"
+          },
+          {
+            "type": "EVENT",
+            "refId": "e1260ab8-ae06-44c9-b4ac-c546e5aef559",
+            "title": "Table Reserved",
+            "fields": [
+              {
+                "name": "reservationId",
+                "example": "res-1042"
+              },
+              {
+                "name": "customerName",
+                "example": "Jane Doe"
+              }
+            ],
+            "instanceId": "2c1e6a8e-05d1-43d5-9eaf-2d81959d1512"
+          }
+        ],
+        "title": "Storyline #1",
+        "layout": "vertical"
+      }
+    ]
   },
-  "hash": "1kp9kxl",
-  "timestamp": 1786949005076,
+  "hash": "nqh76g",
+  "timestamp": 1786949103643,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
