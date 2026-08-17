@@ -38,13 +38,6 @@
       ],
       "cells": [
         {
-          "id": "d29da56d-5a83-467a-a1fa-ef4748193d65-2142abe2-2db4-4490-9ed0-e8a66280006b",
-          "colId": "2142abe2-2db4-4490-9ed0-e8a66280006b",
-          "rowId": "d29da56d-5a83-467a-a1fa-ef4748193d65",
-          "nodeId": "52031d71-6a82-4d57-b5f9-035a22d52a1d",
-          "nodeType": "HTML_SCREEN"
-        },
-        {
           "id": "2d04b52d-4797-4a66-a046-774d16c93fb6-2142abe2-2db4-4490-9ed0-e8a66280006b",
           "colId": "2142abe2-2db4-4490-9ed0-e8a66280006b",
           "rowId": "2d04b52d-4797-4a66-a046-774d16c93fb6",
@@ -167,6 +160,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1786947893533,
+  "timestamp": 1786948146126,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
