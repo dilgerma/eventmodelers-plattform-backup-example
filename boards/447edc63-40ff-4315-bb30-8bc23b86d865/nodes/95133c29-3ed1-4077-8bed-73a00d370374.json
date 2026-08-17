@@ -2,16 +2,19 @@
   "id": "95133c29-3ed1-4077-8bed-73a00d370374",
   "type": "image",
   "position": {
-    "x": 0,
-    "y": 0
+    "x": 105,
+    "y": 113.6
   },
-  "parentId": "7cc1dcbb-572a-42fd-ba2d-02c41b1f7739",
+  "parentId": "adbebe25-3138-43d3-bde3-03ac571fedf0",
   "data": {
     "url": "https://cdn.pixabay.com/photo/2016/01/03/11/24/gear-1119298_1280.png"
   },
   "meta": {
     "type": "AUTOMATION",
-    "title": "Notify on Cancellation"
+    "title": "Notify on Cancellation",
+    "version": 1
   },
-  "hash": "1julf99"
+  "hash": "xmiylc",
+  "timestamp": 1786947741659,
+  "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
