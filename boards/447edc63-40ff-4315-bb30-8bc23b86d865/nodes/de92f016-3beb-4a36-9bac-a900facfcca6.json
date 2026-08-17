@@ -45,6 +45,20 @@
               }
             ],
             "instanceId": "2c1e6a8e-05d1-43d5-9eaf-2d81959d1512"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "a0b1dc4c-7b5f-4b6a-9b93-08bcb36da462",
+            "title": "Reservations",
+            "fields": [
+              {
+                "name": "id"
+              },
+              {
+                "name": "name"
+              }
+            ],
+            "instanceId": "554cb1ed-500d-4dd7-aa35-ce4866394769"
           }
         ],
         "title": "Storyline #1",
@@ -52,7 +66,7 @@
       }
     ]
   },
-  "hash": "nqh76g",
-  "timestamp": 1786949103643,
+  "hash": "1m43aa5",
+  "timestamp": 1786949169357,
   "userId": "15f031dd-c426-4beb-b456-661fc73368a4"
 }
