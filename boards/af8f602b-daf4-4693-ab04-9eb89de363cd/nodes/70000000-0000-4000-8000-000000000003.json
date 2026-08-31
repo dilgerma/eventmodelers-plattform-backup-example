@@ -1,6 +1,10 @@
 {
   "id": "70000000-0000-4000-8000-000000000003",
   "type": "sticky_note",
+  "position": {
+    "x": 8195,
+    "y": 1467
+  },
   "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
   "data": {},
   "meta": {
@@ -21,5 +25,7 @@
       }
     ]
   },
-  "hash": "1tibk7h"
+  "hash": "1tibk7h",
+  "timestamp": 1788211322522,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
