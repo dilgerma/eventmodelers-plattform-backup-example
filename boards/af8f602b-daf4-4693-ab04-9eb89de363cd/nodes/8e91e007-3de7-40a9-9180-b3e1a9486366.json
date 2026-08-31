@@ -10,9 +10,43 @@
   "meta": {
     "type": "EVENT",
     "title": "Event",
-    "context": "INTERNAL"
+    "fields": [
+      {
+        "pii": false,
+        "name": "foo",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "bar",
+        "type": "String",
+        "query": false,
+        "edited": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "1bxmpa1",
-  "timestamp": 1788211673427,
+  "hash": "j4ywrt",
+  "timestamp": 1788211918279,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
