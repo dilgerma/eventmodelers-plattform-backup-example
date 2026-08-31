@@ -1,0 +1,21 @@
+{
+  "id": "c0000000-0000-4000-8000-000000000005",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "NewlyAddedTitlesView",
+    "fields": [
+      {
+        "name": "count",
+        "type": "String",
+        "example": "14",
+        "mapping": "derived:count(BookTitleAdded where addedAt within 7d)",
+        "generated": true,
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "s18nud"
+}

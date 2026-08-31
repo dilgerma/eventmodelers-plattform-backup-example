@@ -1,0 +1,38 @@
+{
+  "id": "c14d3a15-5717-491d-bd03-75a72af4a314",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "CopyStatusListView",
+    "fields": [
+      {
+        "name": "titleId",
+        "type": "String",
+        "example": "title-001",
+        "mapping": "CopyAdded.titleId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-001",
+        "mapping": "CopyAdded.copyId",
+        "generated": false,
+        "cardinality": "List"
+      },
+      {
+        "name": "status",
+        "type": "String",
+        "example": "Available",
+        "mapping": "derived:latestCopyStatus(copyId)",
+        "generated": true,
+        "cardinality": "List"
+      }
+    ],
+    "linkedTo": "5dc4e1ab-24a7-4402-a2fa-30a1d455024b"
+  },
+  "hash": "12cazg8"
+}

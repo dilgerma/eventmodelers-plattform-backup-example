@@ -1,0 +1,42 @@
+{
+  "id": "68e670d7-2a4f-4b05-8b00-aaff5cb8b80c",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000110",
+          "then": [
+            {
+              "id": "70000000-0000-4000-8000-000000000003",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "when": [
+            {
+              "id": "60000000-0000-4000-8000-000000000003",
+              "type": "COMMAND",
+              "title": "RecordBookReturned"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000008",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "Translation automation mirrors an external book-returned signal internally"
+        }
+      ]
+    }
+  },
+  "hash": "1r308us"
+}

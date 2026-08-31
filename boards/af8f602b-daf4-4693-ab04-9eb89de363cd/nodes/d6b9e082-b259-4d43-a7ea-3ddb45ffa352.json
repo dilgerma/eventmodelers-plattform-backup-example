@@ -1,0 +1,47 @@
+{
+  "id": "d6b9e082-b259-4d43-a7ea-3ddb45ffa352",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000320",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000011",
+              "type": "READMODEL",
+              "title": "CopyStatusListView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000012",
+              "type": "EVENT",
+              "title": "CopySentForRepair"
+            }
+          ],
+          "title": "Copy status list shows a copy sent for repair",
+          "examples": [
+            {
+              "status": "In Repair",
+              "copy_id": "copy-003"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hash": "lax35v"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "10000000-0000-4000-8000-000000000016",
+  "type": "markdown",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "MARKDOWN",
+    "title": "Branch point",
+    "description": "**After CopyReserved, two mutually exclusive continuations follow** (a decision point, not two separate stories):\n- Branch A (cols 6-9): member picks up the copy → BookCheckedOut / CopyCheckedOut → later BookReturned / CopyReturned.\n- Branch B (cols 10-11): the reservation lapses or is cancelled instead → ReservationReleased / CopyReservationReleased.\n\nBoth branches are shown left-to-right (A fully, then B) rather than as a forking diagram, since the board's columns are linear — the actual branching is captured in Step 7 scenarios."
+  },
+  "hash": "1me85sy"
+}

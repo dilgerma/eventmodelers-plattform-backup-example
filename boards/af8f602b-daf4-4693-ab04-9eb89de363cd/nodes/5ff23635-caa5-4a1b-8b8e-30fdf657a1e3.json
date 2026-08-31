@@ -1,0 +1,60 @@
+{
+  "id": "5ff23635-caa5-4a1b-8b8e-30fdf657a1e3",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000400",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000003",
+              "type": "READMODEL",
+              "title": "TotalBooksCountView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            }
+          ],
+          "title": "Total books count increments when a title is added"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000401",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000003",
+              "type": "READMODEL",
+              "title": "TotalBooksCountView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000015",
+              "type": "EVENT",
+              "title": "BookTitleArchived"
+            }
+          ],
+          "title": "Total books count decrements when a title is archived"
+        }
+      ]
+    }
+  },
+  "hash": "zz2i50"
+}

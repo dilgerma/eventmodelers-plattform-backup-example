@@ -1,0 +1,78 @@
+{
+  "id": "6be176a2-7996-480e-b910-8f4282a5783e",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000080",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000005",
+              "type": "EVENT",
+              "title": "CopyReserved"
+            }
+          ],
+          "when": [
+            {
+              "id": "a0000000-0000-4000-8000-000000000001",
+              "type": "COMMAND",
+              "title": "ReserveCopy"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "70000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "ReservationPlaced"
+            }
+          ],
+          "title": "Reserve Copy automation marks an available copy reserved"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000081",
+          "then": [],
+          "when": [
+            {
+              "id": "a0000000-0000-4000-8000-000000000001",
+              "type": "COMMAND",
+              "title": "ReserveCopy"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000012",
+              "type": "EVENT",
+              "title": "CopySentForRepair"
+            },
+            {
+              "id": "70000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "ReservationPlaced"
+            }
+          ],
+          "title": "Reject reserving a copy that is not currently available",
+          "expectError": true,
+          "errorDescription": "copy is not available (already reserved, checked out, in repair, or lost)"
+        }
+      ]
+    }
+  },
+  "hash": "2qh79c"
+}

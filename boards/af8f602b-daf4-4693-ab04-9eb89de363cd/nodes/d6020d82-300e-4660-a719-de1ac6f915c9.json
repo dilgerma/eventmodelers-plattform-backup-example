@@ -1,0 +1,22 @@
+{
+  "id": "d6020d82-300e-4660-a719-de1ac6f915c9",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "AvailableCopiesCountView",
+    "fields": [
+      {
+        "name": "count",
+        "type": "String",
+        "example": "932",
+        "mapping": "derived:countCopiesWithStatus('available')",
+        "generated": true,
+        "cardinality": "Single"
+      }
+    ],
+    "linkedTo": "8158ccc1-88ec-482c-8905-98fb58585d29"
+  },
+  "hash": "1xlkwe2"
+}

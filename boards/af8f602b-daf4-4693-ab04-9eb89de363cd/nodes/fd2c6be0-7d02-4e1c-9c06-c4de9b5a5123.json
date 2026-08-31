@@ -1,0 +1,20 @@
+{
+  "id": "fd2c6be0-7d02-4e1c-9c06-c4de9b5a5123",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "e9b29c9c-df91-4168-a01e-5c4f306a2dfe",
+    "title": "AddBookTitle"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "e9b29c9c-df91-4168-a01e-5c4f306a2dfe",
+    "title": "AddBookTitle"
+  },
+  "hash": "uxfi22"
+}

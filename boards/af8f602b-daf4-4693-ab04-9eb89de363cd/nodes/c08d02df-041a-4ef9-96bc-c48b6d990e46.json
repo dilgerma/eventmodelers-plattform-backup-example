@@ -1,0 +1,76 @@
+{
+  "id": "c08d02df-041a-4ef9-96bc-c48b6d990e46",
+  "type": "sticky_note",
+  "position": {
+    "x": 16295,
+    "y": 507
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "linkedTo": "c0000000-0000-4000-8000-000000000001"
+  },
+  "meta": {
+    "type": "READMODEL",
+    "title": "TitleDetailsView",
+    "fields": [
+      {
+        "name": "titleId",
+        "type": "String",
+        "example": "title-001",
+        "mapping": "BookTitleAdded.titleId",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "title",
+        "type": "String",
+        "example": "The Hobbit",
+        "mapping": "latest:BookTitleDetailsUpdated.title",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "author",
+        "type": "String",
+        "example": "J.R.R. Tolkien",
+        "mapping": "latest:BookTitleDetailsUpdated.author",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "isbn",
+        "type": "String",
+        "example": "978-0-618-00221-4",
+        "mapping": "latest:BookTitleDetailsUpdated.isbn",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "genre",
+        "type": "String",
+        "example": "Fantasy",
+        "mapping": "latest:BookTitleDetailsUpdated.genre",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "publicationYear",
+        "type": "String",
+        "example": "1937",
+        "mapping": "latest:BookTitleDetailsUpdated.publicationYear",
+        "generated": false,
+        "cardinality": "Single"
+      },
+      {
+        "name": "coverImageUrl",
+        "type": "String",
+        "example": "https://cdn.example.com/covers/hobbit.jpg",
+        "mapping": "latest:BookTitleDetailsUpdated.coverImageUrl",
+        "generated": false,
+        "cardinality": "Single"
+      }
+    ],
+    "linkedTo": "c0000000-0000-4000-8000-000000000001"
+  },
+  "hash": "1yb5pz6"
+}

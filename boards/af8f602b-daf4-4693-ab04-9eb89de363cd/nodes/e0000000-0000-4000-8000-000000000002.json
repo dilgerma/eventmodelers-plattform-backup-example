@@ -1,0 +1,12 @@
+{
+  "id": "e0000000-0000-4000-8000-000000000002",
+  "type": "markdown",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "MARKDOWN",
+    "title": "Event reasoning — TitleDetailsView (archive instance)",
+    "description": "## Event → field reasoning — TitleDetailsView (2nd instance, feeds Archive screen only)\n\n- **BookTitleAdded** → sets titleId, title (initial value)\n- **BookTitleDetailsUpdated** → overrides title with the latest edited value\n\nThis instance exists because BookTitleDetailsUpdated's column sits after the earlier TitleDetailsView instance (which feeds AddCopy/Edit-Details) — a later event can never connect backward into an earlier read model that already feeds a screen, so a fresh, later-positioned instance was created per the framework's 'new copy' pattern instead."
+  },
+  "hash": "14lqxkb"
+}

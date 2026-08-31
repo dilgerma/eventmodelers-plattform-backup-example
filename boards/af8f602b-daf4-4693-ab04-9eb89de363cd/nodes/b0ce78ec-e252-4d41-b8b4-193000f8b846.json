@@ -1,0 +1,78 @@
+{
+  "id": "b0ce78ec-e252-4d41-b8b4-193000f8b846",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000120",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000009",
+              "type": "EVENT",
+              "title": "CopyReturned"
+            }
+          ],
+          "when": [
+            {
+              "id": "a0000000-0000-4000-8000-000000000003",
+              "type": "COMMAND",
+              "title": "ReturnCopy"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000007",
+              "type": "EVENT",
+              "title": "CopyCheckedOut"
+            },
+            {
+              "id": "70000000-0000-4000-8000-000000000003",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "Return Copy automation marks a checked-out copy returned"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000121",
+          "then": [],
+          "when": [
+            {
+              "id": "a0000000-0000-4000-8000-000000000003",
+              "type": "COMMAND",
+              "title": "ReturnCopy"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "70000000-0000-4000-8000-000000000003",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "External failure: Pickup system reports a return for a copy that was not checked out",
+          "expectError": true,
+          "errorDescription": "copy is not currently checked out — return signal does not match catalogue state"
+        }
+      ]
+    }
+  },
+  "hash": "z6p0ra"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "6ba6fca6-498c-4db5-91de-de500ec5250f",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000100",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000007",
+              "type": "EVENT",
+              "title": "CopyCheckedOut"
+            }
+          ],
+          "when": [
+            {
+              "id": "a0000000-0000-4000-8000-000000000002",
+              "type": "COMMAND",
+              "title": "CheckOutCopy"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000005",
+              "type": "EVENT",
+              "title": "CopyReserved"
+            },
+            {
+              "id": "70000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Check Out Copy automation marks a reserved copy checked out"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000101",
+          "then": [],
+          "when": [
+            {
+              "id": "a0000000-0000-4000-8000-000000000002",
+              "type": "COMMAND",
+              "title": "CheckOutCopy"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "70000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "BookCheckedOut"
+            }
+          ],
+          "title": "Reject checking out a copy that is not currently reserved",
+          "expectError": true,
+          "errorDescription": "copy is not in a reserved state"
+        }
+      ]
+    }
+  },
+  "hash": "129cbc8"
+}

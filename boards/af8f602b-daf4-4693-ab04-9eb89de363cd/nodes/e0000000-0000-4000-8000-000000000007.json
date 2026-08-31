@@ -1,0 +1,12 @@
+{
+  "id": "e0000000-0000-4000-8000-000000000007",
+  "type": "markdown",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "MARKDOWN",
+    "title": "Event reasoning — AvailableCopiesCountView",
+    "description": "## Event → field reasoning — AvailableCopiesCountView\n\n- **CopyAdded** → +1 (new copy starts available)\n- **CopyReserved / CopyCheckedOut / CopySentForRepair / CopyReportedLost** → -1 (copy leaves the available pool)\n- **CopyReturned / CopyReservationReleased / CopyReturnedFromRepair** → +1 (copy re-enters the available pool)\n\nSingle field, irreducible wide fan-in (8 events) — 'how many copies are available right now' is by construction a function of the copy's entire lifecycle. This is the documented exception to the >3-events heuristic, not a bundling problem: there is no other, narrower field riding along on this node."
+  },
+  "hash": "h68tow"
+}

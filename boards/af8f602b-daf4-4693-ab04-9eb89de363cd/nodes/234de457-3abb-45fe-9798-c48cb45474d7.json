@@ -1,0 +1,20 @@
+{
+  "id": "234de457-3abb-45fe-9798-c48cb45474d7",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "0dc1aabf-9fe8-44fc-8589-8016b23bd06a",
+    "title": "Record Book Checked Out"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "0dc1aabf-9fe8-44fc-8589-8016b23bd06a",
+    "title": "Record Book Checked Out"
+  },
+  "hash": "tlxrja"
+}

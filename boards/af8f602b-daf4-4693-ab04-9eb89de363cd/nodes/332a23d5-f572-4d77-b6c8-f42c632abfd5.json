@@ -1,0 +1,20 @@
+{
+  "id": "332a23d5-f572-4d77-b6c8-f42c632abfd5",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "48c26958-12d5-4072-9b8c-165769c46c39",
+    "title": "ReservationReleasesToApply"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "48c26958-12d5-4072-9b8c-165769c46c39",
+    "title": "ReservationReleasesToApply"
+  },
+  "hash": "176t830"
+}

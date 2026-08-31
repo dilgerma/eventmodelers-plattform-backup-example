@@ -1,0 +1,12 @@
+{
+  "id": "e0000000-0000-4000-8000-000000000003",
+  "type": "markdown",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "MARKDOWN",
+    "title": "Event reasoning — CopyStatusListView (instance 1 of 3)",
+    "description": "## Event → field reasoning — CopyStatusListView (feeds SendCopyForRepair screen)\n\n- **CopyAdded** → sets copyId/titleId (row identity — narrow, 1 event)\n- **CopyReserved / CopyCheckedOut / CopyReturned / CopyReservationReleased** → each updates the per-copy `status` field — this field is a legitimate wide-fan-in roll-up (a copy's live status is by definition derived across its whole lifecycle so far); bundling it with the narrow copyId/titleId identity fields is the explicitly-allowed 'homogeneous list, one id column + one status column' pattern, not the identity-vs-availability antipattern.\n\nThis is instance 1 of 3 progressively-scoped copies of the same read model — CopySentForRepair and CopyReturnedFromRepair sit in later columns than this screen's own column, so they cannot be sources here; each subsequent screen (RecordCopyReturnedFromRepair, ReportCopyLost) gets its own later instance that adds the next event, per the 'new copy of the read model' pattern."
+  },
+  "hash": "1hg1w1s"
+}

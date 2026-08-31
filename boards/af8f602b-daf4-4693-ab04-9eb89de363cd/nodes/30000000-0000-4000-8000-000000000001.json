@@ -1,0 +1,62 @@
+{
+  "id": "30000000-0000-4000-8000-000000000001",
+  "type": "html_screen",
+  "position": {
+    "x": 105,
+    "y": 145
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "HTML_SCREEN",
+    "pages": [
+      "<div style=\"background:#f5f5f5;min-height:100vh;padding:40px 0;font-family:sans-serif\"><div style=\"max-width:560px;margin:0 auto;background:#fff;border-radius:8px;padding:32px;box-shadow:0 1px 4px rgba(0,0,0,.1)\"><h1 class=\"title is-3\">Add New Book Title</h1><div class=\"field\"><label class=\"label\">Title</label><div class=\"control\"><input class=\"input\" placeholder=\"e.g. The Hobbit\" /></div></div><div class=\"field\"><label class=\"label\">Author</label><div class=\"control\"><input class=\"input\" placeholder=\"e.g. J.R.R. Tolkien\" /></div></div><div class=\"field\"><label class=\"label\">ISBN</label><div class=\"control\"><input class=\"input\" placeholder=\"978-0-618-00221-4\" /></div></div><div class=\"field\"><label class=\"label\">Genre</label><div class=\"control\"><div class=\"select\"><select><option>Fantasy</option><option>Non-fiction</option></select></div></div></div><div class=\"field\"><label class=\"label\">Publication Year</label><div class=\"control\"><input class=\"input\" type=\"number\" placeholder=\"1937\" /></div></div><div class=\"field\"><label class=\"label\">Cover Image</label><div class=\"control\"><input class=\"input\" type=\"file\" /></div></div><div class=\"field is-grouped mt-4\"><div class=\"control\"><button class=\"button is-primary\">Add Title</button></div><div class=\"control\"><button class=\"button\">Cancel</button></div></div></div></div>"
+    ],
+    "title": "Add New Book Title",
+    "fields": [
+      {
+        "name": "title",
+        "type": "String",
+        "example": "The Hobbit",
+        "mapping": "AddBookTitle.title",
+        "cardinality": "Single"
+      },
+      {
+        "name": "author",
+        "type": "String",
+        "example": "J.R.R. Tolkien",
+        "mapping": "AddBookTitle.author",
+        "cardinality": "Single"
+      },
+      {
+        "name": "isbn",
+        "type": "String",
+        "example": "978-0-618-00221-4",
+        "mapping": "AddBookTitle.isbn",
+        "cardinality": "Single"
+      },
+      {
+        "name": "genre",
+        "type": "String",
+        "example": "Fantasy",
+        "mapping": "AddBookTitle.genre",
+        "cardinality": "Single"
+      },
+      {
+        "name": "publicationYear",
+        "type": "String",
+        "example": "1937",
+        "mapping": "AddBookTitle.publicationYear",
+        "cardinality": "Single"
+      },
+      {
+        "name": "coverImageUrl",
+        "type": "String",
+        "example": "https://cdn.example.com/covers/hobbit.jpg",
+        "mapping": "AddBookTitle.coverImageUrl",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "l83vnr"
+}

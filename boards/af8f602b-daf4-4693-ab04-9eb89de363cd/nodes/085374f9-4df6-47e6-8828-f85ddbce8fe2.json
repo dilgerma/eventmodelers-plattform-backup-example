@@ -1,0 +1,20 @@
+{
+  "id": "085374f9-4df6-47e6-8828-f85ddbce8fe2",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "78b46a68-28b5-4faa-9b7f-f3f0279454fd",
+    "title": "Reserve Copy"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "78b46a68-28b5-4faa-9b7f-f3f0279454fd",
+    "title": "Reserve Copy"
+  },
+  "hash": "8u5hk7"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "80000000-0000-4000-8000-000000000004",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "PendingReservationReleases",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-002",
+        "mapping": "ReservationReleased.reservationId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-002",
+        "mapping": "ReservationReleased.copyId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "releasedAt",
+        "type": "DateTime",
+        "example": "2026-08-14T00:00:00Z",
+        "mapping": "ReservationReleased.releasedAt",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "Expired",
+        "mapping": "ReservationReleased.reason",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "e8ehul"
+}

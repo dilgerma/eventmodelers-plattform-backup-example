@@ -1,0 +1,36 @@
+{
+  "id": "d54c4d69-962d-469e-bb66-bc6e3a956bdd",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000420",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000005",
+              "type": "READMODEL",
+              "title": "NewlyAddedTitlesView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            }
+          ],
+          "title": "Newly added count includes a title added within the last 7 days"
+        }
+      ]
+    }
+  },
+  "hash": "hjtinf"
+}

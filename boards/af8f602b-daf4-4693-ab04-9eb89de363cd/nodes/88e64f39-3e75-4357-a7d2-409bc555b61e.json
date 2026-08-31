@@ -1,0 +1,20 @@
+{
+  "id": "88e64f39-3e75-4357-a7d2-409bc555b61e",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "e84eff79-af9e-49ba-a6d3-7791299a4ce1",
+    "title": "RecordCopyReturnedFromRepair"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "e84eff79-af9e-49ba-a6d3-7791299a4ce1",
+    "title": "RecordCopyReturnedFromRepair"
+  },
+  "hash": "b77ox4"
+}

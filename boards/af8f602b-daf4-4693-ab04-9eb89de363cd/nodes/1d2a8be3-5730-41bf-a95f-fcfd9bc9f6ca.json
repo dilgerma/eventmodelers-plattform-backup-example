@@ -1,0 +1,20 @@
+{
+  "id": "1d2a8be3-5730-41bf-a95f-fcfd9bc9f6ca",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "c973fcf4-7e80-4752-8740-7587f9cd0870",
+    "title": "PendingBookCheckouts"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "c973fcf4-7e80-4752-8740-7587f9cd0870",
+    "title": "PendingBookCheckouts"
+  },
+  "hash": "t753dw"
+}

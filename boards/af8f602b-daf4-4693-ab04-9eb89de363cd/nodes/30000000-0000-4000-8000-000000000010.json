@@ -1,0 +1,32 @@
+{
+  "id": "30000000-0000-4000-8000-000000000010",
+  "type": "html_screen",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "backgroundColor": "#ffffff"
+  },
+  "meta": {
+    "type": "HTML_SCREEN",
+    "pages": [
+      "<div style=\"background:#f5f5f5;min-height:100vh;padding:32px 0;font-family:sans-serif\"><div style=\"max-width:760px;margin:0 auto;background:#fff;border-radius:8px;padding:32px;box-shadow:0 1px 4px rgba(0,0,0,.1)\"><h1 class=\"title is-3\">The Hobbit</h1><p class=\"mb-4\">This title will be permanently removed from circulation.</p><div class=\"field\"><label class=\"label\">Reason</label><div class=\"control\"><input class=\"input\" placeholder=\"Withdrawn from circulation\" /></div></div><button class=\"button is-danger mt-2\">Archive Title</button></div></div>"
+    ],
+    "title": "Book Title Detail",
+    "fields": [
+      {
+        "name": "titleId",
+        "type": "String",
+        "example": "title-001",
+        "mapping": "ArchiveBookTitle.titleId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "Withdrawn from circulation",
+        "mapping": "ArchiveBookTitle.reason",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "geld8f"
+}

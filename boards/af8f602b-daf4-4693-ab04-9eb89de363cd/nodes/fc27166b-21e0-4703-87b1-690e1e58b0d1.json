@@ -1,0 +1,42 @@
+{
+  "id": "fc27166b-21e0-4703-87b1-690e1e58b0d1",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000130",
+          "then": [
+            {
+              "id": "70000000-0000-4000-8000-000000000004",
+              "type": "EVENT",
+              "title": "ReservationReleased"
+            }
+          ],
+          "when": [
+            {
+              "id": "60000000-0000-4000-8000-000000000004",
+              "type": "COMMAND",
+              "title": "RecordReservationReleased"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000010",
+              "type": "EVENT",
+              "title": "ReservationReleased"
+            }
+          ],
+          "title": "Translation automation mirrors an external reservation-released signal internally"
+        }
+      ]
+    }
+  },
+  "hash": "agq4lb"
+}

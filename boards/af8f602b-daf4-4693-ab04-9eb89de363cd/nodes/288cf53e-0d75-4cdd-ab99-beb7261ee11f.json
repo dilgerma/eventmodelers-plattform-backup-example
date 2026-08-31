@@ -1,0 +1,20 @@
+{
+  "id": "288cf53e-0d75-4cdd-ab99-beb7261ee11f",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "5b8d67bf-fa33-4acb-8a6f-2cedcc726250",
+    "title": "Record Reservation Released"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "5b8d67bf-fa33-4acb-8a6f-2cedcc726250",
+    "title": "Record Reservation Released"
+  },
+  "hash": "5u79zr"
+}

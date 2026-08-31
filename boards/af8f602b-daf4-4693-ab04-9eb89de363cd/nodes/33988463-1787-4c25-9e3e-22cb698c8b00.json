@@ -1,0 +1,20 @@
+{
+  "id": "33988463-1787-4c25-9e3e-22cb698c8b00",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "a704fcf7-8852-4ef2-87d6-4907dfd3df1e",
+    "title": "CatalogueEntryView"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "a704fcf7-8852-4ef2-87d6-4907dfd3df1e",
+    "title": "CatalogueEntryView"
+  },
+  "hash": "vlklxh"
+}

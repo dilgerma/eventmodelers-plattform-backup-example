@@ -1,0 +1,43 @@
+{
+  "id": "c2eceab3-a92c-42db-bddc-a461673c5754",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000200",
+          "then": [
+            {
+              "id": "80000000-0000-4000-8000-000000000001",
+              "type": "READMODEL",
+              "title": "PendingReservationPlacements"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000004",
+              "type": "EVENT",
+              "title": "ReservationPlaced"
+            }
+          ],
+          "title": "A reservation-placed signal opens a pending item to translate",
+          "examples": [
+            {
+              "copy_id": "copy-001",
+              "member_id": "mbr-101",
+              "reservation_id": "res-001"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hash": "1329w9i"
+}

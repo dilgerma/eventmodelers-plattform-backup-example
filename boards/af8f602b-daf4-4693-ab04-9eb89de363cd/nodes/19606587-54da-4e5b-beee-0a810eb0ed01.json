@@ -1,0 +1,68 @@
+{
+  "id": "19606587-54da-4e5b-beee-0a810eb0ed01",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000040",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000013",
+              "type": "EVENT",
+              "title": "CopyReturnedFromRepair"
+            }
+          ],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000005",
+              "type": "COMMAND",
+              "title": "RecordCopyReturnedFromRepair"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000012",
+              "type": "EVENT",
+              "title": "CopySentForRepair"
+            }
+          ],
+          "title": "Librarian marks a repaired copy as returned from repair"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000041",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000005",
+              "type": "COMMAND",
+              "title": "RecordCopyReturnedFromRepair"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            }
+          ],
+          "title": "Reject marking a copy returned from repair when it was never sent for repair",
+          "expectError": true,
+          "errorDescription": "copy is not currently in repair"
+        }
+      ]
+    }
+  },
+  "hash": "1fqw25d"
+}

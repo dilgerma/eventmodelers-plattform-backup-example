@@ -1,0 +1,34 @@
+{
+  "id": "d0000000-0000-4000-8000-000000000004",
+  "type": "html_screen",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "backgroundColor": "#ffffff"
+  },
+  "meta": {
+    "type": "HTML_SCREEN",
+    "marks": [
+      {
+        "id": "em-avail2",
+        "color": "#e74c3c",
+        "pageIndex": 0,
+        "blurOutside": true,
+        "whiteOutside": false
+      }
+    ],
+    "pages": [
+      "<div style=\"background:#f5f5f5;min-height:100vh;padding:32px 0;font-family:sans-serif\"><div style=\"max-width:900px;margin:0 auto\"><h1 class=\"title is-3\">Browse Catalogue</h1><div class=\"field is-grouped mb-4\"><div class=\"control is-expanded\"><input class=\"input\" placeholder=\"Search by title or author\" /></div><div class=\"control\"><div class=\"select\"><select><option>All Genres</option></select></div></div><div class=\"control\"><div class=\"select\"><select><option>All Availability</option></select></div></div></div><div style=\"display:grid;grid-template-columns:3fr 1fr;gap:16px\"><div><div style=\"display:grid;grid-template-columns:56px 2fr 2fr 1fr;gap:12px;align-items:center;padding:8px 0;border-bottom:1px solid #eee\"><img src=\"https://via.placeholder.com/40x56\" /><span>The Hobbit</span><span>J.R.R. Tolkien</span><span>Fantasy</span></div><div style=\"display:grid;grid-template-columns:56px 2fr 2fr 1fr;gap:12px;align-items:center;padding:8px 0;border-bottom:1px solid #eee\"><img src=\"https://via.placeholder.com/40x56\" /><span>Dune</span><span>Frank Herbert</span><span>Sci-Fi</span></div></div><div data-em-mark-id=\"em-avail2\" class=\"em-mark em-mark-e74c3c\"><div style=\"padding:8px 0;border-bottom:1px solid #eee\"><span class=\"tag is-success\">2 of 3 available</span></div><div style=\"padding:8px 0;border-bottom:1px solid #eee\"><span class=\"tag is-danger\">0 of 2 available</span></div></div></div></div></div>"
+    ],
+    "title": "Catalogue Browse",
+    "fields": [
+      {
+        "name": "availabilityLabel",
+        "type": "String",
+        "example": "2 of 3 available",
+        "mapping": "CatalogueEntryAvailabilityView.availabilityLabel",
+        "cardinality": "List"
+      }
+    ]
+  },
+  "hash": "17mlho0"
+}

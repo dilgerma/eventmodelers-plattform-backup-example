@@ -1,0 +1,37 @@
+{
+  "id": "10000000-0000-4000-8000-000000000011",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "CopyReservationReleased",
+    "fields": [
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-002",
+        "cardinality": "Single"
+      },
+      {
+        "name": "titleId",
+        "type": "String",
+        "example": "title-001",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-002",
+        "cardinality": "Single"
+      },
+      {
+        "name": "releasedAt",
+        "type": "DateTime",
+        "example": "2026-08-14T00:00:05Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "t3e487"
+}

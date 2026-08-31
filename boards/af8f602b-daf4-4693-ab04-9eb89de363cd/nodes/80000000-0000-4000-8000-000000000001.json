@@ -1,0 +1,48 @@
+{
+  "id": "80000000-0000-4000-8000-000000000001",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "PendingReservationPlacements",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-001",
+        "mapping": "ReservationPlaced.reservationId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-001",
+        "mapping": "ReservationPlaced.copyId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "mapping": "ReservationPlaced.memberId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reservedAt",
+        "type": "DateTime",
+        "example": "2026-08-10T10:00:00Z",
+        "mapping": "ReservationPlaced.reservedAt",
+        "cardinality": "Single"
+      },
+      {
+        "name": "expiresAt",
+        "type": "DateTime",
+        "example": "2026-08-13T10:00:00Z",
+        "mapping": "ReservationPlaced.expiresAt",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "11dvbzj"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "d0000000-0000-4000-8000-000000000005",
+  "type": "html_screen",
+  "position": {
+    "x": 17655,
+    "y": 145
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "HTML_SCREEN",
+    "marks": [
+      {
+        "id": "em-bdavail1",
+        "color": "#e74c3c",
+        "pageIndex": 0,
+        "blurOutside": true,
+        "whiteOutside": false
+      }
+    ],
+    "pages": [
+      "<div style=\"background:#f5f5f5;min-height:100vh;padding:32px 0;font-family:sans-serif\"><div style=\"max-width:700px;margin:0 auto\"><div style=\"background:#fff;border-radius:8px;padding:32px;box-shadow:0 1px 4px rgba(0,0,0,.1);display:flex;gap:24px\"><img src=\"https://via.placeholder.com/120x170?text=Cover\" style=\"border-radius:4px\" /><div><h1 class=\"title is-3\">The Hobbit</h1><p><strong>Author:</strong> J.R.R. Tolkien</p></div></div><div data-em-mark-id=\"em-bdavail1\" class=\"em-mark em-mark-e74c3c\" style=\"background:#fff;border-radius:8px;padding:24px;margin-top:16px;box-shadow:0 1px 4px rgba(0,0,0,.1)\"><span class=\"tag is-success is-medium\">2 of 3 copies available</span><button class=\"button is-primary\" style=\"display:block;margin-top:12px\">Reserve a Copy</button></div></div></div>"
+    ],
+    "title": "Book Details",
+    "fields": [
+      {
+        "name": "availabilityLabel",
+        "type": "String",
+        "example": "2 of 3 copies available",
+        "mapping": "CatalogueEntryAvailabilityView.availabilityLabel",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "j21x6q"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "a069c743-f106-46c9-944b-e3ba11409ca9",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "17a17dbe-dee1-4463-9320-0db0065d9875",
+    "title": "ReportCopyLost"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "17a17dbe-dee1-4463-9320-0db0065d9875",
+    "title": "ReportCopyLost"
+  },
+  "hash": "1m3vako"
+}

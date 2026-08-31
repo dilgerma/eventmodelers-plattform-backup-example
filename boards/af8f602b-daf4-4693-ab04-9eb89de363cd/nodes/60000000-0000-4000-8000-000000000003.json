@@ -1,0 +1,25 @@
+{
+  "id": "60000000-0000-4000-8000-000000000003",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "RecordBookReturned",
+    "fields": [
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-001",
+        "cardinality": "Single"
+      },
+      {
+        "name": "returnedAt",
+        "type": "DateTime",
+        "example": "2026-08-20T11:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "s4c52j"
+}

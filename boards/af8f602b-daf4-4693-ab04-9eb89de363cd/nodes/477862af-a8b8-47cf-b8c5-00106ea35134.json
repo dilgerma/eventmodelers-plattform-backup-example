@@ -1,0 +1,20 @@
+{
+  "id": "477862af-a8b8-47cf-b8c5-00106ea35134",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "e56c8786-8072-4614-8041-22348734acd2",
+    "title": "Record Book Returned"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "e56c8786-8072-4614-8041-22348734acd2",
+    "title": "Record Book Returned"
+  },
+  "hash": "17t12uw"
+}

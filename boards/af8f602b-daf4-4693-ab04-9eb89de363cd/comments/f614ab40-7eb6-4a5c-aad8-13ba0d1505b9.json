@@ -1,0 +1,11 @@
+{
+  "id": "f614ab40-7eb6-4a5c-aad8-13ba0d1505b9",
+  "nodeId": "10000000-0000-4000-8000-000000000014",
+  "boardId": "af8f602b-daf4-4693-ab04-9eb89de363cd",
+  "text": "Completeness check (Step 8): this model has no recovery path for a copy once CopyReportedLost fires — it's currently a terminal state for that copy (unlike CopySentForRepair, which does have a symmetric CopyReturnedFromRepair). Is \"a lost copy is later found and returned to circulation\" a real scenario worth a symmetric event (e.g. CopyFoundAfterLoss), or is losing a copy intentionally final in this domain (write-off, replace via a new AddCopy instead)? Flagging as accepted debt rather than silently omitting it — not added in this pass to keep scope matched to the written brief, which never mentions recovering a lost book.",
+  "type": "QUESTION",
+  "timestamp": 1788132007305,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "agent"
+}

@@ -1,0 +1,94 @@
+{
+  "id": "cae290e3-3773-400d-adf8-27675a3ff1f5",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000030",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000012",
+              "type": "EVENT",
+              "title": "CopySentForRepair"
+            }
+          ],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000004",
+              "type": "COMMAND",
+              "title": "SendCopyForRepair"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            }
+          ],
+          "title": "Librarian sends an available copy for repair"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000031",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000004",
+              "type": "COMMAND",
+              "title": "SendCopyForRepair"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000007",
+              "type": "EVENT",
+              "title": "CopyCheckedOut"
+            }
+          ],
+          "title": "Reject sending a checked-out copy for repair",
+          "expectError": true,
+          "errorDescription": "copy is currently checked out by a member"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000032",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000004",
+              "type": "COMMAND",
+              "title": "SendCopyForRepair"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000012",
+              "type": "EVENT",
+              "title": "CopySentForRepair"
+            }
+          ],
+          "title": "Reject sending a copy already in repair for repair again",
+          "expectError": true,
+          "errorDescription": "copy is already in repair"
+        }
+      ]
+    }
+  },
+  "hash": "9wo0q6"
+}

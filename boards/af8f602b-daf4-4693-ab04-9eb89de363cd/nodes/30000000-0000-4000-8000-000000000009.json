@@ -1,0 +1,32 @@
+{
+  "id": "30000000-0000-4000-8000-000000000009",
+  "type": "html_screen",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "backgroundColor": "#ffffff"
+  },
+  "meta": {
+    "type": "HTML_SCREEN",
+    "pages": [
+      "<div style=\"background:#f5f5f5;min-height:100vh;padding:32px 0;font-family:sans-serif\"><div style=\"max-width:760px;margin:0 auto;background:#fff;border-radius:8px;padding:32px;box-shadow:0 1px 4px rgba(0,0,0,.1)\"><h1 class=\"title is-4\">The Hobbit — Copies</h1><table class=\"table is-fullwidth is-striped\"><thead><tr><th>Copy ID</th><th>Status</th><th>Actions</th></tr></thead><tbody><tr><td>copy-004</td><td><span class=\"tag is-warning\">Reserved</span></td><td><button class=\"button is-small is-danger\">Report Lost</button></td></tr></tbody></table></div></div>"
+    ],
+    "title": "Book Title Detail",
+    "fields": [
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-004",
+        "mapping": "ReportCopyLost.copyId",
+        "cardinality": "Single"
+      },
+      {
+        "name": "status",
+        "type": "String",
+        "example": "Available",
+        "mapping": "CopyStatusListView.status",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "176tjc5"
+}

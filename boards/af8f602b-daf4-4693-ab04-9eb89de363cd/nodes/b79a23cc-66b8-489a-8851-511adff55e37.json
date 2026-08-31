@@ -1,0 +1,102 @@
+{
+  "id": "b79a23cc-66b8-489a-8851-511adff55e37",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000430",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000006",
+              "type": "READMODEL",
+              "title": "CatalogueEntryView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            }
+          ],
+          "title": "Catalogue entry appears after a title is added",
+          "examples": [
+            {
+              "genre": "Fantasy",
+              "title": "The Hobbit",
+              "author": "J.R.R. Tolkien",
+              "title_id": "title-001"
+            }
+          ]
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000431",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000006",
+              "type": "READMODEL",
+              "title": "CatalogueEntryView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000003",
+              "type": "EVENT",
+              "title": "BookTitleDetailsUpdated"
+            }
+          ],
+          "title": "Catalogue entry reflects an edited title",
+          "examples": [
+            {
+              "genre": "Fantasy",
+              "title": "The Hobbit (Illustrated Edition)",
+              "author": "J.R.R. Tolkien",
+              "title_id": "title-001"
+            }
+          ]
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000432",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000006",
+              "type": "READMODEL",
+              "title": "CatalogueEntryView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000015",
+              "type": "EVENT",
+              "title": "BookTitleArchived"
+            }
+          ],
+          "title": "Catalogue entry disappears once its title is archived",
+          "examples": [],
+          "expectEmptyList": true
+        }
+      ]
+    }
+  },
+  "hash": "gms4xp"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "10000000-0000-4000-8000-000000000003",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "BookTitleDetailsUpdated",
+    "fields": [
+      {
+        "name": "titleId",
+        "type": "String",
+        "example": "title-001",
+        "cardinality": "Single"
+      },
+      {
+        "name": "title",
+        "type": "String",
+        "example": "The Hobbit",
+        "cardinality": "Single"
+      },
+      {
+        "name": "author",
+        "type": "String",
+        "example": "J.R.R. Tolkien",
+        "cardinality": "Single"
+      },
+      {
+        "name": "isbn",
+        "type": "String",
+        "example": "978-0-618-00221-4",
+        "cardinality": "Single"
+      },
+      {
+        "name": "genre",
+        "type": "String",
+        "example": "Fantasy",
+        "cardinality": "Single"
+      },
+      {
+        "name": "publicationYear",
+        "type": "String",
+        "example": "1937",
+        "cardinality": "Single"
+      },
+      {
+        "name": "coverImageUrl",
+        "type": "String",
+        "example": "https://cdn.example.com/covers/hobbit.jpg",
+        "cardinality": "Single"
+      },
+      {
+        "name": "changedFields",
+        "type": "String",
+        "example": "genre, coverImageUrl",
+        "cardinality": "List"
+      },
+      {
+        "name": "updatedAt",
+        "type": "DateTime",
+        "example": "2026-08-05T14:00:00Z",
+        "cardinality": "Single"
+      },
+      {
+        "name": "updatedBy",
+        "type": "String",
+        "example": "librarian-42",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "82fnvq"
+}

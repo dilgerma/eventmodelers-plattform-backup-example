@@ -1,0 +1,78 @@
+{
+  "id": "f66e23e3-9787-4b73-8b09-a34aa2cf9f81",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000140",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000011",
+              "type": "EVENT",
+              "title": "CopyReservationReleased"
+            }
+          ],
+          "when": [
+            {
+              "id": "a0000000-0000-4000-8000-000000000004",
+              "type": "COMMAND",
+              "title": "ReleaseCopyReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000005",
+              "type": "EVENT",
+              "title": "CopyReserved"
+            },
+            {
+              "id": "70000000-0000-4000-8000-000000000004",
+              "type": "EVENT",
+              "title": "ReservationReleased"
+            }
+          ],
+          "title": "Release Copy Reservation automation frees a reserved copy back to available"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000141",
+          "then": [],
+          "when": [
+            {
+              "id": "a0000000-0000-4000-8000-000000000004",
+              "type": "COMMAND",
+              "title": "ReleaseCopyReservation"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "70000000-0000-4000-8000-000000000004",
+              "type": "EVENT",
+              "title": "ReservationReleased"
+            }
+          ],
+          "title": "Reject releasing a reservation on a copy that is not currently reserved",
+          "expectError": true,
+          "errorDescription": "copy is not in a reserved state"
+        }
+      ]
+    }
+  },
+  "hash": "148sdtj"
+}

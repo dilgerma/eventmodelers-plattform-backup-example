@@ -1,0 +1,83 @@
+{
+  "id": "260089a5-be79-42ac-a69c-dc57211626ae",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000010",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            }
+          ],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000002",
+              "type": "COMMAND",
+              "title": "AddCopy"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            }
+          ],
+          "title": "Librarian adds a physical copy to an existing title"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000011",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000002",
+              "type": "COMMAND",
+              "title": "AddCopy"
+            }
+          ],
+          "given": [],
+          "title": "Reject adding a copy to a title that does not exist",
+          "expectError": true,
+          "errorDescription": "title not found"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000012",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000002",
+              "type": "COMMAND",
+              "title": "AddCopy"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000015",
+              "type": "EVENT",
+              "title": "BookTitleArchived"
+            }
+          ],
+          "title": "Reject adding a copy to an archived title",
+          "expectError": true,
+          "errorDescription": "title is archived and no longer accepts copies"
+        }
+      ]
+    }
+  },
+  "hash": "wo45ru"
+}

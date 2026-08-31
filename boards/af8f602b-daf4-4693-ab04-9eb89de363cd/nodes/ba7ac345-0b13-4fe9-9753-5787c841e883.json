@@ -1,0 +1,67 @@
+{
+  "id": "ba7ac345-0b13-4fe9-9753-5787c841e883",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "storylines": [
+      {
+        "id": "st000000-0000-4000-8000-000000000003",
+        "beats": [
+          {
+            "type": "READMODEL",
+            "refId": "80000000-0000-4000-8000-000000000007",
+            "title": "ReturnsToApply",
+            "examples": [],
+            "instanceId": "b1",
+            "exampleMode": "list",
+            "expectEmptyList": true
+          },
+          {
+            "type": "EVENT",
+            "refId": "70000000-0000-4000-8000-000000000003",
+            "title": "BookReturned",
+            "instanceId": "b2"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "80000000-0000-4000-8000-000000000007",
+            "title": "ReturnsToApply",
+            "examples": [
+              {
+                "copy_id": "copy-001"
+              }
+            ],
+            "instanceId": "b3",
+            "exampleMode": "list"
+          },
+          {
+            "type": "EVENT",
+            "refId": "10000000-0000-4000-8000-000000000009",
+            "title": "CopyReturned",
+            "instanceId": "b4"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "80000000-0000-4000-8000-000000000007",
+            "title": "ReturnsToApply",
+            "examples": [],
+            "instanceId": "b5",
+            "exampleMode": "list",
+            "expectEmptyList": true
+          }
+        ],
+        "title": "Return todo item opens then closes once the copy is returned",
+        "layout": "horizontal"
+      }
+    ],
+    "givenWhenThenScenario": {
+      "scenarios": []
+    }
+  },
+  "hash": "9tzbn7"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "41037ded-70e8-406a-b4cb-002e87b38795",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "bbe6208e-f191-47e3-8832-a97676cee417",
+    "title": "NewlyAddedTitlesView"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "bbe6208e-f191-47e3-8832-a97676cee417",
+    "title": "NewlyAddedTitlesView"
+  },
+  "hash": "1huajue"
+}

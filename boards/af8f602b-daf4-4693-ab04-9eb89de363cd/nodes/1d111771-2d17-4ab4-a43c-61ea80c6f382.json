@@ -1,0 +1,68 @@
+{
+  "id": "1d111771-2d17-4ab4-a43c-61ea80c6f382",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "storylines": [
+      {
+        "id": "st000000-0000-4000-8000-000000000001",
+        "beats": [
+          {
+            "type": "READMODEL",
+            "refId": "80000000-0000-4000-8000-000000000005",
+            "title": "ReservationsToApply",
+            "examples": [],
+            "instanceId": "b1",
+            "exampleMode": "list",
+            "expectEmptyList": true
+          },
+          {
+            "type": "EVENT",
+            "refId": "70000000-0000-4000-8000-000000000001",
+            "title": "ReservationPlaced",
+            "instanceId": "b2"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "80000000-0000-4000-8000-000000000005",
+            "title": "ReservationsToApply",
+            "examples": [
+              {
+                "copy_id": "copy-001",
+                "reservation_id": "res-001"
+              }
+            ],
+            "instanceId": "b3",
+            "exampleMode": "list"
+          },
+          {
+            "type": "EVENT",
+            "refId": "10000000-0000-4000-8000-000000000005",
+            "title": "CopyReserved",
+            "instanceId": "b4"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "80000000-0000-4000-8000-000000000005",
+            "title": "ReservationsToApply",
+            "examples": [],
+            "instanceId": "b5",
+            "exampleMode": "list",
+            "expectEmptyList": true
+          }
+        ],
+        "title": "Reservation todo item opens then closes once the copy is reserved",
+        "layout": "horizontal"
+      }
+    ],
+    "givenWhenThenScenario": {
+      "scenarios": []
+    }
+  },
+  "hash": "qk5sqk"
+}

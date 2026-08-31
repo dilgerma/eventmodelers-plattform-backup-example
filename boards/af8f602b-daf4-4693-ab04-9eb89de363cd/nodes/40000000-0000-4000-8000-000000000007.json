@@ -1,0 +1,25 @@
+{
+  "id": "40000000-0000-4000-8000-000000000007",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "ArchiveBookTitle",
+    "fields": [
+      {
+        "name": "titleId",
+        "type": "String",
+        "example": "title-001",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reason",
+        "type": "String",
+        "example": "Withdrawn from circulation",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "yhkbba"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "f23f3e11-e934-4899-8770-8146ddd1929f",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "b54c1741-06a4-41f7-a877-059fa3eafacf",
+    "title": "PendingReservationReleases"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "b54c1741-06a4-41f7-a877-059fa3eafacf",
+    "title": "PendingReservationReleases"
+  },
+  "hash": "117wu3l"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "65750b4b-67f6-4da4-89c0-2c8ab06565e5",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000050",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000014",
+              "type": "EVENT",
+              "title": "CopyReportedLost"
+            }
+          ],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000006",
+              "type": "COMMAND",
+              "title": "ReportCopyLost"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            }
+          ],
+          "title": "Librarian reports a copy lost"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000051",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000006",
+              "type": "COMMAND",
+              "title": "ReportCopyLost"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000014",
+              "type": "EVENT",
+              "title": "CopyReportedLost"
+            }
+          ],
+          "title": "Reject reporting a copy lost twice",
+          "expectError": true,
+          "errorDescription": "copy is already reported lost"
+        }
+      ]
+    }
+  },
+  "hash": "kqsm2"
+}

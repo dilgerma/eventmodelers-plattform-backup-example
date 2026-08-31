@@ -1,0 +1,41 @@
+{
+  "id": "54408af0-a9e1-4cd1-ae16-df4660fc8943",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000202",
+          "then": [
+            {
+              "id": "80000000-0000-4000-8000-000000000003",
+              "type": "READMODEL",
+              "title": "PendingBookReturns"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000008",
+              "type": "EVENT",
+              "title": "BookReturned"
+            }
+          ],
+          "title": "A book-returned signal opens a pending item to translate",
+          "examples": [
+            {
+              "copy_id": "copy-001"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hash": "12fqb3s"
+}

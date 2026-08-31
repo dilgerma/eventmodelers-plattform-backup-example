@@ -1,0 +1,19 @@
+{
+  "id": "0ab4f4d5-9179-4d3c-823e-193efc7a8949",
+  "source": "50000000-0000-4000-8000-000000000003",
+  "target": "60000000-0000-4000-8000-000000000003",
+  "sourceHandle": "source-bottom",
+  "targetHandle": "target-top",
+  "style": {
+    "stroke": "#000000",
+    "opacity": 1,
+    "strokeColor": "#000000",
+    "strokeStyle": "normal",
+    "strokeWidth": 4,
+    "endStrokeCap": "arrow",
+    "startStrokeCap": "none"
+  },
+  "markerEnd": {
+    "type": "arrowclosed"
+  }
+}

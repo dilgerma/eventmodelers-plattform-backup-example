@@ -1,0 +1,20 @@
+{
+  "id": "edc9a916-8235-4c1b-8072-423080bbfd34",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "af50759a-a1eb-4c58-bdbe-4a438c0fda4e",
+    "title": "UpdateBookTitleDetails"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "af50759a-a1eb-4c58-bdbe-4a438c0fda4e",
+    "title": "UpdateBookTitleDetails"
+  },
+  "hash": "1xtxfje"
+}

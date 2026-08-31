@@ -1,0 +1,72 @@
+{
+  "id": "0afced62-d234-4b25-a790-3676761a5430",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000440",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000007",
+              "type": "READMODEL",
+              "title": "CatalogueEntryAvailabilityView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            }
+          ],
+          "title": "Availability label reflects all copies available",
+          "examples": [
+            {
+              "title_id": "title-001",
+              "availability_label": "1 of 1 available"
+            }
+          ]
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000441",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000007",
+              "type": "READMODEL",
+              "title": "CatalogueEntryAvailabilityView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000007",
+              "type": "EVENT",
+              "title": "CopyCheckedOut"
+            }
+          ],
+          "title": "Availability label reflects a copy currently checked out",
+          "examples": [
+            {
+              "title_id": "title-001",
+              "availability_label": "0 of 1 available"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hash": "wbdgbj"
+}

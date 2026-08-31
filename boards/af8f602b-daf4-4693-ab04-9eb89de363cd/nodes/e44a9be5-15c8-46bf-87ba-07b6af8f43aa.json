@@ -1,0 +1,89 @@
+{
+  "id": "e44a9be5-15c8-46bf-87ba-07b6af8f43aa",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000410",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000004",
+              "type": "READMODEL",
+              "title": "AvailableCopiesCountView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            }
+          ],
+          "title": "Available copies count increments when a copy is added"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000411",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000004",
+              "type": "READMODEL",
+              "title": "AvailableCopiesCountView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000005",
+              "type": "EVENT",
+              "title": "CopyReserved"
+            }
+          ],
+          "title": "Available copies count decrements when a copy is reserved"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000412",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000004",
+              "type": "READMODEL",
+              "title": "AvailableCopiesCountView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000007",
+              "type": "EVENT",
+              "title": "CopyCheckedOut"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000009",
+              "type": "EVENT",
+              "title": "CopyReturned"
+            }
+          ],
+          "title": "Available copies count recovers when a copy is returned"
+        }
+      ]
+    }
+  },
+  "hash": "1pb2nwz"
+}

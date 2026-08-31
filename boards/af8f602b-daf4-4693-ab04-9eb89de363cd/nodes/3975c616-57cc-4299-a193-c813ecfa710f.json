@@ -1,0 +1,42 @@
+{
+  "id": "3975c616-57cc-4299-a193-c813ecfa710f",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000310",
+          "then": [
+            {
+              "id": "c0000000-0000-4000-8000-000000000010",
+              "type": "READMODEL",
+              "title": "CopyStatusListView"
+            }
+          ],
+          "when": [],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            }
+          ],
+          "title": "Copy status list shows a newly added copy as available",
+          "examples": [
+            {
+              "status": "Available",
+              "copy_id": "copy-001"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hash": "1txm128"
+}

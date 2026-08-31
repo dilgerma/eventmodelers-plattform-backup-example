@@ -1,0 +1,99 @@
+{
+  "id": "bc612dc7-0f33-43ec-8ddc-83d4236fe359",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000060",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000015",
+              "type": "EVENT",
+              "title": "BookTitleArchived"
+            }
+          ],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000007",
+              "type": "COMMAND",
+              "title": "ArchiveBookTitle"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            }
+          ],
+          "title": "Librarian archives a title permanently removed from circulation"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000061",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000007",
+              "type": "COMMAND",
+              "title": "ArchiveBookTitle"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000015",
+              "type": "EVENT",
+              "title": "BookTitleArchived"
+            }
+          ],
+          "title": "Reject archiving a title that is already archived",
+          "expectError": true,
+          "errorDescription": "title is already archived"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000062",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000007",
+              "type": "COMMAND",
+              "title": "ArchiveBookTitle"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000002",
+              "type": "EVENT",
+              "title": "CopyAdded"
+            },
+            {
+              "id": "10000000-0000-4000-8000-000000000007",
+              "type": "EVENT",
+              "title": "CopyCheckedOut"
+            }
+          ],
+          "title": "Reject archiving a title while a copy is still checked out",
+          "expectError": true,
+          "errorDescription": "title has copies still checked out to members"
+        }
+      ]
+    }
+  },
+  "hash": "13ksfl8"
+}

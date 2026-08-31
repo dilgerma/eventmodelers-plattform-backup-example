@@ -1,0 +1,20 @@
+{
+  "id": "29079d27-35da-4193-9fe7-0514d3da06ba",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "3f3da43b-32ba-4605-a88a-1c6354b43892",
+    "title": "PendingBookReturns"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "3f3da43b-32ba-4605-a88a-1c6354b43892",
+    "title": "PendingBookReturns"
+  },
+  "hash": "1nuizer"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "7a988660-4230-41e5-9521-ebddba97d3c0",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "givenWhenThenScenario": {
+      "scenarios": [
+        {
+          "id": "s0000000-0000-4000-8000-000000000001",
+          "then": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            }
+          ],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000001",
+              "type": "COMMAND",
+              "title": "AddBookTitle"
+            }
+          ],
+          "given": [],
+          "title": "Librarian adds a new book title"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000002",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000001",
+              "type": "COMMAND",
+              "title": "AddBookTitle"
+            }
+          ],
+          "given": [],
+          "title": "Reject adding a title with a missing title field",
+          "expectError": true,
+          "errorDescription": "missing required field: title"
+        },
+        {
+          "id": "s0000000-0000-4000-8000-000000000003",
+          "then": [],
+          "when": [
+            {
+              "id": "40000000-0000-4000-8000-000000000001",
+              "type": "COMMAND",
+              "title": "AddBookTitle"
+            }
+          ],
+          "given": [
+            {
+              "id": "10000000-0000-4000-8000-000000000001",
+              "type": "EVENT",
+              "title": "BookTitleAdded"
+            }
+          ],
+          "title": "Reject adding a title with an ISBN already in the catalogue",
+          "expectError": true,
+          "errorDescription": "a title with this ISBN already exists"
+        }
+      ]
+    }
+  },
+  "hash": "1jcrs36"
+}

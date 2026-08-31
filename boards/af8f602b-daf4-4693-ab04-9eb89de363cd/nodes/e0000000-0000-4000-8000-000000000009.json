@@ -1,0 +1,12 @@
+{
+  "id": "e0000000-0000-4000-8000-000000000009",
+  "type": "markdown",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "MARKDOWN",
+    "title": "Event reasoning — CatalogueEntryView",
+    "description": "## Event → field reasoning — CatalogueEntryView (Member-facing; distinct from Librarian's TitleDetailsView by design — different audience/query shape)\n\n- **BookTitleAdded** → sets titleId, title, author, genre, coverImageUrl, publicationYear (row appears)\n- **BookTitleDetailsUpdated** → overrides title/author/genre/coverImageUrl/publicationYear\n- **BookTitleArchived** → removes the row from this list entirely (membership change, no field it 'sets')\n\nReused (via forward READMODEL→SCREEN edges) by both Catalogue Browse and Book Details — same underlying query, filtered to one row for Book Details."
+  },
+  "hash": "1t39nr8"
+}

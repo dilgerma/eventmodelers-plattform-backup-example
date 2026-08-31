@@ -1,0 +1,43 @@
+{
+  "id": "60000000-0000-4000-8000-000000000001",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "RecordReservationPlaced",
+    "fields": [
+      {
+        "name": "reservationId",
+        "type": "String",
+        "example": "res-001",
+        "cardinality": "Single"
+      },
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-001",
+        "cardinality": "Single"
+      },
+      {
+        "name": "memberId",
+        "type": "String",
+        "example": "mbr-101",
+        "cardinality": "Single"
+      },
+      {
+        "name": "reservedAt",
+        "type": "DateTime",
+        "example": "2026-08-10T10:00:00Z",
+        "cardinality": "Single"
+      },
+      {
+        "name": "expiresAt",
+        "type": "DateTime",
+        "example": "2026-08-13T10:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "info45"
+}

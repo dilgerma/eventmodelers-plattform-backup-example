@@ -1,0 +1,31 @@
+{
+  "id": "10000000-0000-4000-8000-000000000013",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "CopyReturnedFromRepair",
+    "fields": [
+      {
+        "name": "copyId",
+        "type": "String",
+        "example": "copy-003",
+        "cardinality": "Single"
+      },
+      {
+        "name": "titleId",
+        "type": "String",
+        "example": "title-001",
+        "cardinality": "Single"
+      },
+      {
+        "name": "returnedAt",
+        "type": "DateTime",
+        "example": "2026-08-22T09:00:00Z",
+        "cardinality": "Single"
+      }
+    ]
+  },
+  "hash": "1bjoenq"
+}

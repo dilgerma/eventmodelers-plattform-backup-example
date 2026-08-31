@@ -1,0 +1,12 @@
+{
+  "id": "e0000000-0000-4000-8000-000000000008",
+  "type": "markdown",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "MARKDOWN",
+    "title": "Event reasoning — NewlyAddedTitlesView",
+    "description": "## Event → field reasoning — NewlyAddedTitlesView\n\n- **BookTitleAdded** → increments `count` when `addedAt` falls within the trailing 7-day window (derived filter, not a distinct event)."
+  },
+  "hash": "16i1iey"
+}

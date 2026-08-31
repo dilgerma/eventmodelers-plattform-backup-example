@@ -1,0 +1,139 @@
+{
+  "id": "37aa8335-6778-49da-8dce-1416456cc7dd",
+  "type": "spec_node",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "title": ""
+  },
+  "meta": {
+    "type": "SCENARIO",
+    "title": "",
+    "storylines": [
+      {
+        "id": "st000000-0000-4000-8000-000000000005",
+        "beats": [
+          {
+            "type": "EVENT",
+            "refId": "10000000-0000-4000-8000-000000000002",
+            "title": "CopyAdded",
+            "instanceId": "b1"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "c0000000-0000-4000-8000-000000000012",
+            "title": "CopyStatusListView",
+            "examples": [
+              {
+                "status": "Available",
+                "copy_id": "copy-003"
+              }
+            ],
+            "instanceId": "b2",
+            "exampleMode": "list"
+          },
+          {
+            "type": "EVENT",
+            "refId": "10000000-0000-4000-8000-000000000005",
+            "title": "CopyReserved",
+            "instanceId": "b3"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "c0000000-0000-4000-8000-000000000012",
+            "title": "CopyStatusListView",
+            "examples": [
+              {
+                "status": "Reserved",
+                "copy_id": "copy-003"
+              }
+            ],
+            "instanceId": "b4",
+            "exampleMode": "list"
+          },
+          {
+            "type": "EVENT",
+            "refId": "10000000-0000-4000-8000-000000000007",
+            "title": "CopyCheckedOut",
+            "instanceId": "b5"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "c0000000-0000-4000-8000-000000000012",
+            "title": "CopyStatusListView",
+            "examples": [
+              {
+                "status": "Checked Out",
+                "copy_id": "copy-003"
+              }
+            ],
+            "instanceId": "b6",
+            "exampleMode": "list"
+          },
+          {
+            "type": "EVENT",
+            "refId": "10000000-0000-4000-8000-000000000009",
+            "title": "CopyReturned",
+            "instanceId": "b7"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "c0000000-0000-4000-8000-000000000012",
+            "title": "CopyStatusListView",
+            "examples": [
+              {
+                "status": "Available",
+                "copy_id": "copy-003"
+              }
+            ],
+            "instanceId": "b8",
+            "exampleMode": "list"
+          },
+          {
+            "type": "EVENT",
+            "refId": "10000000-0000-4000-8000-000000000012",
+            "title": "CopySentForRepair",
+            "instanceId": "b9"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "c0000000-0000-4000-8000-000000000012",
+            "title": "CopyStatusListView",
+            "examples": [
+              {
+                "status": "In Repair",
+                "copy_id": "copy-003"
+              }
+            ],
+            "instanceId": "b10",
+            "exampleMode": "list"
+          },
+          {
+            "type": "EVENT",
+            "refId": "10000000-0000-4000-8000-000000000013",
+            "title": "CopyReturnedFromRepair",
+            "instanceId": "b11"
+          },
+          {
+            "type": "READMODEL",
+            "refId": "c0000000-0000-4000-8000-000000000012",
+            "title": "CopyStatusListView",
+            "examples": [
+              {
+                "status": "Available",
+                "copy_id": "copy-003"
+              }
+            ],
+            "instanceId": "b12",
+            "exampleMode": "list"
+          }
+        ],
+        "title": "A single copy's status walks through its full lifecycle",
+        "layout": "horizontal"
+      }
+    ],
+    "givenWhenThenScenario": {
+      "scenarios": []
+    }
+  },
+  "hash": "1gqte17"
+}

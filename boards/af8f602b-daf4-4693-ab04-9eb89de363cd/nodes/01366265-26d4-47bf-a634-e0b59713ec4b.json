@@ -1,0 +1,20 @@
+{
+  "id": "01366265-26d4-47bf-a634-e0b59713ec4b",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "7fe82052-0d98-467e-9b29-bfa407a38e52",
+    "title": "ReservationsToApply"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "7fe82052-0d98-467e-9b29-bfa407a38e52",
+    "title": "ReservationsToApply"
+  },
+  "hash": "on0e5l"
+}

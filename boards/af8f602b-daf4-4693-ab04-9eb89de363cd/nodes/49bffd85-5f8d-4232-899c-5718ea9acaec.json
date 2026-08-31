@@ -1,0 +1,20 @@
+{
+  "id": "49bffd85-5f8d-4232-899c-5718ea9acaec",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "b867dd60-89fc-4ffe-bb62-8a4bd16349ee",
+    "title": "TotalBooksCountView"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "b867dd60-89fc-4ffe-bb62-8a4bd16349ee",
+    "title": "TotalBooksCountView"
+  },
+  "hash": "1l8kgw7"
+}

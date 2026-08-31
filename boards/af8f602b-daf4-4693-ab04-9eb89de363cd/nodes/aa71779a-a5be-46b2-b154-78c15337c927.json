@@ -1,0 +1,30 @@
+{
+  "id": "aa71779a-a5be-46b2-b154-78c15337c927",
+  "type": "sticky_note",
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {},
+  "meta": {
+    "type": "READMODEL",
+    "title": "CatalogueEntryAvailabilityView",
+    "fields": [
+      {
+        "name": "titleId",
+        "type": "String",
+        "example": "title-001",
+        "mapping": "CopyAdded.titleId",
+        "generated": false,
+        "cardinality": "List"
+      },
+      {
+        "name": "availabilityLabel",
+        "type": "String",
+        "example": "2 of 3 available",
+        "mapping": "derived:formatAvailability(copiesAvailable, copiesTotal) per titleId",
+        "generated": true,
+        "cardinality": "List"
+      }
+    ],
+    "linkedTo": "e4f05c44-edab-45fc-8549-f941fb1fde1b"
+  },
+  "hash": "ibl8pb"
+}

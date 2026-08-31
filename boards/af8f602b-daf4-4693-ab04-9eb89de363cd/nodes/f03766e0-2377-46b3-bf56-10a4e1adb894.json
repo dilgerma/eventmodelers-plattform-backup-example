@@ -1,0 +1,20 @@
+{
+  "id": "f03766e0-2377-46b3-bf56-10a4e1adb894",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "b3c45979-4c11-4622-b99d-5178ab9787ed",
+    "title": "Release Copy Reservation"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "colId": "b3c45979-4c11-4622-b99d-5178ab9787ed",
+    "title": "Release Copy Reservation"
+  },
+  "hash": "12oqo9w"
+}
