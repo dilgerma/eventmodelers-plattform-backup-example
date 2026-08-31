@@ -37,7 +37,16 @@
               "id": "8e91e007-3de7-40a9-9180-b3e1a9486366",
               "type": "EVENT",
               "title": "Event",
-              "fields": []
+              "fields": [
+                {
+                  "name": "foo",
+                  "example": "1"
+                },
+                {
+                  "name": "bar",
+                  "example": "2"
+                }
+              ]
             }
           ],
           "title": "Scenario #1",
@@ -58,7 +67,7 @@
       ]
     }
   },
-  "hash": "oxqtew",
-  "timestamp": 1788211851128,
+  "hash": "12opc1c",
+  "timestamp": 1788211930287,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
