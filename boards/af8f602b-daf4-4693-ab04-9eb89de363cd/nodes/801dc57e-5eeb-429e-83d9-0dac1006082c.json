@@ -19,7 +19,16 @@
               "id": "635e2b8f-7978-4308-9747-e1de81586304",
               "type": "READMODEL",
               "title": "Read Model",
-              "fields": []
+              "fields": [
+                {
+                  "name": "foo",
+                  "example": "test"
+                },
+                {
+                  "name": "bar",
+                  "example": "test2"
+                }
+              ]
             }
           ],
           "when": [],
@@ -33,14 +42,19 @@
           ],
           "title": "Scenario #1",
           "context": [],
-          "examples": [],
+          "examples": [
+            {
+              "bar": "test2",
+              "foo": "test"
+            }
+          ],
           "expectError": false,
           "expectEmptyList": false
         }
       ]
     }
   },
-  "hash": "p5pyh9",
-  "timestamp": 1788211702651,
+  "hash": "xa70q3",
+  "timestamp": 1788211741859,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
