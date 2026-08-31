@@ -9,9 +9,15 @@
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Read Model"
+    "title": "Read Model",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "listElement": true,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "h9nm9j",
-  "timestamp": 1788211682743,
+  "hash": "1iasys9",
+  "timestamp": 1788211685499,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
