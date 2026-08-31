@@ -2,7 +2,7 @@
   "id": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
   "type": "timeline",
   "position": {
-    "x": 0,
+    "x": 337.72734956848944,
     "y": 0
   },
   "data": {},
@@ -1089,6 +1089,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1788211139042,
+  "timestamp": 1788211152676,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
