@@ -1,0 +1,17 @@
+{
+  "id": "539eaaad-cd42-4555-a1ce-5cc97362baf6",
+  "type": "html_screen",
+  "position": {
+    "x": 555,
+    "y": 145
+  },
+  "parentId": "df6653e1-8411-475e-aa46-e86c4eea42a5",
+  "data": {},
+  "meta": {
+    "type": "HTML_SCREEN",
+    "title": "HTML Screen"
+  },
+  "hash": "rzhsco",
+  "timestamp": 1788211686562,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
