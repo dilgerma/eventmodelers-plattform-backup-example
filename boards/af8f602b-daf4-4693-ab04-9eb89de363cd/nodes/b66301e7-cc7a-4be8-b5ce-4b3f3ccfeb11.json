@@ -925,6 +925,10 @@
       ],
       "columns": [
         {
+          "id": "bfd4ba12-a38a-49c7-8dde-ee5e3a934779",
+          "width": 450
+        },
+        {
           "id": "e9b29c9c-df91-4168-a01e-5c4f306a2dfe",
           "width": 450
         },
@@ -1089,6 +1093,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1788211399511,
+  "timestamp": 1788240931829,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
