@@ -2,8 +2,8 @@
   "id": "b66301e7-cc7a-4be8-b5ce-4b3f3ccfeb11",
   "type": "timeline",
   "position": {
-    "x": 337.72734956848944,
-    "y": 0
+    "x": 104.51042833251722,
+    "y": 466.4338424719456
   },
   "data": {},
   "meta": {
@@ -1093,6 +1093,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1788240931829,
+  "timestamp": 1788240940537,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
