@@ -1,0 +1,54 @@
+{
+  "id": "4768d888-2325-4d08-8d50-5261f99d8baa",
+  "type": "html_screen",
+  "position": {
+    "x": 2212.1876398666127,
+    "y": 222.30604581385296
+  },
+  "data": {
+    "linkedTo": "/app/board/af8f602b-daf4-4693-ab04-9eb89de363cd/?moveToWidget=30000000-0000-4000-8000-000000000002"
+  },
+  "meta": {
+    "type": "HTML_SCREEN",
+    "marks": [],
+    "pages": [
+      "<div style=\"background:#f5f5f5;min-height:100vh;padding:32px 0;font-family:sans-serif\"><div style=\"max-width:760px;margin:0 auto;background:#fff;border-radius:8px;padding:32px;box-shadow:0 1px 4px rgba(0,0,0,.1)\"><div style=\"display:flex;gap:24px\"><img src=\"https://via.placeholder.com/120x170?text=Cover\" style=\"border-radius:4px\" /><div><h1 class=\"title is-3\">The Hobbit</h1><p><strong>Author:</strong> J.R.R. Tolkien</p></div></div><hr /><h2 class=\"title is-5\">Add a Physical Copy</h2><p>This will add a new copy of this title to circulation.</p><button class=\"button is-primary mt-2\">Add Copy</button></div></div>"
+    ],
+    "title": "Book Title Detail",
+    "fields": [
+      {
+        "name": "titleId",
+        "type": "String",
+        "example": "title-001",
+        "mapping": "TitleDetailsView.titleId",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "title",
+        "type": "String",
+        "example": "The Hobbit",
+        "mapping": "TitleDetailsView.title",
+        "subfields": [],
+        "cardinality": "Single"
+      },
+      {
+        "name": "author",
+        "type": "String",
+        "example": "J.R.R. Tolkien",
+        "mapping": "TitleDetailsView.author",
+        "subfields": [],
+        "cardinality": "Single"
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "linkedTo": "/app/board/af8f602b-daf4-4693-ab04-9eb89de363cd/?moveToWidget=30000000-0000-4000-8000-000000000002",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "e65nfb",
+  "timestamp": 1788240935849,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
