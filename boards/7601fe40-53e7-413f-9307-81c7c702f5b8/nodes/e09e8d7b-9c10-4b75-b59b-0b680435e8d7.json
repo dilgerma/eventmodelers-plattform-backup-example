@@ -8,7 +8,7 @@
   "data": {},
   "meta": {
     "type": "CHAPTER",
-    "title": "foo",
+    "title": "TODO App",
     "modelContext": "f6d0693b-aaf2-450b-89b4-c5f15425cf6c",
     "timelineData": {
       "rows": [
@@ -100,6 +100,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1789232724273,
+  "timestamp": 1789232731747,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
