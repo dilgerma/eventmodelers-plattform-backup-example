@@ -94,12 +94,16 @@
           "id": "a7e2ceda-a3c2-456a-9956-b97184b28596"
         },
         {
+          "id": "5d3ef547-9d99-4e71-8537-5fcafaf22f6d",
+          "width": 450
+        },
+        {
           "id": "ce26d461-8634-4db0-ab51-92655ac5fa3b"
         }
       ]
     }
   },
   "hash": null,
-  "timestamp": 1789232731747,
+  "timestamp": 1789232763739,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
