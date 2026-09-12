@@ -1,0 +1,49 @@
+{
+  "id": "4f8b8d06-2740-46ec-a8bd-9b5b58957dca",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 507
+  },
+  "parentId": "e09e8d7b-9c10-4b75-b59b-0b680435e8d7",
+  "data": {},
+  "meta": {
+    "type": "COMMAND",
+    "title": "Create TODO List",
+    "fields": [
+      {
+        "pii": false,
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "linkedTo": null,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1bgvrlx"
+}

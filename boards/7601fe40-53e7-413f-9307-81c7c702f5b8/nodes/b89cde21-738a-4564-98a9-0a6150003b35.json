@@ -1,0 +1,23 @@
+{
+  "id": "b89cde21-738a-4564-98a9-0a6150003b35",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "e09e8d7b-9c10-4b75-b59b-0b680435e8d7",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "a7e2ceda-a3c2-456a-9956-b97184b28596",
+    "title": "Create TODO List",
+    "hasComments": true
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "Create TODO List",
+    "version": 5,
+    "linkedTo": null,
+    "sliceStatus": "Blocked"
+  },
+  "hash": "dlm2uu"
+}

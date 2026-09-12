@@ -1,0 +1,20 @@
+{
+  "id": "93319536-6528-4706-8ff6-52320ecbd62c",
+  "type": "slice_border",
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "parentId": "e09e8d7b-9c10-4b75-b59b-0b680435e8d7",
+  "data": {
+    "type": "SLICE_BORDER",
+    "colId": "ce26d461-8634-4db0-ab51-92655ac5fa3b",
+    "title": "TODO Lists"
+  },
+  "meta": {
+    "type": "SLICE_BORDER",
+    "title": "TODO Lists",
+    "linkedTo": null
+  },
+  "hash": "e6xk51"
+}

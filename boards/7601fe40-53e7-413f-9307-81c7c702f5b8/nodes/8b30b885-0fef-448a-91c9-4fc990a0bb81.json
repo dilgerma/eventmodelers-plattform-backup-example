@@ -1,0 +1,49 @@
+{
+  "id": "8b30b885-0fef-448a-91c9-4fc990a0bb81",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 827
+  },
+  "parentId": "e09e8d7b-9c10-4b75-b59b-0b680435e8d7",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "TODO List Created",
+    "fields": [
+      {
+        "pii": false,
+        "name": "id",
+        "type": "String",
+        "query": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "name",
+        "type": "String",
+        "query": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
+    "linkedTo": null,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "52hlca"
+}

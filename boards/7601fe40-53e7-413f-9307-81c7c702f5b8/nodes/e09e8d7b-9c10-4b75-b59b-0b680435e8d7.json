@@ -1,0 +1,125 @@
+{
+  "id": "e09e8d7b-9c10-4b75-b59b-0b680435e8d7",
+  "type": "timeline",
+  "position": {
+    "x": 1174.273798749915,
+    "y": 731.8832627433605
+  },
+  "data": {},
+  "meta": {
+    "type": "CHAPTER",
+    "title": "foo",
+    "timelineData": {
+      "rows": [
+        {
+          "id": "08346a32-448d-4157-a277-7ca78251351a",
+          "type": "actor",
+          "label": "Actor",
+          "height": 320
+        },
+        {
+          "id": "9841f041-e8c4-41cf-8bbb-a5a2dddc5065",
+          "type": "interaction",
+          "label": "Interaction",
+          "height": 320
+        },
+        {
+          "id": "5319aaa7-9c15-42b7-a6de-56aeab6ea723",
+          "type": "swimlane",
+          "label": "Swimlane",
+          "height": 320
+        },
+        {
+          "id": "9ef8cc5d-04b3-479c-88e3-9f141ef08a38",
+          "type": "spec",
+          "label": "Spec Lane",
+          "height": 320
+        }
+      ],
+      "cells": [
+        {
+          "id": "08346a32-448d-4157-a277-7ca78251351a-a7e2ceda-a3c2-456a-9956-b97184b28596",
+          "colId": "a7e2ceda-a3c2-456a-9956-b97184b28596",
+          "rowId": "08346a32-448d-4157-a277-7ca78251351a",
+          "nodeId": "894d9ada-4b26-4696-9c8a-d124da8c6ea0",
+          "nodeType": "html_screen"
+        },
+        {
+          "id": "08346a32-448d-4157-a277-7ca78251351a-ce26d461-8634-4db0-ab51-92655ac5fa3b",
+          "colId": "ce26d461-8634-4db0-ab51-92655ac5fa3b",
+          "rowId": "08346a32-448d-4157-a277-7ca78251351a",
+          "nodeId": "14c22984-4588-4738-a890-4fe57f37654a",
+          "nodeType": "html_screen"
+        },
+        {
+          "id": "08346a32-448d-4157-a277-7ca78251351a-1874267f-b74e-45f0-a93f-49fb7403c56d",
+          "colId": "1874267f-b74e-45f0-a93f-49fb7403c56d",
+          "rowId": "08346a32-448d-4157-a277-7ca78251351a"
+        },
+        {
+          "id": "9841f041-e8c4-41cf-8bbb-a5a2dddc5065-a7e2ceda-a3c2-456a-9956-b97184b28596",
+          "colId": "a7e2ceda-a3c2-456a-9956-b97184b28596",
+          "rowId": "9841f041-e8c4-41cf-8bbb-a5a2dddc5065",
+          "nodeId": "4f8b8d06-2740-46ec-a8bd-9b5b58957dca",
+          "nodeType": "command"
+        },
+        {
+          "id": "9841f041-e8c4-41cf-8bbb-a5a2dddc5065-1874267f-b74e-45f0-a93f-49fb7403c56d",
+          "colId": "1874267f-b74e-45f0-a93f-49fb7403c56d",
+          "rowId": "9841f041-e8c4-41cf-8bbb-a5a2dddc5065"
+        },
+        {
+          "id": "5319aaa7-9c15-42b7-a6de-56aeab6ea723-a7e2ceda-a3c2-456a-9956-b97184b28596",
+          "colId": "a7e2ceda-a3c2-456a-9956-b97184b28596",
+          "rowId": "5319aaa7-9c15-42b7-a6de-56aeab6ea723",
+          "nodeId": "8b30b885-0fef-448a-91c9-4fc990a0bb81",
+          "nodeType": "event"
+        },
+        {
+          "id": "5319aaa7-9c15-42b7-a6de-56aeab6ea723-ce26d461-8634-4db0-ab51-92655ac5fa3b",
+          "colId": "ce26d461-8634-4db0-ab51-92655ac5fa3b",
+          "rowId": "5319aaa7-9c15-42b7-a6de-56aeab6ea723"
+        },
+        {
+          "id": "5319aaa7-9c15-42b7-a6de-56aeab6ea723-1874267f-b74e-45f0-a93f-49fb7403c56d",
+          "colId": "1874267f-b74e-45f0-a93f-49fb7403c56d",
+          "rowId": "5319aaa7-9c15-42b7-a6de-56aeab6ea723"
+        },
+        {
+          "id": "9ef8cc5d-04b3-479c-88e3-9f141ef08a38-a7e2ceda-a3c2-456a-9956-b97184b28596",
+          "colId": "a7e2ceda-a3c2-456a-9956-b97184b28596",
+          "rowId": "9ef8cc5d-04b3-479c-88e3-9f141ef08a38"
+        },
+        {
+          "id": "9ef8cc5d-04b3-479c-88e3-9f141ef08a38-ce26d461-8634-4db0-ab51-92655ac5fa3b",
+          "colId": "ce26d461-8634-4db0-ab51-92655ac5fa3b",
+          "rowId": "9ef8cc5d-04b3-479c-88e3-9f141ef08a38"
+        },
+        {
+          "id": "9ef8cc5d-04b3-479c-88e3-9f141ef08a38-1874267f-b74e-45f0-a93f-49fb7403c56d",
+          "colId": "1874267f-b74e-45f0-a93f-49fb7403c56d",
+          "rowId": "9ef8cc5d-04b3-479c-88e3-9f141ef08a38"
+        },
+        {
+          "id": "9841f041-e8c4-41cf-8bbb-a5a2dddc5065-ce26d461-8634-4db0-ab51-92655ac5fa3b",
+          "colId": "ce26d461-8634-4db0-ab51-92655ac5fa3b",
+          "rowId": "9841f041-e8c4-41cf-8bbb-a5a2dddc5065",
+          "nodeId": "a9b198b8-0f56-450b-87a1-978d5cab9c38",
+          "nodeType": "READMODEL"
+        }
+      ],
+      "columns": [
+        {
+          "id": "a7e2ceda-a3c2-456a-9956-b97184b28596"
+        },
+        {
+          "id": "ce26d461-8634-4db0-ab51-92655ac5fa3b"
+        },
+        {
+          "id": "1874267f-b74e-45f0-a93f-49fb7403c56d"
+        }
+      ]
+    }
+  },
+  "hash": "p12gg7"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e3a63a33-f397-4bd4-89c0-063def308323",
+  "nodeId": "b89cde21-738a-4564-98a9-0a6150003b35",
+  "boardId": "7601fe40-53e7-413f-9307-81c7c702f5b8",
+  "text": "The \"Create TODO List\" command has no apiEndpoint anywhere in its model — checked slice.json, the raw COMMAND node meta (id 4f8b8d06-2740-46ec-a8bd-9b5b58957dca), and even the sibling \"TODO Lists\" READMODEL for comparison (same gap there, no apiEndpoint/table). build-state-change's Step 1 and this stack's src/lib/api.ts both require the command's POST path to be read verbatim from slice.json — never guessed or invented. Please add an apiEndpoint (e.g. a REST path, or a Supabase RPC/table name) to the \"Create TODO List\" command on the board so postCommand has a real destination to call.",
+  "type": "QUESTION",
+  "timestamp": 1789193269890,
+  "resolved": false,
+  "agentRequest": true,
+  "author": "agent-ralph-build"
+}
