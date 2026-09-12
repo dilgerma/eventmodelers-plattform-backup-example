@@ -1,0 +1,19 @@
+{
+  "id": "38fe6642-26d2-4a36-bd96-c0821c551957",
+  "source": "41835f95-c8ae-46f1-bef8-60db52d06015",
+  "target": "a9b198b8-0f56-450b-87a1-978d5cab9c38",
+  "sourceHandle": "source-top",
+  "targetHandle": "target-bottom",
+  "style": {
+    "stroke": "var(--edge-color)",
+    "strokeColor": "var(--edge-color)",
+    "strokeStyle": "normal",
+    "strokeWidth": 4,
+    "endStrokeCap": "arrow",
+    "startStrokeCap": "none"
+  },
+  "markerEnd": {
+    "type": "arrowclosed",
+    "color": "var(--edge-color)"
+  }
+}
