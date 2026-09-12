@@ -16,8 +16,11 @@
     "type": "SLICE_BORDER",
     "title": "Create TODO List",
     "version": 5,
+    "assignee": "e978c45b-cafd-42a7-a4ba-31dbcab912ea",
     "linkedTo": null,
     "sliceStatus": "Blocked"
   },
-  "hash": "dlm2uu"
+  "hash": "x3s3kp",
+  "timestamp": 1789218333160,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
