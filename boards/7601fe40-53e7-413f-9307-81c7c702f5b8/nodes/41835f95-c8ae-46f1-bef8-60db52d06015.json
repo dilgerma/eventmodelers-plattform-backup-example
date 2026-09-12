@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "EVENT",
-    "title": "TODO List Created",
+    "title": "Add TODO List failed",
     "fields": [
       {
         "pii": false,
@@ -45,7 +45,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1c7tf4a",
-  "timestamp": 1789232764835,
+  "hash": "1q0cu2w",
+  "timestamp": 1789232774684,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
