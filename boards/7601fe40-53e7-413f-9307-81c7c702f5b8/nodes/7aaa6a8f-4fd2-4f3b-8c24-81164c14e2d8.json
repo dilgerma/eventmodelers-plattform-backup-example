@@ -1,0 +1,24 @@
+{
+  "id": "7aaa6a8f-4fd2-4f3b-8c24-81164c14e2d8",
+  "type": "sticky_note",
+  "position": {
+    "x": 95,
+    "y": 827
+  },
+  "parentId": "3c13f41f-28d4-4c79-90bd-09831df009e2",
+  "data": {},
+  "meta": {
+    "type": "EVENT",
+    "title": "Agent Sharing Enabled",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "linkedTo": null,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "1x6jpre",
+  "timestamp": 1789399742447,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
