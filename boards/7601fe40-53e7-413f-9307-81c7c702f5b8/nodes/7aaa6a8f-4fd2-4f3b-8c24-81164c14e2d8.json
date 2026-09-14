@@ -29,13 +29,13 @@
     ],
     "compact": true,
     "context": "INTERNAL",
-    "version": 1,
+    "version": 2,
     "linkedTo": null,
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "s9ooyv",
-  "timestamp": 1789400202916,
+  "hash": "1pftkn8",
+  "timestamp": 1789400396222,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
