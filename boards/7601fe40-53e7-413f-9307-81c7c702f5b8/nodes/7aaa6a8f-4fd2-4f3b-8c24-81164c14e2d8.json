@@ -11,7 +11,7 @@
   },
   "meta": {
     "type": "EVENT",
-    "title": "Agent Sharing Enabled",
+    "title": "Agent Sessions Enabled",
     "fields": [
       {
         "pii": false,
@@ -35,7 +35,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1pftkn8",
-  "timestamp": 1789400396222,
+  "hash": "1jcun12",
+  "timestamp": 1789406217112,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
