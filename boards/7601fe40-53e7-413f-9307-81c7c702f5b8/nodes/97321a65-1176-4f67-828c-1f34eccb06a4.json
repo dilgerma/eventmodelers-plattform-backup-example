@@ -9,10 +9,16 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Command",
-    "linkedTo": null
+    "title": "Disable Agent Sharing",
+    "fields": [],
+    "compact": true,
+    "context": "INTERNAL",
+    "linkedTo": null,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "mfen13",
-  "timestamp": 1789399781623,
+  "hash": "vm2es0",
+  "timestamp": 1789399786805,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
