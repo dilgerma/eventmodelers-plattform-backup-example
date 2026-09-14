@@ -9,9 +9,11 @@
   "meta": {
     "type": "MARKDOWN",
     "title": "Markdown",
-    "linkedTo": null
+    "linkedTo": null,
+    "description": "sharing can only be enabled for team or enterprise clients",
+    "backgroundColor": "#e74c3c"
   },
-  "hash": "1521dp3",
-  "timestamp": 1789399831426,
+  "hash": "d74hc2",
+  "timestamp": 1789399847711,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
