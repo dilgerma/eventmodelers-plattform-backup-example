@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "READMODEL",
-    "title": "Agent Sharings",
+    "title": "Organization Agent Sharings",
     "fields": [
       {
         "pii": false,
@@ -32,7 +32,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "14pdyh6",
-  "timestamp": 1789399809842,
+  "hash": "1w3mkwh",
+  "timestamp": 1789399814950,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
