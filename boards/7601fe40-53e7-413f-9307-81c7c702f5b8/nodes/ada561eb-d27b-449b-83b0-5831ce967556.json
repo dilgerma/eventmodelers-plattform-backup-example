@@ -29,13 +29,14 @@
     ],
     "compact": true,
     "context": "INTERNAL",
+    "version": 3,
     "linkedTo": "/app/board/7601fe40-53e7-413f-9307-81c7c702f5b8/?moveToWidget=5a0fcfcc-5ade-4260-be19-21540a665cb3",
     "sketched": true,
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1lweyqo",
-  "timestamp": 1789399801776,
+  "hash": "ly1rzz",
+  "timestamp": 1789400160246,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
