@@ -11,7 +11,7 @@
   },
   "meta": {
     "type": "COMMAND",
-    "title": "Activate Shared Agent Session",
+    "title": "Activate Agent Session",
     "fields": [
       {
         "pii": false,
@@ -47,7 +47,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "fzsh8s",
-  "timestamp": 1789405134465,
+  "hash": "1ewu685",
+  "timestamp": 1789406194298,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
