@@ -6,7 +6,9 @@
     "y": 145
   },
   "parentId": "3c13f41f-28d4-4c79-90bd-09831df009e2",
-  "data": {},
+  "data": {
+    "linkedTo": null
+  },
   "meta": {
     "type": "SCREEN",
     "title": "screen",
@@ -27,13 +29,14 @@
     ],
     "compact": true,
     "context": "INTERNAL",
+    "version": 2,
     "linkedTo": null,
     "sketched": true,
     "listElement": false,
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "za440m",
-  "timestamp": 1789399801776,
+  "hash": "zl5ltr",
+  "timestamp": 1789400162662,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
