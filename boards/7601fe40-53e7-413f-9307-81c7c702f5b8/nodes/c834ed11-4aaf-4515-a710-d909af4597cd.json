@@ -6,7 +6,9 @@
     "y": 507
   },
   "parentId": "3c13f41f-28d4-4c79-90bd-09831df009e2",
-  "data": {},
+  "data": {
+    "linkedTo": null
+  },
   "meta": {
     "type": "COMMAND",
     "title": "Activate Shared Agent Session",
@@ -32,7 +34,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "8z5r1h",
-  "timestamp": 1789400836800,
+  "hash": "l8jrn6",
+  "timestamp": 1789405097582,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
