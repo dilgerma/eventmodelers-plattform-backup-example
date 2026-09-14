@@ -9,7 +9,7 @@
   "data": {},
   "meta": {
     "type": "COMMAND",
-    "title": "Enable Modeling Agent",
+    "title": "Enable Agent Sharing",
     "fields": [],
     "compact": true,
     "context": "INTERNAL",
@@ -18,7 +18,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "ja8mf6",
-  "timestamp": 1789399733347,
+  "hash": "1sjzo11",
+  "timestamp": 1789399740948,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
