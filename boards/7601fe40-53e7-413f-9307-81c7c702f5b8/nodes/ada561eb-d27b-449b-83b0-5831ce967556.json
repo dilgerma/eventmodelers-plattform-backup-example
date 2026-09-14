@@ -1,0 +1,20 @@
+{
+  "id": "ada561eb-d27b-449b-83b0-5831ce967556",
+  "type": "image",
+  "position": {
+    "x": -16.42485199935777,
+    "y": 2976.0199415193783
+  },
+  "data": {
+    "linkedTo": "/app/board/7601fe40-53e7-413f-9307-81c7c702f5b8/?moveToWidget=5a0fcfcc-5ade-4260-be19-21540a665cb3"
+  },
+  "meta": {
+    "type": "SCREEN",
+    "title": "screen",
+    "linkedTo": "/app/board/7601fe40-53e7-413f-9307-81c7c702f5b8/?moveToWidget=5a0fcfcc-5ade-4260-be19-21540a665cb3",
+    "sketched": true
+  },
+  "hash": "1ivc2ea",
+  "timestamp": 1789399779199,
+  "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
+}
