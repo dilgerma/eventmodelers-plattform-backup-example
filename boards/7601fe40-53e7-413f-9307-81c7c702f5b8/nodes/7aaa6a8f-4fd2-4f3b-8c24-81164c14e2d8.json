@@ -10,7 +10,21 @@
   "meta": {
     "type": "EVENT",
     "title": "Agent Sharing Enabled",
-    "fields": [],
+    "fields": [
+      {
+        "pii": false,
+        "name": "orgaId",
+        "type": "String",
+        "query": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
     "compact": true,
     "context": "INTERNAL",
     "linkedTo": null,
@@ -18,7 +32,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1x6jpre",
-  "timestamp": 1789399742447,
+  "hash": "6vruh9",
+  "timestamp": 1789399796566,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
