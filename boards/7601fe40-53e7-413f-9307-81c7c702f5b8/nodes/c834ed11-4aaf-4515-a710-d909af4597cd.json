@@ -32,7 +32,7 @@
         "type": "DateTime",
         "query": false,
         "optional": false,
-        "generated": false,
+        "generated": true,
         "subfields": [],
         "cardinality": "Single",
         "idAttribute": false,
@@ -47,7 +47,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "ni0jev",
-  "timestamp": 1789405127773,
+  "hash": "fzsh8s",
+  "timestamp": 1789405134465,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
