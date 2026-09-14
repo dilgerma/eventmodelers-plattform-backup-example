@@ -6,7 +6,9 @@
     "y": 827
   },
   "parentId": "3c13f41f-28d4-4c79-90bd-09831df009e2",
-  "data": {},
+  "data": {
+    "linkedTo": null
+  },
   "meta": {
     "type": "EVENT",
     "title": "Shared Agent Session Activated",
@@ -15,6 +17,19 @@
         "pii": false,
         "name": "orgaId",
         "type": "String",
+        "query": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "expiration",
+        "type": "DateTime",
         "query": false,
         "optional": false,
         "generated": false,
@@ -32,7 +47,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "dfpxxm",
-  "timestamp": 1789400846907,
+  "hash": "1dspdew",
+  "timestamp": 1789405121681,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
