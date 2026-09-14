@@ -10,10 +10,30 @@
   "meta": {
     "type": "SCREEN",
     "title": "screen",
+    "fields": [
+      {
+        "pii": false,
+        "name": "orgaId",
+        "type": "String",
+        "query": false,
+        "optional": false,
+        "generated": false,
+        "subfields": [],
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
+      }
+    ],
+    "compact": true,
+    "context": "INTERNAL",
     "linkedTo": null,
-    "sketched": true
+    "sketched": true,
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
   },
-  "hash": "1gy8qvo",
-  "timestamp": 1789399777054,
+  "hash": "za440m",
+  "timestamp": 1789399801776,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
