@@ -31,7 +31,7 @@
         "name": "enabled",
         "type": "Boolean",
         "query": false,
-        "mapping": "Agent Sharing Disabled",
+        "mapping": "Agent Sessions Disabled",
         "optional": false,
         "generated": false,
         "subfields": [],
@@ -49,7 +49,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1h41cxq",
-  "timestamp": 1789406201377,
+  "hash": "im81ln",
+  "timestamp": 1789406235785,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
