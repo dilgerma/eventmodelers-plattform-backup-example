@@ -23,20 +23,6 @@
         "idAttribute": false,
         "showAttributes": false,
         "technicalAttribute": false
-      },
-      {
-        "pii": false,
-        "name": "enabled",
-        "type": "Boolean",
-        "query": false,
-        "mapping": "Agent Sharing Disabled",
-        "optional": false,
-        "generated": false,
-        "subfields": [],
-        "cardinality": "Single",
-        "idAttribute": false,
-        "showAttributes": false,
-        "technicalAttribute": false
       }
     ],
     "compact": true,
@@ -46,7 +32,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1j63f93",
-  "timestamp": 1789400832345,
+  "hash": "8z5r1h",
+  "timestamp": 1789400836800,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
