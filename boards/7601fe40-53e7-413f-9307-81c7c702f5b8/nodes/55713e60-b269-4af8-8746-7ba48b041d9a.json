@@ -11,7 +11,7 @@
   },
   "meta": {
     "type": "EVENT",
-    "title": "Shared Agent Session Activated",
+    "title": "Agent Session Activated",
     "fields": [
       {
         "pii": false,
@@ -47,7 +47,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "1dspdew",
-  "timestamp": 1789405121681,
+  "hash": "18p6ncx",
+  "timestamp": 1789406188618,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
