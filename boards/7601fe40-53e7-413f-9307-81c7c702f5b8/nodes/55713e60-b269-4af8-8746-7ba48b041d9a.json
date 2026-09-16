@@ -38,6 +38,18 @@
         "idAttribute": false,
         "showAttributes": false,
         "technicalAttribute": false
+      },
+      {
+        "pii": false,
+        "name": "asd",
+        "type": "String",
+        "query": false,
+        "optional": false,
+        "generated": false,
+        "cardinality": "Single",
+        "idAttribute": false,
+        "showAttributes": false,
+        "technicalAttribute": false
       }
     ],
     "compact": true,
@@ -47,7 +59,7 @@
     "todoListElement": false,
     "createsAggregate": false
   },
-  "hash": "18p6ncx",
-  "timestamp": 1789406188618,
+  "hash": "9ylt2n",
+  "timestamp": 1789553139009,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
