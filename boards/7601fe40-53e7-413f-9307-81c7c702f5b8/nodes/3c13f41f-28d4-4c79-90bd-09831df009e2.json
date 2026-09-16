@@ -119,6 +119,13 @@
           "rowId": "4dbc6015-55f5-468a-91cb-29b23bb7ba05",
           "nodeId": "55713e60-b269-4af8-8746-7ba48b041d9a",
           "nodeType": "EVENT"
+        },
+        {
+          "id": "dd03735f-b786-4710-9109-f26eb5452343-c188f53e-b1d3-499e-9088-4abee541855b",
+          "colId": "c188f53e-b1d3-499e-9088-4abee541855b",
+          "rowId": "dd03735f-b786-4710-9109-f26eb5452343",
+          "nodeId": "caf537a8-d1cc-4503-901a-73e084c6f790",
+          "nodeType": "SCENARIO"
         }
       ],
       "columns": [
@@ -139,6 +146,6 @@
     }
   },
   "hash": null,
-  "timestamp": 1789400847520,
+  "timestamp": 1789553108336,
   "userId": "e978c45b-cafd-42a7-a4ba-31dbcab912ea"
 }
