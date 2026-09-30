@@ -1,0 +1,18 @@
+{
+  "id": "560567c7-0dd1-4d56-ba6c-a33f24d8a934",
+  "type": "image",
+  "position": {
+    "x": 1455,
+    "y": 145
+  },
+  "parentId": "6c7fd7c1-03e6-4f11-88d8-ad2bd765899e",
+  "data": {
+    "url": "/icons/automation-gear-light.svg"
+  },
+  "meta": {
+    "type": "AUTOMATION",
+    "title": "Automation",
+    "linkedTo": null
+  },
+  "hash": "1gwa5xz"
+}

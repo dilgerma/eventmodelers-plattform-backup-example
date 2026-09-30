@@ -1,0 +1,23 @@
+{
+  "id": "1637204a-f7fb-4462-8661-c40b7112b543",
+  "type": "sticky_note",
+  "position": {
+    "x": 545,
+    "y": 507
+  },
+  "parentId": "6c7fd7c1-03e6-4f11-88d8-ad2bd765899e",
+  "data": {
+    "linkedTo": "/app/board/08480f65-4bea-485c-964f-9c840ab5156d/?moveToWidget=bfe581bf-0aa7-4704-87fd-27190e3e6476"
+  },
+  "meta": {
+    "type": "READMODEL",
+    "title": "Read Model",
+    "fields": [],
+    "context": "INTERNAL",
+    "linkedTo": "/app/board/08480f65-4bea-485c-964f-9c840ab5156d/?moveToWidget=bfe581bf-0aa7-4704-87fd-27190e3e6476",
+    "listElement": false,
+    "todoListElement": false,
+    "createsAggregate": false
+  },
+  "hash": "10uuosd"
+}

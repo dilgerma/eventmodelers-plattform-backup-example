@@ -1,0 +1,16 @@
+{
+  "id": "42b9cd02-9e25-4387-bf19-510405a5217b",
+  "type": "html_screen",
+  "position": {
+    "x": 1005,
+    "y": 145
+  },
+  "parentId": "6c7fd7c1-03e6-4f11-88d8-ad2bd765899e",
+  "data": {},
+  "meta": {
+    "type": "HTML_SCREEN",
+    "title": "HTML Screen",
+    "linkedTo": null
+  },
+  "hash": "rzhsco"
+}
